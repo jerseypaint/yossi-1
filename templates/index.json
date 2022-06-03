@@ -42,10 +42,30 @@
       "settings": {
         "padding": true
       }
+    },
+    "1654227163ed75e73e": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "0bdca7f8-d104-4fc4-a09d-3890e11e6ae1": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0bdca7f8-d104-4fc4-a09d-3890e11e6ae1"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
     "165422387155a1adee",
-    "16542258036a12ccc0"
+    "16542258036a12ccc0",
+    "1654227163ed75e73e"
   ]
 }
