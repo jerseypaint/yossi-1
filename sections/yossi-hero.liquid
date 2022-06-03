@@ -1,7 +1,7 @@
 <section>
     <div class="container">
         {% for block in section.blocks %}
-            <div class="w-full pt-[125%]">
+            <div class="relative w-full pt-4/3">
                 {% case block.type %}
                     {% when 'image' %}
                         {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
@@ -21,6 +21,7 @@
   "name": "Y-Hero",
   "tag": "section",
   "class": "section",
+  "limit": 1,
   "settings": [
     {
         "type": "text",

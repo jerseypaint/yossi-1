@@ -7,6 +7,13 @@ module.exports = {
     './assets/**/*.{js,liquid,json}',
   ],
   theme: {
+    container: {
+      center: true,
+      'md': '715px',
+      'lg': '715px',
+      'xl': '715px',
+      '2xl': '715px',
+    },
     extend: {
       extend: {
         spacing: {

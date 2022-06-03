@@ -470,6 +470,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 640px) {
@@ -508,6 +510,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .absolute {
   position: absolute;
+}
+
+.relative {
+  position: relative;
 }
 
 .top-0 {
@@ -581,23 +587,14 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: cover;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
-.pt-\[125\%\] {
-  padding-top: 125%;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .uppercase {
