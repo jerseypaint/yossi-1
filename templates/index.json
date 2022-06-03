@@ -16,9 +16,37 @@
       "settings": {
         "scroll_prompt": "Hello"
       }
+    },
+    "16542258036a12ccc0": {
+      "type": "yossi-two-col",
+      "blocks": {
+        "08c2bbcd-868d-4518-b9c9-b2db97af7d54": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "Image": "shopify:\/\/shop_images\/running-man.jpg",
+            "image_link": ""
+          }
+        },
+        "625d98be-d27f-4ae1-b571-da2ed1dc582a": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "08c2bbcd-868d-4518-b9c9-b2db97af7d54",
+        "625d98be-d27f-4ae1-b571-da2ed1dc582a"
+      ],
+      "settings": {
+        "padding": true
+      }
     }
   },
   "order": [
-    "165422387155a1adee"
+    "165422387155a1adee",
+    "16542258036a12ccc0"
   ]
 }
