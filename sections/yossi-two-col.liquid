@@ -1,0 +1,76 @@
+<section>
+    <div class="container">
+        <div class="flex">
+            {% for block in section.blocks %}
+                <div class="flex-1 pt-3/2">
+                    {% case block.type %}
+                        {% when 'image' %}
+                            {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
+                        {% when 'video' %}
+                            <video muted autoplay controls="false">
+                                <source src="{{ block.settings.video_url }}" type="video/mp4">
+                                Your browser does not support the mp4 video format.
+                            </video>
+                        {% else %}
+                    {% endcase %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Y-2 Col",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+        "type": "checkbox",
+        "id": "padding",
+        "label": "Add padding",
+        "info": "If left unchecked, all blocks will go edge to edge (full-width). Otherwise, all blocks will have white padding around the content",
+        "default": true
+    }
+  ],
+  "blocks": [
+    {
+        "name": "Video",
+        "type": "video",
+        "settings": [
+            {
+                "type": "url",
+                "id": "video_url",
+                "label": "Video URL"
+              }
+        ]
+    },
+    {
+        "name": "Image",
+        "type": "image",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "image_picker",
+                "id": "Image",
+                "label": "Image"
+            },
+            {
+                "type": "url",
+                "id": "image_link",
+                "label": "Image Link"
+            }
+        ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Y-2 Col"
+    }
+  ]
+}
+{% endschema %}

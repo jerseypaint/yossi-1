@@ -1,0 +1,28 @@
+{
+  "name": "yossi-1",
+  "version": "1.0.0",
+  "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain)\r [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "postcss-cli": "^9.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./assets/tailwind.css -o ./assets/yossi.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerseypaint/yossi-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerseypaint/yossi-1/issues"
+  },
+  "homepage": "https://github.com/jerseypaint/yossi-1#readme"
+}

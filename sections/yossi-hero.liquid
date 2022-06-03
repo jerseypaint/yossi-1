@@ -1,0 +1,67 @@
+<section>
+    <div class="container">
+        {% for block in section.blocks %}
+            <div class="w-full pt-[125%]">
+                {% case block.type %}
+                    {% when 'image' %}
+                        {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
+                    {% else %}
+                        <video muted autoplay controls="false">
+                            <source src="{{ block.settings.video_url }}" type="video/mp4">
+                            Your browser does not support the mp4 video format.
+                        </video>
+                {% endcase %}
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Y-Hero",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+        "type": "text",
+        "id": "scroll_prompt",
+        "label": "Scroll Prompt"
+    }
+  ],
+  "blocks": [
+    {
+        "name": "Video",
+        "type": "video",
+        "settings": [
+            {
+                "type": "url",
+                "id": "video_url",
+                "label": "Video URL",
+                "info": "Only accepts mp4"
+              }
+        ]
+    },
+    {
+        "name": "Image",
+        "type": "image",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "Image",
+                "label": "Image"
+            },
+            {
+                "type": "url",
+                "id": "image_link",
+                "label": "Image Link"
+            }
+        ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Y-Hero"
+    }
+  ]
+}
+{% endschema %}

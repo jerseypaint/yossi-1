@@ -1,0 +1,71 @@
+<section>
+    <div class="container">
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'image' %}
+                    <div class="px-4">
+                        {{ block.settings.image | image_url: width: 2048 | image_tag }}
+                    </div>
+                {% else %}
+                    <video muted autoplay controls="false">
+                        <source src="{{ block.settings.video_url }}" type="video/mp4">
+                        Your browser does not support the mp4 video format.
+                    </video>
+            {% endcase %}
+        {% endfor %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Y-Slideshow",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+        "type": "select",
+        "id": "slideshow_type",
+        "label": "Slideshow Type",
+        "options": [
+          {
+            "value": "framed",
+            "label": "Framed"
+          },
+          {
+            "value": "two_col",
+            "label": "2 Column"
+          }
+        ],
+        "default": "two_col"
+    }
+  ],
+  "blocks": [
+    {
+        "name": "Image",
+        "type": "image",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "image_picker",
+                "id": "Image",
+                "label": "Image"
+            },
+            {
+                "type": "url",
+                "id": "image_link",
+                "label": "Image Link"
+            }
+        ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Y-Slideshow"
+    }
+  ]
+}
+{% endschema %}
