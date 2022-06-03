@@ -6,6 +6,9 @@ module.exports = {
     './layout/**/*.{js,liquid,json}',
     './assets/**/*.{js,liquid,json}',
   ],
+  safelist: [
+    'pt-3/2'
+  ],
   theme: {
     container: {
       center: true,
