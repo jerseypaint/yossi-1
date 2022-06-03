@@ -2,6 +2,17 @@
   "sections": {
     "165422387155a1adee": {
       "type": "yossi-hero",
+      "blocks": {
+        "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b": {
+          "type": "video",
+          "settings": {
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b"
+      ],
       "settings": {
         "scroll_prompt": "Hello"
       }
