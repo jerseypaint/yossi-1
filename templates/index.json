@@ -20,14 +20,14 @@
     "16542258036a12ccc0": {
       "type": "yossi-two-col",
       "blocks": {
-        "08c2bbcd-868d-4518-b9c9-b2db97af7d54": {
+        "c7648068-620b-4266-ae1a-52f5a8e646b4": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/running-man.jpg",
             "image_link": ""
           }
         },
-        "625d98be-d27f-4ae1-b571-da2ed1dc582a": {
+        "ad5b145a-b545-41ba-8ae5-9aa73951ba97": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/ivy-building.jpg",
@@ -36,8 +36,8 @@
         }
       },
       "block_order": [
-        "08c2bbcd-868d-4518-b9c9-b2db97af7d54",
-        "625d98be-d27f-4ae1-b571-da2ed1dc582a"
+        "c7648068-620b-4266-ae1a-52f5a8e646b4",
+        "ad5b145a-b545-41ba-8ae5-9aa73951ba97"
       ],
       "settings": {
         "padding": true
