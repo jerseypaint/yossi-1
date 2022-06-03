@@ -1,12 +1,14 @@
 <section>
-    <div class="container">
+    <div class="container text-center">
         {% assign block_ratio = 'pt-3/2' %}
 
         {% if section.settings.orientation == 'horizontal' %}
             {% assign block_ratio = 'pt-3/2' %}
         {% endif %}
-
         {% for block in section.blocks %}
+            {% if block.settings.heading %}
+                <h2 class="mt-12">{{ block.settings.heading }}</h2>
+            {% endif %}
             <div class="relative w-full {{ block_ratio }}">
                 {% case block.type %}
                     {% when 'image' %}
@@ -17,6 +19,15 @@
                             Your browser does not support the mp4 video format.
                         </video>
                     {% else %}
+                        <div class="pb-12">
+                            <div class="mt-8">
+                                {{ block.settings.body }}
+                            </div>
+                            <div class="mt-12">
+                                <a href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
+                            </div>
+                        </div>
+
                 {% endcase %}
             </div>
         {% endfor %}
