@@ -23,15 +23,14 @@
         "08c2bbcd-868d-4518-b9c9-b2db97af7d54": {
           "type": "image",
           "settings": {
-            "heading": "",
-            "Image": "shopify:\/\/shop_images\/running-man.jpg",
+            "image": "shopify:\/\/shop_images\/running-man.jpg",
             "image_link": ""
           }
         },
         "625d98be-d27f-4ae1-b571-da2ed1dc582a": {
           "type": "image",
           "settings": {
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/ivy-building.jpg",
             "image_link": ""
           }
         }
