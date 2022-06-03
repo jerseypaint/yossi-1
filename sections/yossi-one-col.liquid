@@ -1,34 +1,40 @@
-<section>
+{% assign padding = '' %}
+{% if section.settings.padding %}
+    {% assign padding = 'px-2' %}
+{% endif %}
+<section class="{{ padding }}">
     <div class="container text-center">
         {% assign block_ratio = 'pt-3/2' %}
 
         {% if section.settings.orientation == 'horizontal' %}
-            {% assign block_ratio = 'pt-3/2' %}
+            {% assign block_ratio = 'pt-2/3' %}
         {% endif %}
         {% for block in section.blocks %}
-            {% if block.settings.heading %}
-                <h2 class="mt-12">{{ block.settings.heading }}</h2>
-            {% endif %}
-            <div class="relative w-full {{ block_ratio }}">
-                {% case block.type %}
-                    {% when 'image' %}
-                        {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
-                    {% when 'video' %}
-                        <video muted autoplay controls="false">
-                            <source src="{{ block.settings.video_url }}" type="video/mp4">
-                            Your browser does not support the mp4 video format.
-                        </video>
-                    {% else %}
-                        <div class="pb-12">
-                            <div class="mt-8">
-                                {{ block.settings.body }}
+            <div class="pb-2">
+                {% if block.settings.heading %}
+                    <h2 class="mt-12">{{ block.settings.heading }}</h2>
+                {% endif %}
+                <div class="relative w-full {{ block_ratio }}">
+                    {% case block.type %}
+                        {% when 'image' %}
+                            {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
+                        {% when 'video' %}
+                            <video muted autoplay controls="false">
+                                <source src="{{ block.settings.video_url }}" type="video/mp4">
+                                Your browser does not support the mp4 video format.
+                            </video>
+                        {% else %}
+                            <div class="pb-12">
+                                <div class="mt-8">
+                                    {{ block.settings.body }}
+                                </div>
+                                <div class="mt-12">
+                                    <a href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
+                                </div>
                             </div>
-                            <div class="mt-12">
-                                <a href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
-                            </div>
-                        </div>
 
-                {% endcase %}
+                    {% endcase %}
+                </div>
             </div>
         {% endfor %}
     </div>
@@ -87,7 +93,7 @@
             },
             {
                 "type": "image_picker",
-                "id": "Image",
+                "id": "image",
                 "label": "Image"
             },
             {
