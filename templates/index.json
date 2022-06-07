@@ -73,10 +73,19 @@
             "image": "shopify:\/\/shop_images\/ivy-building.jpg",
             "image_link": ""
           }
+        },
+        "cf91c367-7d1f-4738-b5b1-1f71a7585fe3": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/running-man.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
-        "1dd9e344-65e3-49fe-9dd7-5ec8e92a8d83"
+        "1dd9e344-65e3-49fe-9dd7-5ec8e92a8d83",
+        "cf91c367-7d1f-4738-b5b1-1f71a7585fe3"
       ],
       "settings": {
         "slideshow_type": "framed"
