@@ -4,37 +4,43 @@
 {% endif %}
 <section class="{{ padding }}">
     <div class="container text-center">
-        {% assign block_ratio = 'pt-[150%]' %}
-
+        
         {% if section.settings.orientation == 'horizontal' %}
             {% assign block_ratio = 'pt-2/3' %}
         {% endif %}
+
+        {% if section.settings.orientation == 'vertical' %}
+            {% assign block_ratio = 'pt-[150%]' %}
+        {% endif %}
+
         {% for block in section.blocks %}
-            <div class="pb-4">
-                {% if block.settings.heading %}
-                    <!-- <h2 class="mt-12">{{ block.settings.heading }}</h2> -->
+            <div class="mt-4">
+                {% if block.settings.heading != '' %}
+                    <h2 class="mt-12">{{ block.settings.heading }}</h2>
                 {% endif %}
-                <div class="relative w-full {{ block_ratio }}">
-                    {% case block.type %}
-                        {% when 'image' %}
+                {% case block.type %}
+                    {% when 'image' %}
+                        <div class="relative w-full {{ block_ratio }}">
                             {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
-                        {% when 'video' %}
-                            <video muted autoplay controls="false">
+                        </div>
+                    {% when 'video' %}
+                        
+                        <div class="relative w-full {{ block_ratio }}">
+                            <video muted autoplay>
                                 <source src="{{ block.settings.video_url }}" type="video/mp4">
                                 Your browser does not support the mp4 video format.
                             </video>
-                        {% else %}
-                            <div class="pb-12">
-                                <div class="mt-8">
-                                    {{ block.settings.body }}
-                                </div>
-                                <div class="mt-12">
-                                    <a href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
-                                </div>
+                        </div>
+                    {% else %}
+                        <div class="pb-12">
+                            <div class="mt-8">
+                                {{ block.settings.body }}
                             </div>
-
-                    {% endcase %}
-                </div>
+                            <div class="mt-12">
+                                <a class="y-button" href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
+                            </div>
+                        </div>
+                {% endcase %}
             </div>
         {% endfor %}
     </div>

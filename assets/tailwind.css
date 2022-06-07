@@ -2,28 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 @layer base {
     html, body {
-        @apply font-nunito;
+        @apply font-jost;
+    }
+
+    h1, h2, h3 {
+        @apply font-medium uppercase;
+    }
+
+    h2 {
+        @apply text-38px-40px;
+    }
+
+    h3 {
+        @apply text-lg;
+    }
+
+    p {
+        @apply text-base leading-6 font-light tracking-wide;
+    }
+
+    .y-button {
+        @apply border border-black bg-black text-white px-6 py-4 min-w-[240px] inline-block hover:opacity-90 transition-opacity;
     }
 }
 
 .fancy-border {
-    position: relative;
-    padding: 10px 20px;
-    border: 1px solid black;
+    @apply relative py-2 px-4 border border-black;
     
 }
 
 .fancy-border:after {
+    @apply block absolute -top-4 right-4 -bottom-4 left-4 border border-black;
     content: ' ';
-    display: block;
-    position: absolute;
-    top: -10px;
-    right: 10px;
-    bottom: -10px;
-    left: 10px;
-    border: 1px solid black;
 }
