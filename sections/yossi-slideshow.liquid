@@ -1,13 +1,17 @@
 {% assign border_class = '' %}
+{% assign gap = 16 %}
+{% assign num_slides = 2 %}
 
 {% if section.settings.slideshow_type == 'framed' %}
     {% assign border_class = 'fancy-border' %}
+    {% assign gap = 0 %}
+    {% assign num_slides = 1 %}
 {% endif %}
 
 <section class="px-2">
     <div class="container">
         <div class="{{ border_class }}">
-            <div class="swiper-container swiper--{{ section.id }}">
+            <div class="swiper-container swiper--{{ section.id }} overflow-hidden">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                   <!-- Slides -->
@@ -33,16 +37,20 @@
     </div>
 </section>
 <script>
-  var mySwiper = new Swiper('.swiper--{{ section.id }}', {
-    speed: 700,
-	spaceBetween: 0,
-    slidesPerView: 1,
-    loop: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  })
+    (function(){
+        var mySwiper = new Swiper('.swiper--{{ section.id }}', {
+        speed: 700,
+        spaceBetween: 0,
+        loop: true,
+        spaceBetween: {{ gap }},
+        slidesPerView: {{ num_slides }},
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+    })
+    })()
+
 </script>
 
 {% schema %}
