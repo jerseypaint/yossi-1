@@ -1,20 +1,49 @@
+{% assign border_class = '' %}
+
+{% if section.settings.slideshow_type == 'framed' %}
+    {% assign border_class = 'fancy-border' %}
+{% endif %}
+
 <section>
     <div class="container">
-        {% for block in section.blocks %}
-            {% case block.type %}
-                {% when 'image' %}
-                    <div class="px-4">
-                        {{ block.settings.image | image_url: width: 2048 | image_tag }}
+        <div class="{{ border_class }}">
+            <div class="swiper-container swiper--{{ section.id }}">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  {% for block in section.blocks %}
+                  <div class="swiper-slide">
+                    <div class="relative pt-[150%]">
+                        {% case block.type %}
+                            {% when 'image' %}
+                                    {{ block.settings.image | image_url: width: 2048 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
+                            {% else %}
+                                <video muted autoplay controls="false" class="absolute top-0 left-0 w-full h-full object-cover">
+                                    <source src="{{ block.settings.video_url }}" type="video/mp4">
+                                    Your browser does not support the mp4 video format.
+                                </video>
+                        {% endcase %}
                     </div>
-                {% else %}
-                    <video muted autoplay controls="false">
-                        <source src="{{ block.settings.video_url }}" type="video/mp4">
-                        Your browser does not support the mp4 video format.
-                    </video>
-            {% endcase %}
-        {% endfor %}
+                  </div>
+                  {% endfor %}
+                </div>
+                <div class="product-swiper-pagination swiper-pagination"></div> 
+              </div>
+        </div>
     </div>
 </section>
+<script>
+  var mySwiper = new Swiper('.swiper--{{ section.id }}', {
+    speed: 700,
+	spaceBetween: 0,
+    slidesPerView: 1,
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
+</script>
 
 {% schema %}
 {

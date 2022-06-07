@@ -1,6 +1,9 @@
+<link rel="stylesheet" href="{{ 'swiper-bundle.min.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'yossi.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'yossi.css' | asset_url | stylesheet_tag }}</noscript>
 
+<script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
@@ -12,7 +15,9 @@
     <div class="container">
         <div class="flex justify-between items-center">
             <div></div>
-            <div class="flex-1 text-center">YOSSI</div>
+            <div class="flex-1 text-center">
+                <img class="max-w-[108px] mx-auto" src="{{ 'yossi-logo.svg' | asset_url }}" alt="" width="108" height="37">
+            </div>
             <div></div>
         </div>
     </div>
@@ -70,11 +75,6 @@
       "id": "menu",
       "default": "main-menu",
       "label": "t:sections.header.settings.menu.label"
-    },
-    {
-        "type": "image_picker",
-        "id": "logo",
-        "label": "Logo"
     }
   ]
 }

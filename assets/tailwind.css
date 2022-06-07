@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fancy-border {
+    position: relative;
+    padding: 5px 10px;
+    border: 1px solid black;
+    
+}
+
+.fancy-border {
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: -5px;
+        right: 5px;
+        bottom: -5px;
+        left: 5px;
+        border: 1px solid black;
+    }
