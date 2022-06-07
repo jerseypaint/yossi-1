@@ -2,11 +2,11 @@
 {% if section.settings.padding %}
     {% assign padding = 'px-2' %}
 {% endif %}
-<section class="{{ padding }}">
+<section class="{{ padding }} pb-4">
     <div class="container">
         <div class="flex justify-between">
             {% for block in section.blocks %}
-                <div class="w-full max-w-[calc(50%-0.5rem)] pb-4">
+                <div class="w-full max-w-[calc(50%-0.5rem)]">
                     <div class="relative pt-[150%]">
                         {% case block.type %}
                             {% when 'image' %}

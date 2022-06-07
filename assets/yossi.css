@@ -635,11 +635,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -702,13 +697,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .fancy-border {
   position: relative;
-  padding: 5px 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.fancy-border:after {
   content: ' ';
   display: block;
   position: absolute;
-  top: -5px;
-  right: 5px;
-  bottom: -5px;
-  left: 5px;
+  top: -10px;
+  right: 10px;
+  bottom: -10px;
+  left: 10px;
   border: 1px solid black;
 }
