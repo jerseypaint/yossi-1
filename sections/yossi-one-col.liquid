@@ -4,15 +4,15 @@
 {% endif %}
 <section class="{{ padding }}">
     <div class="container text-center">
-        {% assign block_ratio = 'pt-3/2' %}
+        {% assign block_ratio = 'pt-[150%]' %}
 
         {% if section.settings.orientation == 'horizontal' %}
             {% assign block_ratio = 'pt-2/3' %}
         {% endif %}
         {% for block in section.blocks %}
-            <div class="pb-2">
+            <div class="pb-4">
                 {% if block.settings.heading %}
-                    <h2 class="mt-12">{{ block.settings.heading }}</h2>
+                    <!-- <h2 class="mt-12">{{ block.settings.heading }}</h2> -->
                 {% endif %}
                 <div class="relative w-full {{ block_ratio }}">
                     {% case block.type %}

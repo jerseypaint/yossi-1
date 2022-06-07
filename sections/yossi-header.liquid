@@ -8,11 +8,11 @@
   <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
-<header class="bg-transparent py-6">
+<header class="bg-transparent py-4 fixed text-white top-0 w-full z-50">
     <div class="container">
         <div class="flex justify-between items-center">
             <div></div>
-            <div></div>
+            <div class="flex-1 text-center">YOSSI</div>
             <div></div>
         </div>
     </div>
@@ -70,6 +70,11 @@
       "id": "menu",
       "default": "main-menu",
       "label": "t:sections.header.settings.menu.label"
+    },
+    {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
     }
   ]
 }

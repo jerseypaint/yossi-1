@@ -488,6 +488,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: static;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -506,6 +510,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .isolate {
   isolation: isolate;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mt-12 {
@@ -540,16 +548,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
+.h-0 {
+  height: 0px;
+}
+
 .w-full {
   width: 100%;
 }
 
-.max-w-\[calc\(100\%-0\.25rem\)\] {
-  max-width: calc(100% - 0.25rem);
-}
-
-.max-w-\[calc\(50\%-0\.25rem\)\] {
-  max-width: calc(50% - 0.25rem);
+.max-w-\[calc\(50\%-0\.5rem\)\] {
+  max-width: calc(50% - 0.5rem);
 }
 
 .flex-1 {
@@ -583,14 +591,9 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: cover;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .px-2 {
@@ -598,16 +601,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.5rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pt-\[150\%\] {
   padding-top: 150%;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-center {
@@ -624,6 +632,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .italic {
   font-style: italic;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .outline {
