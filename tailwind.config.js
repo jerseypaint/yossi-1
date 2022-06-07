@@ -59,6 +59,7 @@ module.exports = {
         fontSize: {
          },
          fontFamily: {
+          'nunito': ["'nunito Sans', sans-serif"],
          },
       },
     },
