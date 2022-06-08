@@ -5,7 +5,7 @@
         "settings": {
         }
       },
-      "one_col": {
+      "intro": {
         "type": "yossi-one-col",
         "settings": {
         }
@@ -15,21 +15,41 @@
         "settings": {
         }
       },
+      "one_col": {
+        "type": "yossi-one-col",
+        "settings": {
+        }
+      },
+      "slider_2": {
+        "type": "yossi-slideshow",
+        "settings": {
+        }
+      },
+      "one_col_2": {
+        "type": "yossi-one-col",
+        "settings": {
+        }
+      },
       "two_col": {
         "type": "yossi-two-col",
+        "settings": {
+        }
+      },
+      "one_col_3": {
+        "type": "yossi-one-col",
         "settings": {
         }
       }
     },
     "order": [
       "hero",
-      "one_col",
+      "intro",
       "slider",
       "one_col",
-      "slider",
-      "one_col",
+      "slider_2",
+      "one_col_2",
       "two_col",
-      "one_col"
+      "one_col_3"
     ]
   }
   
