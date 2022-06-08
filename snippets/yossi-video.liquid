@@ -1,0 +1,16 @@
+<div class="video-wrapper">
+    <video muted autoplay class="absolute top-0 left-0 w-full h-full object-cover">
+        <source src="{{ video_url }}" type="video/mp4">
+        Your browser does not support the mp4 video format.
+    </video>
+    <div class="w-full flex absolute bottom-4 justify-between px-4">
+        <button type="button" class="play-button appearance-none rounded-full border-white bg-white h-8 w-8 flex items-center justify-center">
+            <img class="play w-4 h-4 pl-[2px]" src="{{ 'play.svg' | asset_url }}" alt="play">
+            <img class="pause hidden w-4 h-4" src="{{ 'pause.svg' | asset_url }}" alt="pause">
+        </button>
+        <button type="button" class="sound-button appearance-none ml-4">
+            <img class="sound" src="{{ 'volume-2.svg' | asset_url }}" alt="sound on">
+            <img class="muted hidden" src="{{ 'volume-x.svg' | asset_url }}" alt="muted">
+        </button>
+    </div>
+</div>

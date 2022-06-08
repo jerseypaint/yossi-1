@@ -14,7 +14,7 @@
         {% endif %}
 
         {% for block in section.blocks %}
-            <div class="mt-4">
+            <div class="pb-4">
                 {% if block.settings.heading != '' %}
                     <h2 class="mt-12">{{ block.settings.heading }}</h2>
                 {% endif %}
@@ -32,7 +32,7 @@
                             </video>
                         </div>
                     {% else %}
-                        <div class="pb-12">
+                        <div class="pb-8">
                             <div class="mt-8">
                                 {{ block.settings.body }}
                             </div>

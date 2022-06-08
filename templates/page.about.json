@@ -1,0 +1,35 @@
+{
+    "sections": {
+      "hero": {
+        "type": "main-page",
+        "settings": {
+        }
+      },
+      "one_col": {
+        "type": "yossi-one-col",
+        "settings": {
+        }
+      },
+      "slider": {
+        "type": "yossi-slideshow",
+        "settings": {
+        }
+      },
+      "two_col": {
+        "type": "yossi-two-col",
+        "settings": {
+        }
+      }
+    },
+    "order": [
+      "hero",
+      "one_col",
+      "slider",
+      "one_col",
+      "slider",
+      "one_col",
+      "two_col",
+      "one_col"
+    ]
+  }
+  

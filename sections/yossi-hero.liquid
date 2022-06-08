@@ -1,15 +1,12 @@
-<section>
+<section class="pb-4">
     <div class="container">
         {% for block in section.blocks %}
-            <div class="relative w-full pt-4/3 pb-4">
+            <div class="relative w-full pt-4/3">
                 {% case block.type %}
                     {% when 'image' %}
                         {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
                     {% else %}
-                        <video muted autoplay class="absolute top-0 left-0 w-full h-full object-cover">
-                            <source src="{{ block.settings.video_url }}" type="video/mp4">
-                            Your browser does not support the mp4 video format.
-                        </video>
+                        {% render 'yossi-video', video_url: block.settings.video_url %}
                 {% endcase %}
             </div>
         {% endfor %}

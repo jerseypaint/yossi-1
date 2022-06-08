@@ -30,6 +30,7 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -38,7 +39,9 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
-    {{ 'base.css' | asset_url | stylesheet_tag }}
+
+    {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+    {{ 'yossi.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -58,7 +61,7 @@
     </script>
   </head>
 
-  <body class="gradient mt-[69px]">
+  <body class="gradient">
     <a class="skip-to-content-link button visually-hidden invisible h-0 block" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -73,6 +76,8 @@
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
+
+    <script src="{{ 'yossi.js' | asset_url }}"></script>
 
     <script>
       window.shopUrl = '{{ request.origin }}';
