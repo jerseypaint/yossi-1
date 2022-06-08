@@ -1,7 +1,7 @@
 {
     "sections": {
       "hero": {
-        "type": "main-page",
+        "type": "yossi-hero",
         "settings": {
         }
       },
