@@ -7,6 +7,12 @@
                         {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
                     {% else %}
                         {% render 'yossi-video', video_url: block.settings.video_url %}
+                        <div class="absolute bottom-8 text-center w-full text-white z-10">
+                            <span>{{ section.settings.scroll_prompt }}</span>
+                            <div class="text-center w-6 mx-auto animate-bounce mt-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </div>
+                        </div>
                 {% endcase %}
             </div>
         {% endfor %}

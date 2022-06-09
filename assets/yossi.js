@@ -27,7 +27,19 @@ function scrollFunction() {
 } 
 
 menuDrawerButton.addEventListener('click', event => {
-    menuDrawer.classList.toggle('drawer-open');
+    menuDrawer.classList.toggle('h-screen');
+    menuDrawer.classList.toggle('h-0');
+    menuDrawer.classList.toggle('opacity-0');
+
+    header.classList.toggle("text-black");
+    header.classList.toggle("bg-white");
+    header.classList.toggle("text-white");
+    header.classList.toggle("bg-transparent");
+
+    menuDrawerButtonSpans.forEach(span => {
+        span.classList.toggle("bg-black");
+        span.classList.toggle("bg-white");
+    })
 });
 
 allVideos.forEach(videoWrapper => {

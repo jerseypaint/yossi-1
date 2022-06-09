@@ -1,0 +1,19 @@
+{
+    "sections": {
+      "hero": {
+        "type": "yossi-hero",
+        "settings": {
+        }
+      },
+      "intro": {
+        "type": "yossi-one-col",
+        "settings": {
+        }
+      }
+    },
+    "order": [
+      "hero",
+      "intro"
+    ]
+  }
+  
