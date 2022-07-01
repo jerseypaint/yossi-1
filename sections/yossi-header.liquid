@@ -25,7 +25,7 @@
             <nav class="menu-drawer__navigation">
                 <ul class="py-6 px-4" role="list">
                 {%- for link in section.settings.menu.links -%}
-                    <li class="py-3 text-lg font-jost uppercase font-bold">
+                    <li class="py-3 text-lg font-jost uppercase tracking-wide">
                     {%- if link.links != blank -%}
                         <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                         <summary class="{% if link.child_active %}{% endif %}">

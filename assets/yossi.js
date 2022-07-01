@@ -9,34 +9,75 @@ function scrollFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         header.classList.remove("text-white", "bg-transparent");
         header.classList.add("text-black", "bg-white");
-        menuDrawerButtonSpans.forEach(span => {
+        menuDrawerButtonSpans.forEach((span) => {
             span.classList.remove("bg-white");
             span.classList.add("bg-black");
         })
 
     } else {
-        header.classList.remove("text-black", "bg-white");
-        header.classList.add("text-white", "bg-transparent");
-
-        menuDrawerButtonSpans.forEach(span => {
-            span.classList.remove("bg-black");
-            span.classList.add("bg-white");
-        })
-
+        if (!menuDrawer.classList.contains('menu-open')) {
+            header.classList.remove("text-black", "bg-white");
+            header.classList.add("text-white", "bg-transparent");
+    
+            menuDrawerButtonSpans.forEach((span) => {
+                span.classList.remove("bg-black");
+                span.classList.add("bg-white");
+            })
+        }
     }
 } 
 
 menuDrawerButton.addEventListener('click', event => {
-    menuDrawer.classList.toggle('h-screen');
-    menuDrawer.classList.toggle('h-0');
-    menuDrawer.classList.toggle('opacity-0');
+
+    if (menuDrawer.classList.contains('menu-open')) {
+        menuDrawer.classList.add('menu-fade-out');
+        menuDrawer.classList.remove('menu-fade-in');
+
+        menuDrawerButtonSpans.forEach((span, index) => {
+
+
+            if (index === 0) {
+                span.classList.remove('translate-y-3', 'rotate-45');
+            }
+    
+            if (index == 1) {
+                span.classList.remove('opacity-0');
+            }
+    
+            if (index === 2) {
+                span.classList.remove('-translate-y-15px', '-rotate-45');
+            }
+        })
+
+    } else {
+        menuDrawer.classList.add('menu-fade-in');
+        menuDrawer.classList.remove('menu-fade-out');
+
+        menuDrawerButtonSpans.forEach((span, index) => {
+ 
+
+            if (index === 0) {
+                span.classList.add('translate-y-3', 'rotate-45');
+            }
+    
+            if (index == 1) {
+                span.classList.add('opacity-0');
+            }
+    
+            if (index === 2) {
+                span.classList.add('-translate-y-15px', '-rotate-45');
+            }
+        })
+    }
+    menuDrawer.classList.toggle('menu-open');
+    
 
     header.classList.toggle("text-black");
     header.classList.toggle("bg-white");
     header.classList.toggle("text-white");
     header.classList.toggle("bg-transparent");
 
-    menuDrawerButtonSpans.forEach(span => {
+    menuDrawerButtonSpans.forEach((span) => {
         span.classList.toggle("bg-black");
         span.classList.toggle("bg-white");
     })
@@ -64,3 +105,8 @@ allVideos.forEach(videoWrapper => {
         mutedIcon.classList.toggle('hidden');
     });
 })
+
+ScrollReveal().reveal('.reveal-fade-in', {
+    duration: 2000,
+    interval: 400,
+});

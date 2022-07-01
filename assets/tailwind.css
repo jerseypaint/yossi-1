@@ -39,3 +39,31 @@
     @apply block absolute -top-4 right-4 -bottom-4 left-4 border border-black;
     content: ' ';
 }
+
+@keyframes menuFadeIn {
+    0% { height:0; opacity: 0 }
+    10% { height: 100vh; opacity: 0 }
+    100% { height: 100vh; opacity: 1 }
+}
+
+@keyframes menuFadeOut {
+    0% { height:100vh; opacity: 1 }
+    90% { height: 100vh; opacity: 0; }
+    100% { height: 0; opacity: 0 }
+}
+
+.menu-fade-in {
+    animation-name: menuFadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.menu-fade-out {
+    animation-name: menuFadeOut;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
