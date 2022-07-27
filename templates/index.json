@@ -103,10 +103,71 @@
             "image": "shopify:\/\/shop_images\/Yossi_Collection_5_copy.jpg",
             "image_link": ""
           }
+        },
+        "a3cfe857-9641-4a5a-baf2-956ae5bf20e7": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_2.jpg",
+            "image_link": ""
+          }
+        },
+        "a483ae25-59bc-4f1d-95a5-3790753b24d3": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Collection_12.jpg",
+            "image_link": ""
+          }
+        },
+        "c9d6782b-3b58-46c9-b2db-cca1a1c37364": {
+          "type": "video",
+          "settings": {
+            "video_url": ""
+          }
+        },
+        "c260f7b6-361a-45ae-bda3-26af59f25eb2": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/YOSSI_RUNNING_6.jpg",
+            "image_link": ""
+          }
+        },
+        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/56A3861.jpg",
+            "image_link": ""
+          }
+        },
+        "84ce2a79-a690-4c7b-909c-e78fb73bac27": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/220425_Yossi4031.jpg",
+            "image_link": ""
+          }
+        },
+        "bdc7dc3f-e0de-4b05-a462-ba4a3d516736": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/220425_Yossi4013.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
-        "e39a08c4-8e19-468c-84a6-448eff8ce350"
+        "e39a08c4-8e19-468c-84a6-448eff8ce350",
+        "a3cfe857-9641-4a5a-baf2-956ae5bf20e7",
+        "a483ae25-59bc-4f1d-95a5-3790753b24d3",
+        "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
+        "c260f7b6-361a-45ae-bda3-26af59f25eb2",
+        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
+        "84ce2a79-a690-4c7b-909c-e78fb73bac27",
+        "bdc7dc3f-e0de-4b05-a462-ba4a3d516736"
       ],
       "settings": {
         "orientation": "vertical",
