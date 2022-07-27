@@ -62,11 +62,20 @@
             "button_text": "Learn More",
             "button_link": "shopify:\/\/pages\/contact"
           }
+        },
+        "12de462e-88b7-4389-af31-d87a52f88ac9": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/running-man.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "0bdca7f8-d104-4fc4-a09d-3890e11e6ae1",
-        "3738365d-b35d-41bb-9073-83e9ce374518"
+        "3738365d-b35d-41bb-9073-83e9ce374518",
+        "12de462e-88b7-4389-af31-d87a52f88ac9"
       ],
       "settings": {
         "orientation": "vertical",
