@@ -142,19 +142,19 @@
             "image_link": ""
           }
         },
-        "84ce2a79-a690-4c7b-909c-e78fb73bac27": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/220425_Yossi4031.jpg",
-            "image_link": ""
-          }
-        },
         "bdc7dc3f-e0de-4b05-a462-ba4a3d516736": {
           "type": "image",
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/220425_Yossi4013.jpg",
+            "image_link": ""
+          }
+        },
+        "84ce2a79-a690-4c7b-909c-e78fb73bac27": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/220425_Yossi4031.jpg",
             "image_link": ""
           }
         }
@@ -166,8 +166,8 @@
         "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
         "c260f7b6-361a-45ae-bda3-26af59f25eb2",
         "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
-        "84ce2a79-a690-4c7b-909c-e78fb73bac27",
-        "bdc7dc3f-e0de-4b05-a462-ba4a3d516736"
+        "bdc7dc3f-e0de-4b05-a462-ba4a3d516736",
+        "84ce2a79-a690-4c7b-909c-e78fb73bac27"
       ],
       "settings": {
         "orientation": "vertical",
