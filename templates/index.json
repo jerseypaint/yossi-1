@@ -189,6 +189,14 @@
             "image": "shopify:\/\/shop_images\/Yossi_Film_9.5.jpg",
             "image_link": ""
           }
+        },
+        "00db739d-447f-4214-9e42-b584a99a1f73": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/220425_Yossi3940.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
@@ -203,7 +211,8 @@
         "84ce2a79-a690-4c7b-909c-e78fb73bac27",
         "99515af9-6858-4dd6-b62b-733cc8f77bf9",
         "b5103e0d-4a7e-407d-9aec-78fd484e133f",
-        "53095479-0bb4-4144-bbee-9c2391d967c3"
+        "53095479-0bb4-4144-bbee-9c2391d967c3",
+        "00db739d-447f-4214-9e42-b584a99a1f73"
       ],
       "settings": {
         "orientation": "vertical",
