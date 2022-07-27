@@ -146,7 +146,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/56A3861.jpg",
+            "image": "shopify:\/\/shop_images\/Yossi_Collection_4.jpg",
             "image_link": ""
           }
         },
@@ -165,6 +165,22 @@
             "image": "shopify:\/\/shop_images\/220425_Yossi4031.jpg",
             "image_link": ""
           }
+        },
+        "99515af9-6858-4dd6-b62b-733cc8f77bf9": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_4.jpg",
+            "image_link": ""
+          }
+        },
+        "b5103e0d-4a7e-407d-9aec-78fd484e133f": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/220427_Yossi27251.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
@@ -176,7 +192,9 @@
         "979794d3-4fb1-4756-9896-41721d28d632",
         "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
         "bdc7dc3f-e0de-4b05-a462-ba4a3d516736",
-        "84ce2a79-a690-4c7b-909c-e78fb73bac27"
+        "84ce2a79-a690-4c7b-909c-e78fb73bac27",
+        "99515af9-6858-4dd6-b62b-733cc8f77bf9",
+        "b5103e0d-4a7e-407d-9aec-78fd484e133f"
       ],
       "settings": {
         "orientation": "vertical",
