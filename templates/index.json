@@ -134,6 +134,14 @@
             "image_link": ""
           }
         },
+        "979794d3-4fb1-4756-9896-41721d28d632": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_paint_1.jpg",
+            "image_link": ""
+          }
+        },
         "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1": {
           "type": "image",
           "settings": {
@@ -157,14 +165,6 @@
             "image": "shopify:\/\/shop_images\/220425_Yossi4031.jpg",
             "image_link": ""
           }
-        },
-        "979794d3-4fb1-4756-9896-41721d28d632": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/yossi_paint_1.jpg",
-            "image_link": ""
-          }
         }
       },
       "block_order": [
@@ -173,10 +173,10 @@
         "a483ae25-59bc-4f1d-95a5-3790753b24d3",
         "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
         "c260f7b6-361a-45ae-bda3-26af59f25eb2",
+        "979794d3-4fb1-4756-9896-41721d28d632",
         "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
         "bdc7dc3f-e0de-4b05-a462-ba4a3d516736",
-        "84ce2a79-a690-4c7b-909c-e78fb73bac27",
-        "979794d3-4fb1-4756-9896-41721d28d632"
+        "84ce2a79-a690-4c7b-909c-e78fb73bac27"
       ],
       "settings": {
         "orientation": "vertical",
