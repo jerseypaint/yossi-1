@@ -1,19 +1,33 @@
 {
-    "sections": {
-      "hero": {
-        "type": "yossi-hero",
-        "settings": {
+  "sections": {
+    "hero": {
+      "type": "yossi-hero",
+      "blocks": {
+        "6bb7ca7c-074e-4fea-ba58-1c6d5ffe195d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yossi_paint_1.jpg",
+            "image_link": ""
+          }
         }
       },
-      "intro": {
-        "type": "yossi-one-col",
-        "settings": {
-        }
+      "block_order": [
+        "6bb7ca7c-074e-4fea-ba58-1c6d5ffe195d"
+      ],
+      "settings": {
+        "scroll_prompt": ""
       }
     },
-    "order": [
-      "hero",
-      "intro"
-    ]
-  }
-  
+    "intro": {
+      "type": "yossi-one-col",
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "intro"
+  ]
+}
