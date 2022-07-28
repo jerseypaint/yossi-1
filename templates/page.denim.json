@@ -1,30 +1,5 @@
 {
   "sections": {
-    "hero": {
-      "type": "yossi-hero",
-      "blocks": {
-        "6bb7ca7c-074e-4fea-ba58-1c6d5ffe195d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/yossi_paint_1.jpg",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "6bb7ca7c-074e-4fea-ba58-1c6d5ffe195d"
-      ],
-      "settings": {
-        "scroll_prompt": ""
-      }
-    },
-    "intro": {
-      "type": "yossi-one-col",
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
-    },
     "16590256478e958b4a": {
       "type": "yossi-hero",
       "blocks": {
@@ -39,13 +14,19 @@
         "169b8b04-cef5-4fa9-9b6b-69eb4672ff84"
       ],
       "settings": {
-        "scroll_prompt": ""
+        "scroll_prompt": "Discover now"
+      }
+    },
+    "intro": {
+      "type": "yossi-one-col",
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
       }
     }
   },
   "order": [
-    "hero",
-    "intro",
-    "16590256478e958b4a"
+    "16590256478e958b4a",
+    "intro"
   ]
 }
