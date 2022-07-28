@@ -60,6 +60,14 @@
             "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
             "image_link": ""
           }
+        },
+        "d7f83aaf-b24d-423d-b426-2ad8628a9d3d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Factory-Japan_7.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
@@ -67,7 +75,8 @@
         "bc182429-0428-4778-a553-2d10313f3228",
         "542e7d9d-2a7d-4c82-9111-1153ff15d265",
         "e6d4e752-d9d4-4fd8-8bad-506bd600c76e",
-        "53b8bbc7-76a2-454c-85ef-a808445baf0a"
+        "53b8bbc7-76a2-454c-85ef-a808445baf0a",
+        "d7f83aaf-b24d-423d-b426-2ad8628a9d3d"
       ],
       "settings": {
         "orientation": "horizontal",
