@@ -80,7 +80,7 @@
         "c6c539f6-d2a7-4636-9b30-1931c1b60cb8"
       ],
       "settings": {
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "padding": true
       }
     },
