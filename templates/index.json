@@ -36,15 +36,6 @@
             "image_link": ""
           }
         },
-        "3738365d-b35d-41bb-9073-83e9ce374518": {
-          "type": "text",
-          "settings": {
-            "heading": "Japan",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "button_text": "Learn More",
-            "button_link": "shopify:\/\/pages\/contact"
-          }
-        },
         "d2052b0d-b8cd-4d4d-b9a3-00a28d2091e8": {
           "type": "image",
           "settings": {
@@ -57,7 +48,6 @@
       "block_order": [
         "12de462e-88b7-4389-af31-d87a52f88ac9",
         "0bdca7f8-d104-4fc4-a09d-3890e11e6ae1",
-        "3738365d-b35d-41bb-9073-83e9ce374518",
         "d2052b0d-b8cd-4d4d-b9a3-00a28d2091e8"
       ],
       "settings": {
