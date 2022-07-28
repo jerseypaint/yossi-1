@@ -20,13 +20,6 @@
     "intro": {
       "type": "yossi-one-col",
       "blocks": {
-        "9cc3be67-50bf-45c5-8a78-5e71bc089fac": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image_link": ""
-          }
-        },
         "f933cf91-20d3-4319-8573-63a64185b89b": {
           "type": "text",
           "settings": {
@@ -38,7 +31,6 @@
         }
       },
       "block_order": [
-        "9cc3be67-50bf-45c5-8a78-5e71bc089fac",
         "f933cf91-20d3-4319-8573-63a64185b89b"
       ],
       "settings": {
