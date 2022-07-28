@@ -6,7 +6,7 @@
         "169b8b04-cef5-4fa9-9b6b-69eb4672ff84": {
           "type": "video",
           "settings": {
-            "video_url": ""
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/48cd7074920647438b3c6388d28ad227.mp4"
           }
         }
       },
@@ -19,6 +19,18 @@
     },
     "intro": {
       "type": "yossi-one-col",
+      "blocks": {
+        "9cc3be67-50bf-45c5-8a78-5e71bc089fac": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "9cc3be67-50bf-45c5-8a78-5e71bc089fac"
+      ],
       "settings": {
         "orientation": "vertical",
         "padding": true
