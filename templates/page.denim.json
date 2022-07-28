@@ -60,15 +60,6 @@
             "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
             "image_link": ""
           }
-        },
-        "c6c539f6-d2a7-4636-9b30-1931c1b60cb8": {
-          "type": "text",
-          "settings": {
-            "heading": "Denim Captial of the World",
-            "body": "",
-            "button_text": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
@@ -76,8 +67,7 @@
         "bc182429-0428-4778-a553-2d10313f3228",
         "542e7d9d-2a7d-4c82-9111-1153ff15d265",
         "e6d4e752-d9d4-4fd8-8bad-506bd600c76e",
-        "53b8bbc7-76a2-454c-85ef-a808445baf0a",
-        "c6c539f6-d2a7-4636-9b30-1931c1b60cb8"
+        "53b8bbc7-76a2-454c-85ef-a808445baf0a"
       ],
       "settings": {
         "orientation": "horizontal",
