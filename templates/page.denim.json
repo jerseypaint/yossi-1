@@ -81,7 +81,7 @@
       ],
       "settings": {
         "orientation": "horizontal",
-        "padding": true
+        "padding": false
       }
     },
     "1659029631fa994510": {
