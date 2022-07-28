@@ -28,10 +28,56 @@
             "button_text": "",
             "button_link": ""
           }
+        },
+        "bc182429-0428-4778-a553-2d10313f3228": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Factory-Japan_1.jpg",
+            "image_link": ""
+          }
+        },
+        "542e7d9d-2a7d-4c82-9111-1153ff15d265": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/DSCF0046.jpg",
+            "image_link": ""
+          }
+        },
+        "e6d4e752-d9d4-4fd8-8bad-506bd600c76e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Photo_label_6.jpg",
+            "image_link": ""
+          }
+        },
+        "53b8bbc7-76a2-454c-85ef-a808445baf0a": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
+            "image_link": ""
+          }
+        },
+        "c6c539f6-d2a7-4636-9b30-1931c1b60cb8": {
+          "type": "text",
+          "settings": {
+            "heading": "Denim Captial of the World",
+            "body": "",
+            "button_text": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "f933cf91-20d3-4319-8573-63a64185b89b"
+        "f933cf91-20d3-4319-8573-63a64185b89b",
+        "bc182429-0428-4778-a553-2d10313f3228",
+        "542e7d9d-2a7d-4c82-9111-1153ff15d265",
+        "e6d4e752-d9d4-4fd8-8bad-506bd600c76e",
+        "53b8bbc7-76a2-454c-85ef-a808445baf0a",
+        "c6c539f6-d2a7-4636-9b30-1931c1b60cb8"
       ],
       "settings": {
         "orientation": "vertical",
