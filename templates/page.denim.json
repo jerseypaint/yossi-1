@@ -69,6 +69,15 @@
             "image_link": ""
           }
         },
+        "3422cac1-d470-4b07-bd12-95c1861819fd": {
+          "type": "text",
+          "settings": {
+            "heading": "DENIM CAPITAL OF THE WORLD",
+            "body": "Each pair is handmade with the upmost respect to Japanese craftsmanship and artistry.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "b4ee4430-03be-4ec8-9baf-81c7be1341c9": {
           "type": "video",
           "settings": {
@@ -83,6 +92,7 @@
         "e6d4e752-d9d4-4fd8-8bad-506bd600c76e",
         "53b8bbc7-76a2-454c-85ef-a808445baf0a",
         "d7f83aaf-b24d-423d-b426-2ad8628a9d3d",
+        "3422cac1-d470-4b07-bd12-95c1861819fd",
         "b4ee4430-03be-4ec8-9baf-81c7be1341c9"
       ],
       "settings": {
@@ -92,6 +102,7 @@
     },
     "1659029631fa994510": {
       "type": "yossi-two-col",
+      "disabled": true,
       "blocks": {
         "dbd73cf7-9f96-4498-b07d-51cd5a4de087": {
           "type": "image",
