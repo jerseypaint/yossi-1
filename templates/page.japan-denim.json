@@ -6,9 +6,47 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "16602792143e158232": {
+      "type": "yossi-slideshow",
+      "blocks": {
+        "66a342eb-f857-4cf4-a2c1-187ef9f14e79": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
+            "image_link": ""
+          }
+        },
+        "cd96818d-30e4-4a0b-89e1-9194274aa60b": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Photo_label_6.jpg",
+            "image_link": ""
+          }
+        },
+        "aa297928-a1d4-429a-ac29-c79e46cfa2f4": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_9.5.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "66a342eb-f857-4cf4-a2c1-187ef9f14e79",
+        "cd96818d-30e4-4a0b-89e1-9194274aa60b",
+        "aa297928-a1d4-429a-ac29-c79e46cfa2f4"
+      ],
+      "settings": {
+        "slideshow_type": "two_col"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16602792143e158232"
   ]
 }
