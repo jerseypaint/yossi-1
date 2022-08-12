@@ -74,6 +74,15 @@
     "1660279527f5ff6ee5": {
       "type": "yossi-one-col",
       "blocks": {
+        "3282d6b7-3ce9-4d13-a27f-e79f9a2ba719": {
+          "type": "text",
+          "settings": {
+            "heading": "Yossi Shetrit",
+            "body": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "474cce6a-2291-40de-a178-1c41ee80a381": {
           "type": "image",
           "settings": {
@@ -84,6 +93,7 @@
         }
       },
       "block_order": [
+        "3282d6b7-3ce9-4d13-a27f-e79f9a2ba719",
         "474cce6a-2291-40de-a178-1c41ee80a381"
       ],
       "settings": {
