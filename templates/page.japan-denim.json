@@ -156,12 +156,20 @@
             "image": "shopify:\/\/shop_images\/Yossi_Film_4.jpg",
             "image_link": ""
           }
+        },
+        "5c82bc09-27ad-4f09-a377-e512d5cf43d8": {
+          "type": "image",
+          "settings": {
+            "heading": "Fine Art and Photography",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "d2b64cf6-35ac-4f4f-aa1f-af4044981647",
         "501954c9-bdb3-4168-824d-83afd60390ea",
-        "ff9c2168-147d-4db8-af73-aed4d5779741"
+        "ff9c2168-147d-4db8-af73-aed4d5779741",
+        "5c82bc09-27ad-4f09-a377-e512d5cf43d8"
       ],
       "settings": {
         "slideshow_type": "two_col"
