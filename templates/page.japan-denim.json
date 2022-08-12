@@ -75,7 +75,7 @@
       ],
       "settings": {
         "orientation": "vertical",
-        "padding": true
+        "padding": false
       }
     },
     "16602792143e158232": {
@@ -134,6 +134,7 @@
     },
     "16602811009095b693": {
       "type": "yossi-two-col",
+      "disabled": true,
       "blocks": {
         "d90ead37-19f2-4759-bf3c-6d8665bab4c8": {
           "type": "image",
