@@ -25,7 +25,7 @@
           "type": "text",
           "settings": {
             "heading": "Yossi Shetrit",
-            "body": "",
+            "body": "Yossi Shetrit is an american fashion designer with ssds\nsdsdsdsdsdsdsdasassdsds\na",
             "button_text": "",
             "button_link": ""
           }
@@ -121,7 +121,7 @@
         "caf29cbf-fa83-4a6c-9456-f765f265bc1c"
       ],
       "settings": {
-        "slideshow_type": "two_col"
+        "slideshow_type": "framed"
       }
     },
     "main": {
@@ -131,33 +131,6 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "16602811009095b693": {
-      "type": "yossi-two-col",
-      "disabled": true,
-      "blocks": {
-        "d90ead37-19f2-4759-bf3c-6d8665bab4c8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/artwork_1.jpg",
-            "image_link": ""
-          }
-        },
-        "ce29d24c-6c41-4041-aab0-799cd3cc6f43": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Yossi_Film_4.jpg",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "d90ead37-19f2-4759-bf3c-6d8665bab4c8",
-        "ce29d24c-6c41-4041-aab0-799cd3cc6f43"
-      ],
-      "settings": {
-        "padding": true
-      }
     }
   },
   "order": [
@@ -165,7 +138,6 @@
     "1660279527f5ff6ee5",
     "1660280904252961b4",
     "16602792143e158232",
-    "main",
-    "16602811009095b693"
+    "main"
   ]
 }
