@@ -70,11 +70,32 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1660279527f5ff6ee5": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "474cce6a-2291-40de-a178-1c41ee80a381": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_cutting_siccors_x1000.progressive_1.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "474cce6a-2291-40de-a178-1c41ee80a381"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
     "1660279259c915b328",
     "16602792143e158232",
-    "main"
+    "main",
+    "1660279527f5ff6ee5"
   ]
 }
