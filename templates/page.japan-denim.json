@@ -1,10 +1,21 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "1660279259c915b328": {
+      "type": "yossi-hero",
+      "blocks": {
+        "1cd4dc07-e8b7-4c19-bed7-1bafe78d6b58": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yossi_potrait_166.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1cd4dc07-e8b7-4c19-bed7-1bafe78d6b58"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "scroll_prompt": ""
       }
     },
     "16602792143e158232": {
@@ -52,28 +63,18 @@
         "slideshow_type": "two_col"
       }
     },
-    "1660279259c915b328": {
-      "type": "yossi-hero",
-      "blocks": {
-        "1cd4dc07-e8b7-4c19-bed7-1bafe78d6b58": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/yossi_potrait_166.jpg",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1cd4dc07-e8b7-4c19-bed7-1bafe78d6b58"
-      ],
+    "main": {
+      "type": "main-page",
+      "disabled": true,
       "settings": {
-        "scroll_prompt": ""
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
   "order": [
-    "main",
+    "1660279259c915b328",
     "16602792143e158232",
-    "1660279259c915b328"
+    "main"
   ]
 }
