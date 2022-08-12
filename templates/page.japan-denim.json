@@ -130,6 +130,27 @@
         "padding_bottom": 28
       }
     },
+    "166034813380d4f889": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "0a77589d-afe1-4cfe-b29b-00c6a7148738": {
+          "type": "text",
+          "settings": {
+            "heading": "Fine photography and Film photgraphy",
+            "body": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0a77589d-afe1-4cfe-b29b-00c6a7148738"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
     "1660347391630978c8": {
       "type": "yossi-slideshow",
       "blocks": {
@@ -205,27 +226,6 @@
         "orientation": "vertical",
         "padding": true
       }
-    },
-    "166034813380d4f889": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "0a77589d-afe1-4cfe-b29b-00c6a7148738": {
-          "type": "text",
-          "settings": {
-            "heading": "Fine photography and Film photgraphy",
-            "body": "",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "0a77589d-afe1-4cfe-b29b-00c6a7148738"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
     }
   },
   "order": [
@@ -233,9 +233,9 @@
     "1660279527f5ff6ee5",
     "16602792143e158232",
     "main",
+    "166034813380d4f889",
     "1660347391630978c8",
     "1660347711715dc60d",
-    "16603477905e39cad3",
-    "166034813380d4f889"
+    "16603477905e39cad3"
   ]
 }
