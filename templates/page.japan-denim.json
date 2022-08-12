@@ -40,6 +40,7 @@
         },
         "111bc076-772b-4acc-973d-6f624244115c": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/DSCF9153.jpg",
@@ -57,6 +58,26 @@
         "padding": true
       }
     },
+    "1660280904252961b4": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "0ede0563-7999-430c-afcf-c40aad5b158d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/DSCF9153_28cd36a7-5ba3-4172-8978-43b3980aa3e1.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0ede0563-7999-430c-afcf-c40aad5b158d"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
     "16602792143e158232": {
       "type": "yossi-slideshow",
       "blocks": {
@@ -64,7 +85,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
+            "image": "shopify:\/\/shop_images\/DSCF87075.jpg",
             "image_link": ""
           }
         },
@@ -72,7 +93,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Photo_label_6.jpg",
+            "image": "shopify:\/\/shop_images\/DSCF8818.jpg",
             "image_link": ""
           }
         },
@@ -114,6 +135,7 @@
   "order": [
     "1660279259c915b328",
     "1660279527f5ff6ee5",
+    "1660280904252961b4",
     "16602792143e158232",
     "main"
   ]
