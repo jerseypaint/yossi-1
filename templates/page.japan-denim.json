@@ -93,10 +93,19 @@
             "image_link": ""
           }
         },
-        "c233dbe3-af3c-41d4-8ba1-6a6a9fe3bdcb": {
+        "c6015a86-adda-4975-935f-0802652e39de": {
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/atelier_2.jpg",
+            "image_link": ""
+          }
+        },
+        "5390ae7b-3e9a-4452-b524-a8f9014e9737": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/IMG_6512.jpg",
             "image_link": ""
           }
         }
@@ -106,7 +115,8 @@
         "66a342eb-f857-4cf4-a2c1-187ef9f14e79",
         "cd96818d-30e4-4a0b-89e1-9194274aa60b",
         "1e4165df-4428-4105-af71-2dbc11221670",
-        "c233dbe3-af3c-41d4-8ba1-6a6a9fe3bdcb"
+        "c6015a86-adda-4975-935f-0802652e39de",
+        "5390ae7b-3e9a-4452-b524-a8f9014e9737"
       ],
       "settings": {
         "slideshow_type": "framed"
@@ -127,6 +137,7 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/artwork_1.jpg",
             "image_link": ""
           }
         },
@@ -134,13 +145,23 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_9.5.jpg",
+            "image_link": ""
+          }
+        },
+        "ff9c2168-147d-4db8-af73-aed4d5779741": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_4.jpg",
             "image_link": ""
           }
         }
       },
       "block_order": [
         "d2b64cf6-35ac-4f4f-aa1f-af4044981647",
-        "501954c9-bdb3-4168-824d-83afd60390ea"
+        "501954c9-bdb3-4168-824d-83afd60390ea",
+        "ff9c2168-147d-4db8-af73-aed4d5779741"
       ],
       "settings": {
         "slideshow_type": "framed"
