@@ -58,29 +58,17 @@
         "padding": true
       }
     },
-    "1660280904252961b4": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "0ede0563-7999-430c-afcf-c40aad5b158d": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/DSCF9153-2.jpg",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "0ede0563-7999-430c-afcf-c40aad5b158d"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
-    },
     "16602792143e158232": {
       "type": "yossi-slideshow",
       "blocks": {
+        "c60d6c6c-4595-4696-a575-7a423f8d829d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_photo_high_def.jpg",
+            "image_link": ""
+          }
+        },
         "66a342eb-f857-4cf4-a2c1-187ef9f14e79": {
           "type": "image",
           "settings": {
@@ -97,28 +85,20 @@
             "image_link": ""
           }
         },
-        "aa297928-a1d4-429a-ac29-c79e46cfa2f4": {
+        "1e4165df-4428-4105-af71-2dbc11221670": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/artwork_1.jpg",
-            "image_link": ""
-          }
-        },
-        "caf29cbf-fa83-4a6c-9456-f765f265bc1c": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_Film_4.jpg",
+            "image": "shopify:\/\/shop_images\/220427_Yossi26820zzz.jpg",
             "image_link": ""
           }
         }
       },
       "block_order": [
+        "c60d6c6c-4595-4696-a575-7a423f8d829d",
         "66a342eb-f857-4cf4-a2c1-187ef9f14e79",
         "cd96818d-30e4-4a0b-89e1-9194274aa60b",
-        "aa297928-a1d4-429a-ac29-c79e46cfa2f4",
-        "caf29cbf-fa83-4a6c-9456-f765f265bc1c"
+        "1e4165df-4428-4105-af71-2dbc11221670"
       ],
       "settings": {
         "slideshow_type": "framed"
@@ -131,13 +111,31 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1660347391630978c8": {
+      "type": "yossi-slideshow",
+      "blocks": {
+        "d2b64cf6-35ac-4f4f-aa1f-af4044981647": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d2b64cf6-35ac-4f4f-aa1f-af4044981647"
+      ],
+      "settings": {
+        "slideshow_type": "framed"
+      }
     }
   },
   "order": [
     "1660279259c915b328",
     "1660279527f5ff6ee5",
-    "1660280904252961b4",
     "16602792143e158232",
-    "main"
+    "main",
+    "1660347391630978c8"
   ]
 }
