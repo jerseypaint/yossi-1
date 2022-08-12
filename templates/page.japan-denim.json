@@ -87,7 +87,7 @@
         "474cce6a-2291-40de-a178-1c41ee80a381"
       ],
       "settings": {
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "padding": true
       }
     }
