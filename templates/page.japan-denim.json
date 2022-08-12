@@ -92,13 +92,21 @@
             "image": "shopify:\/\/shop_images\/220427_Yossi26820zzz.jpg",
             "image_link": ""
           }
+        },
+        "c233dbe3-af3c-41d4-8ba1-6a6a9fe3bdcb": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "c60d6c6c-4595-4696-a575-7a423f8d829d",
         "66a342eb-f857-4cf4-a2c1-187ef9f14e79",
         "cd96818d-30e4-4a0b-89e1-9194274aa60b",
-        "1e4165df-4428-4105-af71-2dbc11221670"
+        "1e4165df-4428-4105-af71-2dbc11221670",
+        "c233dbe3-af3c-41d4-8ba1-6a6a9fe3bdcb"
       ],
       "settings": {
         "slideshow_type": "framed"
@@ -121,13 +129,60 @@
             "heading": "",
             "image_link": ""
           }
+        },
+        "501954c9-bdb3-4168-824d-83afd60390ea": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
-        "d2b64cf6-35ac-4f4f-aa1f-af4044981647"
+        "d2b64cf6-35ac-4f4f-aa1f-af4044981647",
+        "501954c9-bdb3-4168-824d-83afd60390ea"
       ],
       "settings": {
         "slideshow_type": "framed"
+      }
+    },
+    "1660347711715dc60d": {
+      "type": "yossi-hero",
+      "blocks": {
+        "8d87b59e-3ee6-4e8e-86cc-1c48d7cbf5d1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSCF8749.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8d87b59e-3ee6-4e8e-86cc-1c48d7cbf5d1"
+      ],
+      "settings": {
+        "scroll_prompt": ""
+      }
+    },
+    "16603477905e39cad3": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "7c032ea2-1299-4ede-96d9-08b42dd73adb": {
+          "type": "text",
+          "settings": {
+            "heading": "Stay Tuned",
+            "body": "",
+            "button_text": "SIGN UP",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7c032ea2-1299-4ede-96d9-08b42dd73adb"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
       }
     }
   },
@@ -136,6 +191,8 @@
     "1660279527f5ff6ee5",
     "16602792143e158232",
     "main",
-    "1660347391630978c8"
+    "1660347391630978c8",
+    "1660347711715dc60d",
+    "16603477905e39cad3"
   ]
 }
