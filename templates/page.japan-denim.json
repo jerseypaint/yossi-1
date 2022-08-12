@@ -75,7 +75,7 @@
       ],
       "settings": {
         "orientation": "vertical",
-        "padding": false
+        "padding": true
       }
     },
     "16602792143e158232": {
