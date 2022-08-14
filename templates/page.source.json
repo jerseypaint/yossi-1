@@ -2,6 +2,7 @@
   "sections": {
     "16590256478e958b4a": {
       "type": "yossi-hero",
+      "disabled": true,
       "blocks": {
         "169b8b04-cef5-4fa9-9b6b-69eb4672ff84": {
           "type": "video",
@@ -17,119 +18,126 @@
         "scroll_prompt": "Discover now"
       }
     },
-    "intro": {
+    "16604368878e277d63": {
       "type": "yossi-one-col",
       "blocks": {
-        "f933cf91-20d3-4319-8573-63a64185b89b": {
-          "type": "text",
-          "settings": {
-            "heading": "Artisan Denim",
-            "body": "Each pair is handmade with the upmost respect to Japanese craftsmanship and artistry.",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "bc182429-0428-4778-a553-2d10313f3228": {
+        "aa85fc9d-16b2-47ec-9d81-14c21814414e": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_Factory-Japan_1.jpg",
+            "image": "shopify:\/\/shop_images\/Yossi_1_9cd5cd17-45ed-4dcb-9e6f-f328e99537d6.jpg",
             "image_link": ""
           }
         },
-        "542e7d9d-2a7d-4c82-9111-1153ff15d265": {
+        "091d16f0-42db-46d9-8396-b4b612f18162": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/DSCF0046.jpg",
+            "image": "shopify:\/\/shop_images\/yossi_2.jpg",
             "image_link": ""
           }
         },
-        "e6d4e752-d9d4-4fd8-8bad-506bd600c76e": {
+        "d808cf2d-abb6-4880-9560-114d816c9bd8": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Photo_label_6.jpg",
+            "image": "shopify:\/\/shop_images\/yossi_women_alluring.jpg",
             "image_link": ""
           }
         },
-        "53b8bbc7-76a2-454c-85ef-a808445baf0a": {
+        "d8f5ce88-0d81-404c-beb5-06fbca479415": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
+            "image": "shopify:\/\/shop_images\/wu.jpg",
             "image_link": ""
           }
         },
-        "d7f83aaf-b24d-423d-b426-2ad8628a9d3d": {
+        "88f33a7e-189d-4cec-b2cf-6985ced10bc2": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_Factory-Japan_7.jpg",
+            "image": "shopify:\/\/shop_images\/caso.jpg",
             "image_link": ""
           }
         },
-        "3422cac1-d470-4b07-bd12-95c1861819fd": {
-          "type": "text",
+        "7e0756f5-f57d-4bab-881d-c9f9ec504351": {
+          "type": "image",
           "settings": {
-            "heading": "DENIM CAPITAL OF THE WORLD",
-            "body": "Each pair is handmade with the upmost respect to Japanese craftsmanship and artistry.",
-            "button_text": "",
-            "button_link": ""
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/nerd.jpg",
+            "image_link": ""
           }
         },
-        "b4ee4430-03be-4ec8-9baf-81c7be1341c9": {
-          "type": "video",
+        "f7e401ed-968f-409c-ad92-fa3c493c9bf6": {
+          "type": "image",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/38136961cb66406db21547db19fd1ffd.mp4"
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/andy_78527905-2e59-449b-977e-39c7df71679f.jpg",
+            "image_link": ""
+          }
+        },
+        "9c5a7243-df39-4e78-90a3-6a5d71d62a6b": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_images.jpg",
+            "image_link": ""
+          }
+        },
+        "fb913579-ea51-4143-b6ef-05bf6dcb92bb": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/ramone.jpg",
+            "image_link": ""
+          }
+        },
+        "0f0bf6b4-7ba4-49c0-850e-c7778b223045": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/q.jpg",
+            "image_link": ""
+          }
+        },
+        "6fbfa04c-6bca-475f-8ff6-b1458a4010ba": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
+        },
+        "1cd8674a-533b-4ee2-a97e-7e5cf5d5d4da": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
           }
         }
       },
       "block_order": [
-        "f933cf91-20d3-4319-8573-63a64185b89b",
-        "bc182429-0428-4778-a553-2d10313f3228",
-        "542e7d9d-2a7d-4c82-9111-1153ff15d265",
-        "e6d4e752-d9d4-4fd8-8bad-506bd600c76e",
-        "53b8bbc7-76a2-454c-85ef-a808445baf0a",
-        "d7f83aaf-b24d-423d-b426-2ad8628a9d3d",
-        "3422cac1-d470-4b07-bd12-95c1861819fd",
-        "b4ee4430-03be-4ec8-9baf-81c7be1341c9"
+        "aa85fc9d-16b2-47ec-9d81-14c21814414e",
+        "091d16f0-42db-46d9-8396-b4b612f18162",
+        "d808cf2d-abb6-4880-9560-114d816c9bd8",
+        "d8f5ce88-0d81-404c-beb5-06fbca479415",
+        "88f33a7e-189d-4cec-b2cf-6985ced10bc2",
+        "7e0756f5-f57d-4bab-881d-c9f9ec504351",
+        "f7e401ed-968f-409c-ad92-fa3c493c9bf6",
+        "9c5a7243-df39-4e78-90a3-6a5d71d62a6b",
+        "fb913579-ea51-4143-b6ef-05bf6dcb92bb",
+        "0f0bf6b4-7ba4-49c0-850e-c7778b223045",
+        "6fbfa04c-6bca-475f-8ff6-b1458a4010ba",
+        "1cd8674a-533b-4ee2-a97e-7e5cf5d5d4da"
       ],
       "settings": {
         "orientation": "vertical",
-        "padding": false
-      }
-    },
-    "1659029631fa994510": {
-      "type": "yossi-two-col",
-      "disabled": true,
-      "blocks": {
-        "dbd73cf7-9f96-4498-b07d-51cd5a4de087": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
-            "image_link": ""
-          }
-        },
-        "8ca64607-8007-47bf-a09e-fb2305d155cf": {
-          "type": "video",
-          "settings": {
-            "video_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "dbd73cf7-9f96-4498-b07d-51cd5a4de087",
-        "8ca64607-8007-47bf-a09e-fb2305d155cf"
-      ],
-      "settings": {
-        "padding": false
+        "padding": true
       }
     }
   },
   "order": [
     "16590256478e958b4a",
-    "intro",
-    "1659029631fa994510"
+    "16604368878e277d63"
   ]
 }
