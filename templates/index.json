@@ -112,6 +112,7 @@
         },
         "c9d6782b-3b58-46c9-b2db-cca1a1c37364": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0570c5032efe402587f68577b82ba7a8.mov"
           }
@@ -187,6 +188,30 @@
             "image": "shopify:\/\/shop_images\/Yossi_Film_2.jpg",
             "image_link": ""
           }
+        },
+        "517e17bd-c6f0-48de-81d4-f274f9c887c4": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/women.jpg",
+            "image_link": ""
+          }
+        },
+        "71bc2b1e-0223-4ad7-b1bd-934de3dd632d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/smoking_1.jpg",
+            "image_link": ""
+          }
+        },
+        "6bfc18d7-a88c-4381-9f1a-c932ce4294d3": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/121111.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
@@ -202,7 +227,10 @@
         "99515af9-6858-4dd6-b62b-733cc8f77bf9",
         "b5103e0d-4a7e-407d-9aec-78fd484e133f",
         "53095479-0bb4-4144-bbee-9c2391d967c3",
-        "a3cfe857-9641-4a5a-baf2-956ae5bf20e7"
+        "a3cfe857-9641-4a5a-baf2-956ae5bf20e7",
+        "517e17bd-c6f0-48de-81d4-f274f9c887c4",
+        "71bc2b1e-0223-4ad7-b1bd-934de3dd632d",
+        "6bfc18d7-a88c-4381-9f1a-c932ce4294d3"
       ],
       "settings": {
         "orientation": "vertical",
