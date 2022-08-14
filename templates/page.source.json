@@ -96,7 +96,7 @@
         "b4ee4430-03be-4ec8-9baf-81c7be1341c9"
       ],
       "settings": {
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "padding": false
       }
     },
