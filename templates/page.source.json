@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "16590256478e958b4a": {
+      "type": "yossi-hero",
+      "blocks": {
+        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/48cd7074920647438b3c6388d28ad227.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84"
+      ],
+      "settings": {
+        "scroll_prompt": "Discover now"
+      }
+    },
+    "intro": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "f933cf91-20d3-4319-8573-63a64185b89b": {
+          "type": "text",
+          "settings": {
+            "heading": "Artisan Denim",
+            "body": "Each pair is handmade with the upmost respect to Japanese craftsmanship and artistry.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "bc182429-0428-4778-a553-2d10313f3228": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Factory-Japan_1.jpg",
+            "image_link": ""
+          }
+        },
+        "542e7d9d-2a7d-4c82-9111-1153ff15d265": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/DSCF0046.jpg",
+            "image_link": ""
+          }
+        },
+        "e6d4e752-d9d4-4fd8-8bad-506bd600c76e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Photo_label_6.jpg",
+            "image_link": ""
+          }
+        },
+        "53b8bbc7-76a2-454c-85ef-a808445baf0a": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
+            "image_link": ""
+          }
+        },
+        "d7f83aaf-b24d-423d-b426-2ad8628a9d3d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Factory-Japan_7.jpg",
+            "image_link": ""
+          }
+        },
+        "3422cac1-d470-4b07-bd12-95c1861819fd": {
+          "type": "text",
+          "settings": {
+            "heading": "DENIM CAPITAL OF THE WORLD",
+            "body": "Each pair is handmade with the upmost respect to Japanese craftsmanship and artistry.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "b4ee4430-03be-4ec8-9baf-81c7be1341c9": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/38136961cb66406db21547db19fd1ffd.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "f933cf91-20d3-4319-8573-63a64185b89b",
+        "bc182429-0428-4778-a553-2d10313f3228",
+        "542e7d9d-2a7d-4c82-9111-1153ff15d265",
+        "e6d4e752-d9d4-4fd8-8bad-506bd600c76e",
+        "53b8bbc7-76a2-454c-85ef-a808445baf0a",
+        "d7f83aaf-b24d-423d-b426-2ad8628a9d3d",
+        "3422cac1-d470-4b07-bd12-95c1861819fd",
+        "b4ee4430-03be-4ec8-9baf-81c7be1341c9"
+      ],
+      "settings": {
+        "orientation": "horizontal",
+        "padding": false
+      }
+    },
+    "1659029631fa994510": {
+      "type": "yossi-two-col",
+      "disabled": true,
+      "blocks": {
+        "dbd73cf7-9f96-4498-b07d-51cd5a4de087": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
+            "image_link": ""
+          }
+        },
+        "8ca64607-8007-47bf-a09e-fb2305d155cf": {
+          "type": "video",
+          "settings": {
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "dbd73cf7-9f96-4498-b07d-51cd5a4de087",
+        "8ca64607-8007-47bf-a09e-fb2305d155cf"
+      ],
+      "settings": {
+        "padding": false
+      }
+    }
+  },
+  "order": [
+    "16590256478e958b4a",
+    "intro",
+    "1659029631fa994510"
+  ]
+}
