@@ -705,6 +705,10 @@ p {
   height: calc(100vh - 140px);
 }
 
+.h-\[calc\(100vh-110px\)\] {
+  height: calc(100vh - 110px);
+}
+
 .w-full {
   width: 100%;
 }
@@ -900,6 +904,11 @@ p {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 
 .p-1 {
