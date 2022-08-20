@@ -645,6 +645,10 @@ p {
   margin-bottom: 169px;
 }
 
+.mb-\[140px\] {
+  margin-bottom: 140px;
+}
+
 .block {
   display: block;
 }
@@ -1238,7 +1242,17 @@ html.sr .load-hidden {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 1024px) {
+  .lg\:h-screen {
+    height: 100vh;
+  }
+}
+
 @media (min-width: 1280px) {
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .xl\:block {
     display: block;
   }
