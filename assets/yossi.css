@@ -725,6 +725,10 @@ p {
   max-width: 100px;
 }
 
+.max-w-\[80px\] {
+  max-width: 80px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -952,6 +956,11 @@ p {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .uppercase {
