@@ -848,6 +848,10 @@ p {
   border-radius: 9999px;
 }
 
+.rounded-none {
+  border-radius: 0px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -969,6 +973,10 @@ p {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
 }
 
 .uppercase {
