@@ -697,6 +697,10 @@ p {
   height: calc(100vh - 150px);
 }
 
+.h-\[calc\(100vh-100px\)\] {
+  height: calc(100vh - 100px);
+}
+
 .w-full {
   width: 100%;
 }
