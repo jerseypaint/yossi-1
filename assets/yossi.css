@@ -693,6 +693,10 @@ p {
   height: 0px;
 }
 
+.h-\[calc\(100vh-150px\)\] {
+  height: calc(100vh - 150px);
+}
+
 .w-full {
   width: 100%;
 }
