@@ -637,6 +637,10 @@ p {
   margin-top: 2rem;
 }
 
+.mb-\[69px\] {
+  margin-bottom: 69px;
+}
+
 .block {
   display: block;
 }
