@@ -3,7 +3,7 @@
     {% assign padding = 'px-2' %}
 {% endif %}
 <section class="{{ padding }}">
-    <div class="container text-center reveal-fade-in load-hidden">
+    <div class="container text-center">
         
         {% if section.settings.orientation == 'horizontal' %}
             {% assign block_ratio = 'pt-2/3' %}
@@ -14,7 +14,7 @@
         {% endif %}
 
         {% for block in section.blocks %}
-            <div class="pb-4">
+            <div class="pb-4 reveal-fade-in load-hidden">
                 {% if block.settings.heading != '' %}
                     <h2 class="mt-12">{{ block.settings.heading }}</h2>
                 {% endif %}

@@ -107,6 +107,7 @@ allVideos.forEach(videoWrapper => {
 })
 
 ScrollReveal().reveal('.reveal-fade-in', {
-    duration: 2000,
+    duration: 1100,
     interval: 400,
+    easing: 'ease-in'
 });
