@@ -4,25 +4,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+@font-face {
+    font-family: 'Helvetica Nueu';
+    src: url('./HelveticaNeue.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvetica Nueu';
+    src: url('./HelveticaNeueBold.ttf') format('truetype');
+    font-weight: bold;
+}
+
 @layer base {
     html, body {
-        @apply font-jost;
+        @apply font-helvetica;
     }
 
     h1, h2, h3 {
-        @apply font-medium uppercase;
+        @apply font-medium uppercase text-sm;
     }
 
-    h2 {
+    /* h2 {
         @apply text-38px-40px;
     }
 
     h3 {
         @apply text-lg;
-    }
+    } */
 
-    p {
-        @apply text-base leading-6 font-light tracking-wide;
+    p, .text-p {
+        @apply text-[10px] leading-6 font-light tracking-wide uppercase;
     }
 
     .y-button {
@@ -32,7 +43,10 @@
 
 .fancy-border {
     @apply relative py-2 px-4 border border-black;
-    
+}
+
+.fancy-border > div {
+    @apply my-2 mx-4;
 }
 
 .fancy-border:after {

@@ -37,7 +37,7 @@ menuDrawerButton.addEventListener('click', event => {
 
 
             if (index === 0) {
-                span.classList.remove('translate-y-3', 'rotate-45');
+                span.classList.remove('translate-y-[6px]','rotate-45');
             }
     
             if (index == 1) {
@@ -45,7 +45,7 @@ menuDrawerButton.addEventListener('click', event => {
             }
     
             if (index === 2) {
-                span.classList.remove('-translate-y-15px', '-rotate-45');
+                span.classList.remove('-translate-y-[6px]', '-rotate-45');
             }
         })
 
@@ -57,7 +57,7 @@ menuDrawerButton.addEventListener('click', event => {
  
 
             if (index === 0) {
-                span.classList.add('translate-y-3', 'rotate-45');
+                span.classList.add('translate-y-[6px]','rotate-45');
             }
     
             if (index == 1) {
@@ -65,7 +65,7 @@ menuDrawerButton.addEventListener('click', event => {
             }
     
             if (index === 2) {
-                span.classList.add('-translate-y-15px', '-rotate-45');
+                span.classList.add('-translate-y-[6px]', '-rotate-45');
             }
         })
     }

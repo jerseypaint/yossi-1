@@ -18,10 +18,19 @@
                 {% if block.settings.heading != '' %}
                     <h2 class="mt-12">{{ block.settings.heading }}</h2>
                 {% endif %}
+
                 {% case block.type %}
                     {% when 'image' %}
                         <div class="relative w-full {{ block_ratio }}">
+                            {% if block.settings.image_link %}
+                                <a href="{{ block.settings.image_link }}">
+                            {% endif %}
+                            
                             {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
+                            
+                            {% if block.settings.image_link %}
+                            </a>
+                            {% endif %}
                         </div>
                     {% when 'video' %}
                         <div class="relative w-full {{ block_ratio }}">
@@ -29,12 +38,15 @@
                         </div>
                     {% else %}
                         <div class="pb-8">
-                            <div class="mt-8">
+                            <div class="mt-8 text-p">
                                 {{ block.settings.body }}
                             </div>
-                            <div class="mt-12">
-                                <a class="y-button" href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
-                            </div>
+
+                            {% if block.settings.show_button %}
+                                <div class="mt-12">
+                                    <a class="y-button" href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
+                                </div>
+                            {% endif %}
                         </div>
                 {% endcase %}
             </div>
@@ -118,6 +130,12 @@
                 "type": "textarea",
                 "id": "body",
                 "label": "body"
+            },
+            {
+                "type": "checkbox",
+                "id": "show_button",
+                "label": "Show Button",
+                "default": false
             },
             {
                 "type": "text",

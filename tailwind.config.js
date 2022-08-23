@@ -63,6 +63,7 @@ module.exports = {
       },
       fontFamily: {
         'jost': ['Jost, sans-serif'],
+        'helvetica': ['Helvetica Neue, Helvetica, sans-serif']
       },
     },
   },

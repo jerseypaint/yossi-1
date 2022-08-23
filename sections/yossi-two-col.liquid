@@ -10,7 +10,15 @@
                     <div class="relative pt-[150%] reveal-fade-in load-hidden">
                         {% case block.type %}
                             {% when 'image' %}
+                                {% if block.settings.image_link %}
+                                    <a href="{{ block.settings.image_link }}">
+                                {% endif %}
+
                                 {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
+                                
+                                {% if block.settings.image_link %}
+                                    </a>
+                                {% endif %}
                             {% when 'video' %}
                                 {% render 'yossi-video', video_url: block.settings.video_url %}
                             {% else %}

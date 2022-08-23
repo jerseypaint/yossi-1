@@ -2,30 +2,30 @@
     <div class="container">
         <header id="masthead" class="bg-transparent py-4 text-white w-full transition-colors duration-1000">
             <div class="flex justify-between items-center px-4">
-                <div>
-                    <button id="menu-drawer-button" class="appearance-none w-10">
-                        <span class="block h-[2px] bg-white transition-colors duration-1000"></span>
-                        <span class="block h-[2px] bg-white my-3 transition-colors duration-1000"></span>
-                        <span class="block h-[2px] bg-white transition-colors duration-1000"></span>
-                    </button>
-                </div>
-                <div class="flex-1 text-center max-w-[108px]">
+                <div class="flex-1 text-center max-w-[98px]">
                     <svg class="mx-auto" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 117.06 40.28"><path d="M27.06,11.15,20.44,21.28v7.9H16.72V21.55L9.91,11.15h4.48l4.12,7,4.24-7Z"/><path d="M34.05,21.07v-1.9c0-5.34,2.74-8,8.58-8s8.58,2.66,8.58,8v1.9c0,5.44-2.74,8.1-8.58,8.1S34.05,26.51,34.05,21.07Zm13.4-.14v-1.6c0-3.55-1.61-4.92-4.82-4.92s-4.82,1.37-4.82,4.92v1.6c0,3.61,1.61,5,4.82,5S47.45,24.54,47.45,20.93Z"/><path d="M59,23.29v-.11h3.38v.08c0,1.92,1.55,2.94,4.36,2.94,2.57,0,3.86-.63,3.86-2.2V24c0-1.4-1-1.89-2.81-2.1l-2.52-.29c-3.65-.42-6-1.74-6-5.38v-.06c0-3.09,2.21-5,7.25-5s7.19,2.29,7.19,5.57v.15H70.23v-.1c0-1.73-1.34-2.65-3.88-2.65s-3.6.6-3.62,1.94v.05c0,1.39,1,1.92,3.09,2.21l2.86.31c3.13.37,5.41,1.76,5.44,5.07v.1c0,3.6-2.57,5.36-7.43,5.36C61,29.17,59,26.68,59,23.29Z"/><path d="M104.88,29.17v-18h3.7v18Z"/><path d="M81.27,23.29v-.11h3.38v.08c0,1.92,1.55,2.94,4.36,2.94,2.57,0,3.86-.63,3.86-2.2V24c0-1.4-1.05-1.89-2.81-2.1l-2.52-.29c-3.65-.42-6-1.74-6-5.38v-.06c0-3.09,2.21-5,7.25-5s7.19,2.29,7.19,5.57v.15H92.56v-.1c0-1.73-1.34-2.65-3.89-2.65s-3.6.6-3.62,1.94v.05c0,1.39,1,1.92,3.1,2.21l2.86.31c3.12.37,5.4,1.76,5.43,5.07v.1c0,3.6-2.57,5.36-7.43,5.36C83.34,29.17,81.27,26.68,81.27,23.29Z"/></svg>
                 </div>
                 <div>
+                    <button id="menu-drawer-button" class="appearance-none w-5">
+                        <span class="block h-[2px] bg-white transition-colors duration-1000"></span>
+                        <span class="block h-[2px] bg-white my-1 transition-colors duration-1000"></span>
+                        <span class="block h-[2px] bg-white transition-colors duration-1000"></span>
+                    </button>
+                </div>
+                {% comment %} <div>
                     <a class="appearance-none w-6" href="/cart/">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                         </svg>
                     </a>
-                </div>
+                </div> {% endcomment %}
             </div>
         </header>
         <div id="menu-drawer" class="w-full overflow-hidden transition-all duration-1000 bg-white h-0 opacity-0">
             <nav class="menu-drawer__navigation">
                 <ul class="py-6 px-4" role="list">
                 {%- for link in section.settings.menu.links -%}
-                    <li class="py-3 text-lg font-jost uppercase tracking-wide">
+                    <li class="py-1 text-[10px] uppercase tracking-wide">
                     {%- if link.links != blank -%}
                         <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                         <summary class="{% if link.child_active %}{% endif %}">
@@ -43,7 +43,7 @@
                                 {%- for childlink in link.links -%}
                                 <li>
                                     {%- if childlink.links == blank -%}
-                                    <a href="{{ childlink.url }}" class="{% if childlink.current %} {% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                    <a href="{{ childlink.url }}" class="hover:font-bold {% if childlink.current %} font-bold {% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                         {{ childlink.title | escape }}
                                     </a>
                                     {%- else -%}
@@ -61,7 +61,7 @@
                                         <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                             {%- for grandchildlink in childlink.links -%}
                                             <li>
-                                                <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                                <a href="{{ grandchildlink.url }}" class="hover:font-bold menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                                 {{ grandchildlink.title | escape }}
                                                 </a>
                                             </li>
@@ -77,7 +77,7 @@
                         </div>
                         </details>
                     {%- else -%}
-                        <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                        <a href="{{ link.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
                         {{ link.title | escape }}
                         </a>
                     {%- endif -%}
