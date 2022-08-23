@@ -72,15 +72,34 @@ menuDrawerButton.addEventListener('click', event => {
     menuDrawer.classList.toggle('menu-open');
     
 
-    header.classList.toggle("text-black");
-    header.classList.toggle("bg-white");
-    header.classList.toggle("text-white");
-    header.classList.toggle("bg-transparent");
+    if (header.classList.contains('bg-white')) {
+        if (document.documentElement.scrollTop < 50) {
+            header.classList.add("text-white", "bg-transparent");
+            header.classList.remove("text-black", "bg-white");
+    
+            menuDrawerButtonSpans.forEach((span) => {
+                span.classList.remove("bg-black");
+                span.classList.add("bg-white");
+            })
+        }
+    } else {
+        header.classList.remove("text-white", "bg-transparent");
+        header.classList.add("text-black", "bg-white");
 
-    menuDrawerButtonSpans.forEach((span) => {
-        span.classList.toggle("bg-black");
-        span.classList.toggle("bg-white");
-    })
+        menuDrawerButtonSpans.forEach((span) => {
+            span.classList.add("bg-black");
+            span.classList.remove("bg-white");
+        })
+    }
+    // header.classList.toggle("text-black");
+    // header.classList.toggle("bg-white");
+    // header.classList.toggle("text-white");
+    // header.classList.toggle("bg-transparent");
+
+    // menuDrawerButtonSpans.forEach((span) => {
+    //     span.classList.toggle("bg-black");
+    //     span.classList.toggle("bg-white");
+    // })
 });
 
 allVideos.forEach(videoWrapper => {
