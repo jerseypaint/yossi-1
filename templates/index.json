@@ -188,28 +188,10 @@
             "image_link": ""
           }
         },
-        "517e17bd-c6f0-48de-81d4-f274f9c887c4": {
-          "type": "image",
+        "ab13f67a-2e97-4be5-92a1-6c41065873a6": {
+          "type": "video",
           "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/women.jpg",
-            "image_link": ""
-          }
-        },
-        "71bc2b1e-0223-4ad7-b1bd-934de3dd632d": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/smoking_1.jpg",
-            "image_link": ""
-          }
-        },
-        "6bfc18d7-a88c-4381-9f1a-c932ce4294d3": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/121111.jpg",
-            "image_link": ""
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2239fd77d98e47cb911b905e3547d239.mp4"
           }
         }
       },
@@ -227,9 +209,7 @@
         "b5103e0d-4a7e-407d-9aec-78fd484e133f",
         "53095479-0bb4-4144-bbee-9c2391d967c3",
         "a3cfe857-9641-4a5a-baf2-956ae5bf20e7",
-        "517e17bd-c6f0-48de-81d4-f274f9c887c4",
-        "71bc2b1e-0223-4ad7-b1bd-934de3dd632d",
-        "6bfc18d7-a88c-4381-9f1a-c932ce4294d3"
+        "ab13f67a-2e97-4be5-92a1-6c41065873a6"
       ],
       "settings": {
         "orientation": "vertical",
