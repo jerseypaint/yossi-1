@@ -134,10 +134,18 @@
         "orientation": "vertical",
         "padding": true
       }
+    },
+    "166146610712daa2cf": {
+      "type": "yossi-one-col",
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
     "16590256478e958b4a",
-    "16604368878e277d63"
+    "16604368878e277d63",
+    "166146610712daa2cf"
   ]
 }
