@@ -102,24 +102,27 @@ menuDrawerButton.addEventListener('click', event => {
     // })
 });
 
-allVideos.forEach(videoWrapper => {
-    video         = videoWrapper.querySelector('video');
-    playButton    = videoWrapper.querySelector('.play-button');
-    soundButton   = videoWrapper.querySelector('.sound-button');
+allVideos.forEach((videoWrapper , index) => {
+    const video         = videoWrapper.querySelector('video');
+    const playButton    = videoWrapper.querySelector('.play-button');
+    const soundButton   = videoWrapper.querySelector('.sound-button');
 
-    playIcon      = videoWrapper.querySelector('.play');
-    pauseIcon     = videoWrapper.querySelector('.pause');
-    soundIcon     = videoWrapper.querySelector('.sound');
-    mutedIcon     = videoWrapper.querySelector('.muted');
+    const playIcon      = videoWrapper.querySelector('.play');
+    const pauseIcon     = videoWrapper.querySelector('.pause');
+    const soundIcon     = videoWrapper.querySelector('.sound');
+    const mutedIcon     = videoWrapper.querySelector('.muted');
 
     playButton.addEventListener('click', event => {
+       
         video.paused ? video.play() : video.pause();
         playIcon.classList.toggle('hidden',);
         pauseIcon.classList.toggle('hidden');
+        console.log(video, index);
+
     });
 
     soundButton.addEventListener('click', event => {
-        video.muted ? video.muted = true : video.muted = false;
+        video.muted ? video.muted = false : video.muted = true;
         soundIcon.classList.toggle('hidden');
         mutedIcon.classList.toggle('hidden');
     });
