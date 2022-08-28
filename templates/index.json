@@ -94,11 +94,11 @@
             "image_link": ""
           }
         },
-        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1": {
+        "2c324d9e-5949-4ff1-9102-5b21d3025bf0": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_Collection_4.jpg",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_11.jpg",
             "image_link": ""
           }
         },
@@ -107,6 +107,14 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Yossi_Collection_12.jpg",
+            "image_link": ""
+          }
+        },
+        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Collection_4.jpg",
             "image_link": ""
           }
         },
@@ -180,25 +188,24 @@
             "image_link": ""
           }
         },
-        "a3cfe857-9641-4a5a-baf2-956ae5bf20e7": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_Film_2.jpg",
-            "image_link": ""
-          }
-        },
         "ab13f67a-2e97-4be5-92a1-6c41065873a6": {
           "type": "video",
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2239fd77d98e47cb911b905e3547d239.mp4"
           }
+        },
+        "a31e14df-63fa-4f63-8d90-7db9b425ca4b": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/46ec2638d5ea47bd9ee7590306d78532.mp4"
+          }
         }
       },
       "block_order": [
         "e39a08c4-8e19-468c-84a6-448eff8ce350",
-        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
+        "2c324d9e-5949-4ff1-9102-5b21d3025bf0",
         "a483ae25-59bc-4f1d-95a5-3790753b24d3",
+        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
         "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
         "c260f7b6-361a-45ae-bda3-26af59f25eb2",
         "979794d3-4fb1-4756-9896-41721d28d632",
@@ -208,8 +215,8 @@
         "99515af9-6858-4dd6-b62b-733cc8f77bf9",
         "b5103e0d-4a7e-407d-9aec-78fd484e133f",
         "53095479-0bb4-4144-bbee-9c2391d967c3",
-        "a3cfe857-9641-4a5a-baf2-956ae5bf20e7",
-        "ab13f67a-2e97-4be5-92a1-6c41065873a6"
+        "ab13f67a-2e97-4be5-92a1-6c41065873a6",
+        "a31e14df-63fa-4f63-8d90-7db9b425ca4b"
       ],
       "settings": {
         "orientation": "vertical",
