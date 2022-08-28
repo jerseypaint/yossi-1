@@ -110,24 +110,10 @@
             "image_link": ""
           }
         },
-        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_Collection_4.jpg",
-            "image_link": ""
-          }
-        },
         "a31e14df-63fa-4f63-8d90-7db9b425ca4b": {
           "type": "video",
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/46ec2638d5ea47bd9ee7590306d78532.mp4"
-          }
-        },
-        "c9d6782b-3b58-46c9-b2db-cca1a1c37364": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6de829ebc45843908fa5988ce71952c8.mov"
           }
         },
         "c260f7b6-361a-45ae-bda3-26af59f25eb2": {
@@ -136,6 +122,28 @@
             "heading": "",
             "image": "shopify:\/\/shop_images\/YOSSI_RUNNING_6.jpg",
             "image_link": ""
+          }
+        },
+        "2ddbe881-992b-42b0-b29b-dedd821ff065": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/220425_Yossi5289.jpg",
+            "image_link": ""
+          }
+        },
+        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Collection_4.jpg",
+            "image_link": ""
+          }
+        },
+        "c9d6782b-3b58-46c9-b2db-cca1a1c37364": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6de829ebc45843908fa5988ce71952c8.mov"
           }
         },
         "979794d3-4fb1-4756-9896-41721d28d632": {
@@ -200,11 +208,11 @@
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2239fd77d98e47cb911b905e3547d239.mp4"
           }
         },
-        "2ddbe881-992b-42b0-b29b-dedd821ff065": {
+        "7f06ddf9-8500-4db9-bf7f-ed27e1172a00": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/220425_Yossi5289.jpg",
+            "image": "shopify:\/\/shop_images\/220425_Yossi5301.jpg",
             "image_link": ""
           }
         }
@@ -213,10 +221,11 @@
         "e39a08c4-8e19-468c-84a6-448eff8ce350",
         "2c324d9e-5949-4ff1-9102-5b21d3025bf0",
         "a483ae25-59bc-4f1d-95a5-3790753b24d3",
-        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
         "a31e14df-63fa-4f63-8d90-7db9b425ca4b",
-        "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
         "c260f7b6-361a-45ae-bda3-26af59f25eb2",
+        "2ddbe881-992b-42b0-b29b-dedd821ff065",
+        "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
+        "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
         "979794d3-4fb1-4756-9896-41721d28d632",
         "00db739d-447f-4214-9e42-b584a99a1f73",
         "84ce2a79-a690-4c7b-909c-e78fb73bac27",
@@ -225,7 +234,7 @@
         "b5103e0d-4a7e-407d-9aec-78fd484e133f",
         "53095479-0bb4-4144-bbee-9c2391d967c3",
         "ab13f67a-2e97-4be5-92a1-6c41065873a6",
-        "2ddbe881-992b-42b0-b29b-dedd821ff065"
+        "7f06ddf9-8500-4db9-bf7f-ed27e1172a00"
       ],
       "settings": {
         "orientation": "vertical",
