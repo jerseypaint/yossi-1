@@ -95,6 +95,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/yossi_favicon-01.jpg",
     "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
@@ -182,8 +183,22 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "yossi-header": {
+        "type": "yossi-header",
+        "settings": {
+          "menu": "main-menu"
+        }
+      },
+      "yossi-footer": {
+        "type": "yossi-footer",
+        "settings": {
+        }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
