@@ -24,7 +24,8 @@
           "type": "text",
           "settings": {
             "heading": "Artisan Denim",
-            "body": "Each pair is handmade with the upmost respect to Japanese craftsmanship and artistry.",
+            "body": "Produced in the world's denim capital, each pair is handmade with the utmost respect to Japanese craftsmanship and artistry.",
+            "show_button": false,
             "button_text": "",
             "button_link": ""
           }
@@ -74,6 +75,7 @@
           "settings": {
             "heading": "DENIM CAPITAL OF THE WORLD",
             "body": "Each pair is handmade with the upmost respect to Japanese craftsmanship and artistry.",
+            "show_button": false,
             "button_text": "",
             "button_link": ""
           }
