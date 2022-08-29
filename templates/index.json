@@ -281,6 +281,33 @@
       "settings": {
         "slideshow_type": "two_col"
       }
+    },
+    "16617337446d558e71": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "0949ea7e-fece-4a69-9478-e07ed3f60d8e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/220425_Yossi3940.jpg",
+            "image_link": ""
+          }
+        },
+        "343dd76b-bcec-457a-adf4-3a743c012748": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e476194b0e9b4683a750221286af1189.mov"
+          }
+        }
+      },
+      "block_order": [
+        "0949ea7e-fece-4a69-9478-e07ed3f60d8e",
+        "343dd76b-bcec-457a-adf4-3a743c012748"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
@@ -288,6 +315,7 @@
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
-    "1661733008ab269655"
+    "1661733008ab269655",
+    "16617337446d558e71"
   ]
 }
