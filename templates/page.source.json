@@ -18,107 +18,6 @@
         "scroll_prompt": "Discover now"
       }
     },
-    "16604368878e277d63": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "aa85fc9d-16b2-47ec-9d81-14c21814414e": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_1_9cd5cd17-45ed-4dcb-9e6f-f328e99537d6.jpg",
-            "image_link": ""
-          }
-        },
-        "091d16f0-42db-46d9-8396-b4b612f18162": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/yossi_2.jpg",
-            "image_link": ""
-          }
-        },
-        "d808cf2d-abb6-4880-9560-114d816c9bd8": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/yossi_women_alluring.jpg",
-            "image_link": ""
-          }
-        },
-        "d8f5ce88-0d81-404c-beb5-06fbca479415": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/wu.jpg",
-            "image_link": ""
-          }
-        },
-        "88f33a7e-189d-4cec-b2cf-6985ced10bc2": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/caso.jpg",
-            "image_link": ""
-          }
-        },
-        "7e0756f5-f57d-4bab-881d-c9f9ec504351": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/nerd.jpg",
-            "image_link": ""
-          }
-        },
-        "f7e401ed-968f-409c-ad92-fa3c493c9bf6": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/andy_78527905-2e59-449b-977e-39c7df71679f.jpg",
-            "image_link": ""
-          }
-        },
-        "9c5a7243-df39-4e78-90a3-6a5d71d62a6b": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/web_images.jpg",
-            "image_link": ""
-          }
-        },
-        "fb913579-ea51-4143-b6ef-05bf6dcb92bb": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/ramone.jpg",
-            "image_link": ""
-          }
-        },
-        "0f0bf6b4-7ba4-49c0-850e-c7778b223045": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/q.jpg",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "aa85fc9d-16b2-47ec-9d81-14c21814414e",
-        "091d16f0-42db-46d9-8396-b4b612f18162",
-        "d808cf2d-abb6-4880-9560-114d816c9bd8",
-        "d8f5ce88-0d81-404c-beb5-06fbca479415",
-        "88f33a7e-189d-4cec-b2cf-6985ced10bc2",
-        "7e0756f5-f57d-4bab-881d-c9f9ec504351",
-        "f7e401ed-968f-409c-ad92-fa3c493c9bf6",
-        "9c5a7243-df39-4e78-90a3-6a5d71d62a6b",
-        "fb913579-ea51-4143-b6ef-05bf6dcb92bb",
-        "0f0bf6b4-7ba4-49c0-850e-c7778b223045"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
-    },
     "166146610712daa2cf": {
       "type": "yossi-one-col",
       "blocks": {
@@ -372,11 +271,113 @@
         "orientation": "vertical",
         "padding": true
       }
+    },
+    "16604368878e277d63": {
+      "type": "yossi-one-col",
+      "disabled": true,
+      "blocks": {
+        "aa85fc9d-16b2-47ec-9d81-14c21814414e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_1_9cd5cd17-45ed-4dcb-9e6f-f328e99537d6.jpg",
+            "image_link": ""
+          }
+        },
+        "091d16f0-42db-46d9-8396-b4b612f18162": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_2.jpg",
+            "image_link": ""
+          }
+        },
+        "d808cf2d-abb6-4880-9560-114d816c9bd8": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_women_alluring.jpg",
+            "image_link": ""
+          }
+        },
+        "d8f5ce88-0d81-404c-beb5-06fbca479415": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/wu.jpg",
+            "image_link": ""
+          }
+        },
+        "88f33a7e-189d-4cec-b2cf-6985ced10bc2": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/caso.jpg",
+            "image_link": ""
+          }
+        },
+        "7e0756f5-f57d-4bab-881d-c9f9ec504351": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/nerd.jpg",
+            "image_link": ""
+          }
+        },
+        "f7e401ed-968f-409c-ad92-fa3c493c9bf6": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/andy_78527905-2e59-449b-977e-39c7df71679f.jpg",
+            "image_link": ""
+          }
+        },
+        "9c5a7243-df39-4e78-90a3-6a5d71d62a6b": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_images.jpg",
+            "image_link": ""
+          }
+        },
+        "fb913579-ea51-4143-b6ef-05bf6dcb92bb": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/ramone.jpg",
+            "image_link": ""
+          }
+        },
+        "0f0bf6b4-7ba4-49c0-850e-c7778b223045": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/q.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa85fc9d-16b2-47ec-9d81-14c21814414e",
+        "091d16f0-42db-46d9-8396-b4b612f18162",
+        "d808cf2d-abb6-4880-9560-114d816c9bd8",
+        "d8f5ce88-0d81-404c-beb5-06fbca479415",
+        "88f33a7e-189d-4cec-b2cf-6985ced10bc2",
+        "7e0756f5-f57d-4bab-881d-c9f9ec504351",
+        "f7e401ed-968f-409c-ad92-fa3c493c9bf6",
+        "9c5a7243-df39-4e78-90a3-6a5d71d62a6b",
+        "fb913579-ea51-4143-b6ef-05bf6dcb92bb",
+        "0f0bf6b4-7ba4-49c0-850e-c7778b223045"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
     "16590256478e958b4a",
-    "16604368878e277d63",
-    "166146610712daa2cf"
+    "166146610712daa2cf",
+    "16604368878e277d63"
   ]
 }
