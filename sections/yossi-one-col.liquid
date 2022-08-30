@@ -21,12 +21,17 @@
 
                 {% case block.type %}
                     {% when 'image' %}
+                        {% assign imagePaddingX = block.settings.x_padding %}
+                        {% assign imagePaddingY = block.settings.y_padding %}
+                        {% capture imageClasses %}
+                         absolute top-0 left-0 w-full h-full object-cover {{ imagePaddingX }} {{ imagePaddingY }}
+                        {% endcapture %}
                         <div class="relative w-full {{ block_ratio }}">
                             {% if block.settings.image_link %}
                                 <a href="{{ block.settings.image_link }}">
                             {% endif %}
                             
-                            {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: 'absolute top-0 left-0 w-full h-full object-cover' }}
+                            {{ block.settings.image | image_url: width: 1024 | image_tag: alt: '', class: imageClasses }}
                             
                             {% if block.settings.image_link %}
                             </a>
@@ -114,6 +119,54 @@
                 "type": "url",
                 "id": "image_link",
                 "label": "Image Link"
+            },
+            {
+                "type": "select",
+                "id": "x_padding",
+                "label": "Left/Right Padding",
+                "options": [
+                  {
+                    "value": "",
+                    "label": "None"
+                  },
+                  {
+                    "value": "px-4",
+                    "label": "Small"
+                  },
+                  {
+                    "value": "px-8",
+                    "label": "Medium"
+                  },
+                  {
+                    "value": "px-16",
+                    "label": "Large"
+                  }
+                ],
+                "default": ""
+            },
+            {
+                "type": "select",
+                "id": "y_padding",
+                "label": "Top/Bottom Padding",
+                "options": [
+                  {
+                    "value": "",
+                    "label": "None"
+                  },
+                  {
+                    "value": "py-4",
+                    "label": "Small"
+                  },
+                  {
+                    "value": "py-8",
+                    "label": "Medium"
+                  },
+                  {
+                    "value": "py-16",
+                    "label": "Large"
+                  }
+                ],
+                "default": ""
             }
         ]
     },
