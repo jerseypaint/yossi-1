@@ -192,6 +192,18 @@
       },
       "yossi-footer": {
         "type": "yossi-footer",
+        "blocks": {
+          "1c2d58f5-4909-4357-bbfd-e702eed4ad02": {
+            "type": "icon_link",
+            "settings": {
+              "icon_class": "fa-brands fa-instagram",
+              "link_url": "https:\/\/www.instagram.com\/yossi_homme\/"
+            }
+          }
+        },
+        "block_order": [
+          "1c2d58f5-4909-4357-bbfd-e702eed4ad02"
+        ],
         "settings": {
         }
       }
