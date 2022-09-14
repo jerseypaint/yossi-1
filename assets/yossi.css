@@ -711,6 +711,10 @@ p, .text-p {
   height: 110vh !important;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
 .w-full {
   width: 100%;
 }
