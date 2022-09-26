@@ -137,6 +137,7 @@
     },
     "166034813380d4f889": {
       "type": "yossi-one-col",
+      "disabled": true,
       "blocks": {
         "0a77589d-afe1-4cfe-b29b-00c6a7148738": {
           "type": "text",
@@ -159,6 +160,7 @@
     },
     "1660347391630978c8": {
       "type": "yossi-slideshow",
+      "disabled": true,
       "blocks": {
         "d2b64cf6-35ac-4f4f-aa1f-af4044981647": {
           "type": "image",
