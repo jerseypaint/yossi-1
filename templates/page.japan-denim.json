@@ -25,7 +25,7 @@
           "type": "text",
           "settings": {
             "heading": "YOSSI SHETRIT",
-            "body": "Yossi Shetrit is an American-Israeli fashion designer with a Menswear degree from F.I.T. Taking inspired by his upbringing in N.Y.C. and his pursuit of creating Art, Films, clothing, and Music.  ",
+            "body": "Yossi Shetrit is a first-generation American designer with an Israeli\/Moroccan background. Graduating from F.I.T with a Menswear design degree, Shetrit grew up between LI and downtown manhattan. Being exposed to 90'\/00's NYC culture at an early age it has influenced his taste and shaped his point of view on Music, Art, Film, and clothing.",
             "show_button": false,
             "button_text": "",
             "button_link": ""
@@ -36,7 +36,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/yossi_cutting_siccors_x1000.progressive_1.jpg",
-            "image_link": ""
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         },
         "111bc076-772b-4acc-973d-6f624244115c": {
@@ -45,7 +47,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/DSCF9153.jpg",
-            "image_link": ""
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         }
       },
