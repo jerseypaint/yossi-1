@@ -298,6 +298,16 @@
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2239fd77d98e47cb911b905e3547d239.mp4"
           }
+        },
+        "fa04c70e-b63c-4c30-b206-68a1368b9c9b": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_7.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
         }
       },
       "block_order": [
@@ -318,7 +328,8 @@
         "53095479-0bb4-4144-bbee-9c2391d967c3",
         "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
         "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
-        "ab13f67a-2e97-4be5-92a1-6c41065873a6"
+        "ab13f67a-2e97-4be5-92a1-6c41065873a6",
+        "fa04c70e-b63c-4c30-b206-68a1368b9c9b"
       ],
       "settings": {
         "orientation": "vertical",
@@ -392,6 +403,16 @@
             "y_padding": ""
           }
         },
+        "1f7adb3e-fbbb-45a5-891e-4cea164ab1e3": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_7.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "a954059c-206b-4f35-912c-5e4999f04dba": {
           "type": "image",
           "disabled": true,
@@ -460,6 +481,7 @@
         "49a0ec67-d53c-4ffa-b580-bf3d8da90da9",
         "343dd76b-bcec-457a-adf4-3a743c012748",
         "809a4105-70fa-4e5e-9627-1814dfee6fb9",
+        "1f7adb3e-fbbb-45a5-891e-4cea164ab1e3",
         "a954059c-206b-4f35-912c-5e4999f04dba",
         "3be488c6-6a66-4c74-9ae8-1e638e840313",
         "e6ee9282-1ce9-4d38-814c-06688f9f4c98",
