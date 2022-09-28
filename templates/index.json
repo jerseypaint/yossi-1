@@ -158,6 +158,16 @@
             "y_padding": ""
           }
         },
+        "3b6a4505-5e20-474c-b9d6-9486fc1fa80d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/running-man.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "c2b4feb1-08bc-452d-a54e-2457227e0e53": {
           "type": "image",
           "settings": {
@@ -308,22 +318,13 @@
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2239fd77d98e47cb911b905e3547d239.mp4"
           }
-        },
-        "3b6a4505-5e20-474c-b9d6-9486fc1fa80d": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/running-man.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
         }
       },
       "block_order": [
         "2c324d9e-5949-4ff1-9102-5b21d3025bf0",
         "e39a08c4-8e19-468c-84a6-448eff8ce350",
         "99515af9-6858-4dd6-b62b-733cc8f77bf9",
+        "3b6a4505-5e20-474c-b9d6-9486fc1fa80d",
         "c2b4feb1-08bc-452d-a54e-2457227e0e53",
         "a483ae25-59bc-4f1d-95a5-3790753b24d3",
         "a31e14df-63fa-4f63-8d90-7db9b425ca4b",
@@ -339,8 +340,7 @@
         "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
         "00db739d-447f-4214-9e42-b584a99a1f73",
         "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
-        "ab13f67a-2e97-4be5-92a1-6c41065873a6",
-        "3b6a4505-5e20-474c-b9d6-9486fc1fa80d"
+        "ab13f67a-2e97-4be5-92a1-6c41065873a6"
       ],
       "settings": {
         "orientation": "vertical",
