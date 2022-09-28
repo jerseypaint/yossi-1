@@ -167,6 +167,16 @@
             "y_padding": ""
           }
         },
+        "08b2e6a4-a0e3-48c5-9b9f-9b69bc42f02c": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/220427_Yossi26820.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "3b6a4505-5e20-474c-b9d6-9486fc1fa80d": {
           "type": "image",
           "disabled": true,
@@ -294,6 +304,7 @@
         "e39a08c4-8e19-468c-84a6-448eff8ce350",
         "99515af9-6858-4dd6-b62b-733cc8f77bf9",
         "5b74a155-0c82-410f-8121-09cd7ee7ed9f",
+        "08b2e6a4-a0e3-48c5-9b9f-9b69bc42f02c",
         "3b6a4505-5e20-474c-b9d6-9486fc1fa80d",
         "c2b4feb1-08bc-452d-a54e-2457227e0e53",
         "a31e14df-63fa-4f63-8d90-7db9b425ca4b",
