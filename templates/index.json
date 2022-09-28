@@ -22,7 +22,6 @@
       "blocks": {
         "12de462e-88b7-4389-af31-d87a52f88ac9": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/running-man.jpg",
@@ -158,8 +157,19 @@
             "y_padding": ""
           }
         },
+        "5b74a155-0c82-410f-8121-09cd7ee7ed9f": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/220427_Yossi27411.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "3b6a4505-5e20-474c-b9d6-9486fc1fa80d": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/running-man.jpg",
@@ -180,6 +190,7 @@
         },
         "a483ae25-59bc-4f1d-95a5-3790753b24d3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Yossi_Collection_12.jpg",
@@ -274,16 +285,6 @@
             "y_padding": ""
           }
         },
-        "5b74a155-0c82-410f-8121-09cd7ee7ed9f": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/220427_Yossi27411.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
         "c9d6782b-3b58-46c9-b2db-cca1a1c37364": {
           "type": "video",
           "disabled": true,
@@ -324,6 +325,7 @@
         "2c324d9e-5949-4ff1-9102-5b21d3025bf0",
         "e39a08c4-8e19-468c-84a6-448eff8ce350",
         "99515af9-6858-4dd6-b62b-733cc8f77bf9",
+        "5b74a155-0c82-410f-8121-09cd7ee7ed9f",
         "3b6a4505-5e20-474c-b9d6-9486fc1fa80d",
         "c2b4feb1-08bc-452d-a54e-2457227e0e53",
         "a483ae25-59bc-4f1d-95a5-3790753b24d3",
@@ -336,7 +338,6 @@
         "84ce2a79-a690-4c7b-909c-e78fb73bac27",
         "b5103e0d-4a7e-407d-9aec-78fd484e133f",
         "53095479-0bb4-4144-bbee-9c2391d967c3",
-        "5b74a155-0c82-410f-8121-09cd7ee7ed9f",
         "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
         "00db739d-447f-4214-9e42-b584a99a1f73",
         "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
