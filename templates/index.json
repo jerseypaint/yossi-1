@@ -245,11 +245,21 @@
             "y_padding": ""
           }
         },
-        "c260f7b6-361a-45ae-bda3-26af59f25eb2": {
+        "fa04c70e-b63c-4c30-b206-68a1368b9c9b": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/YOSSI_RUNNING_6.jpg",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_7.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "e581483d-e3fe-45c5-ae18-a5ac8c21a6b1": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/56A3941_copy.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -260,6 +270,16 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/220427_Yossi27251.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "c260f7b6-361a-45ae-bda3-26af59f25eb2": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/YOSSI_RUNNING_6.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -298,16 +318,6 @@
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2239fd77d98e47cb911b905e3547d239.mp4"
           }
-        },
-        "fa04c70e-b63c-4c30-b206-68a1368b9c9b": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_Film_7.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
         }
       },
       "block_order": [
@@ -323,13 +333,14 @@
         "3471243d-c985-4a08-8dab-152ffb3e2f6b",
         "2ddbe881-992b-42b0-b29b-dedd821ff065",
         "7f06ddf9-8500-4db9-bf7f-ed27e1172a00",
-        "c260f7b6-361a-45ae-bda3-26af59f25eb2",
+        "fa04c70e-b63c-4c30-b206-68a1368b9c9b",
+        "e581483d-e3fe-45c5-ae18-a5ac8c21a6b1",
         "b5103e0d-4a7e-407d-9aec-78fd484e133f",
+        "c260f7b6-361a-45ae-bda3-26af59f25eb2",
         "53095479-0bb4-4144-bbee-9c2391d967c3",
         "c9d6782b-3b58-46c9-b2db-cca1a1c37364",
         "58a6a0ab-7d10-42bb-a9e9-ba8c90aa0af1",
-        "ab13f67a-2e97-4be5-92a1-6c41065873a6",
-        "fa04c70e-b63c-4c30-b206-68a1368b9c9b"
+        "ab13f67a-2e97-4be5-92a1-6c41065873a6"
       ],
       "settings": {
         "orientation": "vertical",
