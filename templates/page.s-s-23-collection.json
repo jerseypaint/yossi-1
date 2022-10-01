@@ -76,11 +76,34 @@
       "settings": {
         "padding": true
       }
+    },
+    "1664589974a36f3788": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "a7a38763-40f2-42ad-8d90-7339c279f416": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-30_at_10.04.51_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "a7a38763-40f2-42ad-8d90-7339c279f416"
+      ],
+      "settings": {
+        "orientation": "horizontal",
+        "padding": true
+      }
     }
   },
   "order": [
     "main",
     "1664481041b0878a5f",
-    "16645899245d27789a"
+    "16645899245d27789a",
+    "1664589974a36f3788"
   ]
 }
