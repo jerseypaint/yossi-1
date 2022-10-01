@@ -39,32 +39,48 @@
             "x_padding": "",
             "y_padding": ""
           }
-        },
-        "979166b6-ba2d-48a0-9e5c-a663565469b3": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-30_at_10.04.51_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
         }
       },
       "block_order": [
         "19e0738a-9956-4bf3-ba41-0033e4a41747",
         "089c0168-abb2-47f2-a17d-11cec7f760a6",
-        "cfeb449d-b598-40e3-bba7-f5c5bb25af74",
-        "979166b6-ba2d-48a0-9e5c-a663565469b3"
+        "cfeb449d-b598-40e3-bba7-f5c5bb25af74"
       ],
       "settings": {
         "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "16645899245d27789a": {
+      "type": "yossi-two-col",
+      "blocks": {
+        "b49a1b9e-cdea-478b-bd2a-39321b5fb4f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yossi_Collection_4_c3b8f7f9-b3b2-4f08-b423-1c8fe35e8903.jpg",
+            "image_link": ""
+          }
+        },
+        "7fe465ca-0fb9-474e-84f9-1815c634f3f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/56A3255.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b49a1b9e-cdea-478b-bd2a-39321b5fb4f2",
+        "7fe465ca-0fb9-474e-84f9-1815c634f3f2"
+      ],
+      "settings": {
         "padding": true
       }
     }
   },
   "order": [
     "main",
-    "1664481041b0878a5f"
+    "1664481041b0878a5f",
+    "16645899245d27789a"
   ]
 }
