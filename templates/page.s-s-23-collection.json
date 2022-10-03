@@ -134,6 +134,7 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/new32_db3a1ca6-1902-4b11-92d8-b35a225e6835.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -143,6 +144,7 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/new36.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -152,6 +154,7 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/new43.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -161,6 +164,7 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/new42.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -170,6 +174,7 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/new44.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -179,6 +184,7 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/new45.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -188,9 +194,90 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/new47.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
+          }
+        },
+        "fbaa6405-eeca-4248-8526-829e94e41829": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/new54.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "85db34b6-64c5-4ab2-a18e-91111eb2dc8f": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/new55.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "eb5b568c-81b1-48b5-a521-91697fe971fe": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/new56.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "e8fb420e-6a45-4a3b-aa07-c11a5a1c3969": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/new59.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "5169ba9a-604e-4d7a-8658-3b9001caf950": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/new40.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "7f518dd0-7192-4c97-be45-78e1a10ab8cc": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/new41.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "1b13db02-7b95-4b74-90ae-84fc7d7abaf3": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/new48_8b0e13d3-c4e7-41f6-9dd6-723056f94d30.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "ff5a0ba5-3039-476b-9b22-c57294a7f3f2": {
+          "type": "text",
+          "settings": {
+            "heading": "A BOY IN YAFO",
+            "body": "",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
@@ -213,7 +300,15 @@
         "c99cdfdf-40a7-49aa-a648-6efc109fc259",
         "0deae4f9-7a9a-4076-9d63-761622a7d459",
         "ad340e3d-7eb0-4991-9b87-89c4408107be",
-        "acd6e6b8-828a-486d-83ab-e90b3ac183c2"
+        "acd6e6b8-828a-486d-83ab-e90b3ac183c2",
+        "fbaa6405-eeca-4248-8526-829e94e41829",
+        "85db34b6-64c5-4ab2-a18e-91111eb2dc8f",
+        "eb5b568c-81b1-48b5-a521-91697fe971fe",
+        "e8fb420e-6a45-4a3b-aa07-c11a5a1c3969",
+        "5169ba9a-604e-4d7a-8658-3b9001caf950",
+        "7f518dd0-7192-4c97-be45-78e1a10ab8cc",
+        "1b13db02-7b95-4b74-90ae-84fc7d7abaf3",
+        "ff5a0ba5-3039-476b-9b22-c57294a7f3f2"
       ],
       "settings": {
         "orientation": "vertical",
