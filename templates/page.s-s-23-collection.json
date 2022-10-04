@@ -140,6 +140,16 @@
             "y_padding": ""
           }
         },
+        "2125b3f8-e196-4169-ae5d-fd759e872935": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/YOSSI_COLLECTION_16_copy_2.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "5169ba9a-604e-4d7a-8658-3b9001caf950": {
           "type": "image",
           "settings": {
@@ -160,21 +170,21 @@
             "y_padding": ""
           }
         },
-        "2125b3f8-e196-4169-ae5d-fd759e872935": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/YOSSI_COLLECTION_16_copy_2.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
         "599e8d94-f00e-4b16-89b6-c53af6319b95": {
           "type": "image",
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/new32_db3a1ca6-1902-4b11-92d8-b35a225e6835.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "ad340e3d-7eb0-4991-9b87-89c4408107be": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/new45.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -200,6 +210,16 @@
             "y_padding": ""
           }
         },
+        "addd830b-8414-430b-a63e-6a10dafb38c3": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/new28_e52120cb-d8ab-452c-af49-87beb3d60962.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "daf99d36-ec27-45f5-ad78-6381c698cf33": {
           "type": "image",
           "settings": {
@@ -215,26 +235,6 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/new34.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "addd830b-8414-430b-a63e-6a10dafb38c3": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/new28_e52120cb-d8ab-452c-af49-87beb3d60962.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "ad340e3d-7eb0-4991-9b87-89c4408107be": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/new45.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -474,16 +474,16 @@
         "54de0ccd-3d60-4f43-8359-64782ebce668",
         "83b69d43-04f2-490d-b005-88c6dfaa605e",
         "e99be0c5-cefd-403c-8cda-8de2e52d1465",
+        "2125b3f8-e196-4169-ae5d-fd759e872935",
         "5169ba9a-604e-4d7a-8658-3b9001caf950",
         "7f518dd0-7192-4c97-be45-78e1a10ab8cc",
-        "2125b3f8-e196-4169-ae5d-fd759e872935",
         "599e8d94-f00e-4b16-89b6-c53af6319b95",
+        "ad340e3d-7eb0-4991-9b87-89c4408107be",
         "b23adc38-dc5d-4b95-8d75-03f285d51e20",
         "97cdc716-84cb-4ac4-b13e-49b307c852eb",
+        "addd830b-8414-430b-a63e-6a10dafb38c3",
         "daf99d36-ec27-45f5-ad78-6381c698cf33",
         "d4696872-f856-4771-98f9-fb8cc63291f0",
-        "addd830b-8414-430b-a63e-6a10dafb38c3",
-        "ad340e3d-7eb0-4991-9b87-89c4408107be",
         "0deae4f9-7a9a-4076-9d63-761622a7d459",
         "fbaa6405-eeca-4248-8526-829e94e41829",
         "85db34b6-64c5-4ab2-a18e-91111eb2dc8f",
