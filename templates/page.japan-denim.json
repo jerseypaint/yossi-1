@@ -244,7 +244,7 @@
         "7c032ea2-1299-4ede-96d9-08b42dd73adb"
       ],
       "settings": {
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "padding": true
       }
     }
