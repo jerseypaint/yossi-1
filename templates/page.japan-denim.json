@@ -235,7 +235,7 @@
         "cbe80501-1632-426a-a957-f5b5ef8cfc4f"
       ],
       "settings": {
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "padding": false
       }
     },
