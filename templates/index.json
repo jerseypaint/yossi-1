@@ -259,6 +259,7 @@
         },
         "fa04c70e-b63c-4c30-b206-68a1368b9c9b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Yossi_Film_7.jpg",
