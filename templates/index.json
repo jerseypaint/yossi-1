@@ -20,6 +20,16 @@
     "1654227163ed75e73e": {
       "type": "yossi-one-col",
       "blocks": {
+        "0d309be1-d087-4a5a-80ac-873c6c9690c8": {
+          "type": "text",
+          "settings": {
+            "heading": "24 Hours in Paris",
+            "body": "Inspired by art & travel, the fundamental collection by Yossi Shetrit is captured within 24 hours in Paris. Rooted in New York City, a spontaneous trip to Paris is evoked by curiosity & the artists that breathe life into it; fusing these references into a new way of thinking.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "12de462e-88b7-4389-af31-d87a52f88ac9": {
           "type": "image",
           "settings": {
@@ -83,6 +93,7 @@
         }
       },
       "block_order": [
+        "0d309be1-d087-4a5a-80ac-873c6c9690c8",
         "12de462e-88b7-4389-af31-d87a52f88ac9",
         "0bdca7f8-d104-4fc4-a09d-3890e11e6ae1",
         "30a31980-719f-4fa3-9050-ab5bfc1d107b",
@@ -227,6 +238,7 @@
         },
         "2ddbe881-992b-42b0-b29b-dedd821ff065": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/220425_Yossi5289.jpg",
