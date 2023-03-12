@@ -503,6 +503,16 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "c40fb100-5fcc-4486-9eee-99278859a75a": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "body": "",
+            "show_button": true,
+            "button_text": "S\/S 23 Collection",
+            "button_link": "shopify:\/\/pages\/s-s-23-colection"
+          }
         }
       },
       "block_order": [
@@ -516,7 +526,8 @@
         "1f7adb3e-fbbb-45a5-891e-4cea164ab1e3",
         "a954059c-206b-4f35-912c-5e4999f04dba",
         "8d1fba66-7524-42b4-9bdf-9ecebc673311",
-        "8eaa7066-42a7-4a5f-a27e-3140b0ac3ff3"
+        "8eaa7066-42a7-4a5f-a27e-3140b0ac3ff3",
+        "c40fb100-5fcc-4486-9eee-99278859a75a"
       ],
       "settings": {
         "orientation": "vertical",
