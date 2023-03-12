@@ -239,22 +239,37 @@
         "padding": false
       }
     },
-    "1660347711715dc60d": {
-      "type": "yossi-hero",
+    "f98baa1a-692a-43fd-bd83-7e2ffa952105": {
+      "type": "yossi-one-col",
       "blocks": {
-        "8d87b59e-3ee6-4e8e-86cc-1c48d7cbf5d1": {
+        "a4610d7b-4d6f-444d-9535-a9305dfef22b": {
           "type": "image",
           "settings": {
+            "heading": "",
             "image": "shopify:\/\/shop_images\/DSCF8707.jpg",
-            "image_link": ""
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "f5f28d17-17c8-470c-801d-baf237699eaa": {
+          "type": "text",
+          "settings": {
+            "heading": "Contact: Y@Yossi.co",
+            "body": "",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "8d87b59e-3ee6-4e8e-86cc-1c48d7cbf5d1"
+        "a4610d7b-4d6f-444d-9535-a9305dfef22b",
+        "f5f28d17-17c8-470c-801d-baf237699eaa"
       ],
       "settings": {
-        "scroll_prompt": "ho"
+        "orientation": "vertical",
+        "padding": true
       }
     }
   },
@@ -266,6 +281,6 @@
     "166034813380d4f889",
     "1660347391630978c8",
     "16603477905e39cad3",
-    "1660347711715dc60d"
+    "f98baa1a-692a-43fd-bd83-7e2ffa952105"
   ]
 }
