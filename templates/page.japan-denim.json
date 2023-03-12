@@ -199,24 +199,24 @@
     "16603477905e39cad3": {
       "type": "yossi-one-col",
       "blocks": {
-        "8f1e5d8c-e6ac-488a-a355-f6ba3670a493": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/DSCF8707.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
         "7c032ea2-1299-4ede-96d9-08b42dd73adb": {
           "type": "text",
           "settings": {
-            "heading": "Contact: y@yossi.co",
+            "heading": "",
             "body": "",
             "show_button": false,
             "button_text": "SIGN UP",
             "button_link": ""
+          }
+        },
+        "8f1e5d8c-e6ac-488a-a355-f6ba3670a493": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/3_1_edited_e128b981-7d02-4d88-ba82-bb1be8571ea7.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         },
         "cbe80501-1632-426a-a957-f5b5ef8cfc4f": {
@@ -230,12 +230,12 @@
         }
       },
       "block_order": [
-        "8f1e5d8c-e6ac-488a-a355-f6ba3670a493",
         "7c032ea2-1299-4ede-96d9-08b42dd73adb",
+        "8f1e5d8c-e6ac-488a-a355-f6ba3670a493",
         "cbe80501-1632-426a-a957-f5b5ef8cfc4f"
       ],
       "settings": {
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "padding": false
       }
     },
