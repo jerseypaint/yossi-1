@@ -582,6 +582,72 @@
         "padding": true
       }
     },
+    "d147383b-80a6-46c2-9c26-0843a5fc46b2": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "a60872e8-fab2-4a52-b3c0-0b52c9d4bf30": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0018_BYREDO_MC7_e0e166bb-1116-46ad-a120-b6a783eac240.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "06eed6bb-d931-46f1-a2ca-0a3e90462f04": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0020_4163921b77ba88621db563026d375df7_2bec0acd-1e69-465b-a000-dedb2b2f63d6.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "da3f395c-f72b-4b2c-a4a5-3a71227591a5": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0029_Damien-Hirst-16.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "f577f95f-5b74-46d5-8641-8c3b80bcab69": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0024_qmHzESW.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "f6cb1500-116a-4a39-88bd-4c03a653c214": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0037_9af43c1981b19e737326c905106baf55_d1e78957-4390-4133-ad27-ada82137849d.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "a60872e8-fab2-4a52-b3c0-0b52c9d4bf30",
+        "06eed6bb-d931-46f1-a2ca-0a3e90462f04",
+        "da3f395c-f72b-4b2c-a4a5-3a71227591a5",
+        "f577f95f-5b74-46d5-8641-8c3b80bcab69",
+        "f6cb1500-116a-4a39-88bd-4c03a653c214"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
     "16604368878e277d63": {
       "type": "yossi-one-col",
       "disabled": true,
@@ -708,6 +774,7 @@
   "order": [
     "16590256478e958b4a",
     "166146610712daa2cf",
+    "d147383b-80a6-46c2-9c26-0843a5fc46b2",
     "16604368878e277d63"
   ]
 }
