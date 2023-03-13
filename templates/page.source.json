@@ -93,6 +93,7 @@
         },
         "f36c790c-00cb-4018-8658-72ea544634cb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/web_232.jpg",
