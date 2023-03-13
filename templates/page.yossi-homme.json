@@ -1,0 +1,780 @@
+{
+  "sections": {
+    "16590256478e958b4a": {
+      "type": "yossi-hero",
+      "disabled": true,
+      "blocks": {
+        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/48cd7074920647438b3c6388d28ad227.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84"
+      ],
+      "settings": {
+        "scroll_prompt": "Discover now"
+      }
+    },
+    "166146610712daa2cf": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "4336714b-26b9-4c87-842e-38d271911612": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_fine_art.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "b883ed77-4339-4b8d-adda-28576e82dadd": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/wutang.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "52211cb5-2bc9-431a-bedd-29c45ee159de": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/cobain_1_32a16bc6-d80d-437d-aa73-41c6e8891bf3.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "a1b389ba-cb54-4552-aa95-f3df76f7d92b": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/american_flaggg_9f5bb4b4-2dba-4f24-b6b1-a34480025c07.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "90af989d-c60d-4f99-9032-908da92b0e3d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/biggie_1111_88c13c95-b593-4e9c-a41a-9c8c00484eef.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "639d18d8-e712-483f-a6a8-eb7950ea870f": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/la_haines.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "5f6c282b-1105-4f0f-8d81-ea1b1b80712d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/basquiat_1ccc4132-8dfe-4688-baf7-cb038d8a60fa.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "f36c790c-00cb-4018-8658-72ea544634cb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_232.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "11dd6e9d-56de-4ada-aea4-dd5280217d74": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0044_Layer_10.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "7a34cadb-d8d5-4f34-943a-bf37c5cbeed3": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/prince_bcda90ec-db7a-4454-b251-7899b9fff619.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "0b101508-7d8e-42a3-a65c-41b00f5bc56e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/picasso_1111.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "0bf68223-7661-4e36-afde-3f640b101224": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_images-Recovered.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "1c01d28e-25d6-44b4-a299-51a4713d3449": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0025_9019c9b4e7983129b69eb2ff0d1bec38b52563de_99812a71-3448-47c1-9680-9a555e62ca8c.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "9735095f-dd72-4c84-963f-0e1b422715a1": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/child_bd25f856-b27f-41a2-8d54-ac1fead3fac3.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "bb3541be-fa45-42be-b5a1-924110dfc5ab": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/4444.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "6b9a775f-0e16-4e7c-bbf3-1ce94d8c80ef": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/skate_2222.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "a1ca4a82-e256-4145-b470-4a90b95b8f90": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_image_1.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "5097e7de-98a7-4fdd-9b3b-efe3a48f9a92": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/blow_8d20152f-6f32-4b78-8d9d-ce9ebdbbc60a.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "086c42dc-96de-472a-964c-8fa3e10b0d13": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/sonic_youth.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "861f7a01-5f4e-4cbc-aef5-a9e762dd1906": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/joey_ramone.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "118be920-be04-4967-9b50-a308a471748a": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0039_6cb32e4ecf28badf2e83405e8238266e_c72aa60c-b17b-4533-b57c-bc4d07350010.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "a9c87812-7a45-4436-b112-00c8afbb010e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0045_Screen_Shot_2023-03-11_at_7.56.02_PM.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "6f08bc65-c1d5-4dc9-9547-085cffe38340": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/damir.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "4e71d28d-49d9-4d61-ac13-140f13c613df": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/blondie_aedc0613-e79c-44ce-ad1a-a5edf663be22.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "1b644496-2524-41f3-a897-5073156206a6": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/mobbb.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "007335f8-8a97-410e-bdd6-1be864e7f76e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/vickyyyy.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "fad281a3-06a7-402d-9a2d-ef547df0541d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/fine_art_111_6479ba3f-1047-4e44-bd5f-fc090813c247.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "9d34f9f9-714f-4c6b-b2a1-8c238049f314": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/imagee_women.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "7a5a3752-defa-4a98-9c3a-d5264e7f8433": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/girl.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "3e10991e-2048-4411-ac2c-2dce70eb3d45": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/mobbb.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "91536399-6fa5-4d96-8a38-3d884c661872": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/pearl_paint_52f6e10c-4927-4642-8903-6fc2c220b281.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "de0ca0bc-b74c-4795-afda-210d94c19614": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/picasso.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "62e569f3-8fb1-45c0-9ffb-657a5e12a719": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_new.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "62565c4c-e44d-46bc-a41d-62aa02739c67": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0033_c1720abc1f32706dcc5158d72aff6166.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "f01f4774-4cfb-433b-97e2-72553a3101d2": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0004_Layer_8.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "c74f1b55-13cf-45bc-8cac-81d262d34e5f": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0005_tumblr_nyowguR5CG1t1yfwuo1_500.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "b086703e-3bcc-4040-88c3-7666d822e4ed": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0027_Screen_Shot_2023-03-11_at_8.08.43_PM.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "ba254c68-26ff-44d4-859c-d2e01cb8d338": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0045_Screen_Shot_2023-01-13_at_12.39.22_AM.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "5152757e-6218-443d-9b78-e2a232e30383": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0050_web_images_e10048e8-0278-4b91-9697-7ab6946eedd2.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "4ed3ff7b-ea7c-499c-bf8a-19ce32a8a7e8": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0048_Screen_Shot_2022-01-18_at_1.23.03_AM_c7e04e14-534e-483e-a147-3cb4ca6251d8.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "7ad742cd-fbdf-44a5-bc6b-69663740989f": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0053_asa_e64e9147-6fcf-4db0-8c24-623e61c95f39.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "1365fa25-d207-44c3-baea-e3f3c8d720f8": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0002_38_001_8d8c79e8-3e4a-4255-895c-730a2cfbca93.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "cae4a5f4-d17d-49ab-a144-8b5f444bf041": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0000_Screen_Shot_2022-10-03_at_1.21.52_AM_d9f198a7-61fe-453b-af00-47d725b628cc.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "ac46bdf2-9623-469b-b52c-5b356d15eece": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0003_tumblr_nya3zkzybF1t1yfwuo1_500.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "3c172cac-b053-4a04-a2bf-cd3cf8037256": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0009_tumblr_o4gb9ixgaN1t1yfwuo1_500_6d93b783-1231-48bf-8677-7849b03cc10e.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "d7e780e0-b2a8-486f-8a4f-2a4f1884132e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0010_Layer_7_0fd40f45-4700-4ad3-91c8-93d353325461.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "dff6df59-ebb8-4227-b738-46ae68cf2c98": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0013_LUCIEN-CLERGUE-1957-Nude-in-the-Sea-Carmargue-12-x-8.75-gelatin-silver-print-LC-65460-1-739x1024_3098bcb2-2531-41b0-8d48-f29bd15c7310.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "fa35f1c2-147a-463c-9d76-172f19554e87": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0015_Dog2_photos_v2_x2-2-600x450_7cc65ef2-957e-4602-9c6d-4a3d4c8a4f21.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "737a890e-ca16-43ce-a8b7-8a74b1fd3889": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0016_Elu4TdhXEAEcy0P_ffdc2ec8-2483-4d18-98eb-ced6e46bf279.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "1cc640d7-d6c2-4a1e-9935-dd2a274ef3a5": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0017_ccaaa8f3db1ac7128f76319b733091cf.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "4336714b-26b9-4c87-842e-38d271911612",
+        "b883ed77-4339-4b8d-adda-28576e82dadd",
+        "52211cb5-2bc9-431a-bedd-29c45ee159de",
+        "a1b389ba-cb54-4552-aa95-f3df76f7d92b",
+        "90af989d-c60d-4f99-9032-908da92b0e3d",
+        "639d18d8-e712-483f-a6a8-eb7950ea870f",
+        "5f6c282b-1105-4f0f-8d81-ea1b1b80712d",
+        "f36c790c-00cb-4018-8658-72ea544634cb",
+        "11dd6e9d-56de-4ada-aea4-dd5280217d74",
+        "7a34cadb-d8d5-4f34-943a-bf37c5cbeed3",
+        "0b101508-7d8e-42a3-a65c-41b00f5bc56e",
+        "0bf68223-7661-4e36-afde-3f640b101224",
+        "1c01d28e-25d6-44b4-a299-51a4713d3449",
+        "9735095f-dd72-4c84-963f-0e1b422715a1",
+        "bb3541be-fa45-42be-b5a1-924110dfc5ab",
+        "6b9a775f-0e16-4e7c-bbf3-1ce94d8c80ef",
+        "a1ca4a82-e256-4145-b470-4a90b95b8f90",
+        "5097e7de-98a7-4fdd-9b3b-efe3a48f9a92",
+        "086c42dc-96de-472a-964c-8fa3e10b0d13",
+        "861f7a01-5f4e-4cbc-aef5-a9e762dd1906",
+        "118be920-be04-4967-9b50-a308a471748a",
+        "a9c87812-7a45-4436-b112-00c8afbb010e",
+        "6f08bc65-c1d5-4dc9-9547-085cffe38340",
+        "4e71d28d-49d9-4d61-ac13-140f13c613df",
+        "1b644496-2524-41f3-a897-5073156206a6",
+        "007335f8-8a97-410e-bdd6-1be864e7f76e",
+        "fad281a3-06a7-402d-9a2d-ef547df0541d",
+        "9d34f9f9-714f-4c6b-b2a1-8c238049f314",
+        "7a5a3752-defa-4a98-9c3a-d5264e7f8433",
+        "3e10991e-2048-4411-ac2c-2dce70eb3d45",
+        "91536399-6fa5-4d96-8a38-3d884c661872",
+        "de0ca0bc-b74c-4795-afda-210d94c19614",
+        "62e569f3-8fb1-45c0-9ffb-657a5e12a719",
+        "62565c4c-e44d-46bc-a41d-62aa02739c67",
+        "f01f4774-4cfb-433b-97e2-72553a3101d2",
+        "c74f1b55-13cf-45bc-8cac-81d262d34e5f",
+        "b086703e-3bcc-4040-88c3-7666d822e4ed",
+        "ba254c68-26ff-44d4-859c-d2e01cb8d338",
+        "5152757e-6218-443d-9b78-e2a232e30383",
+        "4ed3ff7b-ea7c-499c-bf8a-19ce32a8a7e8",
+        "7ad742cd-fbdf-44a5-bc6b-69663740989f",
+        "1365fa25-d207-44c3-baea-e3f3c8d720f8",
+        "cae4a5f4-d17d-49ab-a144-8b5f444bf041",
+        "ac46bdf2-9623-469b-b52c-5b356d15eece",
+        "3c172cac-b053-4a04-a2bf-cd3cf8037256",
+        "d7e780e0-b2a8-486f-8a4f-2a4f1884132e",
+        "dff6df59-ebb8-4227-b738-46ae68cf2c98",
+        "fa35f1c2-147a-463c-9d76-172f19554e87",
+        "737a890e-ca16-43ce-a8b7-8a74b1fd3889",
+        "1cc640d7-d6c2-4a1e-9935-dd2a274ef3a5"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "d147383b-80a6-46c2-9c26-0843a5fc46b2": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "a60872e8-fab2-4a52-b3c0-0b52c9d4bf30": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0018_BYREDO_MC7_e0e166bb-1116-46ad-a120-b6a783eac240.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "06eed6bb-d931-46f1-a2ca-0a3e90462f04": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0020_4163921b77ba88621db563026d375df7_2bec0acd-1e69-465b-a000-dedb2b2f63d6.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "da3f395c-f72b-4b2c-a4a5-3a71227591a5": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0029_Damien-Hirst-16.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "f577f95f-5b74-46d5-8641-8c3b80bcab69": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0024_qmHzESW.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "f6cb1500-116a-4a39-88bd-4c03a653c214": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0037_9af43c1981b19e737326c905106baf55_d1e78957-4390-4133-ad27-ada82137849d.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "a60872e8-fab2-4a52-b3c0-0b52c9d4bf30",
+        "06eed6bb-d931-46f1-a2ca-0a3e90462f04",
+        "da3f395c-f72b-4b2c-a4a5-3a71227591a5",
+        "f577f95f-5b74-46d5-8641-8c3b80bcab69",
+        "f6cb1500-116a-4a39-88bd-4c03a653c214"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "16604368878e277d63": {
+      "type": "yossi-one-col",
+      "disabled": true,
+      "blocks": {
+        "aa85fc9d-16b2-47ec-9d81-14c21814414e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_1_9cd5cd17-45ed-4dcb-9e6f-f328e99537d6.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "091d16f0-42db-46d9-8396-b4b612f18162": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_2.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "d808cf2d-abb6-4880-9560-114d816c9bd8": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_women_alluring.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "d8f5ce88-0d81-404c-beb5-06fbca479415": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/wu.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "88f33a7e-189d-4cec-b2cf-6985ced10bc2": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/caso.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "7e0756f5-f57d-4bab-881d-c9f9ec504351": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/nerd.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "f7e401ed-968f-409c-ad92-fa3c493c9bf6": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/andy_78527905-2e59-449b-977e-39c7df71679f.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "9c5a7243-df39-4e78-90a3-6a5d71d62a6b": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_images.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "fb913579-ea51-4143-b6ef-05bf6dcb92bb": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/ramone.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "0f0bf6b4-7ba4-49c0-850e-c7778b223045": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/q.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa85fc9d-16b2-47ec-9d81-14c21814414e",
+        "091d16f0-42db-46d9-8396-b4b612f18162",
+        "d808cf2d-abb6-4880-9560-114d816c9bd8",
+        "d8f5ce88-0d81-404c-beb5-06fbca479415",
+        "88f33a7e-189d-4cec-b2cf-6985ced10bc2",
+        "7e0756f5-f57d-4bab-881d-c9f9ec504351",
+        "f7e401ed-968f-409c-ad92-fa3c493c9bf6",
+        "9c5a7243-df39-4e78-90a3-6a5d71d62a6b",
+        "fb913579-ea51-4143-b6ef-05bf6dcb92bb",
+        "0f0bf6b4-7ba4-49c0-850e-c7778b223045"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    }
+  },
+  "order": [
+    "16590256478e958b4a",
+    "166146610712daa2cf",
+    "d147383b-80a6-46c2-9c26-0843a5fc46b2",
+    "16604368878e277d63"
+  ]
+}
