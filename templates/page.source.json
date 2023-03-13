@@ -344,6 +344,7 @@
         },
         "62e569f3-8fb1-45c0-9ffb-657a5e12a719": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/web_new.jpg",
