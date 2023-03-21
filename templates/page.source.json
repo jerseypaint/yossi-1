@@ -604,6 +604,12 @@
             "y_padding": ""
           }
         },
+        "c8b09bc7-d75e-4ef8-9e88-18a6269b897a": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=bZ-OKcd9CvE"
+          }
+        },
         "06eed6bb-d931-46f1-a2ca-0a3e90462f04": {
           "type": "image",
           "settings": {
@@ -723,17 +729,12 @@
             "x_padding": "",
             "y_padding": ""
           }
-        },
-        "c8b09bc7-d75e-4ef8-9e88-18a6269b897a": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f5df0b44a10e4efa875898b0190c297c.mov"
-          }
         }
       },
       "block_order": [
         "f66033b7-ce34-465a-9872-35c4aa9fb26f",
         "a60872e8-fab2-4a52-b3c0-0b52c9d4bf30",
+        "c8b09bc7-d75e-4ef8-9e88-18a6269b897a",
         "06eed6bb-d931-46f1-a2ca-0a3e90462f04",
         "da3f395c-f72b-4b2c-a4a5-3a71227591a5",
         "f577f95f-5b74-46d5-8641-8c3b80bcab69",
@@ -745,8 +746,7 @@
         "bda7d1ec-fd53-4012-b536-ce64b4d55013",
         "a0bbf108-110c-4e0c-9510-97ae3a737cbd",
         "26b0d68e-ccf0-47e4-9760-bb3bf6dac711",
-        "e797ba73-61df-4b2b-865f-9caccaea35ad",
-        "c8b09bc7-d75e-4ef8-9e88-18a6269b897a"
+        "e797ba73-61df-4b2b-865f-9caccaea35ad"
       ],
       "settings": {
         "orientation": "vertical",
