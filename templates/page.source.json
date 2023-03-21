@@ -121,21 +121,21 @@
             "y_padding": ""
           }
         },
-        "5f6c282b-1105-4f0f-8d81-ea1b1b80712d": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/basquiat_1ccc4132-8dfe-4688-baf7-cb038d8a60fa.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
         "11dd6e9d-56de-4ada-aea4-dd5280217d74": {
           "type": "image",
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/web_0044_Layer_10.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "5f6c282b-1105-4f0f-8d81-ea1b1b80712d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/basquiat_1ccc4132-8dfe-4688-baf7-cb038d8a60fa.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -533,8 +533,8 @@
         "7ad742cd-fbdf-44a5-bc6b-69663740989f",
         "62565c4c-e44d-46bc-a41d-62aa02739c67",
         "639d18d8-e712-483f-a6a8-eb7950ea870f",
-        "5f6c282b-1105-4f0f-8d81-ea1b1b80712d",
         "11dd6e9d-56de-4ada-aea4-dd5280217d74",
+        "5f6c282b-1105-4f0f-8d81-ea1b1b80712d",
         "1365fa25-d207-44c3-baea-e3f3c8d720f8",
         "0b101508-7d8e-42a3-a65c-41b00f5bc56e",
         "b086703e-3bcc-4040-88c3-7666d822e4ed",
