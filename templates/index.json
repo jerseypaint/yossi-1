@@ -6,12 +6,15 @@
         "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/edb42335c65f4631a51bd5a018da37e4.mp4"
+            "video_url": ""
           }
         }
       },
       "block_order": [
         "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "scroll_prompt": "Discover Now"
