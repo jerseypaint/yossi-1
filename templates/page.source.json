@@ -176,7 +176,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/skate_2222.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_4144.png",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -585,6 +585,16 @@
     "d147383b-80a6-46c2-9c26-0843a5fc46b2": {
       "type": "yossi-one-col",
       "blocks": {
+        "f66033b7-ce34-465a-9872-35c4aa9fb26f": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/yossi_fine_art.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "a60872e8-fab2-4a52-b3c0-0b52c9d4bf30": {
           "type": "image",
           "settings": {
@@ -634,14 +644,26 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "2616d5e7-df09-41d0-85c2-aa963903e65f": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0003_tumblr_nya3zkzybF1t1yfwuo1_500.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
         }
       },
       "block_order": [
+        "f66033b7-ce34-465a-9872-35c4aa9fb26f",
         "a60872e8-fab2-4a52-b3c0-0b52c9d4bf30",
         "06eed6bb-d931-46f1-a2ca-0a3e90462f04",
         "da3f395c-f72b-4b2c-a4a5-3a71227591a5",
         "f577f95f-5b74-46d5-8641-8c3b80bcab69",
-        "f6cb1500-116a-4a39-88bd-4c03a653c214"
+        "f6cb1500-116a-4a39-88bd-4c03a653c214",
+        "2616d5e7-df09-41d0-85c2-aa963903e65f"
       ],
       "settings": {
         "orientation": "vertical",
