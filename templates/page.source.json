@@ -712,6 +712,16 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "e797ba73-61df-4b2b-865f-9caccaea35ad": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_0034_Screen_Shot_2023-03-11_at_8.03.52_PM.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
         }
       },
       "block_order": [
@@ -727,7 +737,8 @@
         "3badb397-e8c8-46d0-abba-85d03fbb4264",
         "bda7d1ec-fd53-4012-b536-ce64b4d55013",
         "a0bbf108-110c-4e0c-9510-97ae3a737cbd",
-        "26b0d68e-ccf0-47e4-9760-bb3bf6dac711"
+        "26b0d68e-ccf0-47e4-9760-bb3bf6dac711",
+        "e797ba73-61df-4b2b-865f-9caccaea35ad"
       ],
       "settings": {
         "orientation": "vertical",
