@@ -706,6 +706,7 @@
         },
         "26b0d68e-ccf0-47e4-9760-bb3bf6dac711": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image_link": "",
@@ -721,6 +722,12 @@
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
+          }
+        },
+        "c8b09bc7-d75e-4ef8-9e88-18a6269b897a": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f5df0b44a10e4efa875898b0190c297c.mov"
           }
         }
       },
@@ -738,7 +745,8 @@
         "bda7d1ec-fd53-4012-b536-ce64b4d55013",
         "a0bbf108-110c-4e0c-9510-97ae3a737cbd",
         "26b0d68e-ccf0-47e4-9760-bb3bf6dac711",
-        "e797ba73-61df-4b2b-865f-9caccaea35ad"
+        "e797ba73-61df-4b2b-865f-9caccaea35ad",
+        "c8b09bc7-d75e-4ef8-9e88-18a6269b897a"
       ],
       "settings": {
         "orientation": "vertical",
