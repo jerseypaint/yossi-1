@@ -2,13 +2,25 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "c06494c8-8b67-4719-a925-2190afba4385": {
+      "type": "password-template",
+      "settings": {
+        "show_logo": true,
+        "desktop_bg": "shopify:\/\/shop_images\/230123_YossiHomme877711-Recovered_0005_Layer_4_copy_65768c6c-4e50-4d0d-b76f-1102bcebd142.jpg",
+        "desktop_bg_video": "",
+        "mobile_bg": "shopify:\/\/shop_images\/230123_YossiHomme877711-Recovered_0005_Layer_4_copy_65768c6c-4e50-4d0d-b76f-1102bcebd142.jpg",
+        "mobile_bg_video": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "c06494c8-8b67-4719-a925-2190afba4385"
   ]
 }
