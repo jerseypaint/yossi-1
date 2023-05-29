@@ -579,6 +579,72 @@
         "padding": true
       }
     },
+    "e352651b-1f06-43f4-b133-d210054d9f19": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "052c110b-2c9c-433a-94a8-2c0c1d3cb17a": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_2_new.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "32484376-6df1-488b-a9e6-bc7ca48cb056": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_6_new.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "66f709c9-62b2-46c4-9eb5-cb1488f54413": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_55.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "5c5625c6-0ab7-468b-a37c-01487e1097de": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/web_545.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "bcdbcfb7-0f11-4e80-a535-6bc46c2e0908": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/webbb.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "052c110b-2c9c-433a-94a8-2c0c1d3cb17a",
+        "32484376-6df1-488b-a9e6-bc7ca48cb056",
+        "66f709c9-62b2-46c4-9eb5-cb1488f54413",
+        "5c5625c6-0ab7-468b-a37c-01487e1097de",
+        "bcdbcfb7-0f11-4e80-a535-6bc46c2e0908"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
     "d147383b-80a6-46c2-9c26-0843a5fc46b2": {
       "type": "yossi-one-col",
       "blocks": {
@@ -879,6 +945,7 @@
   "order": [
     "16590256478e958b4a",
     "166146610712daa2cf",
+    "e352651b-1f06-43f4-b133-d210054d9f19",
     "d147383b-80a6-46c2-9c26-0843a5fc46b2",
     "16604368878e277d63"
   ]
