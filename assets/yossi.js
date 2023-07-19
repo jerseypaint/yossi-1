@@ -3,6 +3,7 @@ const menuDrawerButton      = document.getElementById('menu-drawer-button');
 const menuDrawerButtonSpans = document.querySelectorAll("#menu-drawer-button span");
 const menuDrawer            = document.getElementById('menu-drawer');
 const allVideos             = document.querySelectorAll('.video-wrapper');
+const isHomePage            = document.querySelector('.is-home-page');
 
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
@@ -16,13 +17,20 @@ function scrollFunction() {
 
     } else {
         if (!menuDrawer.classList.contains('menu-open')) {
-            header.classList.remove("text-black", "bg-white");
-            header.classList.add("text-white", "bg-transparent");
-    
-            menuDrawerButtonSpans.forEach((span) => {
-                span.classList.remove("bg-black");
-                span.classList.add("bg-white");
-            })
+                header.classList.remove("bg-white");
+                header.classList.add("bg-transparent");
+            // if (isHomePage){
+            //     header.classList.remove("text-black", "bg-white");
+            //     header.classList.add("text-white", "bg-transparent");
+        
+            //     menuDrawerButtonSpans.forEach((span) => {
+            //         span.classList.remove("bg-black");
+            //         span.classList.add("bg-white");
+            //     })
+            // } else {
+            //     header.classList.remove("bg-white");
+            //     header.classList.add("bg-transparent");
+            // }
         }
     }
 } 
@@ -74,15 +82,15 @@ if (menuDrawerButton) {
         
     
         if (header.classList.contains('bg-white')) {
-            if (document.documentElement.scrollTop < 50) {
-                header.classList.add("text-white", "bg-transparent");
-                header.classList.remove("text-black", "bg-white");
+            // if (document.documentElement.scrollTop < 50) {
+            //     header.classList.add("text-white", "bg-transparent");
+            //     header.classList.remove("text-black", "bg-white");
         
-                menuDrawerButtonSpans.forEach((span) => {
-                    span.classList.remove("bg-black");
-                    span.classList.add("bg-white");
-                })
-            }
+            //     menuDrawerButtonSpans.forEach((span) => {
+            //         span.classList.remove("bg-black");
+            //         span.classList.add("bg-white");
+            //     })
+            // }
         } else {
             header.classList.remove("text-white", "bg-transparent");
             header.classList.add("text-black", "bg-white");

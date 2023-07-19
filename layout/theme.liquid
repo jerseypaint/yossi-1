@@ -30,7 +30,7 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
+    <script src="{{ 'splide.min.js' | asset_url }}" defer="defer"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://kit.fontawesome.com/12bece9e9b.js" crossorigin="anonymous" defer="defer"></script>
 
@@ -42,8 +42,7 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
-
-    {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+    {{ 'splide.min.css' | asset_url | stylesheet_tag }}
     {{ 'yossi.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
@@ -69,6 +68,10 @@
       {{ "accessibility.skip_to_text" | t }}
     </a>
     {% section 'yossi-header' %}
+
+    {% if request.page_type == 'index' %}
+      <div class="is-home-page"></div>
+    {% endif %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>

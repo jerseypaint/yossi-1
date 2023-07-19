@@ -18,7 +18,12 @@ module.exports = {
         lg: '715px',
         xl: '715px',
         '2xl': '715px',
-      }
+      },
+      padding: {
+        DEFAULT: '1.5rem',
+        sm: '1.5rem',
+        lg: '0',
+      },
     },
     extend: {
       spacing: {
@@ -56,6 +61,9 @@ module.exports = {
         'full': '100%'
       },
       colors: {
+        'blue'    : '#0000EE',
+        'silver'  : 'silver',
+        'buttonface' : 'buttonface'
       },
       fontSize: {
         '38px-40px': ['2.375rem', '2.5rem'],
@@ -63,7 +71,8 @@ module.exports = {
       },
       fontFamily: {
         'jost': ['Jost, sans-serif'],
-        'helvetica': ['Helvetica Neue, Helvetica, sans-serif']
+        'helvetica': ['Helvetica Neue, Helvetica, sans-serif'],
+        'proggy-vector': ['Proggy Vector', 'monospace']
       },
     },
   },
