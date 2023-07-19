@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "npx tailwindcss -i ./assets/tailwind.css -o ./assets/yossi.css --watch"
+    "dev": "npx tailwindcss -i ./assets/tailwind.css -o ./assets/yossi.css --watch"
   },
   "repository": {
     "type": "git",

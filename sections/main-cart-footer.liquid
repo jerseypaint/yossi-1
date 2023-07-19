@@ -3,7 +3,7 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 
-<div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
+<div class="container pt-6 pb-10 page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
   <div>
     <div class="cart__footer">
       {%- if settings.show_cart_note -%}
@@ -59,8 +59,11 @@
                   </button>
                 </noscript>
 
-                <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
-                  {{ 'sections.cart.checkout' | t }}
+                <button type="submit" id="checkout" class="cart__checkout-button button button--system my-6" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
+                  <span class="button--inner">
+                    {{ 'sections.cart.checkout' | t }}
+                  </span>
+                  
                 </button>
               </div>
 
