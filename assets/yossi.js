@@ -8,16 +8,17 @@ const isHomePage            = document.querySelector('.is-home-page');
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        header.classList.remove("text-white", "bg-transparent");
-        header.classList.add("text-black", "bg-white");
+        header.classList.remove("text-white");
+        header.classList.add("text-black");
+
         menuDrawerButtonSpans.forEach((span) => {
-            span.classList.remove("bg-white");
-            span.classList.add("bg-black");
+            //span.classList.remove("bg-white");
+            //span.classList.add("bg-black");
         })
 
     } else {
         if (!menuDrawer.classList.contains('menu-open')) {
-                header.classList.remove("bg-white");
+                //header.classList.remove("bg-white");
                 header.classList.add("bg-transparent");
             // if (isHomePage){
             //     header.classList.remove("text-black", "bg-white");
@@ -39,8 +40,12 @@ if (menuDrawerButton) {
     menuDrawerButton.addEventListener('click', event => {
 
         if (menuDrawer.classList.contains('menu-open')) {
+            
             menuDrawer.classList.add('menu-fade-out');
             menuDrawer.classList.remove('menu-fade-in');
+
+            header.classList.add("bg-transparent");
+            header.classList.remove("bg-white");
     
             menuDrawerButtonSpans.forEach((span, index) => {
     
@@ -61,6 +66,9 @@ if (menuDrawerButton) {
         } else {
             menuDrawer.classList.add('menu-fade-in');
             menuDrawer.classList.remove('menu-fade-out');
+
+            header.classList.remove("bg-transparent");
+            header.classList.add("bg-white");
     
             menuDrawerButtonSpans.forEach((span, index) => {
      
@@ -92,13 +100,13 @@ if (menuDrawerButton) {
             //     })
             // }
         } else {
-            header.classList.remove("text-white", "bg-transparent");
-            header.classList.add("text-black", "bg-white");
+            // header.classList.remove("text-white", "bg-transparent");
+            // header.classList.add("text-black", "bg-white");
     
-            menuDrawerButtonSpans.forEach((span) => {
-                span.classList.add("bg-black");
-                span.classList.remove("bg-white");
-            })
+            // menuDrawerButtonSpans.forEach((span) => {
+            //     span.classList.add("bg-black");
+            //     span.classList.remove("bg-white");
+            // })
         }
         // header.classList.toggle("text-black");
         // header.classList.toggle("bg-white");
