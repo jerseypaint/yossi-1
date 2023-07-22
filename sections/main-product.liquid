@@ -42,19 +42,21 @@
                           endcapture
                           assign media_index = media_index | plus: 1
                         -%}
+
+
+
                         <li class="splide__slide">
-                          <div class="relative pt-[125%] w-full">
+                          <div class="relative pt-[150%] w-full">
                               {%- capture thumbnail_id -%}
                                 Thumbnail-{{ section.id }}-{{ forloop.index }}{{ id_append }}
                               {%- endcapture -%}
                                 <div class="">
                                   {{
                                     media.preview_image
-                                    | image_url: width: 1200
+                                    | image_url: width: 3600
                                     | image_tag:
                                       loading: 'lazy',
-                                      sizes: sizes,
-                                      widths: '54, 74, 104, 162, 208, 324, 416',
+                                      widths: '1200',
                                       id: thumbnail_id,
                                       class: 'absolute top-0 left-0 w-full h-full object-cover',
                                       alt: media.alt
@@ -132,11 +134,10 @@
                   {%- endcapture -%}
                     {{
                       media.preview_image
-                      | image_url: width: 1200
+                      | image_url: width: 2560
                       | image_tag:
                         loading: 'lazy',
-                        sizes: sizes,
-                        widths: '54, 74, 104, 162, 208, 324, 416',
+                        widths: '1280',
                         id: thumbnail_id,
                         alt: media.alt
                       | escape
@@ -176,7 +177,7 @@
   
                   
                   {% if product.metafields.custom.additional_description != null %}
-                    <div class="uppercase addtional-description-richtext pl-1 py-2 pr-4 bg-yellow-100">
+                    <div class="uppercase addtional-description-richtext pl-2 py-2 pr-4 bg-yellow-100">
                       {{ product.metafields.custom.additional_description | metafield_tag  }}
                     </div>
                   {% endif %}
@@ -186,7 +187,7 @@
                   {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
                 </div>
   
-                <div class="flex justify-between px-10 mt-10 lg:mt-24 text-p">
+                <div class="flex justify-between items-center px-10 mt-10 lg:mt-24 text-p">
                   <div
                     class="no-js-hidden"
                     id="price-{{ section.id }}"

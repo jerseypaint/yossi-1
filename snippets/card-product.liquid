@@ -26,9 +26,9 @@
           <div class="card__media border border-[#424242] border-opacity-10 rounded-sm">
             <div class="border-2 border-b-[#424242] border-r-[#424242] border-l-white border-t-white rounded-sm">
               <div class="bg-silver p-[2px]">
-                <span class="ml-auto h-4 w-4 flex items-center justify-center p-1 border-2 border-b-[#424242] border-r-[#424242] border-l-white border-t-white rounded-sm font-mono cursor-default">x</span>
+                <span class="ml-auto h-4 w-4 text-sm flex items-center justify-center p-1 pb-[6px] border-2 border-b-[#424242] border-r-[#424242] border-l-white border-t-white rounded-sm font-mono cursor-default">x</span>
               </div>
-              <a href="{{ card_product.url }}" class="">
+              <a href="{{ card_product.url }}" class="block relative pt-[150%]">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
                 srcset="{%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
@@ -41,7 +41,7 @@
                 src="{{ card_product.featured_media | image_url: width: 533 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                 alt="{{ card_product.featured_media.alt | escape }}"
-                class="motion-reduce"
+                class="motion-reduce absolute top-0 left-0 h-full w-full object-cover"
                 {% unless lazy_load == false %}loading="lazy"{% endunless %}
                 width="{{ card_product.featured_media.width }}"
                 height="{{ card_product.featured_media.height }}"
@@ -60,7 +60,7 @@
                   src="{{ card_product.media[1] | image_url: width: 533 }}"
                   sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                   alt="{{ card_product.media[1].alt | escape }}"
-                  class="motion-reduce"
+                  class="motion-reduce absolute top-0 left-0 h-full w-full object-cover"
                   loading="lazy"
                   width="{{ card_product.media[1].width }}"
                   height="{{ card_product.media[1].height }}"
@@ -70,9 +70,9 @@
             </div>
           </div>
         {%- endif -%}
-        <div class="card__content text-center my-10">
+        <div class="card__content text-center mt-4 mb-10">
           <div class="card__information">
-            <h3 class="">
+            <h3 class="text-p">
               <a href="{{ card_product.url }}" class="">
                 {{ card_product.title | escape }}
               </a>

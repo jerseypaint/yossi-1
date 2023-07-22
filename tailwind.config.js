@@ -20,8 +20,8 @@ module.exports = {
         '2xl': '715px',
       },
       padding: {
-        DEFAULT: '1.5rem',
-        sm: '1.5rem',
+        DEFAULT: '1rem',
+        sm: '1rem',
         lg: '0',
       },
     },

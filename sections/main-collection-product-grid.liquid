@@ -20,7 +20,7 @@
         {%- else -%}
           <div class="collection">
             <div class="loading-overlay gradient"></div>
-            <ul id="product-grid" data-id="{{ section.id }}" class="xl:grid xl:grid-cols-2 xl:gap-6">
+            <ul id="product-grid" data-id="{{ section.id }}" class="">
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
