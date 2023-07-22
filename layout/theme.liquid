@@ -30,7 +30,8 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'splide.min.js' | asset_url }}" defer="defer"></script>
+    {% comment %}<script src="{{ 'splide.min.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://kit.fontawesome.com/12bece9e9b.js" crossorigin="anonymous" defer="defer"></script>
 
@@ -42,7 +43,13 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
-    {{ 'splide.min.css' | asset_url | stylesheet_tag }}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    {% comment %}{{ 'splide.min.css' | asset_url | stylesheet_tag }} {% endcomment %}
+
     {{ 'yossi.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
@@ -51,10 +58,6 @@
     {%- unless settings.type_header_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
-
-    {%- if settings.predictive_search_enabled -%}
-      <link rel="stylesheet" href="{{ 'component-predictive-search.css' | asset_url }}" media="print" onload="this.media='all'">
-    {%- endif -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     if (Shopify.designMode) {

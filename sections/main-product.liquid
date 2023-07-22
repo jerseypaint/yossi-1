@@ -21,13 +21,8 @@
               -%}
             {%- endif -%}
             <div>
-              <div
-                id="image-splide--products"
-                class="splide fade-in-up"
-                role="group"
-                aria-label="Image Slider">
-                <div class="splide__track">
-                  <ul class="splide__list">
+              <div class="swiper">
+                  <div class="swiper-wrapper">
                     {%- for media in product.media -%}
                       {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                         {%- liquid
@@ -42,10 +37,7 @@
                           endcapture
                           assign media_index = media_index | plus: 1
                         -%}
-
-
-
-                        <li class="splide__slide">
+                        <div class="swiper-slide">
                           <div class="relative pt-[150%] w-full">
                               {%- capture thumbnail_id -%}
                                 Thumbnail-{{ section.id }}-{{ forloop.index }}{{ id_append }}
@@ -65,23 +57,22 @@
                                 </div>
                           
                           </div>
-                        </li>
+                        </div>
                       {%- endunless -%}
                     {%- endfor -%}
-                  </ul>
-                </div>
+                  </div>
+                <div class="swiper-scrollbar"></div>
               </div>
             </div>
             <script>
               document.addEventListener( 'DOMContentLoaded', function() {
-                var splide = new Splide( '#image-splide--products', {
-                  type: 'loop',
-                  pagination: true,
-                  arrows: false,
-                  perPage: 1,
-                  perMove: 1
-                } );
-                splide.mount();
+                const swiper = new Swiper('.swiper', {
+                  loop: true,
+                  scrollbar: {
+                    el: '.swiper-scrollbar',
+                    draggable: true
+                  },
+                });
               } );
             </script>
           </div>
