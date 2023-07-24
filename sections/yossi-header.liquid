@@ -13,6 +13,11 @@
                     {%  include 'yossi-homme-logo' %}
                 </div>
                 <div class="w-5">
+                    {% if cart != empty %}
+                        <a href="/cart">
+                            {%  include 'icon-cart' %}
+                        </a>
+                    {% endif %}
                 </div>
                 {% comment %} <div>
                     <a class="appearance-none w-6" href="/cart/">
