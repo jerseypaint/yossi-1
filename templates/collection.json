@@ -18,11 +18,20 @@
             "image": "shopify:\/\/shop_images\/Look_08_58711copy.jpg",
             "image_link": ""
           }
+        },
+        "8834787c-f335-489d-b9de-cac4ba5d5e0b": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Look_09_027.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "8948bd22-3c68-4b87-890f-5938df255a48",
-        "671d87f1-f3c1-49c7-ab6a-22c5cc31cc70"
+        "671d87f1-f3c1-49c7-ab6a-22c5cc31cc70",
+        "8834787c-f335-489d-b9de-cac4ba5d5e0b"
       ],
       "settings": {
         "slideshow_type": "two_col"
