@@ -174,6 +174,24 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "bcc85eb0-9859-4335-a67e-1e2f08676595": {
+      "type": "yossi-two-col",
+      "disabled": true,
+      "blocks": {
+        "e56ee5ab-b3bb-467d-b9cf-924d44f84304": {
+          "type": "video",
+          "settings": {
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "e56ee5ab-b3bb-467d-b9cf-924d44f84304"
+      ],
+      "settings": {
+        "padding": true
+      }
     }
   },
   "order": [
@@ -182,6 +200,7 @@
     "31dfdb2a-ee6f-4e8c-aba3-cea9cb50d0ab",
     "banner",
     "product-grid",
-    "5546a35e-ed81-4ebc-8f00-3b431e29b1f0"
+    "5546a35e-ed81-4ebc-8f00-3b431e29b1f0",
+    "bcc85eb0-9859-4335-a67e-1e2f08676595"
   ]
 }
