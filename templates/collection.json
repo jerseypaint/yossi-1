@@ -2,6 +2,7 @@
   "sections": {
     "c5f0634e-3163-4bb4-9773-125bc5429276": {
       "type": "yossi-hero",
+      "disabled": true,
       "blocks": {
         "83a9ec9f-a472-4f5a-9e59-b204ce79564e": {
           "type": "image",
@@ -60,7 +61,7 @@
       ],
       "settings": {
         "orientation": "vertical",
-        "padding": true
+        "padding": false
       }
     },
     "31dfdb2a-ee6f-4e8c-aba3-cea9cb50d0ab": {
