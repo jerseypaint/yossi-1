@@ -29,7 +29,7 @@
         "7653f301-da2a-42e3-ae27-f333e12bc424"
       ],
       "settings": {
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "padding": true
       }
     },
