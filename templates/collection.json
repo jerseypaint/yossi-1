@@ -1,5 +1,23 @@
 {
   "sections": {
+    "c5f0634e-3163-4bb4-9773-125bc5429276": {
+      "type": "yossi-hero",
+      "blocks": {
+        "83a9ec9f-a472-4f5a-9e59-b204ce79564e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Look_09_051.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "83a9ec9f-a472-4f5a-9e59-b204ce79564e"
+      ],
+      "settings": {
+        "scroll_prompt": ""
+      }
+    },
     "ae01a1a5-351f-4762-82e2-4b667bba3453": {
       "type": "yossi-one-col",
       "blocks": {
@@ -158,6 +176,7 @@
     }
   },
   "order": [
+    "c5f0634e-3163-4bb4-9773-125bc5429276",
     "ae01a1a5-351f-4762-82e2-4b667bba3453",
     "31dfdb2a-ee6f-4e8c-aba3-cea9cb50d0ab",
     "banner",
