@@ -23,11 +23,22 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "5f96e9cc-08e9-467e-b000-38ae300df613": {
+          "type": "text",
+          "settings": {
+            "heading": "POST AMERICAN YOUTHISM CAPSULE",
+            "body": "redefines perceptions of youth that are deeply entrenched in the American mindset. It highlights the overlooked vigor and tenacity of young individuals, aiming to surpass regional limitations and resonate with the universal spirit of youth. By challenging the status quo of what defines the young, the collection underscores an ethos of global connectedness. \"Post-American Youthism\" encourages observers to step outside conventional American frameworks, fostering an enriched, cross-cultural dialogue where the fervor of youth knows no boundaries and serves as a unifying force.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "e7e5084c-1497-4d51-b58c-b2ec51724ac3",
-        "7653f301-da2a-42e3-ae27-f333e12bc424"
+        "7653f301-da2a-42e3-ae27-f333e12bc424",
+        "5f96e9cc-08e9-467e-b000-38ae300df613"
       ],
       "settings": {
         "orientation": "vertical",
