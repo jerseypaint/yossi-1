@@ -61,7 +61,7 @@
       ],
       "settings": {
         "orientation": "vertical",
-        "padding": false
+        "padding": true
       }
     },
     "31dfdb2a-ee6f-4e8c-aba3-cea9cb50d0ab": {
