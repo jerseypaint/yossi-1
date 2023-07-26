@@ -12,6 +12,7 @@
       "type": "password-template",
       "settings": {
         "show_logo": true,
+        "logo": "shopify:\/\/shop_images\/yossi_bigger_logo.png",
         "desktop_bg": "shopify:\/\/shop_images\/1211112.jpg",
         "desktop_bg_video": "",
         "mobile_bg": "shopify:\/\/shop_images\/yossi_wallpaper.jpg",
