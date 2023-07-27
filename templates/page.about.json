@@ -19,6 +19,7 @@
     },
     "intro": {
       "type": "yossi-one-col",
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -26,6 +27,7 @@
     },
     "slider": {
       "type": "yossi-slideshow",
+      "disabled": true,
       "blocks": {
         "2deacb1f-22b6-4a3b-937b-6ca230de01c1": {
           "type": "image",
@@ -44,6 +46,7 @@
     },
     "one_col": {
       "type": "yossi-one-col",
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -51,12 +54,14 @@
     },
     "slider_2": {
       "type": "yossi-slideshow",
+      "disabled": true,
       "settings": {
         "slideshow_type": "two_col"
       }
     },
     "one_col_2": {
       "type": "yossi-one-col",
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -64,6 +69,7 @@
     },
     "two_col": {
       "type": "yossi-two-col",
+      "disabled": true,
       "settings": {
         "padding": true
       }
