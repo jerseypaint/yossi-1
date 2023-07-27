@@ -1,55 +1,89 @@
 {
-    "sections": {
-      "hero": {
-        "type": "yossi-hero",
-        "settings": {
+  "sections": {
+    "hero": {
+      "type": "yossi-hero",
+      "blocks": {
+        "51b2c947-1f2f-4d20-9e80-d957f78c50d2": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3e375bc3649e425e9ccdd869ffea6e4f.mp4"
+          }
         }
       },
-      "intro": {
-        "type": "yossi-one-col",
-        "settings": {
-        }
-      },
-      "slider": {
-        "type": "yossi-slideshow",
-        "settings": {
-        }
-      },
-      "one_col": {
-        "type": "yossi-one-col",
-        "settings": {
-        }
-      },
-      "slider_2": {
-        "type": "yossi-slideshow",
-        "settings": {
-        }
-      },
-      "one_col_2": {
-        "type": "yossi-one-col",
-        "settings": {
-        }
-      },
-      "two_col": {
-        "type": "yossi-two-col",
-        "settings": {
-        }
-      },
-      "one_col_3": {
-        "type": "yossi-one-col",
-        "settings": {
-        }
+      "block_order": [
+        "51b2c947-1f2f-4d20-9e80-d957f78c50d2"
+      ],
+      "settings": {
+        "scroll_prompt": ""
       }
     },
-    "order": [
-      "hero",
-      "intro",
-      "slider",
-      "one_col",
-      "slider_2",
-      "one_col_2",
-      "two_col",
-      "one_col_3"
-    ]
-  }
-  
+    "intro": {
+      "type": "yossi-one-col",
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "slider": {
+      "type": "yossi-slideshow",
+      "blocks": {
+        "2deacb1f-22b6-4a3b-937b-6ca230de01c1": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2deacb1f-22b6-4a3b-937b-6ca230de01c1"
+      ],
+      "settings": {
+        "slideshow_type": "two_col"
+      }
+    },
+    "one_col": {
+      "type": "yossi-one-col",
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "slider_2": {
+      "type": "yossi-slideshow",
+      "settings": {
+        "slideshow_type": "two_col"
+      }
+    },
+    "one_col_2": {
+      "type": "yossi-one-col",
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "two_col": {
+      "type": "yossi-two-col",
+      "settings": {
+        "padding": true
+      }
+    },
+    "one_col_3": {
+      "type": "yossi-one-col",
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "intro",
+    "slider",
+    "one_col",
+    "slider_2",
+    "one_col_2",
+    "two_col",
+    "one_col_3"
+  ]
+}
