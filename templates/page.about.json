@@ -27,7 +27,6 @@
     },
     "slider": {
       "type": "yossi-slideshow",
-      "disabled": true,
       "blocks": {
         "2deacb1f-22b6-4a3b-937b-6ca230de01c1": {
           "type": "image",
@@ -35,10 +34,18 @@
             "heading": "",
             "image_link": ""
           }
+        },
+        "84fe4e80-ca0f-4897-8fb4-b9fa7de5b45f": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3e375bc3649e425e9ccdd869ffea6e4f.mp4"
+          }
         }
       },
       "block_order": [
-        "2deacb1f-22b6-4a3b-937b-6ca230de01c1"
+        "2deacb1f-22b6-4a3b-937b-6ca230de01c1",
+        "84fe4e80-ca0f-4897-8fb4-b9fa7de5b45f"
       ],
       "settings": {
         "slideshow_type": "two_col"
