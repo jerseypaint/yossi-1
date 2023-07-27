@@ -27,6 +27,7 @@
     },
     "slider": {
       "type": "yossi-slideshow",
+      "disabled": true,
       "blocks": {
         "2deacb1f-22b6-4a3b-937b-6ca230de01c1": {
           "type": "image",
@@ -83,9 +84,17 @@
     },
     "one_col_3": {
       "type": "yossi-one-col",
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
+      }
+    },
+    "1c4a1e6d-814e-4ff1-b654-49b6148de21d": {
+      "type": "yossi-slideshow",
+      "disabled": true,
+      "settings": {
+        "slideshow_type": "two_col"
       }
     }
   },
@@ -97,6 +106,7 @@
     "slider_2",
     "one_col_2",
     "two_col",
-    "one_col_3"
+    "one_col_3",
+    "1c4a1e6d-814e-4ff1-b654-49b6148de21d"
   ]
 }
