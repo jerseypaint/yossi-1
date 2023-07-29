@@ -8,11 +8,43 @@
         "padding_bottom": 28
       }
     },
+    "a10234dc-138d-4a36-8a32-4491687c5177": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "03d39996-5b68-43db-8a26-ab6c4151936e": {
+          "type": "text",
+          "settings": {
+            "heading": "{POST_AMERICAN_YOUTHISM}",
+            "body": "",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "03d39996-5b68-43db-8a26-ab6c4151936e"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "ed26a267-39a5-4a18-8f48-5a97c11e0852": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 72,
+        "padding_bottom": 32
+      }
+    },
     "1664481041b0878a5f": {
       "type": "yossi-one-col",
       "blocks": {
         "aafe2481-3e15-4c2c-9734-9203867a2d1b": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "POST_AMERICAN_YOUTHISM",
             "body": "",
@@ -133,6 +165,7 @@
         },
         "ff5a0ba5-3039-476b-9b22-c57294a7f3f2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "A BOY IN YAFO",
             "body": "",
@@ -164,6 +197,7 @@
     },
     "1664589974a36f3788": {
       "type": "yossi-one-col",
+      "disabled": true,
       "blocks": {
         "a7a38763-40f2-42ad-8d90-7339c279f416": {
           "type": "image",
@@ -187,6 +221,8 @@
   },
   "order": [
     "main",
+    "a10234dc-138d-4a36-8a32-4491687c5177",
+    "ed26a267-39a5-4a18-8f48-5a97c11e0852",
     "1664481041b0878a5f",
     "1664589974a36f3788"
   ]
