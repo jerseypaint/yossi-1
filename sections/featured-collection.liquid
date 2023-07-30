@@ -52,12 +52,21 @@
 {% schema %}
 {
   "name": "Featured Collection",
+  "tag": "section",
   "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
   "settings": [
     {
       "type": "collection",
       "id": "collection",
       "label": "Collection"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.featured-collection.presets.name"
     }
   ]
 }
