@@ -1,5 +1,11 @@
 {
   "sections": {
+    "905b65ea-7435-422b-8018-116f06600bac": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage"
+      }
+    },
     "165422387155a1adee": {
       "type": "yossi-hero",
       "disabled": true,
@@ -553,6 +559,7 @@
     }
   },
   "order": [
+    "905b65ea-7435-422b-8018-116f06600bac",
     "165422387155a1adee",
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
