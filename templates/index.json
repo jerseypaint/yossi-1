@@ -1,5 +1,37 @@
 {
   "sections": {
+    "dccd534f-1a5e-40b6-882f-70ed74d9ee3e": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "8371c16d-778d-4346-96e1-424336ccd917": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "88fa01fd-af19-43bb-bd55-404317ca5f11": {
+          "type": "text",
+          "settings": {
+            "heading": "{POST_AMERICAN_YOUTHISM}",
+            "body": "redefines perceptions of youth that are deeply entrenched in the American mindset. It highlights the overlooked vigor and tenacity of young individuals, aiming to surpass regional limitations and resonate with the universal spirit of youth. By challenging the status quo of what defines the young, the collection underscores an ethos of global connectedness. \"Post-American Youthism\" encourages observers to step outside conventional American frameworks, fostering an enriched, cross-cultural dialogue where the fervor of youth knows no boundaries and serves as a unifying force.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8371c16d-778d-4346-96e1-424336ccd917",
+        "88fa01fd-af19-43bb-bd55-404317ca5f11"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
     "905b65ea-7435-422b-8018-116f06600bac": {
       "type": "featured-collection",
       "settings": {
@@ -564,6 +596,7 @@
     }
   },
   "order": [
+    "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
     "905b65ea-7435-422b-8018-116f06600bac",
     "165422387155a1adee",
     "1654227163ed75e73e",
