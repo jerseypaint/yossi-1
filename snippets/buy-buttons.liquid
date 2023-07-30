@@ -101,15 +101,10 @@
     </product-form>
   {%- else -%}
     <div class="product-form">
-      <div class="product-form__buttons form">
-        <button
-          type="submit"
-          name="add"
-          class="product-form__submit button button--full-width button--primary"
-          disabled
-        >
-          {{ 'products.product.sold_out' | t }}
-        </button>
+      <div class="product-form__buttons form ">
+        <a href="mailto:y@yossi.co??subject=OOS Inquiry: {{ product.title }}" class="button--system">
+          <span class="button--inner">Inquire</span>  
+        </a>
       </div>
     </div>
   {%- endif -%}
