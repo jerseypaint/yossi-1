@@ -2,7 +2,6 @@
   "sections": {
     "905b65ea-7435-422b-8018-116f06600bac": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "collection": "frontpage"
       }
@@ -30,6 +29,7 @@
     },
     "1654227163ed75e73e": {
       "type": "yossi-one-col",
+      "disabled": true,
       "blocks": {
         "12de462e-88b7-4389-af31-d87a52f88ac9": {
           "type": "image",
@@ -119,6 +119,7 @@
     },
     "16545618035bb0d7d7": {
       "type": "yossi-slideshow",
+      "disabled": true,
       "blocks": {
         "1dd9e344-65e3-49fe-9dd7-5ec8e92a8d83": {
           "type": "image",
@@ -147,6 +148,7 @@
     },
     "16588845621966d2f8": {
       "type": "yossi-one-col",
+      "disabled": true,
       "blocks": {
         "2c324d9e-5949-4ff1-9102-5b21d3025bf0": {
           "type": "image",
@@ -384,6 +386,7 @@
     },
     "1661733008ab269655": {
       "type": "yossi-slideshow",
+      "disabled": true,
       "blocks": {
         "7d9fbcca-0de2-4075-a889-f108d2a2db6b": {
           "type": "image",
@@ -412,6 +415,7 @@
     },
     "16617337446d558e71": {
       "type": "yossi-one-col",
+      "disabled": true,
       "blocks": {
         "343dd76b-bcec-457a-adf4-3a743c012748": {
           "type": "video",
