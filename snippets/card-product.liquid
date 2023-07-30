@@ -78,6 +78,7 @@
               </a>
             </h3>
           </div>
+          {%  comment  %}
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
@@ -85,6 +86,7 @@
               <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
             {%- endif -%}
           </div>
+          {% endcomment %}
         </div>
       </div>
     </div>
