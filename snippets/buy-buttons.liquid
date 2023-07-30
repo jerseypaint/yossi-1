@@ -65,6 +65,12 @@
               assign quantity_rule_soldout = true
             endif
           -%}
+          
+          {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
+          <a href="mailto:y@yossi.co??subject=OOS Inquiry: {{ product.title }}" class="button button--system block">
+            <span class="button--inner">Inquire</span>  
+          </a>
+          {%- else -%}
           <button
             id = "ProductSubmitButton-{{ section_id }}"
             type="submit"
@@ -75,11 +81,7 @@
             {% endif %}
           >
             <span class="button--inner">
-              {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
-                {{ 'products.product.sold_out' | t }}
-              {%- else -%}
                 Next
-              {%- endif -%}
             </span>
             <div class="loading-overlay__spinner !hidden">
               <svg
@@ -93,6 +95,7 @@
               </svg>
             </div>
           </button>
+          {%- endif -%}
           {%- if show_dynamic_checkout -%}
             {{ form | payment_button }}
           {%- endif -%}
