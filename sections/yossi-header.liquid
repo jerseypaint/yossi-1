@@ -13,11 +13,9 @@
                     {%  include 'yossi-homme-logo' %}
                 </div>
                 <div class="w-8">
-                    {% if cart != empty %}
-                        <a href="/cart">
-                            <img src="{{ 'add-to-cart-button.png' | asset_url }}" alt="View Cart">
-                        </a>
-                    {% endif %}
+                    <a href="/cart">
+                        <img src="{{ 'add-to-cart-button.png' | asset_url }}" alt="View Cart">
+                    </a>
                 </div>
                 {% comment %} <div>
                     <a class="appearance-none w-6" href="/cart/">
