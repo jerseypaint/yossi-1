@@ -19,13 +19,12 @@
     },
     "intro": {
       "type": "yossi-one-col",
-      "disabled": true,
       "blocks": {
         "a600975c-3aa0-4791-b955-f654803a3f45": {
           "type": "text",
           "settings": {
             "heading": "CONTACT: Y@YOSSI.CO",
-            "body": "",
+            "body": "CONTACT: Y@YOSSI.CO",
             "show_button": false,
             "button_text": "",
             "button_link": ""
