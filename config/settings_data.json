@@ -100,6 +100,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/yossi_homme_logo_1_d9bbddbc-92eb-42d0-a87a-11f984f47332.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#ff0000",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
