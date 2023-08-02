@@ -156,6 +156,26 @@
         "slideshow_type": "two_col"
       }
     },
+    "165422387155a1adee": {
+      "type": "yossi-hero",
+      "blocks": {
+        "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fede73bdad6d43bb958b204b034bebd6.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "scroll_prompt": "Discover Now"
+      }
+    },
     "67f4496c-986f-42a4-a374-36724121d4c7": {
       "type": "yossi-one-col",
       "blocks": {
@@ -183,26 +203,6 @@
       "disabled": true,
       "settings": {
         "collection": "frontpage"
-      }
-    },
-    "165422387155a1adee": {
-      "type": "yossi-hero",
-      "blocks": {
-        "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/edb42335c65f4631a51bd5a018da37e4.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "scroll_prompt": "Discover Now"
       }
     },
     "1654227163ed75e73e": {
@@ -753,9 +753,9 @@
   "order": [
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
     "902e297e-aedd-4a9c-b21d-0972be2b9b78",
+    "165422387155a1adee",
     "67f4496c-986f-42a4-a374-36724121d4c7",
     "905b65ea-7435-422b-8018-116f06600bac",
-    "165422387155a1adee",
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
