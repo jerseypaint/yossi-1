@@ -60,19 +60,11 @@
     "902e297e-aedd-4a9c-b21d-0972be2b9b78": {
       "type": "yossi-slideshow",
       "blocks": {
-        "a4362359-a73a-43b6-9d42-e4014f342273": {
+        "d206b1ff-326c-479c-bd18-5a30c5825057": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/1-Look_06_109_1.jpg",
-            "image_link": ""
-          }
-        },
-        "7ea1484a-8477-4a0c-a736-02e585e97541": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Look_09_103.jpg",
+            "image": "shopify:\/\/shop_images\/1-Look_07_277_4.jpg",
             "image_link": ""
           }
         },
@@ -81,6 +73,14 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Look_08_58711copy.jpg",
+            "image_link": ""
+          }
+        },
+        "7ea1484a-8477-4a0c-a736-02e585e97541": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Look_09_103.jpg",
             "image_link": ""
           }
         },
@@ -102,9 +102,18 @@
         },
         "709d10f0-e872-4e13-a13b-381886583ea8": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/5_2_08387d27-2b9e-4eb4-9fd9-341ef0ba4d4e.jpg",
+            "image_link": ""
+          }
+        },
+        "a4362359-a73a-43b6-9d42-e4014f342273": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/1-Look_06_109_1.jpg",
             "image_link": ""
           }
         },
@@ -147,29 +156,21 @@
             "heading": "",
             "image_link": ""
           }
-        },
-        "d206b1ff-326c-479c-bd18-5a30c5825057": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/1-Look_07_277_4.jpg",
-            "image_link": ""
-          }
         }
       },
       "block_order": [
-        "a4362359-a73a-43b6-9d42-e4014f342273",
-        "7ea1484a-8477-4a0c-a736-02e585e97541",
+        "d206b1ff-326c-479c-bd18-5a30c5825057",
         "ab75e67a-4456-461d-88af-f69ad099579b",
+        "7ea1484a-8477-4a0c-a736-02e585e97541",
         "2cdf959f-a2f7-4584-96ba-91e9f5d34b2c",
         "f14c8ab0-9112-405d-8d3d-95aaa4a12ea1",
         "709d10f0-e872-4e13-a13b-381886583ea8",
+        "a4362359-a73a-43b6-9d42-e4014f342273",
         "88e1f126-e122-49f7-ad24-5ff70917b38c",
         "96c7f273-f221-4f59-b524-9517d842540f",
         "bfd7dfb1-55d0-4469-a095-eba33addf89a",
         "aeac76ec-4184-4501-9cb2-c5edf72551c1",
-        "98e19a1e-bc4b-4158-b804-d4a88836cd88",
-        "d206b1ff-326c-479c-bd18-5a30c5825057"
+        "98e19a1e-bc4b-4158-b804-d4a88836cd88"
       ],
       "settings": {
         "slideshow_type": "two_col"
