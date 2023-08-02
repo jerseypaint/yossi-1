@@ -57,28 +57,6 @@
         "padding": true
       }
     },
-    "d2058dd0-1a1f-459f-a421-28bddf7286b8": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "8c843b80-4e25-4a4b-9e7e-f2e076570454": {
-          "type": "text",
-          "settings": {
-            "heading": "{POST_AMERICAN_YOUTHISM}",
-            "body": "this collection represents a new odyssey of cross-cultural understanding emerges, where the dynamism of youth transcends all boundaries. It stands as a powerful testament to the often overlooked or misjudged power and resilience of youth, aiming to break free from both mental and regional limitations while celebrating the universal essence of youthful spirit.",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "8c843b80-4e25-4a4b-9e7e-f2e076570454"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
-    },
     "902e297e-aedd-4a9c-b21d-0972be2b9b78": {
       "type": "yossi-slideshow",
       "blocks": {
@@ -188,6 +166,28 @@
         "slideshow_type": "two_col"
       }
     },
+    "d2058dd0-1a1f-459f-a421-28bddf7286b8": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "8c843b80-4e25-4a4b-9e7e-f2e076570454": {
+          "type": "text",
+          "settings": {
+            "heading": "{POST_AMERICAN_YOUTHISM}",
+            "body": "this collection represents a new odyssey of cross-cultural understanding emerges, where the dynamism of youth transcends all boundaries. It stands as a powerful testament to the often overlooked or misjudged power and resilience of youth, aiming to break free from both mental and regional limitations while celebrating the universal essence of youthful spirit.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8c843b80-4e25-4a4b-9e7e-f2e076570454"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
     "165422387155a1adee": {
       "type": "yossi-hero",
       "blocks": {
@@ -228,6 +228,15 @@
       "settings": {
         "orientation": "vertical",
         "padding": true
+      }
+    },
+    "a848dd19-6ee8-4211-9c38-d101a558462b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "905b65ea-7435-422b-8018-116f06600bac": {
@@ -771,29 +780,20 @@
         "orientation": "vertical",
         "padding": true
       }
-    },
-    "a848dd19-6ee8-4211-9c38-d101a558462b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
-    "d2058dd0-1a1f-459f-a421-28bddf7286b8",
     "902e297e-aedd-4a9c-b21d-0972be2b9b78",
+    "d2058dd0-1a1f-459f-a421-28bddf7286b8",
     "165422387155a1adee",
     "67f4496c-986f-42a4-a374-36724121d4c7",
+    "a848dd19-6ee8-4211-9c38-d101a558462b",
     "905b65ea-7435-422b-8018-116f06600bac",
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
     "1661733008ab269655",
-    "16617337446d558e71",
-    "a848dd19-6ee8-4211-9c38-d101a558462b"
+    "16617337446d558e71"
   ]
 }
