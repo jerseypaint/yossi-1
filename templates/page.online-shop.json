@@ -1,7 +1,14 @@
 {
   "sections": {
+    "e4e106a5-22ef-41c8-b3e3-325675539567": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage"
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -9,6 +16,7 @@
     }
   },
   "order": [
+    "e4e106a5-22ef-41c8-b3e3-325675539567",
     "main"
   ]
 }
