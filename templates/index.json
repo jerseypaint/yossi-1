@@ -126,13 +126,13 @@
     },
     "905b65ea-7435-422b-8018-116f06600bac": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "frontpage"
       }
     },
     "165422387155a1adee": {
       "type": "yossi-hero",
-      "disabled": true,
       "blocks": {
         "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b": {
           "type": "video",
