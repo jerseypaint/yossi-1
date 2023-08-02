@@ -309,6 +309,7 @@
         },
         "c40fb100-5fcc-4486-9eee-99278859a75a": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "",
             "body": "",
