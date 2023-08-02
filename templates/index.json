@@ -15,6 +15,7 @@
         },
         "88fa01fd-af19-43bb-bd55-404317ca5f11": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "{POST_AMERICAN_YOUTHISM}",
             "body": "this collection represents a new odyssey of cross-cultural understanding emerges, where the dynamism of youth transcends all boundaries. It stands as a powerful testament to the often overlooked or misjudged power and resilience of youth, aiming to break free from both mental and regional limitations while celebrating the universal essence of youthful spirit.",
@@ -50,6 +51,28 @@
         "88fa01fd-af19-43bb-bd55-404317ca5f11",
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63",
         "87357f5c-fd3f-42da-a270-e61516831f35"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "d2058dd0-1a1f-459f-a421-28bddf7286b8": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "8c843b80-4e25-4a4b-9e7e-f2e076570454": {
+          "type": "text",
+          "settings": {
+            "heading": "{POST_AMERICAN_YOUTHISM}",
+            "body": "this collection represents a new odyssey of cross-cultural understanding emerges, where the dynamism of youth transcends all boundaries. It stands as a powerful testament to the often overlooked or misjudged power and resilience of youth, aiming to break free from both mental and regional limitations while celebrating the universal essence of youthful spirit.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8c843b80-4e25-4a4b-9e7e-f2e076570454"
       ],
       "settings": {
         "orientation": "vertical",
@@ -138,6 +161,14 @@
             "heading": "",
             "image_link": ""
           }
+        },
+        "98e19a1e-bc4b-4158-b804-d4a88836cd88": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
@@ -150,7 +181,8 @@
         "88e1f126-e122-49f7-ad24-5ff70917b38c",
         "96c7f273-f221-4f59-b524-9517d842540f",
         "bfd7dfb1-55d0-4469-a095-eba33addf89a",
-        "aeac76ec-4184-4501-9cb2-c5edf72551c1"
+        "aeac76ec-4184-4501-9cb2-c5edf72551c1",
+        "98e19a1e-bc4b-4158-b804-d4a88836cd88"
       ],
       "settings": {
         "slideshow_type": "two_col"
@@ -162,7 +194,7 @@
         "0c8bbb63-9acf-4f1c-a3f1-7f2a82b3544b": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fede73bdad6d43bb958b204b034bebd6.mp4"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/167a1133658f4743a3717a02b05a1e24.mp4"
           }
         }
       },
@@ -752,6 +784,7 @@
   },
   "order": [
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
+    "d2058dd0-1a1f-459f-a421-28bddf7286b8",
     "902e297e-aedd-4a9c-b21d-0972be2b9b78",
     "165422387155a1adee",
     "67f4496c-986f-42a4-a374-36724121d4c7",
