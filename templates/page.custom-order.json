@@ -59,6 +59,88 @@
         "padding": true
       }
     },
+    "2320ba20-0bc2-410f-b08f-81fcbadc777d": {
+      "type": "yossi-slideshow",
+      "blocks": {
+        "ad64f03b-3c7d-4568-9748-8a11171c5b8a": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/ig_custom_look_4.jpg",
+            "image_link": ""
+          }
+        },
+        "2f699041-ec26-4466-a624-6e9214f76eec": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/ig_custom_look_3.jpg",
+            "image_link": ""
+          }
+        },
+        "f41f76f9-2de4-48a2-8f3f-798c1a1827d2": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/custom_look_2.jpg",
+            "image_link": ""
+          }
+        },
+        "347f6c7c-255a-4ecf-9367-c7c18cda9c33": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/custom_order_55.jpg",
+            "image_link": ""
+          }
+        },
+        "b723ed38-8cba-4477-af3b-d1d64d83a220": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/art_1.jpg",
+            "image_link": ""
+          }
+        },
+        "93841ee4-f653-409f-80f5-bca01a4d3375": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/color_swatch.jpg",
+            "image_link": ""
+          }
+        },
+        "dad8afd4-190e-428f-959d-f1aa03451c6e": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/leather_vest_11.jpg",
+            "image_link": ""
+          }
+        },
+        "18a48b32-8d0e-44b5-8158-91deed17a0c9": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ad64f03b-3c7d-4568-9748-8a11171c5b8a",
+        "2f699041-ec26-4466-a624-6e9214f76eec",
+        "f41f76f9-2de4-48a2-8f3f-798c1a1827d2",
+        "347f6c7c-255a-4ecf-9367-c7c18cda9c33",
+        "b723ed38-8cba-4477-af3b-d1d64d83a220",
+        "93841ee4-f653-409f-80f5-bca01a4d3375",
+        "dad8afd4-190e-428f-959d-f1aa03451c6e",
+        "18a48b32-8d0e-44b5-8158-91deed17a0c9"
+      ],
+      "settings": {
+        "slideshow_type": "two_col"
+      }
+    },
     "d1e4a6c8-1012-4946-b460-dc758e68d8b7": {
       "type": "yossi-one-col",
       "blocks": {
@@ -113,78 +195,26 @@
         "padding": true
       }
     },
-    "2320ba20-0bc2-410f-b08f-81fcbadc777d": {
-      "type": "yossi-slideshow",
+    "9a1525c7-1c47-4ede-99cd-c937dfbb7478": {
+      "type": "yossi-one-col",
       "blocks": {
-        "ad64f03b-3c7d-4568-9748-8a11171c5b8a": {
-          "type": "image",
+        "2c64d82f-b1c2-46de-99fe-6b9c34063d10": {
+          "type": "text",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/ig_custom_look_4.jpg",
-            "image_link": ""
-          }
-        },
-        "f41f76f9-2de4-48a2-8f3f-798c1a1827d2": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/custom_look_2.jpg",
-            "image_link": ""
-          }
-        },
-        "347f6c7c-255a-4ecf-9367-c7c18cda9c33": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/custom_order_55.jpg",
-            "image_link": ""
-          }
-        },
-        "2f699041-ec26-4466-a624-6e9214f76eec": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/ig_custom_look_3.jpg",
-            "image_link": ""
-          }
-        },
-        "b723ed38-8cba-4477-af3b-d1d64d83a220": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/art_1.jpg",
-            "image_link": ""
-          }
-        },
-        "93841ee4-f653-409f-80f5-bca01a4d3375": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/color_swatch.jpg",
-            "image_link": ""
-          }
-        },
-        "dad8afd4-190e-428f-959d-f1aa03451c6e": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/leather_vest_11.jpg",
-            "image_link": ""
+            "body": "",
+            "show_button": true,
+            "button_text": "INQUIRE HERE",
+            "button_link": "shopify:\/\/pages\/email-1"
           }
         }
       },
       "block_order": [
-        "ad64f03b-3c7d-4568-9748-8a11171c5b8a",
-        "f41f76f9-2de4-48a2-8f3f-798c1a1827d2",
-        "347f6c7c-255a-4ecf-9367-c7c18cda9c33",
-        "2f699041-ec26-4466-a624-6e9214f76eec",
-        "b723ed38-8cba-4477-af3b-d1d64d83a220",
-        "93841ee4-f653-409f-80f5-bca01a4d3375",
-        "dad8afd4-190e-428f-959d-f1aa03451c6e"
+        "2c64d82f-b1c2-46de-99fe-6b9c34063d10"
       ],
       "settings": {
-        "slideshow_type": "two_col"
+        "orientation": "vertical",
+        "padding": true
       }
     },
     "a6e890de-0361-41a7-9693-8873d426fcca": {
@@ -213,37 +243,15 @@
       "settings": {
         "padding": true
       }
-    },
-    "9a1525c7-1c47-4ede-99cd-c937dfbb7478": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "2c64d82f-b1c2-46de-99fe-6b9c34063d10": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "body": "",
-            "show_button": true,
-            "button_text": "INQUIRE",
-            "button_link": "shopify:\/\/pages\/email-1"
-          }
-        }
-      },
-      "block_order": [
-        "2c64d82f-b1c2-46de-99fe-6b9c34063d10"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
     }
   },
   "order": [
     "main",
     "d644fca4-6cdd-4b1d-882f-b84f040030c4",
     "382bdb02-2736-4b13-b7ce-88b8d02af7ae",
-    "d1e4a6c8-1012-4946-b460-dc758e68d8b7",
     "2320ba20-0bc2-410f-b08f-81fcbadc777d",
-    "a6e890de-0361-41a7-9693-8873d426fcca",
-    "9a1525c7-1c47-4ede-99cd-c937dfbb7478"
+    "d1e4a6c8-1012-4946-b460-dc758e68d8b7",
+    "9a1525c7-1c47-4ede-99cd-c937dfbb7478",
+    "a6e890de-0361-41a7-9693-8873d426fcca"
   ]
 }
