@@ -34,8 +34,8 @@
             "heading": "YOSSI SHETRIT ATELIER",
             "body": "\"For custom orders, please inquire. Designer Yossi Shetrit can craft a ready-made garment within 1-2 weeks. Please understand that, at the designer's discretion, not all requests may be accommodated. We genuinely appreciate your interest and are eager to potentially bring your vision to life\n \n\nY@yossi.co",
             "show_button": true,
-            "button_text": "{{ page.title }}",
-            "button_link": "shopify:\/\/pages\/about"
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/email-1"
           }
         }
       },
