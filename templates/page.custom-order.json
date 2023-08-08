@@ -61,6 +61,14 @@
     "2320ba20-0bc2-410f-b08f-81fcbadc777d": {
       "type": "yossi-slideshow",
       "blocks": {
+        "b723ed38-8cba-4477-af3b-d1d64d83a220": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/art_1.jpg",
+            "image_link": ""
+          }
+        },
         "2f699041-ec26-4466-a624-6e9214f76eec": {
           "type": "image",
           "settings": {
@@ -73,7 +81,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/custom_1.jpg",
+            "image": "shopify:\/\/shop_images\/art_4.jpg",
             "image_link": ""
           }
         },
@@ -93,30 +101,31 @@
             "image_link": ""
           }
         },
-        "b723ed38-8cba-4477-af3b-d1d64d83a220": {
+        "347f6c7c-255a-4ecf-9367-c7c18cda9c33": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/custom_order_55.jpg",
             "image_link": ""
           }
         },
-        "347f6c7c-255a-4ecf-9367-c7c18cda9c33": {
+        "dad8afd4-190e-428f-959d-f1aa03451c6e": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/leather_vest_11.jpg",
             "image_link": ""
           }
         }
       },
       "block_order": [
+        "b723ed38-8cba-4477-af3b-d1d64d83a220",
         "2f699041-ec26-4466-a624-6e9214f76eec",
         "ad64f03b-3c7d-4568-9748-8a11171c5b8a",
         "f41f76f9-2de4-48a2-8f3f-798c1a1827d2",
         "93841ee4-f653-409f-80f5-bca01a4d3375",
-        "b723ed38-8cba-4477-af3b-d1d64d83a220",
-        "347f6c7c-255a-4ecf-9367-c7c18cda9c33"
+        "347f6c7c-255a-4ecf-9367-c7c18cda9c33",
+        "dad8afd4-190e-428f-959d-f1aa03451c6e"
       ],
       "settings": {
         "slideshow_type": "two_col"
@@ -124,13 +133,12 @@
     },
     "d1e4a6c8-1012-4946-b460-dc758e68d8b7": {
       "type": "yossi-one-col",
-      "disabled": true,
       "blocks": {
         "c486e899-cdff-4bfe-8ce2-398843e93146": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/custom_1.jpg",
+            "image": "shopify:\/\/shop_images\/plaid_pants.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -140,7 +148,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/custom_look_2.jpg",
+            "image": "shopify:\/\/shop_images\/color_swatch.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
