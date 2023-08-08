@@ -25,6 +25,28 @@
         "scroll_prompt": ""
       }
     },
+    "382bdb02-2736-4b13-b7ce-88b8d02af7ae": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "cc1d76a3-2636-4240-9a2f-37ab76b7f5cb": {
+          "type": "text",
+          "settings": {
+            "heading": "YOSSI SHETRIT ATELIER",
+            "body": "\"For custom orders, please inquire. Designer Yossi Shetrit can craft a ready-made garment within 1-2 weeks. Please understand that, at the designer's discretion, not all requests may be accommodated. We genuinely appreciate your interest and are eager to potentially bring your vision to life\n \n\nY@yossi.co",
+            "show_button": true,
+            "button_text": "Y@yossi.co {{ page.title }}",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "cc1d76a3-2636-4240-9a2f-37ab76b7f5cb"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
     "2320ba20-0bc2-410f-b08f-81fcbadc777d": {
       "type": "yossi-slideshow",
       "blocks": {
@@ -165,36 +187,14 @@
       "settings": {
         "padding": true
       }
-    },
-    "382bdb02-2736-4b13-b7ce-88b8d02af7ae": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "cc1d76a3-2636-4240-9a2f-37ab76b7f5cb": {
-          "type": "text",
-          "settings": {
-            "heading": "YOSSI SHETRIT ATELIER",
-            "body": "\"For custom orders, please inquire. Designer Yossi Shetrit can craft a ready-made garment within 1-2 weeks. Please understand that, at the designer's discretion, not all requests may be accommodated. We genuinely appreciate your interest and are eager to potentially bring your vision to life\n\nY@yossi.co",
-            "show_button": true,
-            "button_text": "Y@yossi.co",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "cc1d76a3-2636-4240-9a2f-37ab76b7f5cb"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
     }
   },
   "order": [
     "main",
     "d644fca4-6cdd-4b1d-882f-b84f040030c4",
+    "382bdb02-2736-4b13-b7ce-88b8d02af7ae",
     "2320ba20-0bc2-410f-b08f-81fcbadc777d",
     "d1e4a6c8-1012-4946-b460-dc758e68d8b7",
-    "a6e890de-0361-41a7-9693-8873d426fcca",
-    "382bdb02-2736-4b13-b7ce-88b8d02af7ae"
+    "a6e890de-0361-41a7-9693-8873d426fcca"
   ]
 }
