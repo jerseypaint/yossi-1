@@ -37,10 +37,21 @@
             "button_text": "INQUIRE HERE",
             "button_link": "shopify:\/\/pages\/email-1"
           }
+        },
+        "cbc92ddb-57bd-4838-9869-0da374d16f38": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "body": "",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "cc1d76a3-2636-4240-9a2f-37ab76b7f5cb"
+        "cc1d76a3-2636-4240-9a2f-37ab76b7f5cb",
+        "cbc92ddb-57bd-4838-9869-0da374d16f38"
       ],
       "settings": {
         "orientation": "vertical",
