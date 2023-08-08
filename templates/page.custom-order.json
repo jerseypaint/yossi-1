@@ -86,12 +86,19 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "0f6b06b7-ee72-49dc-8bab-4d29b271a97b": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a6d6c43d424145f1a383e116d99d13be.mp4"
+          }
         }
       },
       "block_order": [
         "c486e899-cdff-4bfe-8ce2-398843e93146",
         "63748c77-d175-453d-977f-7a8f9c14ed3b",
-        "e1c9c549-cbb7-474f-bf2a-6f2c303a6a0c"
+        "e1c9c549-cbb7-474f-bf2a-6f2c303a6a0c",
+        "0f6b06b7-ee72-49dc-8bab-4d29b271a97b"
       ],
       "settings": {
         "orientation": "vertical",
