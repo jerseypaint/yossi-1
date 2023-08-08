@@ -61,6 +61,30 @@
     "2320ba20-0bc2-410f-b08f-81fcbadc777d": {
       "type": "yossi-slideshow",
       "blocks": {
+        "ad64f03b-3c7d-4568-9748-8a11171c5b8a": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/art_4.jpg",
+            "image_link": ""
+          }
+        },
+        "347f6c7c-255a-4ecf-9367-c7c18cda9c33": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/custom_order_55.jpg",
+            "image_link": ""
+          }
+        },
+        "f41f76f9-2de4-48a2-8f3f-798c1a1827d2": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/custom_look_2.jpg",
+            "image_link": ""
+          }
+        },
         "b723ed38-8cba-4477-af3b-d1d64d83a220": {
           "type": "image",
           "settings": {
@@ -77,35 +101,11 @@
             "image_link": ""
           }
         },
-        "ad64f03b-3c7d-4568-9748-8a11171c5b8a": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/art_4.jpg",
-            "image_link": ""
-          }
-        },
-        "f41f76f9-2de4-48a2-8f3f-798c1a1827d2": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/custom_look_2.jpg",
-            "image_link": ""
-          }
-        },
         "93841ee4-f653-409f-80f5-bca01a4d3375": {
           "type": "image",
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/ig_custom_look_4.jpg",
-            "image_link": ""
-          }
-        },
-        "347f6c7c-255a-4ecf-9367-c7c18cda9c33": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/custom_order_55.jpg",
             "image_link": ""
           }
         },
@@ -119,12 +119,12 @@
         }
       },
       "block_order": [
+        "ad64f03b-3c7d-4568-9748-8a11171c5b8a",
+        "347f6c7c-255a-4ecf-9367-c7c18cda9c33",
+        "f41f76f9-2de4-48a2-8f3f-798c1a1827d2",
         "b723ed38-8cba-4477-af3b-d1d64d83a220",
         "2f699041-ec26-4466-a624-6e9214f76eec",
-        "ad64f03b-3c7d-4568-9748-8a11171c5b8a",
-        "f41f76f9-2de4-48a2-8f3f-798c1a1827d2",
         "93841ee4-f653-409f-80f5-bca01a4d3375",
-        "347f6c7c-255a-4ecf-9367-c7c18cda9c33",
         "dad8afd4-190e-428f-959d-f1aa03451c6e"
       ],
       "settings": {
@@ -138,7 +138,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/plaid_pants.jpg",
+            "image": "shopify:\/\/shop_images\/art_1.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -188,6 +188,7 @@
       "blocks": {
         "05d21e3e-55f4-4cfc-9bdb-4e2f6068cc62": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a6d6c43d424145f1a383e116d99d13be.mp4"
           }
