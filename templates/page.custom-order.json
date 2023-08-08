@@ -178,6 +178,7 @@
         },
         "18a48b32-8d0e-44b5-8158-91deed17a0c9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/ig_image_vest.jpg",
@@ -186,6 +187,7 @@
         },
         "8bc0bd06-fc99-4083-a49f-7f1897f5b7b7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/ig_shorts_11.jpg",
@@ -207,6 +209,22 @@
             "image": "shopify:\/\/shop_images\/plaid_s.jpg",
             "image_link": ""
           }
+        },
+        "25fec337-fe97-4cdb-bdd1-a4e430293b90": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/leather_1111.jpg",
+            "image_link": ""
+          }
+        },
+        "c2b885df-d9cd-48f1-8c02-86a9e92a6449": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/JORTS_1.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
@@ -220,7 +238,9 @@
         "18a48b32-8d0e-44b5-8158-91deed17a0c9",
         "8bc0bd06-fc99-4083-a49f-7f1897f5b7b7",
         "e371827c-9893-404c-8a71-1df92ad3fed6",
-        "b0fb52d5-458b-48b7-ad62-5d14c7e1c4ee"
+        "b0fb52d5-458b-48b7-ad62-5d14c7e1c4ee",
+        "25fec337-fe97-4cdb-bdd1-a4e430293b90",
+        "c2b885df-d9cd-48f1-8c02-86a9e92a6449"
       ],
       "settings": {
         "slideshow_type": "two_col"
