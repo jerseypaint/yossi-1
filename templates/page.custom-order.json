@@ -33,7 +33,7 @@
           "settings": {
             "heading": "YOSSI SHETRIT ATELIER",
             "body": "For custom orders, we can design and construct a custom-made garment within 1-2 weeks, depending on the project. Please understand that, at the designer's discretion, not all requests may be accommodated. We genuinely appreciate your interest and are eager to potentially bring your vision to life.\nY@yossi.co",
-            "show_button": true,
+            "show_button": false,
             "button_text": "INQUIRE HERE",
             "button_link": "shopify:\/\/pages\/email-1"
           }
