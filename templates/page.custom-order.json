@@ -40,6 +40,7 @@
         },
         "cbc92ddb-57bd-4838-9869-0da374d16f38": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "",
             "body": "",
@@ -52,6 +53,60 @@
       "block_order": [
         "cc1d76a3-2636-4240-9a2f-37ab76b7f5cb",
         "cbc92ddb-57bd-4838-9869-0da374d16f38"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "d1e4a6c8-1012-4946-b460-dc758e68d8b7": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "c486e899-cdff-4bfe-8ce2-398843e93146": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/art_1.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "63748c77-d175-453d-977f-7a8f9c14ed3b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/color_swatch.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "e1c9c549-cbb7-474f-bf2a-6f2c303a6a0c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/ig_custom_look_4.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "0f6b06b7-ee72-49dc-8bab-4d29b271a97b": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a6d6c43d424145f1a383e116d99d13be.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "c486e899-cdff-4bfe-8ce2-398843e93146",
+        "63748c77-d175-453d-977f-7a8f9c14ed3b",
+        "e1c9c549-cbb7-474f-bf2a-6f2c303a6a0c",
+        "0f6b06b7-ee72-49dc-8bab-4d29b271a97b"
       ],
       "settings": {
         "orientation": "vertical",
@@ -132,60 +187,6 @@
         "slideshow_type": "two_col"
       }
     },
-    "d1e4a6c8-1012-4946-b460-dc758e68d8b7": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "c486e899-cdff-4bfe-8ce2-398843e93146": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/art_1.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "63748c77-d175-453d-977f-7a8f9c14ed3b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/color_swatch.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "e1c9c549-cbb7-474f-bf2a-6f2c303a6a0c": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/ig_custom_look_4.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "0f6b06b7-ee72-49dc-8bab-4d29b271a97b": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a6d6c43d424145f1a383e116d99d13be.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "c486e899-cdff-4bfe-8ce2-398843e93146",
-        "63748c77-d175-453d-977f-7a8f9c14ed3b",
-        "e1c9c549-cbb7-474f-bf2a-6f2c303a6a0c",
-        "0f6b06b7-ee72-49dc-8bab-4d29b271a97b"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
-    },
     "a6e890de-0361-41a7-9693-8873d426fcca": {
       "type": "yossi-two-col",
       "disabled": true,
@@ -218,8 +219,8 @@
     "main",
     "d644fca4-6cdd-4b1d-882f-b84f040030c4",
     "382bdb02-2736-4b13-b7ce-88b8d02af7ae",
-    "2320ba20-0bc2-410f-b08f-81fcbadc777d",
     "d1e4a6c8-1012-4946-b460-dc758e68d8b7",
+    "2320ba20-0bc2-410f-b08f-81fcbadc777d",
     "a6e890de-0361-41a7-9693-8873d426fcca"
   ]
 }
