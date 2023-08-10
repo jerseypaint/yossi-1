@@ -32,7 +32,7 @@
           "type": "text",
           "settings": {
             "heading": "YOSSI SHETRIT ATELIER",
-            "body": "For custom orders, we can design and construct a custom-made garment within 1-2 weeks, depending on the project. Please understand that, at the designer's discretion, not all requests may be accommodated. We genuinely appreciate your interest and are eager to potentially bring your vision to life.\nY@yossi.co",
+            "body": "For custom orders, we can design and construct a custom-made garment based on existing silhouettes or create something entirely new. While we strive to provide an artisanal experience, urgent requests and tight timeframes are not always ideal. However, we will try to accommodate based on our current capacity. Please note that not all requests may be honored at the designer's discretion. We genuinely appreciate your interest and are eager to bring your vision to life.\n\n Y@yossi.co",
             "show_button": false,
             "button_text": "INQUIRE HERE",
             "button_link": "shopify:\/\/pages\/email-1"
@@ -270,7 +270,6 @@
     },
     "a6e890de-0361-41a7-9693-8873d426fcca": {
       "type": "yossi-two-col",
-      "disabled": true,
       "blocks": {
         "05d21e3e-55f4-4cfc-9bdb-4e2f6068cc62": {
           "type": "video",
@@ -291,6 +290,7 @@
         "05d21e3e-55f4-4cfc-9bdb-4e2f6068cc62",
         "1a45d1c8-352d-40b2-91f0-7b19835b4b3a"
       ],
+      "disabled": true,
       "settings": {
         "padding": true
       }
