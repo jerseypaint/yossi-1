@@ -1,5 +1,15 @@
 {
   "sections": {
+    "a18f30fe-26fa-48b6-8d71-223b4d5f3570": {
+      "type": "password-template",
+      "settings": {
+        "show_logo": true,
+        "desktop_bg": "shopify:\/\/shop_images\/sdds.jpg",
+        "desktop_bg_video": "",
+        "mobile_bg": "shopify:\/\/shop_images\/Look_06_155.jpg",
+        "mobile_bg_video": ""
+      }
+    },
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e": {
       "type": "yossi-one-col",
       "blocks": {
@@ -52,6 +62,7 @@
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63",
         "87357f5c-fd3f-42da-a270-e61516831f35"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -190,6 +201,7 @@
         "aeac76ec-4184-4501-9cb2-c5edf72551c1",
         "98e19a1e-bc4b-4158-b804-d4a88836cd88"
       ],
+      "disabled": true,
       "settings": {
         "slideshow_type": "two_col"
       }
@@ -211,6 +223,7 @@
       "block_order": [
         "8c843b80-4e25-4a4b-9e7e-f2e076570454"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -361,6 +374,7 @@
         "8eaa7066-42a7-4a5f-a27e-3140b0ac3ff3",
         "c40fb100-5fcc-4486-9eee-99278859a75a"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -383,6 +397,7 @@
       "block_order": [
         "4013f622-1aa1-4e0b-88c5-18a015df3c77"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -406,7 +421,6 @@
     },
     "1654227163ed75e73e": {
       "type": "yossi-one-col",
-      "disabled": true,
       "blocks": {
         "12de462e-88b7-4389-af31-d87a52f88ac9": {
           "type": "image",
@@ -489,6 +503,7 @@
         "d2052b0d-b8cd-4d4d-b9a3-00a28d2091e8",
         "0d309be1-d087-4a5a-80ac-873c6c9690c8"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -496,7 +511,6 @@
     },
     "16545618035bb0d7d7": {
       "type": "yossi-slideshow",
-      "disabled": true,
       "blocks": {
         "1dd9e344-65e3-49fe-9dd7-5ec8e92a8d83": {
           "type": "image",
@@ -519,13 +533,13 @@
         "1dd9e344-65e3-49fe-9dd7-5ec8e92a8d83",
         "cf91c367-7d1f-4738-b5b1-1f71a7585fe3"
       ],
+      "disabled": true,
       "settings": {
         "slideshow_type": "two_col"
       }
     },
     "16588845621966d2f8": {
       "type": "yossi-one-col",
-      "disabled": true,
       "blocks": {
         "2c324d9e-5949-4ff1-9102-5b21d3025bf0": {
           "type": "image",
@@ -756,6 +770,7 @@
         "ab13f67a-2e97-4be5-92a1-6c41065873a6",
         "281955d9-6556-474f-ac7b-156739a27078"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -763,7 +778,6 @@
     },
     "1661733008ab269655": {
       "type": "yossi-slideshow",
-      "disabled": true,
       "blocks": {
         "7d9fbcca-0de2-4075-a889-f108d2a2db6b": {
           "type": "image",
@@ -786,12 +800,14 @@
         "7d9fbcca-0de2-4075-a889-f108d2a2db6b",
         "19571b2f-9677-4f20-85b0-ed6859a140da"
       ],
+      "disabled": true,
       "settings": {
         "slideshow_type": "two_col"
       }
     }
   },
   "order": [
+    "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
     "902e297e-aedd-4a9c-b21d-0972be2b9b78",
     "d2058dd0-1a1f-459f-a421-28bddf7286b8",
