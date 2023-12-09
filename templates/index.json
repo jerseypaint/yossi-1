@@ -373,6 +373,7 @@
         "8eaa7066-42a7-4a5f-a27e-3140b0ac3ff3",
         "c40fb100-5fcc-4486-9eee-99278859a75a"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
