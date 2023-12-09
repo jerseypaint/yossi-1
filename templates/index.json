@@ -37,6 +37,7 @@
         },
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image_link": "",
@@ -372,7 +373,6 @@
         "8eaa7066-42a7-4a5f-a27e-3140b0ac3ff3",
         "c40fb100-5fcc-4486-9eee-99278859a75a"
       ],
-      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
