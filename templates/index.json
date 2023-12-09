@@ -2,6 +2,7 @@
   "sections": {
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570": {
       "type": "password-template",
+      "disabled": true,
       "settings": {
         "show_logo": false,
         "desktop_bg": "shopify:\/\/shop_images\/sdds.jpg",
@@ -17,7 +18,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/8-Look_06_135_1_1_284f7936-257f-4059-a2cb-f1b6e1a2b71c.jpg",
+            "image": "shopify:\/\/shop_images\/Look_06_115.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -62,7 +63,6 @@
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63",
         "87357f5c-fd3f-42da-a270-e61516831f35"
       ],
-      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
