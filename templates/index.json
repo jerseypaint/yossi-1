@@ -2,6 +2,7 @@
   "sections": {
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570": {
       "type": "password-template",
+      "disabled": true,
       "settings": {
         "show_logo": false,
         "show_header": false,
@@ -29,7 +30,6 @@
         },
         "88fa01fd-af19-43bb-bd55-404317ca5f11": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "heading": "{POST_AMERICAN_YOUTHISM}",
             "body": "this collection represents a new odyssey of cross-cultural understanding emerges, where the dynamism of youth transcends all boundaries. It stands as a powerful testament to the often overlooked or misjudged power and resilience of youth, aiming to break free from both mental and regional limitations while celebrating the universal essence of youthful spirit.",
@@ -40,7 +40,6 @@
         },
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "heading": "",
             "image_link": "",
@@ -66,7 +65,6 @@
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63",
         "87357f5c-fd3f-42da-a270-e61516831f35"
       ],
-      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -205,7 +203,6 @@
         "aeac76ec-4184-4501-9cb2-c5edf72551c1",
         "98e19a1e-bc4b-4158-b804-d4a88836cd88"
       ],
-      "disabled": true,
       "settings": {
         "slideshow_type": "two_col"
       }
