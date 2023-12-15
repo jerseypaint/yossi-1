@@ -2,9 +2,12 @@
   "sections": {
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570": {
       "type": "password-template",
-      "disabled": true,
       "settings": {
-        "show_logo": false,
+        "show_logo": true,
+        "show_header": false,
+        "show_header_menu": false,
+        "show_header_logo": false,
+        "show_header_cart": false,
         "desktop_bg": "shopify:\/\/shop_images\/sdds.jpg",
         "desktop_bg_video": "",
         "mobile_bg": "shopify:\/\/shop_images\/Look_06_155.jpg",
@@ -63,6 +66,7 @@
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63",
         "87357f5c-fd3f-42da-a270-e61516831f35"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
