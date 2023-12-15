@@ -40,6 +40,7 @@
         },
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image_link": "",
@@ -203,6 +204,7 @@
         "aeac76ec-4184-4501-9cb2-c5edf72551c1",
         "98e19a1e-bc4b-4158-b804-d4a88836cd88"
       ],
+      "disabled": true,
       "settings": {
         "slideshow_type": "two_col"
       }
