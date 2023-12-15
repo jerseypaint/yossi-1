@@ -3,7 +3,7 @@
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570": {
       "type": "password-template",
       "settings": {
-        "show_logo": true,
+        "show_logo": false,
         "show_header": false,
         "show_header_menu": false,
         "show_header_logo": false,
