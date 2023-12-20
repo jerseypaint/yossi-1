@@ -731,6 +731,10 @@ p, .text-p {
   margin-left: 1rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -743,10 +747,6 @@ p, .text-p {
   margin-top: 1.5rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -757,10 +757,6 @@ p, .text-p {
 
 .mb-\[140px\] {
   margin-bottom: 140px;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .mb-3 {
@@ -777,6 +773,10 @@ p, .text-p {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-\[240px\] {
+  margin-bottom: 240px;
 }
 
 .block {
@@ -835,6 +835,10 @@ p, .text-p {
   height: 110vh !important;
 }
 
+.h-\[100dvh\] {
+  height: 100dvh;
+}
+
 .min-h-\[120px\] {
   min-height: 120px;
 }
@@ -877,10 +881,6 @@ p, .text-p {
 
 .min-w-\[100px\] {
   min-width: 100px;
-}
-
-.min-w-\[102px\] {
-  min-width: 102px;
 }
 
 .max-w-sm {
@@ -1267,13 +1267,13 @@ p, .text-p {
   line-height: 1.25rem;
 }
 
+.text-\[11px\] {
+  font-size: 11px;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[11px\] {
-  font-size: 11px;
 }
 
 .text-\[10px\] {
@@ -1337,10 +1337,6 @@ p, .text-p {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.outline {
-  outline-style: solid;
 }
 
 .blur {
