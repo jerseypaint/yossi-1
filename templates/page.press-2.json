@@ -36,6 +36,16 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_12.14.00_AM.png",
+            "image_link": "https:\/\/www.forbes.com\/sites\/cassellferere\/2023\/09\/05\/yossi-homme-and-designer-yossi-shetrit-introduce-post-american-youthism-to-menswear\/?sh=73fd785a6ad8",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "3b302440-0d0e-4fbc-b887-8d517ee1c1dc": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_12.14.23_AM.png",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -45,7 +55,8 @@
       "block_order": [
         "646ae1b2-c1dd-48fd-bc5e-6d01b1386ecd",
         "e217cd02-c90d-48a9-aad2-b7262a8d3065",
-        "97d445ce-bf3f-47eb-830b-df8513218953"
+        "97d445ce-bf3f-47eb-830b-df8513218953",
+        "3b302440-0d0e-4fbc-b887-8d517ee1c1dc"
       ],
       "settings": {
         "orientation": "vertical",
