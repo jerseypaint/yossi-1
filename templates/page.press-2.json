@@ -190,6 +190,7 @@
         "83b69d43-04f2-490d-b005-88c6dfaa605e",
         "ff5a0ba5-3039-476b-9b22-c57294a7f3f2"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -217,6 +218,39 @@
         "orientation": "horizontal",
         "padding": true
       }
+    },
+    "46c7e178-eab3-4c07-8871-644a62eed412": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "646ae1b2-c1dd-48fd-bc5e-6d01b1386ecd": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/4_ee1203c0-7981-4394-ac08-d89ead337072.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "e217cd02-c90d-48a9-aad2-b7262a8d3065": {
+          "type": "text",
+          "settings": {
+            "heading": "OFFICE MAGAIZNE",
+            "body": "OFFICE MAGAIZNErrr",
+            "show_button": true,
+            "button_text": "",
+            "button_link": "https:\/\/officemagazine.net\/yossi-shetrit-rides-american-youth-wave"
+          }
+        }
+      },
+      "block_order": [
+        "646ae1b2-c1dd-48fd-bc5e-6d01b1386ecd",
+        "e217cd02-c90d-48a9-aad2-b7262a8d3065"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
@@ -224,6 +258,7 @@
     "a10234dc-138d-4a36-8a32-4491687c5177",
     "ed26a267-39a5-4a18-8f48-5a97c11e0852",
     "1664481041b0878a5f",
-    "1664589974a36f3788"
+    "1664589974a36f3788",
+    "46c7e178-eab3-4c07-8871-644a62eed412"
   ]
 }
