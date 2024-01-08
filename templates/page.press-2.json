@@ -11,6 +11,16 @@
     "46c7e178-eab3-4c07-8871-644a62eed412": {
       "type": "yossi-one-col",
       "blocks": {
+        "646ae1b2-c1dd-48fd-bc5e-6d01b1386ecd": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_12.11.20_AM.png",
+            "image_link": "https:\/\/officemagazine.net\/yossi-shetrit-rides-american-youth-wave",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "e217cd02-c90d-48a9-aad2-b7262a8d3065": {
           "type": "text",
           "settings": {
@@ -19,26 +29,6 @@
             "show_button": false,
             "button_text": "READ HERE",
             "button_link": "https:\/\/officemagazine.net\/yossi-shetrit-rides-american-youth-wave"
-          }
-        },
-        "646ae1b2-c1dd-48fd-bc5e-6d01b1386ecd": {
-          "type": "image",
-          "settings": {
-            "heading": "OFFICE",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_12.11.20_AM.png",
-            "image_link": "https:\/\/officemagazine.net\/yossi-shetrit-rides-american-youth-wave",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "d599dfb0-ee3e-4bdd-ab45-47244efac81a": {
-          "type": "text",
-          "settings": {
-            "heading": "FORBES",
-            "body": "",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
           }
         },
         "97d445ce-bf3f-47eb-830b-df8513218953": {
@@ -63,9 +53,8 @@
         }
       },
       "block_order": [
-        "e217cd02-c90d-48a9-aad2-b7262a8d3065",
         "646ae1b2-c1dd-48fd-bc5e-6d01b1386ecd",
-        "d599dfb0-ee3e-4bdd-ab45-47244efac81a",
+        "e217cd02-c90d-48a9-aad2-b7262a8d3065",
         "97d445ce-bf3f-47eb-830b-df8513218953",
         "3b302440-0d0e-4fbc-b887-8d517ee1c1dc"
       ],
@@ -91,7 +80,6 @@
       "block_order": [
         "03d39996-5b68-43db-8a26-ab6c4151936e"
       ],
-      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -99,7 +87,6 @@
     },
     "ed26a267-39a5-4a18-8f48-5a97c11e0852": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
         "color_scheme": "background-1",
