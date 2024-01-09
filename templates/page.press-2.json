@@ -8,6 +8,28 @@
         "padding_bottom": 28
       }
     },
+    "a10234dc-138d-4a36-8a32-4491687c5177": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "03d39996-5b68-43db-8a26-ab6c4151936e": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "body": "",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "03d39996-5b68-43db-8a26-ab6c4151936e"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
     "46c7e178-eab3-4c07-8871-644a62eed412": {
       "type": "yossi-one-col",
       "blocks": {
@@ -57,28 +79,6 @@
         "e217cd02-c90d-48a9-aad2-b7262a8d3065",
         "97d445ce-bf3f-47eb-830b-df8513218953",
         "3b302440-0d0e-4fbc-b887-8d517ee1c1dc"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
-    },
-    "a10234dc-138d-4a36-8a32-4491687c5177": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "03d39996-5b68-43db-8a26-ab6c4151936e": {
-          "type": "text",
-          "settings": {
-            "heading": "{POST_AMERICAN_YOUTHISM}",
-            "body": "",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "03d39996-5b68-43db-8a26-ab6c4151936e"
       ],
       "settings": {
         "orientation": "vertical",
@@ -277,8 +277,8 @@
   },
   "order": [
     "main",
-    "46c7e178-eab3-4c07-8871-644a62eed412",
     "a10234dc-138d-4a36-8a32-4491687c5177",
+    "46c7e178-eab3-4c07-8871-644a62eed412",
     "ed26a267-39a5-4a18-8f48-5a97c11e0852",
     "1664481041b0878a5f",
     "1664589974a36f3788"
