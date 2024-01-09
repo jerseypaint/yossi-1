@@ -9,7 +9,7 @@
         "show_header_menu": true,
         "show_header_logo": true,
         "show_header_cart": false,
-        "desktop_bg": "shopify:\/\/shop_images\/7.jpg",
+        "desktop_bg": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_11.06.25_PM.png",
         "desktop_bg_video": "",
         "mobile_bg": "shopify:\/\/shop_images\/Look_06_155.jpg",
         "mobile_bg_video": ""
@@ -556,6 +556,7 @@
         "cf91c367-7d1f-4738-b5b1-1f71a7585fe3",
         "be01769a-c454-4f4d-b118-d7f1d47ec779"
       ],
+      "disabled": true,
       "settings": {
         "slideshow_type": "framed"
       }
