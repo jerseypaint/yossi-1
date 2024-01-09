@@ -48,7 +48,7 @@
           "settings": {
             "heading": "OFFICE MAGAIZNE",
             "body": "Yossi Shetrit Rides the 'American Youth Wave'",
-            "show_button": false,
+            "show_button": true,
             "button_text": "READ HERE",
             "button_link": "https:\/\/officemagazine.net\/yossi-shetrit-rides-american-youth-wave"
           }
