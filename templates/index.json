@@ -18,6 +18,16 @@
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e": {
       "type": "yossi-one-col",
       "blocks": {
+        "80404c98-f5d6-4fa7-aa98-4051c578cc9b": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_11.06.25_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "8371c16d-778d-4346-96e1-424336ccd917": {
           "type": "image",
           "settings": {
@@ -58,24 +68,14 @@
             "button_text": "",
             "button_link": ""
           }
-        },
-        "80404c98-f5d6-4fa7-aa98-4051c578cc9b": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_11.06.25_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
         }
       },
       "block_order": [
+        "80404c98-f5d6-4fa7-aa98-4051c578cc9b",
         "8371c16d-778d-4346-96e1-424336ccd917",
         "88fa01fd-af19-43bb-bd55-404317ca5f11",
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63",
-        "87357f5c-fd3f-42da-a270-e61516831f35",
-        "80404c98-f5d6-4fa7-aa98-4051c578cc9b"
+        "87357f5c-fd3f-42da-a270-e61516831f35"
       ],
       "settings": {
         "orientation": "vertical",
