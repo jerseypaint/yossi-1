@@ -53,6 +53,16 @@
             "button_link": "https:\/\/officemagazine.net\/yossi-shetrit-rides-american-youth-wave"
           }
         },
+        "8a6a4d8b-9bde-4733-9489-d738adcb15ce": {
+          "type": "text",
+          "settings": {
+            "heading": "FORBES",
+            "body": "",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "97d445ce-bf3f-47eb-830b-df8513218953": {
           "type": "image",
           "settings": {
@@ -77,6 +87,7 @@
       "block_order": [
         "646ae1b2-c1dd-48fd-bc5e-6d01b1386ecd",
         "e217cd02-c90d-48a9-aad2-b7262a8d3065",
+        "8a6a4d8b-9bde-4733-9489-d738adcb15ce",
         "97d445ce-bf3f-47eb-830b-df8513218953",
         "3b302440-0d0e-4fbc-b887-8d517ee1c1dc"
       ],
