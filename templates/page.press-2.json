@@ -92,6 +92,16 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "f870027e-6832-45d3-ad58-b77d7f86f95f": {
+          "type": "text",
+          "settings": {
+            "heading": "HYPEBEAST",
+            "body": "",
+            "show_button": true,
+            "button_text": "",
+            "button_link": "https:\/\/hypebeast.com\/2023\/8\/yossi-hommes-debut-capsule-collection-release-info"
+          }
         }
       },
       "block_order": [
@@ -100,7 +110,8 @@
         "8a6a4d8b-9bde-4733-9489-d738adcb15ce",
         "97d445ce-bf3f-47eb-830b-df8513218953",
         "d98cba31-9ac5-427b-b95a-07bffd352f38",
-        "3b302440-0d0e-4fbc-b887-8d517ee1c1dc"
+        "3b302440-0d0e-4fbc-b887-8d517ee1c1dc",
+        "f870027e-6832-45d3-ad58-b77d7f86f95f"
       ],
       "settings": {
         "orientation": "vertical",
