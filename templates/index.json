@@ -541,14 +541,23 @@
             "image": "shopify:\/\/shop_images\/Yossi_Film_1.jpg",
             "image_link": ""
           }
+        },
+        "be01769a-c454-4f4d-b118-d7f1d47ec779": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/leather_1111.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "1dd9e344-65e3-49fe-9dd7-5ec8e92a8d83",
-        "cf91c367-7d1f-4738-b5b1-1f71a7585fe3"
+        "cf91c367-7d1f-4738-b5b1-1f71a7585fe3",
+        "be01769a-c454-4f4d-b118-d7f1d47ec779"
       ],
       "settings": {
-        "slideshow_type": "two_col"
+        "slideshow_type": "framed"
       }
     },
     "16588845621966d2f8": {
