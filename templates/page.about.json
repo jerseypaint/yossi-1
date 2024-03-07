@@ -23,7 +23,7 @@
         "a600975c-3aa0-4791-b955-f654803a3f45": {
           "type": "text",
           "settings": {
-            "heading": "CUSTOMER INQUIRE: Y@YOSSI.CO",
+            "heading": "Contact: Y@YOSSI.CO",
             "body": "",
             "show_button": false,
             "button_text": "",
@@ -41,7 +41,6 @@
     },
     "slider": {
       "type": "yossi-slideshow",
-      "disabled": true,
       "blocks": {
         "2deacb1f-22b6-4a3b-937b-6ca230de01c1": {
           "type": "image",
@@ -62,6 +61,7 @@
         "2deacb1f-22b6-4a3b-937b-6ca230de01c1",
         "84fe4e80-ca0f-4897-8fb4-b9fa7de5b45f"
       ],
+      "disabled": true,
       "settings": {
         "slideshow_type": "two_col"
       }
