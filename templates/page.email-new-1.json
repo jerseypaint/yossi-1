@@ -89,12 +89,39 @@
         "orientation": "vertical",
         "padding": true
       }
+    },
+    "yossi_two_col_pGaxTQ": {
+      "type": "yossi-two-col",
+      "blocks": {
+        "image_BK6fXF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_11.09.21_PM.png",
+            "image_link": ""
+          }
+        },
+        "image_W4NMhj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_1_ee5e01b6-5710-4b18-9b12-1b487d803a38.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BK6fXF",
+        "image_W4NMhj"
+      ],
+      "settings": {
+        "padding": false
+      }
     }
   },
   "order": [
     "main",
     "17112226810a723488",
     "custom_liquid_LNidM3",
-    "yossi_one_col_zjKekr"
+    "yossi_one_col_zjKekr",
+    "yossi_two_col_pGaxTQ"
   ]
 }
