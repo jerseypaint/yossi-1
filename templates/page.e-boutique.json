@@ -204,6 +204,12 @@
         "padding_top": 56,
         "padding_bottom": 48
       }
+    },
+    "featured_collection_eVqJM9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "product-for-sign-up"
+      }
     }
   },
   "order": [
@@ -213,6 +219,7 @@
     "yossi_slideshow_83imHG",
     "yossi_one_col_zjKekr",
     "yossi_two_col_pGaxTQ",
-    "rich_text_AixniL"
+    "rich_text_AixniL",
+    "featured_collection_eVqJM9"
   ]
 }
