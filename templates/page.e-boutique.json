@@ -130,15 +130,24 @@
             "image": "shopify:\/\/shop_images\/ig_image_vest.jpg",
             "image_link": ""
           }
+        },
+        "image_Vatjid": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Look_08_6732.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "image_q9GEii",
         "image_mFRxMP",
-        "image_JGPYhp"
+        "image_JGPYhp",
+        "image_Vatjid"
       ],
       "settings": {
-        "slideshow_type": "framed"
+        "slideshow_type": "two_col"
       }
     }
   },
