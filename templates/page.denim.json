@@ -35,7 +35,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Yossi_Factory-Japan_1.jpg",
-            "image_link": ""
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         },
         "542e7d9d-2a7d-4c82-9111-1153ff15d265": {
@@ -43,7 +45,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/DSCF0046.jpg",
-            "image_link": ""
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         },
         "e6d4e752-d9d4-4fd8-8bad-506bd600c76e": {
@@ -51,7 +55,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Photo_label_6.jpg",
-            "image_link": ""
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         },
         "53b8bbc7-76a2-454c-85ef-a808445baf0a": {
@@ -59,7 +65,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/wax_1_1.jpg",
-            "image_link": ""
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         },
         "d7f83aaf-b24d-423d-b426-2ad8628a9d3d": {
@@ -67,7 +75,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Yossi_Factory-Japan_7.jpg",
-            "image_link": ""
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         },
         "3422cac1-d470-4b07-bd12-95c1861819fd": {
@@ -104,7 +114,6 @@
     },
     "1659029631fa994510": {
       "type": "yossi-two-col",
-      "disabled": true,
       "blocks": {
         "dbd73cf7-9f96-4498-b07d-51cd5a4de087": {
           "type": "image",
@@ -124,6 +133,7 @@
         "dbd73cf7-9f96-4498-b07d-51cd5a4de087",
         "8ca64607-8007-47bf-a09e-fb2305d155cf"
       ],
+      "disabled": true,
       "settings": {
         "padding": false
       }

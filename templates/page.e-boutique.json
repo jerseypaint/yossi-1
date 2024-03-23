@@ -25,6 +25,16 @@
     "yossi_one_col_zjKekr": {
       "type": "yossi-one-col",
       "blocks": {
+        "text_jbbUEF": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "body": "Produced in the world's denim capital, each pair is handmade with the utmost respect to Japanese craftsmanship and artistry.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "image_PbVxeG": {
           "type": "image",
           "settings": {
@@ -67,6 +77,7 @@
         }
       },
       "block_order": [
+        "text_jbbUEF",
         "image_PbVxeG",
         "image_RtRB9U",
         "image_9xbYJF",
@@ -149,6 +160,49 @@
       "settings": {
         "slideshow_type": "two_col"
       }
+    },
+    "rich_text_AixniL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Cz7Tzq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_n8XEGD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_mFcgQq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Cz7Tzq",
+        "text_n8XEGD",
+        "button_mFcgQq"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
@@ -157,6 +211,7 @@
     "custom_liquid_LNidM3",
     "yossi_one_col_zjKekr",
     "yossi_two_col_pGaxTQ",
-    "yossi_slideshow_83imHG"
+    "yossi_slideshow_83imHG",
+    "rich_text_AixniL"
   ]
 }
