@@ -22,6 +22,53 @@
         "padding_bottom": 52
       }
     },
+    "yossi_slideshow_83imHG": {
+      "type": "yossi-slideshow",
+      "blocks": {
+        "image_q9GEii": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/look_new_111.jpg",
+            "image_link": ""
+          }
+        },
+        "image_mFRxMP": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_11.09.21_PM.png",
+            "image_link": ""
+          }
+        },
+        "image_JGPYhp": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/ig_image_vest.jpg",
+            "image_link": ""
+          }
+        },
+        "image_Vatjid": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Look_08_6732.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_q9GEii",
+        "image_mFRxMP",
+        "image_JGPYhp",
+        "image_Vatjid"
+      ],
+      "disabled": true,
+      "settings": {
+        "slideshow_type": "two_col"
+      }
+    },
     "yossi_one_col_zjKekr": {
       "type": "yossi-one-col",
       "blocks": {
@@ -115,52 +162,6 @@
         "padding": false
       }
     },
-    "yossi_slideshow_83imHG": {
-      "type": "yossi-slideshow",
-      "blocks": {
-        "image_q9GEii": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/look_new_111.jpg",
-            "image_link": ""
-          }
-        },
-        "image_mFRxMP": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_11.09.21_PM.png",
-            "image_link": ""
-          }
-        },
-        "image_JGPYhp": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/ig_image_vest.jpg",
-            "image_link": ""
-          }
-        },
-        "image_Vatjid": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Look_08_6732.jpg",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_q9GEii",
-        "image_mFRxMP",
-        "image_JGPYhp",
-        "image_Vatjid"
-      ],
-      "settings": {
-        "slideshow_type": "two_col"
-      }
-    },
     "rich_text_AixniL": {
       "type": "rich-text",
       "blocks": {
@@ -209,9 +210,9 @@
     "main",
     "17112226810a723488",
     "custom_liquid_LNidM3",
+    "yossi_slideshow_83imHG",
     "yossi_one_col_zjKekr",
     "yossi_two_col_pGaxTQ",
-    "yossi_slideshow_83imHG",
     "rich_text_AixniL"
   ]
 }
