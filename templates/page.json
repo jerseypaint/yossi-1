@@ -23,10 +23,20 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_LNidM3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-Yczkj5\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "17112226810a723488"
+    "17112226810a723488",
+    "custom_liquid_LNidM3"
   ]
 }
