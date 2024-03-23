@@ -86,7 +86,7 @@
         "image_TYNVQk"
       ],
       "settings": {
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "padding": true
       }
     },
