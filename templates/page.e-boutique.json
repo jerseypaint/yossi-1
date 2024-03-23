@@ -22,6 +22,12 @@
         "padding_bottom": 52
       }
     },
+    "featured_collection_eVqJM9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "product-for-sign-up"
+      }
+    },
     "yossi_slideshow_83imHG": {
       "type": "yossi-slideshow",
       "blocks": {
@@ -94,6 +100,7 @@
         },
         "image_RtRB9U": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Look_09_103.jpg",
@@ -104,6 +111,7 @@
         },
         "image_9xbYJF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/custom_order_55.jpg",
@@ -114,6 +122,7 @@
         },
         "image_TYNVQk": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Look_04_115_8d7c0a3c-94e0-4c5e-919f-ef64aa4247e3.jpg",
@@ -204,22 +213,16 @@
         "padding_top": 56,
         "padding_bottom": 48
       }
-    },
-    "featured_collection_eVqJM9": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "product-for-sign-up"
-      }
     }
   },
   "order": [
     "main",
     "17112226810a723488",
     "custom_liquid_LNidM3",
+    "featured_collection_eVqJM9",
     "yossi_slideshow_83imHG",
     "yossi_one_col_zjKekr",
     "yossi_two_col_pGaxTQ",
-    "rich_text_AixniL",
-    "featured_collection_eVqJM9"
+    "rich_text_AixniL"
   ]
 }
