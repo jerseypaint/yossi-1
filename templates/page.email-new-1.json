@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -12,8 +13,9 @@
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_NJeNQD": {
           "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "disabled": true,
           "settings": {
-            "formId": "<div class=\"klaviyo-form-Yczkj5\"><\/div>"
+            "formId": ""
           }
         }
       },
@@ -32,11 +34,67 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "yossi_one_col_zjKekr": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "image_PbVxeG": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_11.09.21_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_RtRB9U": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Look_09_103.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_9xbYJF": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/custom_order_55.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_TYNVQk": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Look_04_115_8d7c0a3c-94e0-4c5e-919f-ef64aa4247e3.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PbVxeG",
+        "image_RtRB9U",
+        "image_9xbYJF",
+        "image_TYNVQk"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
     "main",
     "17112226810a723488",
-    "custom_liquid_LNidM3"
+    "custom_liquid_LNidM3",
+    "yossi_one_col_zjKekr"
   ]
 }
