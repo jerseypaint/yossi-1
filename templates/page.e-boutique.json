@@ -24,6 +24,7 @@
     },
     "featured_collection_eVqJM9": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "product-for-sign-up"
       }
