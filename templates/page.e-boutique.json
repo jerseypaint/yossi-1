@@ -32,11 +32,36 @@
     "yossi_slideshow_83imHG": {
       "type": "yossi-slideshow",
       "blocks": {
-        "image_Qa7Pth": {
+        "image_BGCida": {
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/1211_7a545a98-32c4-45fc-b75c-0b10c7a2dcdc.jpg",
+            "image_link": ""
+          }
+        },
+        "image_Qa7Pth": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
             "image": "shopify:\/\/shop_images\/2112111.jpg",
+            "image_link": ""
+          }
+        },
+        "image_hFJzMK": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/12211122.jpg",
+            "image_link": ""
+          }
+        },
+        "image_mELyxf": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/8-Look_06_135_1_1_284f7936-257f-4059-a2cb-f1b6e1a2b71c.jpg",
             "image_link": ""
           }
         },
@@ -83,24 +108,18 @@
             "image": "shopify:\/\/shop_images\/boot2.jpg",
             "image_link": ""
           }
-        },
-        "image_mELyxf": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/8-Look_06_135_1_1_284f7936-257f-4059-a2cb-f1b6e1a2b71c.jpg",
-            "image_link": ""
-          }
         }
       },
       "block_order": [
+        "image_BGCida",
         "image_Qa7Pth",
+        "image_hFJzMK",
+        "image_mELyxf",
         "image_q9GEii",
         "image_mFRxMP",
         "image_JGPYhp",
         "image_Vatjid",
-        "image_iLHmCU",
-        "image_mELyxf"
+        "image_iLHmCU"
       ],
       "settings": {
         "slideshow_type": "two_col"
