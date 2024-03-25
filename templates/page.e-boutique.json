@@ -108,6 +108,14 @@
             "image": "shopify:\/\/shop_images\/boot2.jpg",
             "image_link": ""
           }
+        },
+        "image_Yi4N74": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/plaid_pants.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
@@ -119,7 +127,8 @@
         "image_mFRxMP",
         "image_JGPYhp",
         "image_Vatjid",
-        "image_iLHmCU"
+        "image_iLHmCU",
+        "image_Yi4N74"
       ],
       "settings": {
         "slideshow_type": "two_col"
