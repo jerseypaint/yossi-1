@@ -63,9 +63,9 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "heading": "",
+            "heading": "Online Botique",
             "body": "",
-            "show_button": false,
+            "show_button": true,
             "button_text": "",
             "button_link": ""
           }
@@ -561,12 +561,20 @@
             "image": "shopify:\/\/shop_images\/leather_1111.jpg",
             "image_link": ""
           }
+        },
+        "image_RqJWhA": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "1dd9e344-65e3-49fe-9dd7-5ec8e92a8d83",
         "cf91c367-7d1f-4738-b5b1-1f71a7585fe3",
-        "be01769a-c454-4f4d-b118-d7f1d47ec779"
+        "be01769a-c454-4f4d-b118-d7f1d47ec779",
+        "image_RqJWhA"
       ],
       "disabled": true,
       "settings": {
@@ -839,6 +847,13 @@
       "settings": {
         "slideshow_type": "two_col"
       }
+    },
+    "yossi_hero_U4QRkA": {
+      "type": "yossi-hero",
+      "disabled": true,
+      "settings": {
+        "scroll_prompt": ""
+      }
     }
   },
   "order": [
@@ -853,6 +868,7 @@
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
-    "1661733008ab269655"
+    "1661733008ab269655",
+    "yossi_hero_U4QRkA"
   ]
 }
