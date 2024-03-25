@@ -57,8 +57,25 @@
             "image_link": ""
           }
         },
+        "image_Yi4N74": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/plaid_pants.jpg",
+            "image_link": ""
+          }
+        },
+        "image_iLHmCU": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/boot2.jpg",
+            "image_link": ""
+          }
+        },
         "image_mELyxf": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/8-Look_06_135_1_1_284f7936-257f-4059-a2cb-f1b6e1a2b71c.jpg",
@@ -100,35 +117,19 @@
             "image": "shopify:\/\/shop_images\/Look_08_6732.jpg",
             "image_link": ""
           }
-        },
-        "image_iLHmCU": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/boot2.jpg",
-            "image_link": ""
-          }
-        },
-        "image_Yi4N74": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/plaid_pants.jpg",
-            "image_link": ""
-          }
         }
       },
       "block_order": [
         "image_BGCida",
         "image_Qa7Pth",
         "image_hFJzMK",
+        "image_Yi4N74",
+        "image_iLHmCU",
         "image_mELyxf",
         "image_q9GEii",
         "image_mFRxMP",
         "image_JGPYhp",
-        "image_Vatjid",
-        "image_iLHmCU",
-        "image_Yi4N74"
+        "image_Vatjid"
       ],
       "settings": {
         "slideshow_type": "two_col"
