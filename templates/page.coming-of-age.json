@@ -26,8 +26,8 @@
         "03d39996-5b68-43db-8a26-ab6c4151936e"
       ],
       "settings": {
-        "orientation": "vertical",
-        "padding": true
+        "orientation": "horizontal",
+        "padding": false
       }
     },
     "ed26a267-39a5-4a18-8f48-5a97c11e0852": {
