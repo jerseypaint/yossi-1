@@ -127,7 +127,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/7_77fd6093-1619-4bf8-a5ad-6e7e58875ebd.jpg",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8031_copy.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -137,7 +137,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/8.jpg",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8035_copy.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -147,7 +147,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/9_5ff2dfbd-2da7-4290-a3ee-a83a3ee3bd21.jpg",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8041_copy.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -157,7 +157,17 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/11.jpg",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8065_copy.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_GYtXAG": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8075_copy.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -172,6 +182,45 @@
             "show_button": false,
             "button_text": "",
             "button_link": ""
+          }
+        },
+        "image_fWpXeC": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8079_copy.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_qA6jUT": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8103_copy.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_YJtWjj": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8114_copy.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_jhraUi": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         }
       },
@@ -188,7 +237,12 @@
         "4059315b-dde4-474f-9257-e5eb279083c9",
         "54de0ccd-3d60-4f43-8359-64782ebce668",
         "83b69d43-04f2-490d-b005-88c6dfaa605e",
-        "ff5a0ba5-3039-476b-9b22-c57294a7f3f2"
+        "image_GYtXAG",
+        "ff5a0ba5-3039-476b-9b22-c57294a7f3f2",
+        "image_fWpXeC",
+        "image_qA6jUT",
+        "image_YJtWjj",
+        "image_jhraUi"
       ],
       "settings": {
         "orientation": "vertical",
