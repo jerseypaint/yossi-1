@@ -14,7 +14,7 @@
         "03d39996-5b68-43db-8a26-ab6c4151936e": {
           "type": "text",
           "settings": {
-            "heading": "{POST_AMERICAN_YOUTHISM}",
+            "heading": "{Coming_OF_AGE}",
             "body": "",
             "show_button": false,
             "button_text": "",
@@ -32,6 +32,7 @@
     },
     "ed26a267-39a5-4a18-8f48-5a97c11e0852": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
         "color_scheme": "background-1",
