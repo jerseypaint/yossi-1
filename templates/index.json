@@ -79,6 +79,16 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "image_z9JggM": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8729-Recovered_5.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
         }
       },
       "block_order": [
@@ -87,7 +97,8 @@
         "8371c16d-778d-4346-96e1-424336ccd917",
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63",
         "87357f5c-fd3f-42da-a270-e61516831f35",
-        "275432e3-1835-42fb-b371-d6b49122adba"
+        "275432e3-1835-42fb-b371-d6b49122adba",
+        "image_z9JggM"
       ],
       "settings": {
         "orientation": "vertical",
