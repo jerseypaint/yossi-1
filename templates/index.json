@@ -28,17 +28,6 @@
             "y_padding": ""
           }
         },
-        "88fa01fd-af19-43bb-bd55-404317ca5f11": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "{POST_AMERICAN_YOUTHISM}",
-            "body": "this collection represents a new odyssey of cross-cultural understanding emerges, where the dynamism of youth transcends all boundaries. It stands as a powerful testament to the often overlooked or misjudged power and resilience of youth, aiming to break free from both mental and regional limitations while celebrating the universal essence of youthful spirit.",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        },
         "8371c16d-778d-4346-96e1-424336ccd917": {
           "type": "image",
           "disabled": true,
@@ -60,17 +49,6 @@
             "y_padding": ""
           }
         },
-        "87357f5c-fd3f-42da-a270-e61516831f35": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "Online Botique",
-            "body": "",
-            "show_button": true,
-            "button_text": "",
-            "button_link": ""
-          }
-        },
         "275432e3-1835-42fb-b371-d6b49122adba": {
           "type": "image",
           "settings": {
@@ -90,16 +68,38 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "87357f5c-fd3f-42da-a270-e61516831f35": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Online Botique",
+            "body": "",
+            "show_button": true,
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "88fa01fd-af19-43bb-bd55-404317ca5f11": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "{POST_AMERICAN_YOUTHISM}",
+            "body": "this collection represents a new odyssey of cross-cultural understanding emerges, where the dynamism of youth transcends all boundaries. It stands as a powerful testament to the often overlooked or misjudged power and resilience of youth, aiming to break free from both mental and regional limitations while celebrating the universal essence of youthful spirit.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "80404c98-f5d6-4fa7-aa98-4051c578cc9b",
-        "88fa01fd-af19-43bb-bd55-404317ca5f11",
         "8371c16d-778d-4346-96e1-424336ccd917",
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63",
-        "87357f5c-fd3f-42da-a270-e61516831f35",
         "275432e3-1835-42fb-b371-d6b49122adba",
-        "image_z9JggM"
+        "image_z9JggM",
+        "87357f5c-fd3f-42da-a270-e61516831f35",
+        "88fa01fd-af19-43bb-bd55-404317ca5f11"
       ],
       "settings": {
         "orientation": "vertical",
