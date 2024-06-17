@@ -20,6 +20,7 @@
       "blocks": {
         "video_aYgAKR": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29cad67f22d141deae939143b25e6c19.mp4"
           }
