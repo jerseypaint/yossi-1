@@ -10,7 +10,11 @@
                     </button>
                 </div>
                 <div class="flex-1 text-center max-w-[140px] xl:max-w-[160px]">
-                    {%  include 'yossi-homme-logo' %}
+                    {% if section.settings.logo %}
+                      {{ section.settings.logo | image_url: width: 320 | image_tag: class: '' }}
+                    {% else %}
+                      {% render 'yossi-homme-logo' %}
+                    {% endif %}
                 </div>
                 <div class="w-8">
                     <a href="/cart">
@@ -144,6 +148,11 @@
       "id": "menu",
       "default": "main-menu",
       "label": "t:sections.header.settings.menu.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "logo"
     }
   ]
 }
