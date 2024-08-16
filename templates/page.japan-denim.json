@@ -275,6 +275,7 @@
       "blocks": {
         "a4610d7b-4d6f-444d-9535-a9305dfef22b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/DSCF8707.jpg",
