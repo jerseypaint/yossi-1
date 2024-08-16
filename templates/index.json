@@ -171,6 +171,110 @@
         "show_text_below": true
       }
     },
+    "image_banner_WKQXbd": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_KhVTWx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_k79fMR": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_Df8EN7": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KhVTWx",
+        "text_k79fMR",
+        "buttons_Df8EN7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/web_slider_4.jpg",
+        "image_2": "shopify:\/\/shop_images\/web_slider_10.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_Jcy4Xe": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_B7z6CY": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_wcRj3w": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_rrCEYX": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_B7z6CY",
+        "text_wcRj3w",
+        "buttons_rrCEYX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/web_slider_7.jpg",
+        "image_2": "shopify:\/\/shop_images\/web_slider_8.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "yossi_hero_U4QRkA": {
       "type": "yossi-hero",
       "blocks": {
@@ -248,7 +352,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8146_copy.jpg",
             "image_link": ""
           }
         },
@@ -256,7 +360,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/230720_CodyLidtke_Scarce_EDITORIAL_01_0272.jpg",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8079_copy.jpg",
             "image_link": ""
           }
         }
@@ -1122,6 +1226,8 @@
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
     "image_banner_dHEzC7",
     "image_banner_e7dnbT",
+    "image_banner_WKQXbd",
+    "image_banner_Jcy4Xe",
     "yossi_hero_U4QRkA",
     "a848dd19-6ee8-4211-9c38-d101a558462b",
     "yossi_two_col_jMeqQi",
