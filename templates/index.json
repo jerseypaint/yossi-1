@@ -76,6 +76,57 @@
         "mobile_bg_video": ""
       }
     },
+    "image_banner_e7dnbT": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Y6mtmU": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_An8jiq": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_tGBAyb": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6mtmU",
+        "text_An8jiq",
+        "buttons_tGBAyb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.53.18_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "yossi_hero_U4QRkA": {
       "type": "yossi-hero",
       "blocks": {
@@ -125,6 +176,7 @@
         "image_a6xQbL",
         "image_epNzJj"
       ],
+      "disabled": true,
       "settings": {
         "padding": false
       }
@@ -136,7 +188,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_running_2.jpg",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8031_copy.jpg",
             "image_link": ""
           }
         },
@@ -144,7 +196,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_Film_13.jpg",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme7953.jpg",
             "image_link": ""
           }
         },
@@ -1019,61 +1071,12 @@
         "orientation": "vertical",
         "padding": true
       }
-    },
-    "image_banner_e7dnbT": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_Y6mtmU": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_An8jiq": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_tGBAyb": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_Y6mtmU",
-        "text_An8jiq",
-        "buttons_tGBAyb"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "image_banner_8iN3Dc",
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
+    "image_banner_e7dnbT",
     "yossi_hero_U4QRkA",
     "a848dd19-6ee8-4211-9c38-d101a558462b",
     "yossi_two_col_jMeqQi",
@@ -1086,7 +1089,6 @@
     "905b65ea-7435-422b-8018-116f06600bac",
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
-    "16588845621966d2f8",
-    "image_banner_e7dnbT"
+    "16588845621966d2f8"
   ]
 }
