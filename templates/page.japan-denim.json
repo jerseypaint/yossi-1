@@ -67,8 +67,8 @@
             "heading": "",
             "image": "shopify:\/\/shop_images\/wwd_1.jpg",
             "image_link": "",
-            "x_padding": "px-8",
-            "y_padding": "py-8"
+            "x_padding": "",
+            "y_padding": ""
           }
         }
       },
