@@ -94,6 +94,15 @@
         "scroll_prompt": ""
       }
     },
+    "a848dd19-6ee8-4211-9c38-d101a558462b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e": {
       "type": "yossi-one-col",
       "blocks": {
@@ -102,6 +111,16 @@
           "disabled": true,
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29cad67f22d141deae939143b25e6c19.mp4"
+          }
+        },
+        "275432e3-1835-42fb-b371-d6b49122adba": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/230123_YossiHomme8729-_4.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         },
         "80404c98-f5d6-4fa7-aa98-4051c578cc9b": {
@@ -130,16 +149,6 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/230123_YossiHomme8729_6.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "275432e3-1835-42fb-b371-d6b49122adba": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/230123_YossiHomme8729-_4.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -197,10 +206,10 @@
       },
       "block_order": [
         "video_aYgAKR",
+        "275432e3-1835-42fb-b371-d6b49122adba",
         "80404c98-f5d6-4fa7-aa98-4051c578cc9b",
         "8371c16d-778d-4346-96e1-424336ccd917",
         "73d7f442-3239-4ef8-9ac1-52fc734b7d63",
-        "275432e3-1835-42fb-b371-d6b49122adba",
         "image_z9JggM",
         "87357f5c-fd3f-42da-a270-e61516831f35",
         "88fa01fd-af19-43bb-bd55-404317ca5f11",
@@ -545,15 +554,6 @@
       "settings": {
         "orientation": "vertical",
         "padding": true
-      }
-    },
-    "a848dd19-6ee8-4211-9c38-d101a558462b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "905b65ea-7435-422b-8018-116f06600bac": {
@@ -978,12 +978,12 @@
     "image_banner_8iN3Dc",
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
     "yossi_hero_U4QRkA",
+    "a848dd19-6ee8-4211-9c38-d101a558462b",
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
     "902e297e-aedd-4a9c-b21d-0972be2b9b78",
     "d2058dd0-1a1f-459f-a421-28bddf7286b8",
     "16617337446d558e71",
     "67f4496c-986f-42a4-a374-36724121d4c7",
-    "a848dd19-6ee8-4211-9c38-d101a558462b",
     "905b65ea-7435-422b-8018-116f06600bac",
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
