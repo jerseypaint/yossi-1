@@ -76,49 +76,6 @@
         "mobile_bg_video": ""
       }
     },
-    "image_banner_dHEzC7": {
-      "type": "image-banner",
-      "blocks": {
-        "text_8c4zUB": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_T3Bg8b": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "text_8c4zUB",
-        "buttons_T3Bg8b"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/web_slider_5.jpg",
-        "image_2": "shopify:\/\/shop_images\/lookbook_16_2_1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "image_banner_e7dnbT": {
       "type": "image-banner",
       "blocks": {
@@ -171,6 +128,66 @@
         "show_text_below": true
       }
     },
+    "image_banner_dHEzC7": {
+      "type": "image-banner",
+      "blocks": {
+        "text_8c4zUB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_T3Bg8b": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_8c4zUB",
+        "buttons_T3Bg8b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/web_slider_5.jpg",
+        "image_2": "shopify:\/\/shop_images\/lookbook_16_2_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "yossi_hero_U4QRkA": {
+      "type": "yossi-hero",
+      "blocks": {
+        "video_rceUdL": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29cad67f22d141deae939143b25e6c19.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_rceUdL"
+      ],
+      "settings": {
+        "scroll_prompt": ""
+      }
+    },
     "image_banner_WKQXbd": {
       "type": "image-banner",
       "blocks": {
@@ -221,23 +238,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "yossi_hero_U4QRkA": {
-      "type": "yossi-hero",
-      "blocks": {
-        "video_rceUdL": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29cad67f22d141deae939143b25e6c19.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "video_rceUdL"
-      ],
-      "settings": {
-        "scroll_prompt": ""
       }
     },
     "image_banner_Jcy4Xe": {
@@ -1223,10 +1223,10 @@
   "order": [
     "image_banner_8iN3Dc",
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
-    "image_banner_dHEzC7",
     "image_banner_e7dnbT",
-    "image_banner_WKQXbd",
+    "image_banner_dHEzC7",
     "yossi_hero_U4QRkA",
+    "image_banner_WKQXbd",
     "image_banner_Jcy4Xe",
     "a848dd19-6ee8-4211-9c38-d101a558462b",
     "yossi_two_col_jMeqQi",
