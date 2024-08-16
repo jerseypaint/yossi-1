@@ -47,7 +47,7 @@
         "buttons_n94Qax"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/web_slider_2.jpg",
+        "image": "shopify:\/\/shop_images\/banner_wider_1.jpg",
         "image_2": "shopify:\/\/shop_images\/220427_Yossi27322.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
@@ -114,8 +114,8 @@
         "buttons_tGBAyb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/web_slider_6.jpg",
-        "image_2": "shopify:\/\/shop_images\/web_slider_3.jpg",
+        "image": "shopify:\/\/shop_images\/banner_wider_9.jpg",
+        "image_2": "shopify:\/\/shop_images\/banner_wider_4.jpg",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -157,7 +157,7 @@
         "buttons_T3Bg8b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/web_slider_5.jpg",
+        "image": "shopify:\/\/shop_images\/banner_wider_6.jpg",
         "image_2": "shopify:\/\/shop_images\/lookbook_16_2_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -248,8 +248,8 @@
         "buttons_Df8EN7"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/web_slider_4.jpg",
-        "image_2": "shopify:\/\/shop_images\/web_slider_10.jpg",
+        "image": "shopify:\/\/shop_images\/banner_wider_7.jpg",
+        "image_2": "shopify:\/\/shop_images\/banner_wider_2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -300,8 +300,8 @@
         "buttons_rrCEYX"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/web_slider_7.jpg",
-        "image_2": "shopify:\/\/shop_images\/Web_slider.jpg",
+        "image": "shopify:\/\/shop_images\/banner_wider_100.jpg",
+        "image_2": "shopify:\/\/shop_images\/banner_wider_8.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -1244,16 +1244,6 @@
     "yossi_one_col_EAFhr9": {
       "type": "yossi-one-col",
       "blocks": {
-        "text_WXypBM": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "body": "AMERICAN DREAM_YOUTH_ISOLATION_Escapism_ASENSEOFSELF",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        },
         "text_yLtgwH": {
           "type": "text",
           "settings": {
@@ -1266,8 +1256,45 @@
         }
       },
       "block_order": [
-        "text_WXypBM",
         "text_yLtgwH"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "image_banner_AmQFCx": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/web_slider_8.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "yossi_one_col_XfiNHr": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "text_4NejRH": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "body": "AMERICAN DREAM_YOUTH_ISOLATION_Escapism_A.SENSE.OF.SELF",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_4NejRH"
       ],
       "settings": {
         "orientation": "vertical",
@@ -1296,6 +1323,8 @@
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
-    "yossi_one_col_EAFhr9"
+    "yossi_one_col_EAFhr9",
+    "image_banner_AmQFCx",
+    "yossi_one_col_XfiNHr"
   ]
 }
