@@ -152,6 +152,15 @@
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
+            "image_link": ""
+          }
+        },
+        "image_amRxwR": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/230720_CodyLidtke_Scarce_EDITORIAL_01_0272.jpg",
             "image_link": ""
           }
         }
@@ -159,7 +168,8 @@
       "block_order": [
         "7d9fbcca-0de2-4075-a889-f108d2a2db6b",
         "19571b2f-9677-4f20-85b0-ed6859a140da",
-        "image_3khKL3"
+        "image_3khKL3",
+        "image_amRxwR"
       ],
       "settings": {
         "slideshow_type": "two_col"
