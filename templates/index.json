@@ -1219,20 +1219,6 @@
         "orientation": "vertical",
         "padding": true
       }
-    },
-    "video_i3YFGz": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/web_slider_10.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_7YDWPEjGV4",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -1254,7 +1240,6 @@
     "905b65ea-7435-422b-8018-116f06600bac",
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
-    "16588845621966d2f8",
-    "video_i3YFGz"
+    "16588845621966d2f8"
   ]
 }
