@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1660279259c915b328": {
@@ -6,7 +15,7 @@
         "1cd4dc07-e8b7-4c19-bed7-1bafe78d6b58": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/yossi_potrait_166.jpg",
+            "image": "shopify:\/\/shop_images\/YOSSI_19.jpg",
             "image_link": ""
           }
         }
@@ -155,7 +164,6 @@
     },
     "166034813380d4f889": {
       "type": "yossi-one-col",
-      "disabled": true,
       "blocks": {
         "0a77589d-afe1-4cfe-b29b-00c6a7148738": {
           "type": "text",
@@ -171,6 +179,7 @@
       "block_order": [
         "0a77589d-afe1-4cfe-b29b-00c6a7148738"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -178,7 +187,6 @@
     },
     "1660347391630978c8": {
       "type": "yossi-slideshow",
-      "disabled": true,
       "blocks": {
         "d2b64cf6-35ac-4f4f-aa1f-af4044981647": {
           "type": "image",
@@ -210,6 +218,7 @@
         "501954c9-bdb3-4168-824d-83afd60390ea",
         "ff9c2168-147d-4db8-af73-aed4d5779741"
       ],
+      "disabled": true,
       "settings": {
         "slideshow_type": "two_col"
       }
