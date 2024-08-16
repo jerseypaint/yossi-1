@@ -75,10 +75,10 @@
         "text_dk6Um9": {
           "type": "text",
           "settings": {
-            "heading": "OFFICE MAGAIZNE",
+            "heading": "",
             "body": "",
             "show_button": true,
-            "button_text": "READ HERE",
+            "button_text": "OFFICE",
             "button_link": "https:\/\/officemagazine.net\/yossi-shetrit-rides-american-youth-wave"
           }
         },
