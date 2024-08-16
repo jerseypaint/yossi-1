@@ -48,9 +48,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
-        "image_2": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.53.18_PM.png",
+        "image_2": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
         "image_overlay_opacity": 10,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
