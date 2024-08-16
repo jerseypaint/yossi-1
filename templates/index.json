@@ -48,7 +48,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
-        "image_2": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
+        "image_2": "shopify:\/\/shop_images\/220427_Yossi27322.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -94,20 +94,29 @@
         "scroll_prompt": ""
       }
     },
+    "a848dd19-6ee8-4211-9c38-d101a558462b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "yossi_two_col_jMeqQi": {
       "type": "yossi-two-col",
       "blocks": {
         "image_a6xQbL": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
+            "image": "shopify:\/\/shop_images\/5_1_ee5e01b6-5710-4b18-9b12-1b487d803a38.jpg",
             "image_link": ""
           }
         },
         "image_epNzJj": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.53.18_PM.png",
+            "image": "shopify:\/\/shop_images\/5_2_08387d27-2b9e-4eb4-9fd9-341ef0ba4d4e.jpg",
             "image_link": ""
           }
         }
@@ -120,13 +129,40 @@
         "padding": false
       }
     },
-    "a848dd19-6ee8-4211-9c38-d101a558462b": {
-      "type": "custom-liquid",
+    "1661733008ab269655": {
+      "type": "yossi-slideshow",
+      "blocks": {
+        "7d9fbcca-0de2-4075-a889-f108d2a2db6b": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_running_2.jpg",
+            "image_link": ""
+          }
+        },
+        "19571b2f-9677-4f20-85b0-ed6859a140da": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Yossi_Film_13.jpg",
+            "image_link": ""
+          }
+        },
+        "image_3khKL3": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7d9fbcca-0de2-4075-a889-f108d2a2db6b",
+        "19571b2f-9677-4f20-85b0-ed6859a140da",
+        "image_3khKL3"
+      ],
       "settings": {
-        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "slideshow_type": "two_col"
       }
     },
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e": {
@@ -974,40 +1010,54 @@
         "padding": true
       }
     },
-    "1661733008ab269655": {
-      "type": "yossi-slideshow",
+    "image_banner_e7dnbT": {
+      "type": "image-banner",
       "blocks": {
-        "7d9fbcca-0de2-4075-a889-f108d2a2db6b": {
-          "type": "image",
+        "heading_Y6mtmU": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_running_2.jpg",
-            "image_link": ""
+            "heading": "Image banner",
+            "heading_size": "h1"
           }
         },
-        "19571b2f-9677-4f20-85b0-ed6859a140da": {
-          "type": "image",
+        "text_An8jiq": {
+          "type": "text",
+          "disabled": true,
           "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_Film_13.jpg",
-            "image_link": ""
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
           }
         },
-        "image_3khKL3": {
-          "type": "image",
+        "buttons_tGBAyb": {
+          "type": "buttons",
+          "disabled": true,
           "settings": {
-            "heading": "",
-            "image_link": ""
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "7d9fbcca-0de2-4075-a889-f108d2a2db6b",
-        "19571b2f-9677-4f20-85b0-ed6859a140da",
-        "image_3khKL3"
+        "heading_Y6mtmU",
+        "text_An8jiq",
+        "buttons_tGBAyb"
       ],
       "settings": {
-        "slideshow_type": "framed"
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -1015,8 +1065,9 @@
     "image_banner_8iN3Dc",
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
     "yossi_hero_U4QRkA",
-    "yossi_two_col_jMeqQi",
     "a848dd19-6ee8-4211-9c38-d101a558462b",
+    "yossi_two_col_jMeqQi",
+    "1661733008ab269655",
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
     "902e297e-aedd-4a9c-b21d-0972be2b9b78",
     "d2058dd0-1a1f-459f-a421-28bddf7286b8",
@@ -1026,6 +1077,6 @@
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
-    "1661733008ab269655"
+    "image_banner_e7dnbT"
   ]
 }
