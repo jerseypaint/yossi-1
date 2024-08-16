@@ -84,6 +84,7 @@
         },
         "8a6a4d8b-9bde-4733-9489-d738adcb15ce": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "FORBES",
             "body": "",
@@ -108,7 +109,7 @@
             "heading": "",
             "body": "",
             "show_button": true,
-            "button_text": "READ HERE",
+            "button_text": "FORBES",
             "button_link": "https:\/\/www.forbes.com\/sites\/cassellferere\/2023\/09\/05\/yossi-homme-and-designer-yossi-shetrit-introduce-post-american-youthism-to-menswear\/?sh=73fd785a6ad8"
           }
         },
