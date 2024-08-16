@@ -30,8 +30,19 @@
     "1660279527f5ff6ee5": {
       "type": "yossi-one-col",
       "blocks": {
+        "image_WCteH4": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/quoatable_yossi.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "3282d6b7-3ce9-4d13-a27f-e79f9a2ba719": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "YOSSI SHETRIT",
             "body": "Yossi Shetrit is a designer of American origin who comes from a mixed Israeli and Moroccan background. He completed his studies in menswear design at F.I.T, having grown up between LI and Downtown Manhattan. Shetrit's early exposure to the cultural scene of 90's and 00's New York City has greatly influenced his taste and perspective on music, art, film, and fashion.",
@@ -60,23 +71,13 @@
             "x_padding": "",
             "y_padding": ""
           }
-        },
-        "image_WCteH4": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify:\/\/shop_images\/quoatable_yossi.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
         }
       },
       "block_order": [
+        "image_WCteH4",
         "3282d6b7-3ce9-4d13-a27f-e79f9a2ba719",
         "474cce6a-2291-40de-a178-1c41ee80a381",
-        "111bc076-772b-4acc-973d-6f624244115c",
-        "image_WCteH4"
+        "111bc076-772b-4acc-973d-6f624244115c"
       ],
       "settings": {
         "orientation": "horizontal",
