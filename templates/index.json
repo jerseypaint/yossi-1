@@ -89,6 +89,7 @@
       "block_order": [
         "video_rceUdL"
       ],
+      "disabled": true,
       "settings": {
         "scroll_prompt": ""
       }
@@ -207,7 +208,7 @@
         "image_zcJAYn"
       ],
       "settings": {
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "padding": false
       }
     },
