@@ -150,6 +150,7 @@
         "36acdb44-9545-4c53-8021-8d64a3621547",
         "81adfa55-aa4c-4cd4-a44e-a17daf23078c"
       ],
+      "disabled": true,
       "settings": {
         "slideshow_type": "framed"
       }
@@ -263,6 +264,7 @@
         "8f1e5d8c-e6ac-488a-a355-f6ba3670a493",
         "cbe80501-1632-426a-a957-f5b5ef8cfc4f"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "horizontal",
         "padding": false
@@ -281,6 +283,16 @@
             "y_padding": ""
           }
         },
+        "image_9jzDJK": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/YOSSI_10_LOOK_copy.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "f5f28d17-17c8-470c-801d-baf237699eaa": {
           "type": "text",
           "settings": {
@@ -294,6 +306,7 @@
       },
       "block_order": [
         "a4610d7b-4d6f-444d-9535-a9305dfef22b",
+        "image_9jzDJK",
         "f5f28d17-17c8-470c-801d-baf237699eaa"
       ],
       "settings": {
