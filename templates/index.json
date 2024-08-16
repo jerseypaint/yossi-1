@@ -1225,6 +1225,7 @@
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/web_slider_10.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_7YDWPEjGV4",
         "description": "",
         "full_width": true,
