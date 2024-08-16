@@ -993,10 +993,18 @@
             "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
             "image_link": ""
           }
+        },
+        "image_epNzJj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.53.18_PM.png",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
-        "image_a6xQbL"
+        "image_a6xQbL",
+        "image_epNzJj"
       ],
       "settings": {
         "padding": true
