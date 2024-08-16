@@ -94,6 +94,32 @@
         "scroll_prompt": ""
       }
     },
+    "yossi_two_col_jMeqQi": {
+      "type": "yossi-two-col",
+      "blocks": {
+        "image_a6xQbL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
+            "image_link": ""
+          }
+        },
+        "image_epNzJj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.53.18_PM.png",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_a6xQbL",
+        "image_epNzJj"
+      ],
+      "settings": {
+        "padding": false
+      }
+    },
     "a848dd19-6ee8-4211-9c38-d101a558462b": {
       "type": "custom-liquid",
       "settings": {
@@ -983,38 +1009,13 @@
       "settings": {
         "slideshow_type": "framed"
       }
-    },
-    "yossi_two_col_jMeqQi": {
-      "type": "yossi-two-col",
-      "blocks": {
-        "image_a6xQbL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
-            "image_link": ""
-          }
-        },
-        "image_epNzJj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.53.18_PM.png",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_a6xQbL",
-        "image_epNzJj"
-      ],
-      "settings": {
-        "padding": true
-      }
     }
   },
   "order": [
     "image_banner_8iN3Dc",
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
     "yossi_hero_U4QRkA",
+    "yossi_two_col_jMeqQi",
     "a848dd19-6ee8-4211-9c38-d101a558462b",
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
     "902e297e-aedd-4a9c-b21d-0972be2b9b78",
@@ -1025,7 +1026,6 @@
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
-    "1661733008ab269655",
-    "yossi_two_col_jMeqQi"
+    "1661733008ab269655"
   ]
 }
