@@ -47,7 +47,7 @@
         "buttons_n94Qax"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.50.42_PM.png",
+        "image": "shopify:\/\/shop_images\/web_slider_2.jpg",
         "image_2": "shopify:\/\/shop_images\/220427_Yossi27322.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
@@ -114,9 +114,10 @@
         "buttons_tGBAyb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-15_at_11.53.18_PM.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/web_slider_6.jpg",
+        "image_2": "shopify:\/\/shop_images\/web_slider_3.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
