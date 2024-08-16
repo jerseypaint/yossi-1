@@ -171,23 +171,6 @@
         "show_text_below": true
       }
     },
-    "yossi_hero_U4QRkA": {
-      "type": "yossi-hero",
-      "blocks": {
-        "video_rceUdL": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29cad67f22d141deae939143b25e6c19.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "video_rceUdL"
-      ],
-      "settings": {
-        "scroll_prompt": ""
-      }
-    },
     "yossi_one_col_QtpBkP": {
       "type": "yossi-one-col",
       "blocks": {
@@ -208,6 +191,23 @@
       "settings": {
         "orientation": "horizontal",
         "padding": true
+      }
+    },
+    "yossi_hero_U4QRkA": {
+      "type": "yossi-hero",
+      "blocks": {
+        "video_rceUdL": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29cad67f22d141deae939143b25e6c19.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_rceUdL"
+      ],
+      "settings": {
+        "scroll_prompt": ""
       }
     },
     "image_banner_WKQXbd": {
@@ -1269,8 +1269,8 @@
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
     "image_banner_e7dnbT",
     "image_banner_dHEzC7",
-    "yossi_hero_U4QRkA",
     "yossi_one_col_QtpBkP",
+    "yossi_hero_U4QRkA",
     "image_banner_WKQXbd",
     "image_banner_Jcy4Xe",
     "a848dd19-6ee8-4211-9c38-d101a558462b",
