@@ -146,8 +146,8 @@
         "text_PfU4nm"
       ],
       "settings": {
-        "orientation": "vertical",
-        "padding": true
+        "orientation": "horizontal",
+        "padding": false
       }
     },
     "image_banner_dHEzC7": {
