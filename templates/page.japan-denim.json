@@ -53,6 +53,7 @@
         },
         "474cce6a-2291-40de-a178-1c41ee80a381": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/yossi_cutting_siccors_x1000.progressive_1.jpg",
