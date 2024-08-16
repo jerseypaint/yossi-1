@@ -303,12 +303,23 @@
             "button_text": "",
             "button_link": ""
           }
+        },
+        "image_NPVKjf": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/wwd_1.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
         }
       },
       "block_order": [
         "a4610d7b-4d6f-444d-9535-a9305dfef22b",
         "image_9jzDJK",
-        "f5f28d17-17c8-470c-801d-baf237699eaa"
+        "f5f28d17-17c8-470c-801d-baf237699eaa",
+        "image_NPVKjf"
       ],
       "settings": {
         "orientation": "vertical",
