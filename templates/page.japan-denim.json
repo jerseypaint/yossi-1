@@ -60,12 +60,23 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "image_WCteH4": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/wwd_1.jpg",
+            "image_link": "",
+            "x_padding": "px-8",
+            "y_padding": "py-8"
+          }
         }
       },
       "block_order": [
         "3282d6b7-3ce9-4d13-a27f-e79f9a2ba719",
         "474cce6a-2291-40de-a178-1c41ee80a381",
-        "111bc076-772b-4acc-973d-6f624244115c"
+        "111bc076-772b-4acc-973d-6f624244115c",
+        "image_WCteH4"
       ],
       "settings": {
         "orientation": "horizontal",
@@ -306,6 +317,7 @@
         },
         "image_NPVKjf": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/wwd_1.jpg",
