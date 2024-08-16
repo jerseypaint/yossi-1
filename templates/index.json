@@ -128,28 +128,6 @@
         "show_text_below": true
       }
     },
-    "yossi_one_col_QtpBkP": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "text_PfU4nm": {
-          "type": "text",
-          "settings": {
-            "heading": "IM NOT HAPPY AND IM NOT SAD",
-            "body": "Sunday Comes And Sunday Goes",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_PfU4nm"
-      ],
-      "settings": {
-        "orientation": "horizontal",
-        "padding": false
-      }
-    },
     "image_banner_dHEzC7": {
       "type": "image-banner",
       "blocks": {
@@ -208,6 +186,28 @@
       ],
       "settings": {
         "scroll_prompt": ""
+      }
+    },
+    "yossi_one_col_QtpBkP": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "text_PfU4nm": {
+          "type": "text",
+          "settings": {
+            "heading": "IM NOT HAPPY AND IM NOT SAD",
+            "body": "Sunday Comes And Sunday Goes",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_PfU4nm"
+      ],
+      "settings": {
+        "orientation": "horizontal",
+        "padding": true
       }
     },
     "image_banner_WKQXbd": {
@@ -1246,9 +1246,9 @@
     "image_banner_8iN3Dc",
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
     "image_banner_e7dnbT",
-    "yossi_one_col_QtpBkP",
     "image_banner_dHEzC7",
     "yossi_hero_U4QRkA",
+    "yossi_one_col_QtpBkP",
     "image_banner_WKQXbd",
     "image_banner_Jcy4Xe",
     "a848dd19-6ee8-4211-9c38-d101a558462b",
