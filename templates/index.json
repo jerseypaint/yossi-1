@@ -223,6 +223,23 @@
         "show_text_below": true
       }
     },
+    "yossi_hero_U4QRkA": {
+      "type": "yossi-hero",
+      "blocks": {
+        "video_rceUdL": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29cad67f22d141deae939143b25e6c19.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_rceUdL"
+      ],
+      "settings": {
+        "scroll_prompt": ""
+      }
+    },
     "image_banner_Jcy4Xe": {
       "type": "image-banner",
       "blocks": {
@@ -273,24 +290,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "yossi_hero_U4QRkA": {
-      "type": "yossi-hero",
-      "blocks": {
-        "video_rceUdL": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29cad67f22d141deae939143b25e6c19.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "video_rceUdL"
-      ],
-      "disabled": true,
-      "settings": {
-        "scroll_prompt": ""
       }
     },
     "a848dd19-6ee8-4211-9c38-d101a558462b": {
@@ -1227,8 +1226,8 @@
     "image_banner_dHEzC7",
     "image_banner_e7dnbT",
     "image_banner_WKQXbd",
-    "image_banner_Jcy4Xe",
     "yossi_hero_U4QRkA",
+    "image_banner_Jcy4Xe",
     "a848dd19-6ee8-4211-9c38-d101a558462b",
     "yossi_two_col_jMeqQi",
     "1661733008ab269655",
