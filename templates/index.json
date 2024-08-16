@@ -24,6 +24,23 @@
         "mobile_bg_video": ""
       }
     },
+    "yossi_hero_U4QRkA": {
+      "type": "yossi-hero",
+      "blocks": {
+        "video_rceUdL": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/29cad67f22d141deae939143b25e6c19.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_rceUdL"
+      ],
+      "settings": {
+        "scroll_prompt": ""
+      }
+    },
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e": {
       "type": "yossi-one-col",
       "blocks": {
@@ -883,17 +900,11 @@
       "settings": {
         "slideshow_type": "two_col"
       }
-    },
-    "yossi_hero_U4QRkA": {
-      "type": "yossi-hero",
-      "disabled": true,
-      "settings": {
-        "scroll_prompt": ""
-      }
     }
   },
   "order": [
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
+    "yossi_hero_U4QRkA",
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
     "902e297e-aedd-4a9c-b21d-0972be2b9b78",
     "d2058dd0-1a1f-459f-a421-28bddf7286b8",
@@ -904,7 +915,6 @@
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
-    "1661733008ab269655",
-    "yossi_hero_U4QRkA"
+    "1661733008ab269655"
   ]
 }
