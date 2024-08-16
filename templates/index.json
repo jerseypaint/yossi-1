@@ -1241,44 +1241,6 @@
         "padding": true
       }
     },
-    "yossi_one_col_EAFhr9": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "text_yLtgwH": {
-          "type": "text",
-          "settings": {
-            "heading": "Dont Let Youth Escape your Adulthood",
-            "body": "YOSSI CORP.",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_yLtgwH"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
-    },
-    "image_banner_AmQFCx": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/web_slider_8.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "yossi_one_col_XfiNHr": {
       "type": "yossi-one-col",
       "blocks": {
@@ -1299,6 +1261,45 @@
       "settings": {
         "orientation": "vertical",
         "padding": true
+      }
+    },
+    "yossi_one_col_EAFhr9": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "text_yLtgwH": {
+          "type": "text",
+          "settings": {
+            "heading": "Dont Let Youth Escape your Adulthood",
+            "body": "YOSSI CORP.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_yLtgwH"
+      ],
+      "disabled": true,
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "image_banner_AmQFCx": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/web_slider_8.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -1323,8 +1324,8 @@
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
+    "yossi_one_col_XfiNHr",
     "yossi_one_col_EAFhr9",
-    "image_banner_AmQFCx",
-    "yossi_one_col_XfiNHr"
+    "image_banner_AmQFCx"
   ]
 }
