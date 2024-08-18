@@ -80,6 +80,7 @@
       "blocks": {
         "video_WwHzXm": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1cbf4a8d31d046269bf5a1938f2613da.mp4"
           }
