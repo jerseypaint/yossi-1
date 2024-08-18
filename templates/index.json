@@ -193,6 +193,48 @@
         "padding": true
       }
     },
+    "yossi_one_col_GrJ6iB": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "video_LEpj33": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1cbf4a8d31d046269bf5a1938f2613da.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_LEpj33"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "yossi_two_col_nKnCBD": {
+      "type": "yossi-two-col",
+      "blocks": {
+        "video_pYtpYK": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1cbf4a8d31d046269bf5a1938f2613da.mp4"
+          }
+        },
+        "video_Tp6EBp": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1cbf4a8d31d046269bf5a1938f2613da.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_pYtpYK",
+        "video_Tp6EBp"
+      ],
+      "settings": {
+        "padding": false
+      }
+    },
     "yossi_hero_U4QRkA": {
       "type": "yossi-hero",
       "blocks": {
@@ -206,6 +248,7 @@
       "block_order": [
         "video_rceUdL"
       ],
+      "disabled": true,
       "settings": {
         "scroll_prompt": ""
       }
@@ -1309,6 +1352,8 @@
     "image_banner_e7dnbT",
     "image_banner_dHEzC7",
     "yossi_one_col_QtpBkP",
+    "yossi_one_col_GrJ6iB",
+    "yossi_two_col_nKnCBD",
     "yossi_hero_U4QRkA",
     "image_banner_WKQXbd",
     "image_banner_Jcy4Xe",
