@@ -850,6 +850,30 @@
         "slideshow_type": "framed"
       }
     },
+    "yossi_two_col_jzyLqV": {
+      "type": "yossi-two-col",
+      "blocks": {
+        "video_aELMEq": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0020\/9521\/8787\/files\/yossi_web_11.jpg?v=1723928871"
+          }
+        },
+        "video_yPVQKx": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0020\/9521\/8787\/files\/yossi_web_11.jpg?v=1723928871"
+          }
+        }
+      },
+      "block_order": [
+        "video_aELMEq",
+        "video_yPVQKx"
+      ],
+      "settings": {
+        "padding": true
+      }
+    },
     "16588845621966d2f8": {
       "type": "yossi-one-col",
       "blocks": {
@@ -1148,12 +1172,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "yossi_two_col_jzyLqV": {
-      "type": "yossi-two-col",
-      "settings": {
-        "padding": true
-      }
     }
   },
   "order": [
@@ -1175,10 +1193,10 @@
     "905b65ea-7435-422b-8018-116f06600bac",
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
+    "yossi_two_col_jzyLqV",
     "16588845621966d2f8",
     "yossi_one_col_XfiNHr",
     "yossi_one_col_EAFhr9",
-    "image_banner_AmQFCx",
-    "yossi_two_col_jzyLqV"
+    "image_banner_AmQFCx"
   ]
 }
