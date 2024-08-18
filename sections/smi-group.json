@@ -299,10 +299,28 @@
         "orientation": "vertical",
         "padding": true
       }
+    },
+    "yossi_two_col_7rHLFF": {
+      "type": "yossi-two-col",
+      "blocks": {
+        "video_8eiGhk": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1cbf4a8d31d046269bf5a1938f2613da.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_8eiGhk"
+      ],
+      "settings": {
+        "padding": true
+      }
     }
   },
   "order": [
     "smi_styles_B3cJyJ",
-    "yossi_one_col_7BKhPU"
+    "yossi_one_col_7BKhPU",
+    "yossi_two_col_7rHLFF"
   ]
 }
