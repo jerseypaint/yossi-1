@@ -216,9 +216,9 @@
           "settings": {
             "badge_corner_radius": 40,
             "sale_badge_background_color": "#d01717",
-            "sale_badge_text_color": "#FFFFFF",
-            "sold_out_badge_background_color": "#8C8C8C",
-            "sold_out_badge_text_color": "#FFFFFF"
+            "sale_badge_text_color": "#ffffff",
+            "sold_out_badge_background_color": "#8c8c8c",
+            "sold_out_badge_text_color": "#ffffff"
           }
         },
         "blog_cards_6FTqQe": {
@@ -281,9 +281,28 @@
       ],
       "settings": {
       }
+    },
+    "yossi_one_col_7BKhPU": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "video_wqYnYx": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1cbf4a8d31d046269bf5a1938f2613da.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_wqYnYx"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
-    "smi_styles_B3cJyJ"
+    "smi_styles_B3cJyJ",
+    "yossi_one_col_7BKhPU"
   ]
 }
