@@ -358,6 +358,28 @@
         "show_text_below": true
       }
     },
+    "yossi_one_col_XfiNHr": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "text_4NejRH": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "body": "AMERICAN DREAM_YOUTH_ISOLATION_Escapism_A.SENSE.OF.SELF",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_4NejRH"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
+    },
     "yossi_two_col_jMeqQi": {
       "type": "yossi-two-col",
       "blocks": {
@@ -383,30 +405,6 @@
       "disabled": true,
       "settings": {
         "padding": false
-      }
-    },
-    "yossi_two_col_jzyLqV": {
-      "type": "yossi-two-col",
-      "blocks": {
-        "video_aELMEq": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fec86a2d45024ec585859b3e952cfefd.mp4"
-          }
-        },
-        "video_yPVQKx": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fec86a2d45024ec585859b3e952cfefd.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "video_aELMEq",
-        "video_yPVQKx"
-      ],
-      "settings": {
-        "padding": true
       }
     },
     "1661733008ab269655": {
@@ -453,6 +451,39 @@
       ],
       "settings": {
         "slideshow_type": "two_col"
+      }
+    },
+    "a848dd19-6ee8-4211-9c38-d101a558462b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "yossi_two_col_jzyLqV": {
+      "type": "yossi-two-col",
+      "blocks": {
+        "video_aELMEq": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fec86a2d45024ec585859b3e952cfefd.mp4"
+          }
+        },
+        "video_yPVQKx": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fec86a2d45024ec585859b3e952cfefd.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_aELMEq",
+        "video_yPVQKx"
+      ],
+      "settings": {
+        "padding": true
       }
     },
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e": {
@@ -1103,37 +1134,6 @@
         "padding": true
       }
     },
-    "yossi_one_col_XfiNHr": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "text_4NejRH": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "body": "AMERICAN DREAM_YOUTH_ISOLATION_Escapism_A.SENSE.OF.SELF",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_4NejRH"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
-    },
-    "a848dd19-6ee8-4211-9c38-d101a558462b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "yossi_one_col_EAFhr9": {
       "type": "yossi-one-col",
       "blocks": {
@@ -1185,17 +1185,17 @@
     "yossi_hero_U4QRkA",
     "image_banner_WKQXbd",
     "image_banner_Jcy4Xe",
+    "yossi_one_col_XfiNHr",
     "yossi_two_col_jMeqQi",
-    "yossi_two_col_jzyLqV",
     "1661733008ab269655",
+    "a848dd19-6ee8-4211-9c38-d101a558462b",
+    "yossi_two_col_jzyLqV",
     "dccd534f-1a5e-40b6-882f-70ed74d9ee3e",
     "902e297e-aedd-4a9c-b21d-0972be2b9b78",
     "905b65ea-7435-422b-8018-116f06600bac",
     "1654227163ed75e73e",
     "16545618035bb0d7d7",
     "16588845621966d2f8",
-    "yossi_one_col_XfiNHr",
-    "a848dd19-6ee8-4211-9c38-d101a558462b",
     "yossi_one_col_EAFhr9",
     "image_banner_AmQFCx"
   ]
