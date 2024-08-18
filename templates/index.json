@@ -206,6 +206,7 @@
       "block_order": [
         "video_LEpj33"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
