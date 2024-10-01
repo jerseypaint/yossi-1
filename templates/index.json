@@ -76,56 +76,6 @@
         "mobile_bg_video": ""
       }
     },
-    "image_banner_6JTJ34": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_cchF3A": {
-          "type": "heading",
-          "settings": {
-            "heading": "Everyone i turn to, turns on me",
-            "heading_size": "h1"
-          }
-        },
-        "text_gytX8Q": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_XdQzNM": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_cchF3A",
-        "text_gytX8Q",
-        "buttons_XdQzNM"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/yossi_banner_11.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "image_banner_e7dnbT": {
       "type": "image-banner",
       "blocks": {
@@ -165,7 +115,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/banner_wider_9.jpg",
-        "image_2": "shopify://shop_images/banner_wider_4.jpg",
+        "image_2": "shopify://shop_images/banner_new_11.jpg",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -221,26 +171,55 @@
         "show_text_below": true
       }
     },
-    "yossi_one_col_QtpBkP": {
-      "type": "yossi-one-col",
+    "image_banner_6JTJ34": {
+      "type": "image-banner",
       "blocks": {
-        "text_PfU4nm": {
-          "type": "text",
+        "heading_cchF3A": {
+          "type": "heading",
           "settings": {
-            "heading": "Sunday Comes And Sunday Goes",
-            "body": "SONIC YOUTH",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
+            "heading": "Everyone i turn to, turns on me",
+            "heading_size": "h1"
+          }
+        },
+        "text_gytX8Q": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_XdQzNM": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "text_PfU4nm"
+        "heading_cchF3A",
+        "text_gytX8Q",
+        "buttons_XdQzNM"
       ],
+      "disabled": true,
       "settings": {
-        "orientation": "horizontal",
-        "padding": true
+        "image": "shopify://shop_images/20230123-230123_YossiHomme8281.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "yossi_one_col_GrJ6iB": {
@@ -284,6 +263,28 @@
       ],
       "settings": {
         "padding": false
+      }
+    },
+    "yossi_one_col_QtpBkP": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "text_PfU4nm": {
+          "type": "text",
+          "settings": {
+            "heading": "Sunday Comes And Sunday Goes",
+            "body": "SONIC YOUTH",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_PfU4nm"
+      ],
+      "settings": {
+        "orientation": "horizontal",
+        "padding": true
       }
     },
     "yossi_hero_U4QRkA": {
@@ -1279,11 +1280,11 @@
   "order": [
     "image_banner_8iN3Dc",
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
-    "image_banner_6JTJ34",
     "image_banner_e7dnbT",
     "image_banner_dHEzC7",
-    "yossi_one_col_QtpBkP",
+    "image_banner_6JTJ34",
     "yossi_one_col_GrJ6iB",
+    "yossi_one_col_QtpBkP",
     "yossi_two_col_nKnCBD",
     "yossi_hero_U4QRkA",
     "image_banner_pWPqah",
