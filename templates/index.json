@@ -47,7 +47,7 @@
         "buttons_n94Qax"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner_wider_1.jpg",
+        "image": "shopify://shop_images/banner_new_11.jpg",
         "image_2": "shopify://shop_images/220427_Yossi27322.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
@@ -115,7 +115,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/banner_wider_9.jpg",
-        "image_2": "shopify://shop_images/banner_new_11.jpg",
+        "image_2": "shopify://shop_images/banner_wider_1.jpg",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -241,6 +241,28 @@
         "padding": true
       }
     },
+    "yossi_one_col_QtpBkP": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "text_PfU4nm": {
+          "type": "text",
+          "settings": {
+            "heading": "Sunday Comes And Sunday Goes",
+            "body": "SONIC YOUTH",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_PfU4nm"
+      ],
+      "settings": {
+        "orientation": "horizontal",
+        "padding": true
+      }
+    },
     "yossi_two_col_nKnCBD": {
       "type": "yossi-two-col",
       "blocks": {
@@ -263,28 +285,6 @@
       ],
       "settings": {
         "padding": false
-      }
-    },
-    "yossi_one_col_QtpBkP": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "text_PfU4nm": {
-          "type": "text",
-          "settings": {
-            "heading": "Sunday Comes And Sunday Goes",
-            "body": "SONIC YOUTH",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_PfU4nm"
-      ],
-      "settings": {
-        "orientation": "horizontal",
-        "padding": true
       }
     },
     "yossi_hero_U4QRkA": {
