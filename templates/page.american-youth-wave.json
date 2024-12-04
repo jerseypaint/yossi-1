@@ -145,6 +145,7 @@
         },
         "ff5a0ba5-3039-476b-9b22-c57294a7f3f2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "A BOY IN YAFO",
             "body": "",
