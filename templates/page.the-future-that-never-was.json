@@ -95,21 +95,11 @@
     "yossi_one_col_EyjmVe": {
       "type": "yossi-one-col",
       "blocks": {
-        "image_zx38JR": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/000113850010.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
         "image_FaWTbe": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/000113850010.jpg",
+            "image": "shopify://shop_images/YOSSI_CORP_VANS.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -145,10 +135,31 @@
             "y_padding": ""
           }
         },
+        "image_zx38JR": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/000113850010.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
         "image_mtTVmy": {
           "type": "image",
           "settings": {
             "heading": "",
+            "image": "shopify://shop_images/000070750016asaa.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_Jf6DJj": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/44A7352_1211.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -156,12 +167,13 @@
         }
       },
       "block_order": [
-        "image_zx38JR",
         "image_FaWTbe",
         "image_cV8xDD",
         "image_Kdn6Vy",
         "image_DbDPLq",
-        "image_mtTVmy"
+        "image_zx38JR",
+        "image_mtTVmy",
+        "image_Jf6DJj"
       ],
       "settings": {
         "orientation": "vertical",
