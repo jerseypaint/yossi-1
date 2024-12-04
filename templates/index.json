@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_8iN3Dc": {
@@ -47,7 +47,7 @@
         "buttons_n94Qax"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner_new_11.jpg",
+        "image": "shopify://shop_images/banner_1.jpg",
         "image_2": "shopify://shop_images/220427_Yossi27322.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
