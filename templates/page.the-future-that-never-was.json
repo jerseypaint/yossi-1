@@ -70,6 +70,28 @@
         "padding": false
       }
     },
+    "yossi_one_col_FRJeKB": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "image_t63d8W": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/YOSSI_CORP_1.heic",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_t63d8W"
+      ],
+      "settings": {
+        "orientation": "horizontal",
+        "padding": true
+      }
+    },
     "1659029631fa994510": {
       "type": "yossi-two-col",
       "blocks": {
@@ -122,28 +144,6 @@
       ],
       "settings": {
         "slideshow_type": "two_col"
-      }
-    },
-    "yossi_one_col_FRJeKB": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "image_t63d8W": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/YOSSI_CORP_1.heic",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_t63d8W"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
       }
     }
   },
