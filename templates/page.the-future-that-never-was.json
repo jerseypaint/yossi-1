@@ -43,7 +43,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/Yossi_Factory-Japan_1.jpg",
+            "image": "shopify://shop_images/000113850030sxxxs.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -53,7 +53,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/DSCF0046.jpg",
+            "image": "shopify://shop_images/YOSSI_CORP_1.heic",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -117,7 +117,7 @@
         "b4ee4430-03be-4ec8-9baf-81c7be1341c9"
       ],
       "settings": {
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "padding": false
       }
     },
@@ -142,7 +142,6 @@
         "dbd73cf7-9f96-4498-b07d-51cd5a4de087",
         "8ca64607-8007-47bf-a09e-fb2305d155cf"
       ],
-      "disabled": true,
       "settings": {
         "padding": false
       }
