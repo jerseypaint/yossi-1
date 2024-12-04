@@ -179,12 +179,57 @@
         "orientation": "vertical",
         "padding": true
       }
+    },
+    "yossi_one_col_FDKAkc": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "image_Ky9Mgm": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/000113850014.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_CHMDfJ": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/44A7352_1211.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_R9pbtm": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/44A7303.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Ky9Mgm",
+        "image_CHMDfJ",
+        "image_R9pbtm"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
     "16590256478e958b4a",
     "intro",
     "yossi_one_col_FRJeKB",
-    "yossi_one_col_EyjmVe"
+    "yossi_one_col_EyjmVe",
+    "yossi_one_col_FDKAkc"
   ]
 }
