@@ -59,36 +59,6 @@
             "y_padding": ""
           }
         },
-        "e6d4e752-d9d4-4fd8-8bad-506bd600c76e": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Photo_label_6.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "53b8bbc7-76a2-454c-85ef-a808445baf0a": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/wax_1_1.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "d7f83aaf-b24d-423d-b426-2ad8628a9d3d": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Yossi_Factory-Japan_7.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
         "3422cac1-d470-4b07-bd12-95c1861819fd": {
           "type": "text",
           "settings": {
@@ -98,23 +68,13 @@
             "button_text": "",
             "button_link": ""
           }
-        },
-        "b4ee4430-03be-4ec8-9baf-81c7be1341c9": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/38136961cb66406db21547db19fd1ffd.mp4"
-          }
         }
       },
       "block_order": [
         "f933cf91-20d3-4319-8573-63a64185b89b",
         "bc182429-0428-4778-a553-2d10313f3228",
         "542e7d9d-2a7d-4c82-9111-1153ff15d265",
-        "e6d4e752-d9d4-4fd8-8bad-506bd600c76e",
-        "53b8bbc7-76a2-454c-85ef-a808445baf0a",
-        "d7f83aaf-b24d-423d-b426-2ad8628a9d3d",
-        "3422cac1-d470-4b07-bd12-95c1861819fd",
-        "b4ee4430-03be-4ec8-9baf-81c7be1341c9"
+        "3422cac1-d470-4b07-bd12-95c1861819fd"
       ],
       "settings": {
         "orientation": "vertical",
