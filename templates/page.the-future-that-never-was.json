@@ -142,14 +142,44 @@
         "dbd73cf7-9f96-4498-b07d-51cd5a4de087",
         "8ca64607-8007-47bf-a09e-fb2305d155cf"
       ],
+      "disabled": true,
       "settings": {
         "padding": false
+      }
+    },
+    "yossi_slideshow_AG3VHB": {
+      "type": "yossi-slideshow",
+      "blocks": {
+        "image_6KEX6H": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/YOSSI_CORP_1.heic",
+            "image_link": ""
+          }
+        },
+        "image_PidbdH": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/banner_wider_2.jpg",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6KEX6H",
+        "image_PidbdH"
+      ],
+      "settings": {
+        "slideshow_type": "two_col"
       }
     }
   },
   "order": [
     "16590256478e958b4a",
     "intro",
-    "1659029631fa994510"
+    "1659029631fa994510",
+    "yossi_slideshow_AG3VHB"
   ]
 }
