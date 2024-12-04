@@ -87,7 +87,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/3_0f27341f-5a81-4055-a32e-9c2887b314ec.jpg",
+            "image": "shopify://shop_images/SRT_0388.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -97,7 +97,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/4_ee1203c0-7981-4394-ac08-d89ead337072.jpg",
+            "image": "shopify://shop_images/SEL08927.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -107,7 +107,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/5_1_ee5e01b6-5710-4b18-9b12-1b487d803a38.jpg",
+            "image": "shopify://shop_images/SEL09189.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -117,7 +117,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/5_2_08387d27-2b9e-4eb4-9fd9-341ef0ba4d4e.jpg",
+            "image": "shopify://shop_images/SEL09175.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -127,7 +127,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/6_9b5ac0bd-e578-466e-ab31-1c14fd123573.jpg",
+            "image": "shopify://shop_images/SEL09207.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -137,37 +137,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/7_77fd6093-1619-4bf8-a5ad-6e7e58875ebd.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "4059315b-dde4-474f-9257-e5eb279083c9": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/8.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "54de0ccd-3d60-4f43-8359-64782ebce668": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/9_5ff2dfbd-2da7-4290-a3ee-a83a3ee3bd21.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "83b69d43-04f2-490d-b005-88c6dfaa605e": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/11.jpg",
+            "image": "shopify://shop_images/SEL09217.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -175,7 +145,6 @@
         },
         "ff5a0ba5-3039-476b-9b22-c57294a7f3f2": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "heading": "A BOY IN YAFO",
             "body": "",
@@ -195,9 +164,6 @@
         "c99cdfdf-40a7-49aa-a648-6efc109fc259",
         "115fa6ec-7512-4ad2-a229-c66478172410",
         "afed543b-0da5-4116-bdb1-caec08d30ae8",
-        "4059315b-dde4-474f-9257-e5eb279083c9",
-        "54de0ccd-3d60-4f43-8359-64782ebce668",
-        "83b69d43-04f2-490d-b005-88c6dfaa605e",
         "ff5a0ba5-3039-476b-9b22-c57294a7f3f2"
       ],
       "settings": {
