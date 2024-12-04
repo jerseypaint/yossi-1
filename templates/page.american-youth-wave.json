@@ -23,7 +23,7 @@
         "03d39996-5b68-43db-8a26-ab6c4151936e": {
           "type": "text",
           "settings": {
-            "heading": "{POST_AMERICAN_YOUTHISM}",
+            "heading": "{AMERICAN_YOUTH_WAVE}",
             "body": "",
             "show_button": false,
             "button_text": "",
@@ -206,7 +206,6 @@
     },
     "1664589974a36f3788": {
       "type": "yossi-one-col",
-      "disabled": true,
       "blocks": {
         "a7a38763-40f2-42ad-8d90-7339c279f416": {
           "type": "image",
@@ -222,6 +221,7 @@
       "block_order": [
         "a7a38763-40f2-42ad-8d90-7339c279f416"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "horizontal",
         "padding": true
