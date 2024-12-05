@@ -71,8 +71,8 @@
                                               </li>
                                               {%- for grandchildlink in childlink.links -%}
                                               <li class="py-1 text-[10px] uppercase tracking-wide">
-                                                <a href="{{  grandchildlink.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if grandchildlink.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                                  {{  grandchildlink.title | escape }}
+                                                <a href="{{ grandchildlink.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if grandchildlink.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                                  {{ grandchildlink.title | escape }}
                                                 </a>
                                               </li>
                                               {%- endfor -%}
