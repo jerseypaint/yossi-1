@@ -52,9 +52,9 @@
                                 {%- for childlink in link.links -%}
                                 <li>
                                     {%- if childlink.links == blank -%}
-                                    <a href="{{ childlink.url }}" class="hover:font-bold {% if childlink.current %} font-bold {% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                        {{ childlink.title | escape }}
-                                    </a>
+                                    <a href="{{ link.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                                      {{ link.title | escape }}
+                                      </a>
                                     {%- else -%}
                                     <details id="Details-menu-drawer-submenu-{{ forloop.index }}">
                                         <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
@@ -70,9 +70,9 @@
                                         <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                             {%- for grandchildlink in childlink.links -%}
                                             <li>
-                                                <a href="{{ grandchildlink.url }}" class="hover:font-bold menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                                {{ grandchildlink.title | escape }}
-                                                </a>
+                                            <a href="{{ link.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                                              {{ link.title | escape }}
+                                              </a>
                                             </li>
                                             {%- endfor -%}
                                         </ul>
