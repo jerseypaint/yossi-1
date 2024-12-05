@@ -42,7 +42,7 @@
                         </summary>
                         <div id="link-{{ link.title | escape }}" class="" tabindex="-1">
                             <div class="menu-drawer__inner-submenu">
-                              <ul class="px-4" role="list" tabindex="-1">
+                              <ul class="px-4 pt-2" role="list" tabindex="-1">
                                 <li class="py-1 text-[10px] uppercase tracking-wide">
                                   <a href="{{ link.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
                                   {{ link.title | escape }}
@@ -63,7 +63,7 @@
                                           <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                               {{ childlink.title | escape }}
                                           </button>
-                                          <ul class="menu-drawer__menu list-menu px-4" role="list" tabindex="-1">
+                                          <ul class="menu-drawer__menu list-menu px-4 pt-2" role="list" tabindex="-1">
                                               <li class="py-1 text-[10px] uppercase tracking-wide">
                                                 <a href="{{ childlink.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
                                                 {{ childlink.title | escape }}
