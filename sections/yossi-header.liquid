@@ -51,7 +51,7 @@
                                   {%- for childlink in link.links -%}
                                   <li class="py-1 text-[10px] uppercase tracking-wide">
                                       {%- if childlink.links == blank -%}
-                                        <a href="{{ childlink.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                                        <a href="{{ childlink.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if childlink.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                         {{ childlink.title | escape }}
                                         </a>
                                       {%- else -%}
@@ -65,13 +65,13 @@
                                           </button>
                                           <ul class="menu-drawer__menu list-menu px-4 pt-2" role="list" tabindex="-1">
                                               <li class="py-1 text-[10px] uppercase tracking-wide">
-                                                <a href="{{ childlink.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                                                <a href="{{ childlink.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if childlink.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                                 {{ childlink.title | escape }}
                                                 </a>
                                               </li>
                                               {%- for grandchildlink in childlink.links -%}
                                               <li class="py-1 text-[10px] uppercase tracking-wide">
-                                                <a href="{{  grandchildlink.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                                                <a href="{{  grandchildlink.url }}" class="hover:font-bold transition-all duration-100 menu-drawer__menu-item list-menu__item link link--text focus-inset{% if grandchildlink.current %} font-bold menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                                   {{  grandchildlink.title | escape }}
                                                 </a>
                                               </li>
