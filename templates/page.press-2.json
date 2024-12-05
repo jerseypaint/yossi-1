@@ -142,6 +142,16 @@
             "x_padding": "",
             "y_padding": ""
           }
+        },
+        "text_txxE4c": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "body": "",
+            "show_button": true,
+            "button_text": "HYPEBEAST",
+            "button_link": "https://hypebeast.com/2024/10/hypebeast-community-center-yossi-corp"
+          }
         }
       },
       "block_order": [
@@ -154,7 +164,8 @@
         "d98cba31-9ac5-427b-b95a-07bffd352f38",
         "3b302440-0d0e-4fbc-b887-8d517ee1c1dc",
         "f870027e-6832-45d3-ad58-b77d7f86f95f",
-        "image_LpCYXg"
+        "image_LpCYXg",
+        "text_txxE4c"
       ],
       "settings": {
         "orientation": "vertical",
