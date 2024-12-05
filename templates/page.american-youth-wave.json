@@ -24,6 +24,16 @@
           "type": "text",
           "settings": {
             "heading": "{AMERICAN_YOUTH_WAVE}",
+            "body": "\"American Youth Wave\" is a bold exploration of the complexities and contradictions of contemporary youth culture in America.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "text_Nimr8V": {
+          "type": "text",
+          "settings": {
+            "heading": "",
             "body": "",
             "show_button": false,
             "button_text": "",
@@ -32,7 +42,8 @@
         }
       },
       "block_order": [
-        "03d39996-5b68-43db-8a26-ab6c4151936e"
+        "03d39996-5b68-43db-8a26-ab6c4151936e",
+        "text_Nimr8V"
       ],
       "settings": {
         "orientation": "vertical",
