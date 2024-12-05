@@ -9,91 +9,6 @@
  */
 {
   "sections": {
-    "16590256478e958b4a": {
-      "type": "yossi-hero",
-      "blocks": {
-        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/af4bbaf040094a94b33030d3b2e1bef4.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84"
-      ],
-      "settings": {
-        "scroll_prompt": "YOSSI COPR X ESSX"
-      }
-    },
-    "intro": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "f933cf91-20d3-4319-8573-63a64185b89b": {
-          "type": "text",
-          "settings": {
-            "heading": "THE FUTURE THAT NEVER WAS",
-            "body": "This exhibition explores the cultural shifts from the late 1990s through the early 2000s; examining how the internet, big tech and access to information shaped teenage lives across the globe. Connecting youth subcultures from New York to Tokyo, this era of digital transformation imagined a future that never was.",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "bc182429-0428-4778-a553-2d10313f3228": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/000113850030sxxxs.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "3422cac1-d470-4b07-bd12-95c1861819fd": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "DENIM CAPITAL OF THE WORLD",
-            "body": "Each pair is handmade with the upmost respect to Japanese craftsmanship and artistry.",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "f933cf91-20d3-4319-8573-63a64185b89b",
-        "bc182429-0428-4778-a553-2d10313f3228",
-        "3422cac1-d470-4b07-bd12-95c1861819fd"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": false
-      }
-    },
-    "yossi_one_col_FRJeKB": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "image_t63d8W": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/YOSSI_CORP_1.heic",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_t63d8W"
-      ],
-      "disabled": true,
-      "settings": {
-        "orientation": "horizontal",
-        "padding": true
-      }
-    },
     "yossi_one_col_EyjmVe": {
       "type": "yossi-one-col",
       "blocks": {
@@ -112,6 +27,16 @@
           "settings": {
             "heading": "",
             "image": "shopify://shop_images/look_2.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_NzGrpa": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/look_11.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -197,16 +122,6 @@
             "y_padding": ""
           }
         },
-        "image_NzGrpa": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/look_11.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
         "image_h4i4zK": {
           "type": "image",
           "settings": {
@@ -251,6 +166,7 @@
       "block_order": [
         "image_TQR8Ar",
         "image_KCgMJf",
+        "image_NzGrpa",
         "image_gHnGyz",
         "image_PCrXCE",
         "image_Kre6FM",
@@ -259,7 +175,6 @@
         "image_bPDwcU",
         "image_bb4qkd",
         "image_kDnRKW",
-        "image_NzGrpa",
         "image_h4i4zK",
         "image_grJNXH",
         "image_KbjXmU",
@@ -267,6 +182,91 @@
       ],
       "settings": {
         "orientation": "vertical",
+        "padding": true
+      }
+    },
+    "16590256478e958b4a": {
+      "type": "yossi-hero",
+      "blocks": {
+        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/af4bbaf040094a94b33030d3b2e1bef4.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84"
+      ],
+      "settings": {
+        "scroll_prompt": "YOSSI COPR X ESSX"
+      }
+    },
+    "intro": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "f933cf91-20d3-4319-8573-63a64185b89b": {
+          "type": "text",
+          "settings": {
+            "heading": "THE FUTURE THAT NEVER WAS",
+            "body": "This exhibition explores the cultural shifts from the late 1990s through the early 2000s; examining how the internet, big tech and access to information shaped teenage lives across the globe. Connecting youth subcultures from New York to Tokyo, this era of digital transformation imagined a future that never was.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "bc182429-0428-4778-a553-2d10313f3228": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/000113850030sxxxs.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "3422cac1-d470-4b07-bd12-95c1861819fd": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "DENIM CAPITAL OF THE WORLD",
+            "body": "Each pair is handmade with the upmost respect to Japanese craftsmanship and artistry.",
+            "show_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f933cf91-20d3-4319-8573-63a64185b89b",
+        "bc182429-0428-4778-a553-2d10313f3228",
+        "3422cac1-d470-4b07-bd12-95c1861819fd"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": false
+      }
+    },
+    "yossi_one_col_FRJeKB": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "image_t63d8W": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/YOSSI_CORP_1.heic",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_t63d8W"
+      ],
+      "disabled": true,
+      "settings": {
+        "orientation": "horizontal",
         "padding": true
       }
     },
