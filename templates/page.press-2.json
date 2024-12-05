@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -46,7 +46,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/wwd_post_1.jpg",
+            "image": "shopify://shop_images/wwd_post_1.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -59,15 +59,15 @@
             "body": "",
             "show_button": true,
             "button_text": "WWD",
-            "button_link": "https:\/\/wwd.com\/menswear-news\/mens-fashion\/yossi-shetrit-yossi-homme-scarce-1236299608\/"
+            "button_link": "https://wwd.com/menswear-news/mens-fashion/yossi-shetrit-yossi-homme-scarce-1236299608/"
           }
         },
         "646ae1b2-c1dd-48fd-bc5e-6d01b1386ecd": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_12.11.20_AM.png",
-            "image_link": "https:\/\/officemagazine.net\/yossi-shetrit-rides-american-youth-wave",
+            "image": "shopify://shop_images/Screen_Shot_2024-01-08_at_12.11.20_AM.png",
+            "image_link": "https://officemagazine.net/yossi-shetrit-rides-american-youth-wave",
             "x_padding": "",
             "y_padding": ""
           }
@@ -79,7 +79,7 @@
             "body": "",
             "show_button": true,
             "button_text": "OFFICE",
-            "button_link": "https:\/\/officemagazine.net\/yossi-shetrit-rides-american-youth-wave"
+            "button_link": "https://officemagazine.net/yossi-shetrit-rides-american-youth-wave"
           }
         },
         "8a6a4d8b-9bde-4733-9489-d738adcb15ce": {
@@ -97,8 +97,8 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-01-08_at_12.14.00_AM.png",
-            "image_link": "https:\/\/www.forbes.com\/sites\/cassellferere\/2023\/09\/05\/yossi-homme-and-designer-yossi-shetrit-introduce-post-american-youthism-to-menswear\/?sh=73fd785a6ad8",
+            "image": "shopify://shop_images/Screen_Shot_2024-01-08_at_12.14.00_AM.png",
+            "image_link": "https://www.forbes.com/sites/cassellferere/2023/09/05/yossi-homme-and-designer-yossi-shetrit-introduce-post-american-youthism-to-menswear/?sh=73fd785a6ad8",
             "x_padding": "",
             "y_padding": ""
           }
@@ -110,15 +110,15 @@
             "body": "",
             "show_button": true,
             "button_text": "FORBES",
-            "button_link": "https:\/\/www.forbes.com\/sites\/cassellferere\/2023\/09\/05\/yossi-homme-and-designer-yossi-shetrit-introduce-post-american-youthism-to-menswear\/?sh=73fd785a6ad8"
+            "button_link": "https://www.forbes.com/sites/cassellferere/2023/09/05/yossi-homme-and-designer-yossi-shetrit-introduce-post-american-youthism-to-menswear/?sh=73fd785a6ad8"
           }
         },
         "3b302440-0d0e-4fbc-b887-8d517ee1c1dc": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/hypebast_article_1.jpg",
-            "image_link": "https:\/\/hypebeast.com\/2023\/8\/yossi-hommes-debut-capsule-collection-release-info",
+            "image": "shopify://shop_images/hypebast_article_1.jpg",
+            "image_link": "https://hypebeast.com/2023/8/yossi-hommes-debut-capsule-collection-release-info",
             "x_padding": "",
             "y_padding": ""
           }
@@ -130,7 +130,17 @@
             "body": "",
             "show_button": true,
             "button_text": "HYPEBEAST",
-            "button_link": "https:\/\/hypebeast.com\/2023\/8\/yossi-hommes-debut-capsule-collection-release-info"
+            "button_link": "https://hypebeast.com/2023/8/yossi-hommes-debut-capsule-collection-release-info"
+          }
+        },
+        "image_LpCYXg": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/yossi_corp_hypebeast1.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
           }
         }
       },
@@ -143,7 +153,8 @@
         "97d445ce-bf3f-47eb-830b-df8513218953",
         "d98cba31-9ac5-427b-b95a-07bffd352f38",
         "3b302440-0d0e-4fbc-b887-8d517ee1c1dc",
-        "f870027e-6832-45d3-ad58-b77d7f86f95f"
+        "f870027e-6832-45d3-ad58-b77d7f86f95f",
+        "image_LpCYXg"
       ],
       "settings": {
         "orientation": "vertical",
@@ -154,7 +165,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>",
         "color_scheme": "background-1",
         "padding_top": 72,
         "padding_bottom": 32
@@ -178,7 +189,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/1_73fffc3f-9f65-4019-98cf-d4669de551fd.jpg",
+            "image": "shopify://shop_images/1_73fffc3f-9f65-4019-98cf-d4669de551fd.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -188,7 +199,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/2_32e5e382-14db-48db-8d0d-0d287932aecc.jpg",
+            "image": "shopify://shop_images/2_32e5e382-14db-48db-8d0d-0d287932aecc.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -198,7 +209,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/3_0f27341f-5a81-4055-a32e-9c2887b314ec.jpg",
+            "image": "shopify://shop_images/3_0f27341f-5a81-4055-a32e-9c2887b314ec.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -208,7 +219,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/4_ee1203c0-7981-4394-ac08-d89ead337072.jpg",
+            "image": "shopify://shop_images/4_ee1203c0-7981-4394-ac08-d89ead337072.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -218,7 +229,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/5_1_ee5e01b6-5710-4b18-9b12-1b487d803a38.jpg",
+            "image": "shopify://shop_images/5_1_ee5e01b6-5710-4b18-9b12-1b487d803a38.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -228,7 +239,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/5_2_08387d27-2b9e-4eb4-9fd9-341ef0ba4d4e.jpg",
+            "image": "shopify://shop_images/5_2_08387d27-2b9e-4eb4-9fd9-341ef0ba4d4e.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -238,7 +249,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/6_9b5ac0bd-e578-466e-ab31-1c14fd123573.jpg",
+            "image": "shopify://shop_images/6_9b5ac0bd-e578-466e-ab31-1c14fd123573.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -248,7 +259,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/7_77fd6093-1619-4bf8-a5ad-6e7e58875ebd.jpg",
+            "image": "shopify://shop_images/7_77fd6093-1619-4bf8-a5ad-6e7e58875ebd.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -258,7 +269,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/8.jpg",
+            "image": "shopify://shop_images/8.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -268,7 +279,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/9_5ff2dfbd-2da7-4290-a3ee-a83a3ee3bd21.jpg",
+            "image": "shopify://shop_images/9_5ff2dfbd-2da7-4290-a3ee-a83a3ee3bd21.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -278,7 +289,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/11.jpg",
+            "image": "shopify://shop_images/11.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -324,7 +335,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/220427_Yossi27194.jpg",
+            "image": "shopify://shop_images/220427_Yossi27194.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
