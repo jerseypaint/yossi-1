@@ -221,9 +221,27 @@
         "image_CHMDfJ",
         "image_R9pbtm"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "horizontal",
         "padding": true
+      }
+    },
+    "yossi_hero_pJjKDx": {
+      "type": "yossi-hero",
+      "blocks": {
+        "video_VRizDg": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/96eca65cde734b18850e1c3e0b602f78.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_VRizDg"
+      ],
+      "settings": {
+        "scroll_prompt": ""
       }
     }
   },
@@ -232,6 +250,7 @@
     "intro",
     "yossi_one_col_FRJeKB",
     "yossi_one_col_EyjmVe",
-    "yossi_one_col_FDKAkc"
+    "yossi_one_col_FDKAkc",
+    "yossi_hero_pJjKDx"
   ]
 }
