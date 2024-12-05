@@ -15,7 +15,7 @@
         "169b8b04-cef5-4fa9-9b6b-69eb4672ff84": {
           "type": "video",
           "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/96eca65cde734b18850e1c3e0b602f78.mp4"
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/d8adea95fdab493294d6cd7ac523e7f9.mp4"
           }
         }
       },
@@ -221,27 +221,9 @@
         "image_CHMDfJ",
         "image_R9pbtm"
       ],
-      "disabled": true,
       "settings": {
         "orientation": "horizontal",
         "padding": true
-      }
-    },
-    "yossi_hero_pJjKDx": {
-      "type": "yossi-hero",
-      "blocks": {
-        "video_VRizDg": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/96eca65cde734b18850e1c3e0b602f78.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "video_VRizDg"
-      ],
-      "settings": {
-        "scroll_prompt": ""
       }
     }
   },
@@ -250,7 +232,6 @@
     "intro",
     "yossi_one_col_FRJeKB",
     "yossi_one_col_EyjmVe",
-    "yossi_one_col_FDKAkc",
-    "yossi_hero_pJjKDx"
+    "yossi_one_col_FDKAkc"
   ]
 }
