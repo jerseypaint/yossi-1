@@ -220,7 +220,7 @@
         "image_R9pbtm"
       ],
       "settings": {
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "padding": true
       }
     }
