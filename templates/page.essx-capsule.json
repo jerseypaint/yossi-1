@@ -88,6 +88,7 @@
       "block_order": [
         "image_t63d8W"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "horizontal",
         "padding": true
@@ -96,72 +97,151 @@
     "yossi_one_col_EyjmVe": {
       "type": "yossi-one-col",
       "blocks": {
-        "image_FaWTbe": {
+        "image_TQR8Ar": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/YOSSI_CORP_VANS.jpg",
+            "image": "shopify://shop_images/look_1_ig.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
           }
         },
-        "image_cV8xDD": {
+        "image_KCgMJf": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/YOSSI_CORP_event_ssas.jpg",
+            "image": "shopify://shop_images/look_2.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
           }
         },
-        "image_Kdn6Vy": {
+        "image_gHnGyz": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-04_at_6.21.10_PM.png",
+            "image": "shopify://shop_images/look_3.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
           }
         },
-        "image_DbDPLq": {
+        "image_PCrXCE": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/IMG_8377.png",
+            "image": "shopify://shop_images/look_4.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
           }
         },
-        "image_zx38JR": {
+        "image_Kre6FM": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/000113850010.jpg",
+            "image": "shopify://shop_images/look_5.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
           }
         },
-        "image_mtTVmy": {
+        "image_ygfNpP": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/000070750016asaa.jpg",
+            "image": "shopify://shop_images/look_6.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
           }
         },
-        "image_Jf6DJj": {
+        "image_9g8LKt": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "heading": "",
-            "image": "shopify://shop_images/44A7352_1211.jpg",
+            "image": "shopify://shop_images/look_7.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_bPDwcU": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/look_8.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_bb4qkd": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/look_9.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_kDnRKW": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/look_10.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_NzGrpa": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/look_11.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_h4i4zK": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/look_12.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_grJNXH": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/look_13.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_KbjXmU": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/look_14.jpg",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_KPqBf3": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-04_at_10.52.12_PM.png",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -169,13 +249,21 @@
         }
       },
       "block_order": [
-        "image_FaWTbe",
-        "image_cV8xDD",
-        "image_Kdn6Vy",
-        "image_DbDPLq",
-        "image_zx38JR",
-        "image_mtTVmy",
-        "image_Jf6DJj"
+        "image_TQR8Ar",
+        "image_KCgMJf",
+        "image_gHnGyz",
+        "image_PCrXCE",
+        "image_Kre6FM",
+        "image_ygfNpP",
+        "image_9g8LKt",
+        "image_bPDwcU",
+        "image_bb4qkd",
+        "image_kDnRKW",
+        "image_NzGrpa",
+        "image_h4i4zK",
+        "image_grJNXH",
+        "image_KbjXmU",
+        "image_KPqBf3"
       ],
       "settings": {
         "orientation": "vertical",
@@ -221,6 +309,7 @@
         "image_CHMDfJ",
         "image_R9pbtm"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "horizontal",
         "padding": true
@@ -228,10 +317,10 @@
     }
   },
   "order": [
+    "yossi_one_col_EyjmVe",
     "16590256478e958b4a",
     "intro",
     "yossi_one_col_FRJeKB",
-    "yossi_one_col_EyjmVe",
     "yossi_one_col_FDKAkc"
   ]
 }
