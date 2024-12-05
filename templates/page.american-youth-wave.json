@@ -29,21 +29,10 @@
             "button_text": "",
             "button_link": ""
           }
-        },
-        "text_Nimr8V": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "body": "",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "03d39996-5b68-43db-8a26-ab6c4151936e",
-        "text_Nimr8V"
+        "03d39996-5b68-43db-8a26-ab6c4151936e"
       ],
       "settings": {
         "orientation": "horizontal",
