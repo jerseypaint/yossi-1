@@ -27,192 +27,6 @@
         "scroll_prompt": "Discover now"
       }
     },
-    "yossi_one_col_tQCjTb": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "image_FCEHUK": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.56.28_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_LxJLcM": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.57.22_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_Uaji7c": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.57.39_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_AENyMM": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.57.52_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_AneLhw": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.58.13_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_H9djPX": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.00.50_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_jD4pkV": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.01.13_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_7HzTc4": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.01.38_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_AqbDT9": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.01.53_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_KciVQb": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.02.19_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_4hA6XL": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.02.38_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_KPAYVc": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.03.21_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_cYyVUU": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.04.31_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_8z6q9i": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.59.02_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_BrQPUk": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.00.15_PM.png",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_TUcLmy": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_FCEHUK",
-        "image_LxJLcM",
-        "image_Uaji7c",
-        "image_AENyMM",
-        "image_AneLhw",
-        "image_H9djPX",
-        "image_jD4pkV",
-        "image_7HzTc4",
-        "image_AqbDT9",
-        "image_KciVQb",
-        "image_4hA6XL",
-        "image_KPAYVc",
-        "image_cYyVUU",
-        "image_8z6q9i",
-        "image_BrQPUk",
-        "image_TUcLmy"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": false
-      }
-    },
     "166146610712daa2cf": {
       "type": "yossi-one-col",
       "blocks": {
@@ -1014,6 +828,192 @@
         "padding": true
       }
     },
+    "yossi_one_col_tQCjTb": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "image_FCEHUK": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.56.28_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_LxJLcM": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.57.22_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_Uaji7c": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.57.39_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_AENyMM": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.57.52_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_AneLhw": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.58.13_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_H9djPX": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.00.50_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_jD4pkV": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.01.13_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_7HzTc4": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.01.38_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_AqbDT9": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.01.53_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_KciVQb": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.02.19_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_4hA6XL": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.02.38_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_KPAYVc": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.03.21_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_cYyVUU": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.04.31_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_8z6q9i": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.59.02_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_BrQPUk": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.00.15_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_TUcLmy": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FCEHUK",
+        "image_LxJLcM",
+        "image_Uaji7c",
+        "image_AENyMM",
+        "image_AneLhw",
+        "image_H9djPX",
+        "image_jD4pkV",
+        "image_7HzTc4",
+        "image_AqbDT9",
+        "image_KciVQb",
+        "image_4hA6XL",
+        "image_KPAYVc",
+        "image_cYyVUU",
+        "image_8z6q9i",
+        "image_BrQPUk",
+        "image_TUcLmy"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": false
+      }
+    },
     "16604368878e277d63": {
       "type": "yossi-one-col",
       "blocks": {
@@ -1139,10 +1139,10 @@
   },
   "order": [
     "16590256478e958b4a",
-    "yossi_one_col_tQCjTb",
     "166146610712daa2cf",
     "e352651b-1f06-43f4-b133-d210054d9f19",
     "d147383b-80a6-46c2-9c26-0843a5fc46b2",
+    "yossi_one_col_tQCjTb",
     "16604368878e277d63"
   ]
 }
