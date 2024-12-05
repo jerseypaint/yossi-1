@@ -11,10 +11,9 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 12,
+        "padding_bottom": 8
       }
     },
     "a10234dc-138d-4a36-8a32-4491687c5177": {
@@ -36,7 +35,7 @@
       ],
       "settings": {
         "orientation": "horizontal",
-        "padding": true
+        "padding": false
       }
     },
     "1664481041b0878a5f": {
