@@ -1,21 +1,216 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16590256478e958b4a": {
       "type": "yossi-hero",
-      "disabled": true,
       "blocks": {
         "169b8b04-cef5-4fa9-9b6b-69eb4672ff84": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/48cd7074920647438b3c6388d28ad227.mp4"
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/48cd7074920647438b3c6388d28ad227.mp4"
           }
         }
       },
       "block_order": [
         "169b8b04-cef5-4fa9-9b6b-69eb4672ff84"
       ],
+      "disabled": true,
       "settings": {
         "scroll_prompt": "Discover now"
+      }
+    },
+    "yossi_one_col_tQCjTb": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "image_FCEHUK": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.56.28_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_LxJLcM": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.57.22_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_Uaji7c": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.57.39_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_AENyMM": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.57.52_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_AneLhw": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.58.13_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_H9djPX": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.00.50_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_jD4pkV": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.01.13_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_7HzTc4": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.01.38_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_AqbDT9": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.01.53_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_KciVQb": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.02.19_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_4hA6XL": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.02.38_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_KPAYVc": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.03.21_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_cYyVUU": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.04.31_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_8z6q9i": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_3.59.02_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_BrQPUk": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.00.15_PM.png",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        },
+        "image_TUcLmy": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "image_link": "",
+            "x_padding": "",
+            "y_padding": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FCEHUK",
+        "image_LxJLcM",
+        "image_Uaji7c",
+        "image_AENyMM",
+        "image_AneLhw",
+        "image_H9djPX",
+        "image_jD4pkV",
+        "image_7HzTc4",
+        "image_AqbDT9",
+        "image_KciVQb",
+        "image_4hA6XL",
+        "image_KPAYVc",
+        "image_cYyVUU",
+        "image_8z6q9i",
+        "image_BrQPUk",
+        "image_TUcLmy"
+      ],
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
       }
     },
     "166146610712daa2cf": {
@@ -25,7 +220,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/yossi_fine_art.jpg",
+            "image": "shopify://shop_images/yossi_fine_art.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -35,7 +230,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/prince_bcda90ec-db7a-4454-b251-7899b9fff619.jpg",
+            "image": "shopify://shop_images/prince_bcda90ec-db7a-4454-b251-7899b9fff619.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -45,7 +240,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/wutang.jpg",
+            "image": "shopify://shop_images/wutang.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -55,7 +250,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/cobain_1_32a16bc6-d80d-437d-aa73-41c6e8891bf3.jpg",
+            "image": "shopify://shop_images/cobain_1_32a16bc6-d80d-437d-aa73-41c6e8891bf3.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -65,7 +260,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/american_flaggg_9f5bb4b4-2dba-4f24-b6b1-a34480025c07.jpg",
+            "image": "shopify://shop_images/american_flaggg_9f5bb4b4-2dba-4f24-b6b1-a34480025c07.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -75,7 +270,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/yossi_image_1.jpg",
+            "image": "shopify://shop_images/yossi_image_1.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -85,7 +280,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0053_asa_e64e9147-6fcf-4db0-8c24-623e61c95f39.jpg",
+            "image": "shopify://shop_images/web_0053_asa_e64e9147-6fcf-4db0-8c24-623e61c95f39.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -95,7 +290,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0033_c1720abc1f32706dcc5158d72aff6166.jpg",
+            "image": "shopify://shop_images/web_0033_c1720abc1f32706dcc5158d72aff6166.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -105,7 +300,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/la_haines.jpg",
+            "image": "shopify://shop_images/la_haines.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -115,7 +310,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0044_Layer_10.jpg",
+            "image": "shopify://shop_images/web_0044_Layer_10.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -125,7 +320,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/basquiat_1ccc4132-8dfe-4688-baf7-cb038d8a60fa.jpg",
+            "image": "shopify://shop_images/basquiat_1ccc4132-8dfe-4688-baf7-cb038d8a60fa.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -135,7 +330,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0002_38_001_8d8c79e8-3e4a-4255-895c-730a2cfbca93.jpg",
+            "image": "shopify://shop_images/web_0002_38_001_8d8c79e8-3e4a-4255-895c-730a2cfbca93.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -145,7 +340,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/picasso_1111.jpg",
+            "image": "shopify://shop_images/picasso_1111.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -155,7 +350,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0027_Screen_Shot_2023-03-11_at_8.08.43_PM.jpg",
+            "image": "shopify://shop_images/web_0027_Screen_Shot_2023-03-11_at_8.08.43_PM.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -165,7 +360,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_images-Recovered.jpg",
+            "image": "shopify://shop_images/web_images-Recovered.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -175,7 +370,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0025_9019c9b4e7983129b69eb2ff0d1bec38b52563de_99812a71-3448-47c1-9680-9a555e62ca8c.jpg",
+            "image": "shopify://shop_images/web_0025_9019c9b4e7983129b69eb2ff0d1bec38b52563de_99812a71-3448-47c1-9680-9a555e62ca8c.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -185,7 +380,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0005_tumblr_nyowguR5CG1t1yfwuo1_500.jpg",
+            "image": "shopify://shop_images/web_0005_tumblr_nyowguR5CG1t1yfwuo1_500.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -195,7 +390,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/4444.jpg",
+            "image": "shopify://shop_images/4444.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -205,7 +400,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/IMG_4144.png",
+            "image": "shopify://shop_images/IMG_4144.png",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -215,7 +410,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/blow_8d20152f-6f32-4b78-8d9d-ce9ebdbbc60a.jpg",
+            "image": "shopify://shop_images/blow_8d20152f-6f32-4b78-8d9d-ce9ebdbbc60a.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -225,7 +420,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/sonic_youth.jpg",
+            "image": "shopify://shop_images/sonic_youth.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -235,7 +430,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0013_LUCIEN-CLERGUE-1957-Nude-in-the-Sea-Carmargue-12-x-8.75-gelatin-silver-print-LC-65460-1-739x1024_3098bcb2-2531-41b0-8d48-f29bd15c7310.jpg",
+            "image": "shopify://shop_images/web_0013_LUCIEN-CLERGUE-1957-Nude-in-the-Sea-Carmargue-12-x-8.75-gelatin-silver-print-LC-65460-1-739x1024_3098bcb2-2531-41b0-8d48-f29bd15c7310.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -245,7 +440,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0004_Layer_8.jpg",
+            "image": "shopify://shop_images/web_0004_Layer_8.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -255,7 +450,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0003_tumblr_nya3zkzybF1t1yfwuo1_500.jpg",
+            "image": "shopify://shop_images/web_0003_tumblr_nya3zkzybF1t1yfwuo1_500.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -265,7 +460,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0039_6cb32e4ecf28badf2e83405e8238266e_c72aa60c-b17b-4533-b57c-bc4d07350010.jpg",
+            "image": "shopify://shop_images/web_0039_6cb32e4ecf28badf2e83405e8238266e_c72aa60c-b17b-4533-b57c-bc4d07350010.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -275,7 +470,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0045_Screen_Shot_2023-03-11_at_7.56.02_PM.jpg",
+            "image": "shopify://shop_images/web_0045_Screen_Shot_2023-03-11_at_7.56.02_PM.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -285,7 +480,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/damir.jpg",
+            "image": "shopify://shop_images/damir.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -295,7 +490,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/blondie_aedc0613-e79c-44ce-ad1a-a5edf663be22.jpg",
+            "image": "shopify://shop_images/blondie_aedc0613-e79c-44ce-ad1a-a5edf663be22.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -305,7 +500,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0000_Screen_Shot_2022-10-03_at_1.21.52_AM_d9f198a7-61fe-453b-af00-47d725b628cc.jpg",
+            "image": "shopify://shop_images/web_0000_Screen_Shot_2022-10-03_at_1.21.52_AM_d9f198a7-61fe-453b-af00-47d725b628cc.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -315,7 +510,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/biggie_1111_88c13c95-b593-4e9c-a41a-9c8c00484eef.jpg",
+            "image": "shopify://shop_images/biggie_1111_88c13c95-b593-4e9c-a41a-9c8c00484eef.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -325,7 +520,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/vickyyyy.jpg",
+            "image": "shopify://shop_images/vickyyyy.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -335,7 +530,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/fine_art_111_6479ba3f-1047-4e44-bd5f-fc090813c247.jpg",
+            "image": "shopify://shop_images/fine_art_111_6479ba3f-1047-4e44-bd5f-fc090813c247.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -345,7 +540,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/IMG_0417.jpg",
+            "image": "shopify://shop_images/IMG_0417.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -355,7 +550,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0016_Elu4TdhXEAEcy0P_ffdc2ec8-2483-4d18-98eb-ced6e46bf279.jpg",
+            "image": "shopify://shop_images/web_0016_Elu4TdhXEAEcy0P_ffdc2ec8-2483-4d18-98eb-ced6e46bf279.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -365,7 +560,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/girl.jpg",
+            "image": "shopify://shop_images/girl.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -375,7 +570,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/mobbb.jpg",
+            "image": "shopify://shop_images/mobbb.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -385,7 +580,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/pearl_paint_52f6e10c-4927-4642-8903-6fc2c220b281.jpg",
+            "image": "shopify://shop_images/pearl_paint_52f6e10c-4927-4642-8903-6fc2c220b281.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -395,7 +590,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/mobbb.jpg",
+            "image": "shopify://shop_images/mobbb.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -405,7 +600,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/picasso.jpg",
+            "image": "shopify://shop_images/picasso.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -415,7 +610,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0015_Dog2_photos_v2_x2-2-600x450_7cc65ef2-957e-4602-9c6d-4a3d4c8a4f21.jpg",
+            "image": "shopify://shop_images/web_0015_Dog2_photos_v2_x2-2-600x450_7cc65ef2-957e-4602-9c6d-4a3d4c8a4f21.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -425,7 +620,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/IMG_6279.jpg",
+            "image": "shopify://shop_images/IMG_6279.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -435,7 +630,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0004_Layer_8.jpg",
+            "image": "shopify://shop_images/web_0004_Layer_8.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -445,7 +640,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0005_tumblr_nyowguR5CG1t1yfwuo1_500.jpg",
+            "image": "shopify://shop_images/web_0005_tumblr_nyowguR5CG1t1yfwuo1_500.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -455,7 +650,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0045_Screen_Shot_2023-01-13_at_12.39.22_AM.jpg",
+            "image": "shopify://shop_images/web_0045_Screen_Shot_2023-01-13_at_12.39.22_AM.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -465,7 +660,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0050_web_images_e10048e8-0278-4b91-9697-7ab6946eedd2.jpg",
+            "image": "shopify://shop_images/web_0050_web_images_e10048e8-0278-4b91-9697-7ab6946eedd2.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -475,7 +670,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0048_Screen_Shot_2022-01-18_at_1.23.03_AM_c7e04e14-534e-483e-a147-3cb4ca6251d8.jpg",
+            "image": "shopify://shop_images/web_0048_Screen_Shot_2022-01-18_at_1.23.03_AM_c7e04e14-534e-483e-a147-3cb4ca6251d8.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -485,7 +680,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0010_Layer_7_0fd40f45-4700-4ad3-91c8-93d353325461.jpg",
+            "image": "shopify://shop_images/web_0010_Layer_7_0fd40f45-4700-4ad3-91c8-93d353325461.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -495,7 +690,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0009_tumblr_o4gb9ixgaN1t1yfwuo1_500_6d93b783-1231-48bf-8677-7849b03cc10e.jpg",
+            "image": "shopify://shop_images/web_0009_tumblr_o4gb9ixgaN1t1yfwuo1_500_6d93b783-1231-48bf-8677-7849b03cc10e.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -505,7 +700,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0017_ccaaa8f3db1ac7128f76319b733091cf.jpg",
+            "image": "shopify://shop_images/web_0017_ccaaa8f3db1ac7128f76319b733091cf.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -515,7 +710,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/IMG_7846.jpg",
+            "image": "shopify://shop_images/IMG_7846.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -586,7 +781,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_2_new.jpg",
+            "image": "shopify://shop_images/web_2_new.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -596,7 +791,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_6_new.jpg",
+            "image": "shopify://shop_images/web_6_new.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -606,7 +801,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_55.jpg",
+            "image": "shopify://shop_images/web_55.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -616,7 +811,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_545.jpg",
+            "image": "shopify://shop_images/web_545.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -626,7 +821,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/webbb.jpg",
+            "image": "shopify://shop_images/webbb.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -653,7 +848,7 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/yossi_fine_art.jpg",
+            "image": "shopify://shop_images/yossi_fine_art.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -664,7 +859,7 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0018_BYREDO_MC7_e0e166bb-1116-46ad-a120-b6a783eac240.jpg",
+            "image": "shopify://shop_images/web_0018_BYREDO_MC7_e0e166bb-1116-46ad-a120-b6a783eac240.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -673,14 +868,14 @@
         "c8b09bc7-d75e-4ef8-9e88-18a6269b897a": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=bZ-OKcd9CvE"
+            "video_url": "https://www.youtube.com/watch?v=bZ-OKcd9CvE"
           }
         },
         "06eed6bb-d931-46f1-a2ca-0a3e90462f04": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0020_4163921b77ba88621db563026d375df7_2bec0acd-1e69-465b-a000-dedb2b2f63d6.jpg",
+            "image": "shopify://shop_images/web_0020_4163921b77ba88621db563026d375df7_2bec0acd-1e69-465b-a000-dedb2b2f63d6.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -690,7 +885,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0029_Damien-Hirst-16.jpg",
+            "image": "shopify://shop_images/web_0029_Damien-Hirst-16.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -700,7 +895,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0024_qmHzESW.jpg",
+            "image": "shopify://shop_images/web_0024_qmHzESW.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -710,7 +905,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0037_9af43c1981b19e737326c905106baf55_d1e78957-4390-4133-ad27-ada82137849d.jpg",
+            "image": "shopify://shop_images/web_0037_9af43c1981b19e737326c905106baf55_d1e78957-4390-4133-ad27-ada82137849d.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -720,7 +915,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0003_tumblr_nya3zkzybF1t1yfwuo1_500.jpg",
+            "image": "shopify://shop_images/web_0003_tumblr_nya3zkzybF1t1yfwuo1_500.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -730,7 +925,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/FAMOUS_PICTURES_TAKEN_BY_HIS_MISS_TRESS_PAMALA_DEBARS.jpg",
+            "image": "shopify://shop_images/FAMOUS_PICTURES_TAKEN_BY_HIS_MISS_TRESS_PAMALA_DEBARS.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -740,7 +935,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0009_tumblr_o4gb9ixgaN1t1yfwuo1_500_6d93b783-1231-48bf-8677-7849b03cc10e.jpg",
+            "image": "shopify://shop_images/web_0009_tumblr_o4gb9ixgaN1t1yfwuo1_500_6d93b783-1231-48bf-8677-7849b03cc10e.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -750,7 +945,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/nerd.jpg",
+            "image": "shopify://shop_images/nerd.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -760,7 +955,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/IMG_2825.jpg",
+            "image": "shopify://shop_images/IMG_2825.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -770,7 +965,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0042_Screen_Shot_2023-01-05_at_8.05.59_PM.jpg",
+            "image": "shopify://shop_images/web_0042_Screen_Shot_2023-01-05_at_8.05.59_PM.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -790,7 +985,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_0034_Screen_Shot_2023-03-11_at_8.03.52_PM.jpg",
+            "image": "shopify://shop_images/web_0034_Screen_Shot_2023-03-11_at_8.03.52_PM.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -821,13 +1016,12 @@
     },
     "16604368878e277d63": {
       "type": "yossi-one-col",
-      "disabled": true,
       "blocks": {
         "aa85fc9d-16b2-47ec-9d81-14c21814414e": {
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/Yossi_1_9cd5cd17-45ed-4dcb-9e6f-f328e99537d6.jpg",
+            "image": "shopify://shop_images/Yossi_1_9cd5cd17-45ed-4dcb-9e6f-f328e99537d6.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -837,7 +1031,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/yossi_2.jpg",
+            "image": "shopify://shop_images/yossi_2.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -847,7 +1041,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/yossi_women_alluring.jpg",
+            "image": "shopify://shop_images/yossi_women_alluring.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -857,7 +1051,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/wu.jpg",
+            "image": "shopify://shop_images/wu.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -867,7 +1061,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/caso.jpg",
+            "image": "shopify://shop_images/caso.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -877,7 +1071,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/nerd.jpg",
+            "image": "shopify://shop_images/nerd.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -887,7 +1081,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/andy_78527905-2e59-449b-977e-39c7df71679f.jpg",
+            "image": "shopify://shop_images/andy_78527905-2e59-449b-977e-39c7df71679f.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -897,7 +1091,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/web_images.jpg",
+            "image": "shopify://shop_images/web_images.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -907,7 +1101,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/ramone.jpg",
+            "image": "shopify://shop_images/ramone.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -917,7 +1111,7 @@
           "type": "image",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/q.jpg",
+            "image": "shopify://shop_images/q.jpg",
             "image_link": "",
             "x_padding": "",
             "y_padding": ""
@@ -936,6 +1130,7 @@
         "fb913579-ea51-4143-b6ef-05bf6dcb92bb",
         "0f0bf6b4-7ba4-49c0-850e-c7778b223045"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": true
@@ -944,6 +1139,7 @@
   },
   "order": [
     "16590256478e958b4a",
+    "yossi_one_col_tQCjTb",
     "166146610712daa2cf",
     "e352651b-1f06-43f4-b133-d210054d9f19",
     "d147383b-80a6-46c2-9c26-0843a5fc46b2",
