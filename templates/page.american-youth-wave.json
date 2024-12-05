@@ -23,8 +23,8 @@
         "03d39996-5b68-43db-8a26-ab6c4151936e": {
           "type": "text",
           "settings": {
-            "heading": "AMERICAN_YOUTH_WAVE EXHIBTION NOVEMBER 20th, 2023.",
-            "body": "\"American Youth Wave\" is a bold exploration of the complexities and contradictions of contemporary youth culture in America.",
+            "heading": "",
+            "body": "\"American Youth Wave\" is a bold exploration of the complexities and contradictions of contemporary youth culture in America. \n\nLOWER EAST SIDE. NYC NOVEMBER 20th, 2023.",
             "show_button": false,
             "button_text": "",
             "button_link": ""
@@ -46,7 +46,7 @@
         "text_Nimr8V"
       ],
       "settings": {
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "padding": false
       }
     },
