@@ -185,23 +185,6 @@
         "padding": true
       }
     },
-    "16590256478e958b4a": {
-      "type": "yossi-hero",
-      "blocks": {
-        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/af4bbaf040094a94b33030d3b2e1bef4.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "169b8b04-cef5-4fa9-9b6b-69eb4672ff84"
-      ],
-      "settings": {
-        "scroll_prompt": "YOSSI COPR X ESSX"
-      }
-    },
     "intro": {
       "type": "yossi-one-col",
       "blocks": {
@@ -242,6 +225,7 @@
         "bc182429-0428-4778-a553-2d10313f3228",
         "3422cac1-d470-4b07-bd12-95c1861819fd"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "vertical",
         "padding": false
@@ -309,7 +293,6 @@
         "image_CHMDfJ",
         "image_R9pbtm"
       ],
-      "disabled": true,
       "settings": {
         "orientation": "horizontal",
         "padding": true
@@ -318,7 +301,6 @@
   },
   "order": [
     "yossi_one_col_EyjmVe",
-    "16590256478e958b4a",
     "intro",
     "yossi_one_col_FRJeKB",
     "yossi_one_col_FDKAkc"
