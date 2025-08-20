@@ -95,18 +95,8 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const tracks = [
-      {
-        title: "Track 1",
-        url: "{{ section.settings.track_1_url }}"
-      },
-      {
-        title: "Track 2",
-        url: "{{ section.settings.track_2_url }}"
-      },
-      {
-        title: "Track 3",
-        url: "{{ section.settings.track_3_url }}"
-      }
+      { title: "Track 1", url: "{{ section.settings.track_1_url }}" },
+      { title: "Track 2", url: "{{ section.settings.track_2_url }}" }
     ].filter(track => track.url);
 
     const cdIcon = document.getElementById("cd-icon");
@@ -116,17 +106,13 @@
     const playIcon = document.getElementById("icon-play");
     const pauseIcon = document.getElementById("icon-pause");
 
-    if (!tracks.length) {
-      console.warn("No audio tracks configured.");
-      title.textContent = "No tracks loaded.";
-      return;
-    }
+    if (!tracks.length) return;
 
-    let currentTrack = parseInt(localStorage.getItem('yossi_current_track')) || 0;
+    let currentTrack = parseInt(localStorage.getItem('yossi_music_index')) || 0;
     let isPlaying = false;
     let hasInteracted = false;
     const wasPaused = localStorage.getItem('yossi_music_paused') === 'true';
-    const lastTime = parseFloat(localStorage.getItem('yossi_music_time')) || 0;
+    const savedTime = parseFloat(localStorage.getItem('yossi_music_time')) || 0;
 
     function updateIcons() {
       if (isPlaying) {
@@ -144,7 +130,8 @@
       if (!tracks[index]) return;
       audio.src = tracks[index].url;
       title.textContent = tracks[index].title || "Untitled Track";
-      localStorage.setItem('yossi_current_track', index);
+      audio.load();
+      audio.currentTime = savedTime;
     }
 
     function playMusic() {
@@ -152,9 +139,8 @@
         isPlaying = true;
         updateIcons();
         localStorage.setItem('yossi_music_paused', 'false');
-      }).catch((err) => {
-        console.warn("Autoplay blocked:", err);
-      });
+        localStorage.setItem('yossi_music_index', currentTrack);
+      }).catch(console.warn);
     }
 
     function pauseMusic() {
@@ -180,9 +166,7 @@
     audio.addEventListener("ended", () => {
       currentTrack = (currentTrack + 1) % tracks.length;
       loadTrack(currentTrack);
-      if (isPlaying) {
-        playMusic();
-      }
+      if (isPlaying) playMusic();
     });
 
     audio.addEventListener("timeupdate", () => {
@@ -190,7 +174,6 @@
     });
 
     loadTrack(currentTrack);
-    audio.currentTime = lastTime;
 
     function tryPlayOnInteraction() {
       if (!hasInteracted && !wasPaused) {
@@ -213,43 +196,14 @@
 
 {% schema %}
 {
-  "name": "Floating Music Player",
+  "name": "Music Player",
   "tag": "section",
   "settings": [
-    {
-      "type": "image_picker",
-      "id": "cd_image",
-      "label": "CD Icon Image"
-    },
-    {
-      "type": "range",
-      "id": "cd_size",
-      "label": "CD Size (px)",
-      "min": 40,
-      "max": 120,
-      "step": 4,
-      "default": 60
-    },
-    {
-      "type": "url",
-      "id": "track_1_url",
-      "label": "Track 1 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_2_url",
-      "label": "Track 2 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_3_url",
-      "label": "Track 3 URL"
-    }
+    { "type": "image_picker", "id": "cd_image", "label": "CD Icon Image" },
+    { "type": "range", "id": "cd_size", "label": "CD Size (px)", "min": 40, "max": 120, "step": 4, "default": 60 },
+    { "type": "url", "id": "track_1_url", "label": "Track 1 URL" },
+    { "type": "url", "id": "track_2_url", "label": "Track 2 URL" }
   ],
-  "presets": [
-    {
-      "name": "Floating Music Player"
-    }
-  ]
+  "presets": [ { "name": "Music Player" } ]
 }
 {% endschema %}
