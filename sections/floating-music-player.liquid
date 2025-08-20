@@ -1,114 +1,3 @@
-{% if template.name != 'index' %}
-<div id="floating-music-player">
-  <div id="track-title">Loading...</div>
-
-  <div class="cd-wrapper">
-    <img id="cd-icon" src="{{ section.settings.cd_image | image_url: width: 200 }}" alt="Music Disc" />
-    <button id="music-toggle-button" aria-label="Toggle music">
-      <svg id="icon-play" xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="black">
-        <path d="M8 5v14l11-7z" />
-      </svg>
-      <svg id="icon-pause" xmlns="http://www.w3.org/2000/svg" class="icon hidden" viewBox="0 0 24 24" fill="black">
-        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
-      </svg>
-    </button>
-  </div>
-
-  <button id="next-track" aria-label="Next track">⏭️</button>
-  <audio id="audio-player"></audio>
-</div>
-
-<style>
-  #floating-music-player {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    width: {{ section.settings.cd_size | default: 60 }}px;
-    height: auto;
-    z-index: 9999;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: sans-serif;
-    pointer-events: auto;
-    -webkit-tap-highlight-color: transparent;
-    user-select: none;
-    touch-action: manipulation;
-  }
-
-  #track-title {
-    font-size: 11px;
-    color: black;
-    margin-bottom: 6px;
-    max-width: 120px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .cd-wrapper {
-    position: relative;
-    width: 100%;
-    height: {{ section.settings.cd_size | default: 60 }}px;
-    cursor: pointer;
-    -webkit-user-drag: none;
-  }
-
-  #cd-icon {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    touch-action: none;
-  }
-
-  #cd-icon.spin {
-    animation: spin 4s linear infinite;
-  }
-
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-  #music-toggle-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.7);
-    border: none;
-    border-radius: 50%;
-    padding: 4px;
-    width: 28px;
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    touch-action: manipulation;
-  }
-
-  #music-toggle-button .icon {
-    width: 16px;
-    height: 16px;
-  }
-
-  #next-track {
-    margin-top: 6px;
-    font-size: 14px;
-    border: none;
-    background: none;
-    cursor: pointer;
-    touch-action: manipulation;
-  }
-
-  .hidden {
-    display: none;
-  }
-</style>
-
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const tracks = [
@@ -142,7 +31,6 @@
 
     let currentTrack = 0;
     let isPlaying = false;
-    let hasScrolled = false;
     const wasPaused = localStorage.getItem('yossi_music_paused') === 'true';
 
     function updateIcons() {
@@ -203,61 +91,22 @@
 
     loadTrack(currentTrack);
 
+    function triggerPlayOnce() {
+      if (!isPlaying && !wasPaused) {
+        playMusic();
+      }
+      window.removeEventListener('scroll', triggerPlayOnce);
+      window.removeEventListener('click', triggerPlayOnce);
+      window.removeEventListener('touchstart', triggerPlayOnce);
+    }
+
     if (!wasPaused) {
-      const onScroll = () => {
-        if (!hasScrolled) {
-          hasScrolled = true;
-          playMusic();
-          window.removeEventListener('scroll', onScroll);
-        }
-      };
-      window.addEventListener('scroll', onScroll);
+      // Wait for user gesture before playing
+      window.addEventListener('scroll', triggerPlayOnce);
+      window.addEventListener('click', triggerPlayOnce);
+      window.addEventListener('touchstart', triggerPlayOnce);
     } else {
       pauseMusic();
     }
   });
 </script>
-{% endif %}
-
-{% schema %}
-{
-  "name": "Floating Music Player",
-  "tag": "section",
-  "settings": [
-    {
-      "type": "image_picker",
-      "id": "cd_image",
-      "label": "CD Icon Image"
-    },
-    {
-      "type": "range",
-      "id": "cd_size",
-      "label": "CD Size (px)",
-      "min": 40,
-      "max": 120,
-      "step": 4,
-      "default": 60
-    },
-    {
-      "type": "url",
-      "id": "track_1_url",
-      "label": "Track 1 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_2_url",
-      "label": "Track 2 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_3_url",
-      "label": "Track 3 URL"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Floating Music Player"
-    }
-  ]
-}
-{% endschema %}
