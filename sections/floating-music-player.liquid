@@ -1,7 +1,5 @@
 {% if template.name != 'index' %}
 <div id="floating-music-player">
-  <div id="track-title">Loading...</div>
-
   <div class="cd-wrapper">
     <img id="cd-icon" src="{{ section.settings.cd_image | image_url: width: 200 }}" alt="Music Disc" />
     <button id="music-toggle-button" aria-label="Toggle music">
@@ -13,8 +11,10 @@
       </svg>
     </button>
   </div>
-  <button id="next-track">Next ▶</button>
-  <audio id="audio-player"></audio>
+
+  <audio id="audio-player">
+    <source src="{{ section.settings.track_1_url }}" type="audio/mpeg">
+  </audio>
 </div>
 
 <style>
@@ -23,35 +23,19 @@
     bottom: 24px;
     right: 24px;
     width: {{ section.settings.cd_size | default: 60 }}px;
-    height: auto;
+    height: {{ section.settings.cd_size | default: 60 }}px;
     z-index: 9999;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
-    pointer-events: auto;
-    -webkit-tap-highlight-color: transparent;
-    user-select: none;
-    touch-action: manipulation;
-  }
-
-  #track-title {
-    font-size: 11px;
-    color: black;
-    margin-bottom: 6px;
-    max-width: 120px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .cd-wrapper {
     position: relative;
     width: 100%;
-    height: {{ section.settings.cd_size | default: 60 }}px;
+    height: 100%;
     cursor: pointer;
-    -webkit-user-drag: none;
   }
 
   #cd-icon {
@@ -59,7 +43,6 @@
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    touch-action: none;
   }
 
   #cd-icon.spin {
@@ -67,8 +50,12 @@
   }
 
   @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   #music-toggle-button {
@@ -86,21 +73,11 @@
     align-items: center;
     justify-content: center;
     z-index: 2;
-    touch-action: manipulation;
   }
 
   #music-toggle-button .icon {
     width: 16px;
     height: 16px;
-  }
-
-  #next-track {
-    margin-top: 6px;
-    font-size: 14px;
-    border: none;
-    background: none;
-    cursor: pointer;
-    touch-action: manipulation;
   }
 
   .hidden {
@@ -110,28 +87,14 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const tracks = [
-      { title: "Track 1", url: "{{ section.settings.track_1_url }}" },
-      { title: "Track 2", url: "{{ section.settings.track_2_url }}" },
-      { title: "Track 3", url: "{{ section.settings.track_3_url }}" }
-    ].filter(track => track.url);
-
     const cdIcon = document.getElementById("cd-icon");
     const audio = document.getElementById("audio-player");
-    const title = document.getElementById("track-title");
     const toggleButton = document.getElementById("music-toggle-button");
-    const nextButton = document.getElementById("next-track");
     const playIcon = document.getElementById("icon-play");
     const pauseIcon = document.getElementById("icon-pause");
 
-    if (!tracks.length) {
-      console.warn("No audio tracks configured.");
-      title.textContent = "No tracks loaded.";
-      return;
-    }
-
-    let currentTrack = 0;
     let isPlaying = false;
+    let hasScrolled = false;
     const wasPaused = localStorage.getItem('yossi_music_paused') === 'true';
 
     function updateIcons() {
@@ -146,18 +109,12 @@
       }
     }
 
-    function loadTrack(index) {
-      if (!tracks[index]) return;
-      audio.src = tracks[index].url;
-      title.textContent = tracks[index].title || "Untitled Track";
-    }
-
     function playMusic() {
       audio.play().then(() => {
         isPlaying = true;
         updateIcons();
         localStorage.setItem('yossi_music_paused', 'false');
-      }).catch(err => {
+      }).catch((err) => {
         console.warn("Autoplay blocked:", err);
       });
     }
@@ -177,34 +134,22 @@
       }
     }
 
-    function nextTrack() {
-      currentTrack = (currentTrack + 1) % tracks.length;
-      loadTrack(currentTrack);
-      if (!audio.paused) {
-        playMusic();
-      }
-    }
-
     toggleButton.addEventListener("pointerdown", toggleMusic);
     cdIcon.addEventListener("pointerdown", toggleMusic);
-    nextButton.addEventListener("click", nextTrack);
-    audio.addEventListener("ended", nextTrack);
-
-    loadTrack(currentTrack);
-
-    function triggerPlayOnce() {
-      if (!isPlaying && !wasPaused) {
-        playMusic();
-      }
-      window.removeEventListener('scroll', triggerPlayOnce);
-      window.removeEventListener('click', triggerPlayOnce);
-      window.removeEventListener('touchstart', triggerPlayOnce);
-    }
 
     if (!wasPaused) {
-      window.addEventListener('scroll', triggerPlayOnce);
-      window.addEventListener('click', triggerPlayOnce);
-      window.addEventListener('touchstart', triggerPlayOnce);
+      const tryPlay = () => {
+        if (!hasScrolled) {
+          hasScrolled = true;
+          playMusic();
+          window.removeEventListener('scroll', tryPlay);
+          window.removeEventListener('click', tryPlay);
+          window.removeEventListener('touchstart', tryPlay);
+        }
+      };
+      window.addEventListener('scroll', tryPlay);
+      window.addEventListener('click', tryPlay);
+      window.addEventListener('touchstart', tryPlay);
     } else {
       pauseMusic();
     }
@@ -234,17 +179,7 @@
     {
       "type": "url",
       "id": "track_1_url",
-      "label": "Track 1 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_2_url",
-      "label": "Track 2 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_3_url",
-      "label": "Track 3 URL"
+      "label": "Track URL"
     }
   ],
   "presets": [
