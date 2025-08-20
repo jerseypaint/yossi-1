@@ -14,7 +14,7 @@
     </button>
   </div>
 
-  <audio id="audio-player" preload="auto"></audio>
+  <audio id="audio-player"></audio>
 </div>
 
 <style>
@@ -93,151 +93,117 @@
 </style>
 
 <script>
-(function () {
-  const audio = document.getElementById("audio-player");
-  const cdIcon = document.getElementById("cd-icon");
-  const playIcon = document.getElementById("icon-play");
-  const pauseIcon = document.getElementById("icon-pause");
-  const toggleButton = document.getElementById("music-toggle-button");
+  document.addEventListener("DOMContentLoaded", function () {
+    const tracks = [
+      { title: "Track 1", url: "{{ section.settings.track_1_url }}" },
+      { title: "Track 2", url: "{{ section.settings.track_2_url }}" }
+    ].filter(track => track.url);
 
-  if (!audio || !cdIcon || !playIcon || !pauseIcon || !toggleButton) return;
+    const cdIcon = document.getElementById("cd-icon");
+    const audio = document.getElementById("audio-player");
+    const title = document.getElementById("track-title");
+    const toggleButton = document.getElementById("music-toggle-button");
+    const playIcon = document.getElementById("icon-play");
+    const pauseIcon = document.getElementById("icon-pause");
 
-  const tracks = [
-    {
-      title: "Track 1",
-      url: "{{ section.settings.track_1_url }}"
-    },
-    {
-      title: "Track 2",
-      url: "{{ section.settings.track_2_url }}"
-    },
-    {
-      title: "Track 3",
-      url: "{{ section.settings.track_3_url }}"
+    if (!tracks.length) return;
+
+    let currentTrack = parseInt(localStorage.getItem('yossi_music_index')) || 0;
+    let isPlaying = false;
+    let hasInteracted = false;
+    const wasPaused = localStorage.getItem('yossi_music_paused') === 'true';
+    const savedTime = parseFloat(localStorage.getItem('yossi_music_time')) || 0;
+
+    function updateIcons() {
+      if (isPlaying) {
+        playIcon.classList.add('hidden');
+        pauseIcon.classList.remove('hidden');
+        cdIcon.classList.add('spin');
+      } else {
+        playIcon.classList.remove('hidden');
+        pauseIcon.classList.add('hidden');
+        cdIcon.classList.remove('spin');
+      }
     }
-  ].filter(track => track.url);
 
-  let currentTrack = 0;
-  let hasInteracted = false;
-  const wasPaused = localStorage.getItem('yossi_music_paused') === 'true';
-  const lastTime = parseFloat(localStorage.getItem('yossi_music_time') || "0");
-
-  if (!tracks.length) return;
-
-  function loadTrack(index) {
-    if (!tracks[index]) return;
-    audio.src = tracks[index].url;
-    audio.currentTime = lastTime || 0;
-    document.getElementById("track-title").textContent = tracks[index].title || "Untitled Track";
-  }
-
-  function updateIcons(isPlaying) {
-    if (isPlaying) {
-      playIcon.classList.add('hidden');
-      pauseIcon.classList.remove('hidden');
-      cdIcon.classList.add('spin');
-    } else {
-      playIcon.classList.remove('hidden');
-      pauseIcon.classList.add('hidden');
-      cdIcon.classList.remove('spin');
+    function loadTrack(index) {
+      if (!tracks[index]) return;
+      audio.src = tracks[index].url;
+      title.textContent = tracks[index].title || "Untitled Track";
+      audio.load();
+      audio.currentTime = savedTime;
     }
-  }
 
-  function playMusic() {
-    audio.play().then(() => {
-      updateIcons(true);
-      localStorage.setItem('yossi_music_paused', 'false');
-    }).catch((err) => console.warn("Autoplay blocked:", err));
-  }
+    function playMusic() {
+      audio.play().then(() => {
+        isPlaying = true;
+        updateIcons();
+        localStorage.setItem('yossi_music_paused', 'false');
+        localStorage.setItem('yossi_music_index', currentTrack);
+      }).catch(console.warn);
+    }
 
-  function pauseMusic() {
-    audio.pause();
-    updateIcons(false);
-    localStorage.setItem('yossi_music_paused', 'true');
-  }
+    function pauseMusic() {
+      audio.pause();
+      isPlaying = false;
+      updateIcons();
+      localStorage.setItem('yossi_music_paused', 'true');
+    }
 
-  function toggleMusic() {
-    if (audio.paused) {
+    function toggleMusic() {
+      if (audio.paused) {
+        currentTrack = (currentTrack + 1) % tracks.length;
+        loadTrack(currentTrack);
+        playMusic();
+      } else {
+        pauseMusic();
+      }
+    }
+
+    toggleButton.addEventListener("pointerdown", toggleMusic);
+    cdIcon.addEventListener("pointerdown", toggleMusic);
+
+    audio.addEventListener("ended", () => {
       currentTrack = (currentTrack + 1) % tracks.length;
       loadTrack(currentTrack);
-      playMusic();
-    } else {
-      pauseMusic();
-    }
-  }
+      if (isPlaying) playMusic();
+    });
 
-  toggleButton.addEventListener("pointerdown", toggleMusic);
-  cdIcon.addEventListener("pointerdown", toggleMusic);
+    audio.addEventListener("timeupdate", () => {
+      localStorage.setItem('yossi_music_time', audio.currentTime);
+    });
 
-  audio.addEventListener("timeupdate", () => {
-    localStorage.setItem('yossi_music_time', audio.currentTime);
-  });
-
-  audio.addEventListener("ended", () => {
-    currentTrack = (currentTrack + 1) % tracks.length;
     loadTrack(currentTrack);
-    playMusic();
-  });
 
-  function tryAutoPlay() {
-    if (!hasInteracted && !wasPaused) {
-      hasInteracted = true;
-      playMusic();
-      document.removeEventListener('scroll', tryAutoPlay);
-      document.removeEventListener('click', tryAutoPlay);
-      document.removeEventListener('touchstart', tryAutoPlay);
+    function tryPlayOnInteraction() {
+      if (!hasInteracted && !wasPaused) {
+        hasInteracted = true;
+        playMusic();
+        document.removeEventListener('scroll', tryPlayOnInteraction);
+        document.removeEventListener('click', tryPlayOnInteraction);
+        document.removeEventListener('touchstart', tryPlayOnInteraction);
+      }
     }
-  }
 
-  document.addEventListener('scroll', tryAutoPlay);
-  document.addEventListener('click', tryAutoPlay);
-  document.addEventListener('touchstart', tryAutoPlay);
-
-  loadTrack(currentTrack);
-  updateIcons(!wasPaused);
-})();
+    if (!wasPaused) {
+      document.addEventListener('scroll', tryPlayOnInteraction);
+      document.addEventListener('click', tryPlayOnInteraction);
+      document.addEventListener('touchstart', tryPlayOnInteraction);
+    }
+  });
 </script>
 {% endif %}
 
 {% schema %}
 {
-  "name": "Floating Music Player",
+  "name": "Music Player",
   "tag": "section",
   "settings": [
-    {
-      "type": "image_picker",
-      "id": "cd_image",
-      "label": "CD Icon Image"
-    },
-    {
-      "type": "range",
-      "id": "cd_size",
-      "label": "CD Size (px)",
-      "min": 40,
-      "max": 120,
-      "step": 4,
-      "default": 60
-    },
-    {
-      "type": "url",
-      "id": "track_1_url",
-      "label": "Track 1 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_2_url",
-      "label": "Track 2 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_3_url",
-      "label": "Track 3 URL"
-    }
+    { "type": "image_picker", "id": "cd_image", "label": "CD Icon Image" },
+    { "type": "range", "id": "cd_size", "label": "CD Size (px)", "min": 40, "max": 120, "step": 4, "default": 60 },
+    { "type": "url", "id": "track_1_url", "label": "Track 1 URL" },
+    { "type": "url", "id": "track_2_url", "label": "Track 2 URL" }
   ],
-  "presets": [
-    {
-      "name": "Floating Music Player"
-    }
-  ]
+  "presets": [ { "name": "Music Player" } ]
 }
 {% endschema %}
