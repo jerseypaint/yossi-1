@@ -108,6 +108,25 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "yossi_one_col_tjkMir": {
+      "type": "yossi-one-col",
+      "blocks": {
+        "video_xMVbUK": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/1904547c7ac14e4d82d4ef0d16f94043.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_xMVbUK"
+      ],
+      "name": "Y-1 Col",
+      "settings": {
+        "orientation": "vertical",
+        "padding": true
+      }
     }
   },
   "order": [
@@ -116,6 +135,7 @@
     "ed26a267-39a5-4a18-8f48-5a97c11e0852",
     "1664589974a36f3788",
     "image_banner_8ETapG",
-    "image_banner_9mTC4E"
+    "image_banner_9mTC4E",
+    "yossi_one_col_tjkMir"
   ]
 }
