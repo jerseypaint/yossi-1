@@ -9,19 +9,11 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
-    "image_banner_8ETapG": {
+    "image_banner_YntzMA": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image_2": "shopify://shop_images/YOSSI_IG_POST_FINAL_121111122.jpg",
+        "image": "shopify://shop_images/YOSSI_IG_POST_FINAL_121.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -34,11 +26,46 @@
         "show_text_below": true
       }
     },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "image_banner_Jeq4WT": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/220427_Yossi27322_3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "full_width_video_p9bhmD": {
+      "type": "full-width-video",
+      "name": "Full Width Video",
+      "settings": {
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/1904547c7ac14e4d82d4ef0d16f94043.mp4",
+        "video_alt": "Background Video",
+        "loop": true,
+        "controls": false
+      }
+    },
+    "image_banner_8ETapG": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_2": "shopify://shop_images/YOSSI_IG_POST_FINAL_121111122.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -68,22 +95,12 @@
         "show_text_below": true
       }
     },
-    "full_width_video_p9bhmD": {
-      "type": "full-width-video",
-      "name": "Full Width Video",
-      "settings": {
-        "video_url": "https://cdn.shopify.com/videos/c/o/v/1904547c7ac14e4d82d4ef0d16f94043.mp4",
-        "video_alt": "Background Video",
-        "loop": true,
-        "controls": false
-      }
-    },
     "image_banner_petntj": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/YOSSI_IG_POST_FINAL_touch_touch.jpg",
-        "image_2": "shopify://shop_images/220427_Yossi27322_3.jpg",
+        "image_2": "shopify://shop_images/banner_wider_2_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -174,11 +191,12 @@
     }
   },
   "order": [
+    "image_banner_YntzMA",
     "main",
-    "image_banner_8ETapG",
     "image_banner_Jeq4WT",
-    "image_banner_9mTC4E",
     "full_width_video_p9bhmD",
+    "image_banner_8ETapG",
+    "image_banner_9mTC4E",
     "image_banner_petntj",
     "a10234dc-138d-4a36-8a32-4491687c5177",
     "ed26a267-39a5-4a18-8f48-5a97c11e0852",
