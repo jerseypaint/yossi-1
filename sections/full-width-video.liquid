@@ -1,0 +1,68 @@
+{% schema %}
+{
+  "name": "Full Width Video",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Upload Video"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Autoplay",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "loop",
+      "label": "Loop",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "muted",
+      "label": "Muted",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "controls",
+      "label": "Show Controls",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Full Width Video"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="full-width-video">
+  {% if section.settings.video %}
+    <video
+      class="w-full h-auto"
+      {% if section.settings.autoplay %} autoplay{% endif %}
+      {% if section.settings.loop %} loop{% endif %}
+      {% if section.settings.muted %} muted{% endif %}
+      {% if section.settings.controls %} controls{% endif %}
+      playsinline
+    >
+      <source src="{{ section.settings.video | video_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  {% else %}
+    <p style="text-align:center;">Please upload a video in the section settings.</p>
+  {% endif %}
+</section>
+
+<style>
+  .full-width-video video {
+    display: block;
+    max-width: 100%;
+  }
+</style>
