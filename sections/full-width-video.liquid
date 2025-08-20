@@ -58,17 +58,19 @@
         position: absolute;
         bottom: 20px;
         right: 20px;
-        background: rgba(0,0,0,0.5);
-        color: white;
+        background: transparent;
         border: none;
-        padding: 8px 12px;
-        font-size: 14px;
+        padding: 6px;
         cursor: pointer;
         z-index: 5;
-        border-radius: 4px;
       "
     >
-      🔇 Sound Off
+      <svg id="icon-muted" xmlns="http://www.w3.org/2000/svg" fill="white" width="20" height="20" viewBox="0 0 24 24">
+        <path d="M16.5 12L19 14.5 20.5 13 18 10.5 20.5 8 19 6.5 16.5 9 14 6.5 12.5 8 15 10.5 12.5 13 14 14.5zM5 9v6h4l5 5V4L9 9H5z"/>
+      </svg>
+      <svg id="icon-unmuted" xmlns="http://www.w3.org/2000/svg" fill="white" width="20" height="20" viewBox="0 0 24 24" style="display: none;">
+        <path d="M5 9v6h4l5 5V4L9 9H5zm11.5 3c0-1.77-1.02-3.29-2.5-4.03v8.06c1.48-.74 2.5-2.26 2.5-4.03zm2.5 0c0 3.04-1.72 5.64-4.25 6.92l1.5 1.5C19.1 18.09 21 15.27 21 12s-1.9-6.09-4.75-7.42l-1.5 1.5C17.28 6.36 19 8.96 19 12z"/>
+      </svg>
     </button>
   </section>
 {% else %}
@@ -82,18 +84,23 @@
     max-width: 100%;
     height: auto;
   }
+
+  #mute-toggle svg {
+    transition: opacity 0.2s ease;
+  }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const video = document.getElementById("custom-video");
     const toggleBtn = document.getElementById("mute-toggle");
+    const iconMuted = document.getElementById("icon-muted");
+    const iconUnmuted = document.getElementById("icon-unmuted");
 
-    if (video && toggleBtn) {
-      toggleBtn.addEventListener("click", () => {
-        video.muted = !video.muted;
-        toggleBtn.textContent = video.muted ? "🔇 Sound Off" : "🔊 Sound On";
-      });
-    }
+    toggleBtn.addEventListener("click", () => {
+      video.muted = !video.muted;
+      iconMuted.style.display = video.muted ? "inline" : "none";
+      iconUnmuted.style.display = video.muted ? "none" : "inline";
+    });
   });
 </script>
