@@ -98,6 +98,14 @@
       {
         title: "Track 1",
         url: "{{ section.settings.track_1_url }}"
+      },
+      {
+        title: "Track 2",
+        url: "{{ section.settings.track_2_url }}"
+      },
+      {
+        title: "Track 3",
+        url: "{{ section.settings.track_3_url }}"
       }
     ].filter(track => track.url);
 
@@ -114,11 +122,11 @@
       return;
     }
 
-    let currentTrack = 0;
+    let currentTrack = parseInt(localStorage.getItem('yossi_current_track')) || 0;
     let isPlaying = false;
     let hasInteracted = false;
     const wasPaused = localStorage.getItem('yossi_music_paused') === 'true';
-    const savedTime = parseFloat(localStorage.getItem('yossi_music_time')) || 0;
+    const lastTime = parseFloat(localStorage.getItem('yossi_music_time')) || 0;
 
     function updateIcons() {
       if (isPlaying) {
@@ -136,11 +144,7 @@
       if (!tracks[index]) return;
       audio.src = tracks[index].url;
       title.textContent = tracks[index].title || "Untitled Track";
-      audio.addEventListener('loadedmetadata', function () {
-        if (savedTime && savedTime < audio.duration) {
-          audio.currentTime = savedTime;
-        }
-      }, { once: true });
+      localStorage.setItem('yossi_current_track', index);
     }
 
     function playMusic() {
@@ -162,6 +166,8 @@
 
     function toggleMusic() {
       if (audio.paused) {
+        currentTrack = (currentTrack + 1) % tracks.length;
+        loadTrack(currentTrack);
         playMusic();
       } else {
         pauseMusic();
@@ -171,11 +177,20 @@
     toggleButton.addEventListener("pointerdown", toggleMusic);
     cdIcon.addEventListener("pointerdown", toggleMusic);
 
-    audio.addEventListener('timeupdate', function () {
-      localStorage.setItem('yossi_music_time', audio.currentTime.toString());
+    audio.addEventListener("ended", () => {
+      currentTrack = (currentTrack + 1) % tracks.length;
+      loadTrack(currentTrack);
+      if (isPlaying) {
+        playMusic();
+      }
+    });
+
+    audio.addEventListener("timeupdate", () => {
+      localStorage.setItem('yossi_music_time', audio.currentTime);
     });
 
     loadTrack(currentTrack);
+    audio.currentTime = lastTime;
 
     function tryPlayOnInteraction() {
       if (!hasInteracted && !wasPaused) {
@@ -191,8 +206,6 @@
       document.addEventListener('scroll', tryPlayOnInteraction);
       document.addEventListener('click', tryPlayOnInteraction);
       document.addEventListener('touchstart', tryPlayOnInteraction);
-    } else {
-      pauseMusic();
     }
   });
 </script>
@@ -221,6 +234,16 @@
       "type": "url",
       "id": "track_1_url",
       "label": "Track 1 URL"
+    },
+    {
+      "type": "url",
+      "id": "track_2_url",
+      "label": "Track 2 URL"
+    },
+    {
+      "type": "url",
+      "id": "track_3_url",
+      "label": "Track 3 URL"
     }
   ],
   "presets": [
