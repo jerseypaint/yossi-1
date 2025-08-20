@@ -14,6 +14,7 @@
     </button>
   </div>
 
+  <button id="next-track" aria-label="Next track">⏭️</button>
   <audio id="audio-player"></audio>
 </div>
 
@@ -23,12 +24,16 @@
     bottom: 24px;
     right: 24px;
     width: {{ section.settings.cd_size | default: 60 }}px;
-    height: {{ section.settings.cd_size | default: 60 }}px;
+    height: auto;
     z-index: 9999;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
+    pointer-events: auto;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
   }
 
   #track-title {
@@ -45,8 +50,9 @@
   .cd-wrapper {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: {{ section.settings.cd_size | default: 60 }}px;
     cursor: pointer;
+    -webkit-user-drag: none;
   }
 
   #cd-icon {
@@ -54,6 +60,7 @@
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+    touch-action: none;
   }
 
   #cd-icon.spin {
@@ -61,13 +68,8 @@
   }
 
   @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-
-    100% {
-      transform: rotate(360deg);
-    }
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
 
   #music-toggle-button {
@@ -85,11 +87,21 @@
     align-items: center;
     justify-content: center;
     z-index: 2;
+    touch-action: manipulation;
   }
 
   #music-toggle-button .icon {
     width: 16px;
     height: 16px;
+  }
+
+  #next-track {
+    margin-top: 6px;
+    font-size: 14px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    touch-action: manipulation;
   }
 
   .hidden {
@@ -118,6 +130,7 @@
     const audio = document.getElementById("audio-player");
     const title = document.getElementById("track-title");
     const toggleButton = document.getElementById("music-toggle-button");
+    const nextButton = document.getElementById("next-track");
     const playIcon = document.getElementById("icon-play");
     const pauseIcon = document.getElementById("icon-pause");
 
@@ -175,16 +188,18 @@
       }
     }
 
-    toggleButton.addEventListener("pointerdown", toggleMusic);
-    cdIcon.addEventListener("pointerdown", toggleMusic);
-
-    audio.addEventListener("ended", () => {
+    function nextTrack() {
       currentTrack = (currentTrack + 1) % tracks.length;
       loadTrack(currentTrack);
-      if (isPlaying) {
+      if (!audio.paused) {
         playMusic();
       }
-    });
+    }
+
+    toggleButton.addEventListener("pointerdown", toggleMusic);
+    cdIcon.addEventListener("pointerdown", toggleMusic);
+    nextButton.addEventListener("click", nextTrack);
+    audio.addEventListener("ended", nextTrack);
 
     loadTrack(currentTrack);
 
@@ -246,5 +261,3 @@
   ]
 }
 {% endschema %}
-
-
