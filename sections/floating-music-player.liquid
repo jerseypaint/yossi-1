@@ -29,7 +29,6 @@
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
-    pointer-events: none;
   }
 
   #track-title {
@@ -41,7 +40,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    pointer-events: auto;
   }
 
   .cd-wrapper {
@@ -49,7 +47,6 @@
     width: 100%;
     height: 100%;
     cursor: pointer;
-    pointer-events: auto;
   }
 
   #cd-icon {
@@ -64,8 +61,12 @@
   }
 
   @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   #music-toggle-button {
@@ -98,9 +99,18 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const tracks = [
-      { title: "Track 1", url: "{{ section.settings.track_1_url }}" },
-      { title: "Track 2", url: "{{ section.settings.track_2_url }}" },
-      { title: "Track 3", url: "{{ section.settings.track_3_url }}" }
+      {
+        title: "Track 1",
+        url: "{{ section.settings.track_1_url }}"
+      },
+      {
+        title: "Track 2",
+        url: "{{ section.settings.track_2_url }}"
+      },
+      {
+        title: "Track 3",
+        url: "{{ section.settings.track_3_url }}"
+      }
     ].filter(track => track.url);
 
     const cdIcon = document.getElementById("cd-icon");
@@ -111,13 +121,14 @@
     const pauseIcon = document.getElementById("icon-pause");
 
     if (!tracks.length) {
+      console.warn("No audio tracks configured.");
       title.textContent = "No tracks loaded.";
       return;
     }
 
     let currentTrack = 0;
     let isPlaying = false;
-    let hasScrolled = false;
+    let hasInteracted = false;
     const wasPaused = localStorage.getItem('yossi_music_paused') === 'true';
 
     function updateIcons() {
@@ -143,7 +154,9 @@
         isPlaying = true;
         updateIcons();
         localStorage.setItem('yossi_music_paused', 'false');
-      }).catch(() => {});
+      }).catch((err) => {
+        console.warn("Autoplay blocked:", err);
+      });
     }
 
     function pauseMusic() {
@@ -176,17 +189,20 @@
 
     loadTrack(currentTrack);
 
+    function tryPlayOnInteraction() {
+      if (!hasInteracted && !wasPaused) {
+        hasInteracted = true;
+        playMusic();
+        document.removeEventListener('scroll', tryPlayOnInteraction);
+        document.removeEventListener('click', tryPlayOnInteraction);
+        document.removeEventListener('touchstart', tryPlayOnInteraction);
+      }
+    }
+
     if (!wasPaused) {
-      const onScroll = () => {
-        if (!hasScrolled) {
-          hasScrolled = true;
-          playMusic();
-          window.removeEventListener('scroll', onScroll);
-        }
-      };
-      window.addEventListener('scroll', onScroll);
-    } else {
-      pauseMusic();
+      document.addEventListener('scroll', tryPlayOnInteraction);
+      document.addEventListener('click', tryPlayOnInteraction);
+      document.addEventListener('touchstart', tryPlayOnInteraction);
     }
   });
 </script>
@@ -197,14 +213,40 @@
   "name": "Floating Music Player",
   "tag": "section",
   "settings": [
-    { "type": "image_picker", "id": "cd_image", "label": "CD Icon Image" },
-    { "type": "range", "id": "cd_size", "label": "CD Size (px)", "min": 40, "max": 120, "step": 4, "default": 60 },
-    { "type": "url", "id": "track_1_url", "label": "Track 1 URL" },
-    { "type": "url", "id": "track_2_url", "label": "Track 2 URL" },
-    { "type": "url", "id": "track_3_url", "label": "Track 3 URL" }
+    {
+      "type": "image_picker",
+      "id": "cd_image",
+      "label": "CD Icon Image"
+    },
+    {
+      "type": "range",
+      "id": "cd_size",
+      "label": "CD Size (px)",
+      "min": 40,
+      "max": 120,
+      "step": 4,
+      "default": 60
+    },
+    {
+      "type": "url",
+      "id": "track_1_url",
+      "label": "Track 1 URL"
+    },
+    {
+      "type": "url",
+      "id": "track_2_url",
+      "label": "Track 2 URL"
+    },
+    {
+      "type": "url",
+      "id": "track_3_url",
+      "label": "Track 3 URL"
+    }
   ],
   "presets": [
-    { "name": "Floating Music Player" }
+    {
+      "name": "Floating Music Player"
+    }
   ]
 }
 {% endschema %}
