@@ -49,338 +49,6 @@
         "padding_bottom": 32
       }
     },
-    "1664481041b0878a5f": {
-      "type": "yossi-one-col",
-      "blocks": {
-        "aafe2481-3e15-4c2c-9734-9203867a2d1b": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "POST_AMERICAN_YOUTHISM",
-            "body": "",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "8715cbd4-2668-4e5c-91f7-16da0a2a7238": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme7942_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "448cadb0-5beb-4d5a-ba9f-8d8f1eb7f18f": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme7953.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "4d1dbbc6-b10b-4e26-b8f8-ce6014b81e3c": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme7963_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "fcd19892-75a0-4bf7-a104-6ecd83912680": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme7969_1_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "f82b6a06-7cf3-4dba-9662-a8213c55c072": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme7980_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "c99cdfdf-40a7-49aa-a648-6efc109fc259": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme7987_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "115fa6ec-7512-4ad2-a229-c66478172410": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8023_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "afed543b-0da5-4116-bdb1-caec08d30ae8": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8031_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "4059315b-dde4-474f-9257-e5eb279083c9": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8035_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "54de0ccd-3d60-4f43-8359-64782ebce668": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8041_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "83b69d43-04f2-490d-b005-88c6dfaa605e": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8065_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_GYtXAG": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8075_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "ff5a0ba5-3039-476b-9b22-c57294a7f3f2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "A BOY IN YAFO",
-            "body": "",
-            "show_button": false,
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "image_fWpXeC": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8079_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_qA6jUT": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8103_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_YJtWjj": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8114_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_jhraUi": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8121_11.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_b6c7yU": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8128_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_XBQrFD": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8135_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_f3W4wG": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8146_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_gW3Fir": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8154_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_mGF6G8": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8165_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_6jxXUm": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8159_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_ziCTck": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8178_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_kYrkbK": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8206_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_BtPhrh": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8178_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_XMbBgJ": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8215_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        },
-        "image_t9anBC": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "image": "shopify://shop_images/230123_YossiHomme8219_copy.jpg",
-            "image_link": "",
-            "x_padding": "",
-            "y_padding": ""
-          }
-        }
-      },
-      "block_order": [
-        "aafe2481-3e15-4c2c-9734-9203867a2d1b",
-        "8715cbd4-2668-4e5c-91f7-16da0a2a7238",
-        "448cadb0-5beb-4d5a-ba9f-8d8f1eb7f18f",
-        "4d1dbbc6-b10b-4e26-b8f8-ce6014b81e3c",
-        "fcd19892-75a0-4bf7-a104-6ecd83912680",
-        "f82b6a06-7cf3-4dba-9662-a8213c55c072",
-        "c99cdfdf-40a7-49aa-a648-6efc109fc259",
-        "115fa6ec-7512-4ad2-a229-c66478172410",
-        "afed543b-0da5-4116-bdb1-caec08d30ae8",
-        "4059315b-dde4-474f-9257-e5eb279083c9",
-        "54de0ccd-3d60-4f43-8359-64782ebce668",
-        "83b69d43-04f2-490d-b005-88c6dfaa605e",
-        "image_GYtXAG",
-        "ff5a0ba5-3039-476b-9b22-c57294a7f3f2",
-        "image_fWpXeC",
-        "image_qA6jUT",
-        "image_YJtWjj",
-        "image_jhraUi",
-        "image_b6c7yU",
-        "image_XBQrFD",
-        "image_f3W4wG",
-        "image_gW3Fir",
-        "image_mGF6G8",
-        "image_6jxXUm",
-        "image_ziCTck",
-        "image_kYrkbK",
-        "image_BtPhrh",
-        "image_XMbBgJ",
-        "image_t9anBC"
-      ],
-      "settings": {
-        "orientation": "vertical",
-        "padding": true
-      }
-    },
     "1664589974a36f3788": {
       "type": "yossi-one-col",
       "blocks": {
@@ -403,13 +71,30 @@
         "orientation": "horizontal",
         "padding": true
       }
+    },
+    "image_banner_8ETapG": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/44A7352_1211.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "a10234dc-138d-4a36-8a32-4491687c5177",
     "ed26a267-39a5-4a18-8f48-5a97c11e0852",
-    "1664481041b0878a5f",
-    "1664589974a36f3788"
+    "1664589974a36f3788",
+    "image_banner_8ETapG"
   ]
 }
