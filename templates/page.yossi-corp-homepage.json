@@ -85,6 +85,17 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "floating_music_player_UPqAAK": {
+      "type": "floating-music-player",
+      "name": "Floating Music Player",
+      "settings": {
+        "cd_image": "shopify://shop_images/cd.png",
+        "cd_size": 60,
+        "track_1_url": "https://cdn.shopify.com/s/files/1/0020/9521/8787/files/cd.png?v=1755720767",
+        "track_2_url": "https://cdn.shopify.com/s/files/1/0020/9521/8787/files/cd.png?v=1755720767",
+        "track_3_url": ""
+      }
     }
   },
   "order": [
@@ -92,6 +103,7 @@
     "ed26a267-39a5-4a18-8f48-5a97c11e0852",
     "1664589974a36f3788",
     "image_banner_qLnKyp",
-    "image_banner_Jtx8rQ"
+    "image_banner_Jtx8rQ",
+    "floating_music_player_UPqAAK"
   ]
 }
