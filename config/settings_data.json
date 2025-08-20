@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -104,9 +104,9 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/yossi_favicon-01.jpg",
+    "favicon": "shopify://shop_images/yossi_favicon-01.jpg",
     "currency_code_enabled": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/yossi_homme_logo_1_d9bbddbc-92eb-42d0-a87a-11f984f47332.png",
+    "checkout_logo_image": "shopify://shop_images/yossi_homme_logo_1_d9bbddbc-92eb-42d0-a87a-11f984f47332.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_accent_color": "#000000",
@@ -127,8 +127,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -163,7 +162,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
             }
           }
         },
@@ -202,7 +201,7 @@
         "type": "yossi-header",
         "settings": {
           "menu": "main-menu",
-          "logo": "shopify:\/\/shop_images\/yossi_corp_logo-01.png"
+          "logo": "shopify://shop_images/yossi_corp_logo-01.png"
         }
       },
       "yossi-footer": {
@@ -210,37 +209,33 @@
         "blocks": {
           "1c2d58f5-4909-4357-bbfd-e702eed4ad02": {
             "type": "icon_link",
+            "disabled": true,
             "settings": {
               "icon_class": "fa-brands fa-instagram",
-              "link_url": "https:\/\/www.instagram.com\/yossi_homme\/"
+              "link_url": "https://www.instagram.com/yossi_homme/"
             }
           }
         },
         "block_order": [
           "1c2d58f5-4909-4357-bbfd-e702eed4ad02"
         ],
-        "settings": {
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "1027443428159536739": {
-        "type": "shopify:\/\/apps\/hextom-quick-announcement-bar\/blocks\/qab-embeded-block\/9ac2a261-3b8b-42c8-9613-d34eb2e079d3",
+        "type": "shopify://apps/hextom-quick-announcement-bar/blocks/qab-embeded-block/9ac2a261-3b8b-42c8-9613-d34eb2e079d3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#000000",
@@ -252,10 +247,9 @@
         }
       },
       "14593901908719032023": {
-        "type": "shopify:\/\/apps\/smind\/blocks\/theme-helper\/71ba2d48-8be4-4535-bc1f-0fea499001d4",
+        "type": "shopify://apps/smind/blocks/theme-helper/71ba2d48-8be4-4535-bc1f-0fea499001d4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -373,8 +367,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -409,7 +402,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },

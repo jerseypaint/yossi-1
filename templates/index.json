@@ -28,13 +28,13 @@
       "type": "password-template",
       "settings": {
         "show_logo": true,
-        "show_header": true,
-        "show_header_menu": true,
+        "show_header": false,
+        "show_header_menu": false,
         "show_header_logo": true,
         "show_header_cart": false,
-        "logo": "shopify://shop_images/yossi_corp_logo_-04.png",
+        "logo": "shopify://shop_images/yossi_corp_logo_-04_e4920310-5b5d-477e-a85b-e818c2a03fa2.png",
         "desktop_bg": "shopify://shop_images/Screen_Shot_2024-01-08_at_11.06.25_PM.png",
-        "desktop_bg_video": "https://cdn.shopify.com/videos/c/o/v/1904547c7ac14e4d82d4ef0d16f94043.mp4",
+        "desktop_bg_video": "",
         "mobile_bg": "shopify://shop_images/look_1_ig.jpg",
         "mobile_bg_video": "https://cdn.shopify.com/videos/c/o/v/1904547c7ac14e4d82d4ef0d16f94043.mp4"
       }
@@ -76,6 +76,7 @@
         "text_N8f63E",
         "buttons_n94Qax"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/bannerwebsite_1.jpg",
         "image_2": "shopify://shop_images/220427_Yossi27322.jpg",
@@ -128,6 +129,7 @@
         "text_An8jiq",
         "buttons_tGBAyb"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/banner_wider_9.jpg",
         "image_2": "shopify://shop_images/banner_wider_1.jpg",
@@ -171,6 +173,7 @@
         "text_8c4zUB",
         "buttons_T3Bg8b"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/banner_wider_6.jpg",
         "image_2": "shopify://shop_images/lookbook_16_2_1.jpg",
@@ -273,6 +276,7 @@
       "block_order": [
         "text_PfU4nm"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "horizontal",
         "padding": true
@@ -298,6 +302,7 @@
         "video_pYtpYK",
         "video_Tp6EBp"
       ],
+      "disabled": true,
       "settings": {
         "padding": false
       }
@@ -357,6 +362,7 @@
         "text_CgcWrJ",
         "buttons_kkBzrd"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/yossi_website_banner_1.jpg",
         "image_2": "shopify://shop_images/yossi_banner_33.jpg",
@@ -409,6 +415,7 @@
         "text_k79fMR",
         "buttons_Df8EN7"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/banner_wider_7.jpg",
         "image_2": "shopify://shop_images/banner_wider_2.jpg",
@@ -461,6 +468,7 @@
         "text_wcRj3w",
         "buttons_rrCEYX"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/banner_wider_100.jpg",
         "image_2": "shopify://shop_images/banner_wider_8.jpg",
@@ -567,12 +575,14 @@
         "image_3khKL3",
         "image_amRxwR"
       ],
+      "disabled": true,
       "settings": {
         "slideshow_type": "two_col"
       }
     },
     "a848dd19-6ee8-4211-9c38-d101a558462b": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/1UGRJRgPpUb10IbizIj0eR?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>",
         "color_scheme": "background-1",
@@ -600,6 +610,7 @@
         "video_aELMEq",
         "video_yPVQKx"
       ],
+      "disabled": true,
       "settings": {
         "padding": true
       }
@@ -1016,6 +1027,7 @@
     },
     "image_banner_AmQFCx": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/web_slider_8.jpg",
         "image_overlay_opacity": 0,
