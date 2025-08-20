@@ -127,6 +127,17 @@
         "orientation": "horizontal",
         "padding": false
       }
+    },
+    "full_width_video_p9bhmD": {
+      "type": "full-width-video",
+      "name": "Full Width Video",
+      "settings": {
+        "video": "shopify://files/videos/YOSSI CORP 1.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "controls": false
+      }
     }
   },
   "order": [
@@ -136,6 +147,7 @@
     "1664589974a36f3788",
     "image_banner_8ETapG",
     "image_banner_9mTC4E",
-    "yossi_one_col_tjkMir"
+    "yossi_one_col_tjkMir",
+    "full_width_video_p9bhmD"
   ]
 }
