@@ -11,6 +11,7 @@
   "sections": {
     "password_template_EpfdJU": {
       "type": "password-template",
+      "disabled": true,
       "name": "Password Template",
       "settings": {
         "show_logo": true,
@@ -25,7 +26,6 @@
     },
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570": {
       "type": "password-template",
-      "disabled": true,
       "settings": {
         "show_logo": true,
         "show_header": false,
