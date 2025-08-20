@@ -18,9 +18,9 @@
         "show_header_logo": true,
         "show_header_cart": false,
         "desktop_bg": "shopify://shop_images/Screen_Shot_2024-01-08_at_11.06.25_PM.png",
-        "desktop_bg_video": "",
+        "desktop_bg_video": "shopify://pages/american-youth-wave",
         "mobile_bg": "shopify://shop_images/Look_06_155.jpg",
-        "mobile_bg_video": "shopify://pages/source"
+        "mobile_bg_video": "shopify://pages/american-youth-wave"
       }
     },
     "image_banner_8iN3Dc": {
