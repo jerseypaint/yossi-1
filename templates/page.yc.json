@@ -34,6 +34,7 @@
       "block_order": [
         "03d39996-5b68-43db-8a26-ab6c4151936e"
       ],
+      "disabled": true,
       "settings": {
         "orientation": "horizontal",
         "padding": false
@@ -77,6 +78,25 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/44A7352_1211.jpg",
+        "image_2": "shopify://shop_images/YOSSI_CORP_VANS.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_9mTC4E": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screen_Shot_2024-08-15_at_11.53.18_PM.png",
+        "image_2": "shopify://shop_images/web_slider_5.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -95,6 +115,7 @@
     "a10234dc-138d-4a36-8a32-4491687c5177",
     "ed26a267-39a5-4a18-8f48-5a97c11e0852",
     "1664589974a36f3788",
-    "image_banner_8ETapG"
+    "image_banner_8ETapG",
+    "image_banner_9mTC4E"
   ]
 }

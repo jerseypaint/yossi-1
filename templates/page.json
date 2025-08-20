@@ -49,6 +49,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/web_slider_10.jpg",
+        "image_2": "shopify://shop_images/Screen_Shot_2024-12-05_at_4.00.50_PM.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
