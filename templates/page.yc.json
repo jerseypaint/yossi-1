@@ -109,6 +109,18 @@
         "show_text_below": true
       }
     },
+    "full_width_video_p9bhmD": {
+      "type": "full-width-video",
+      "name": "Full Width Video",
+      "settings": {
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/1904547c7ac14e4d82d4ef0d16f94043.mp4",
+        "video_alt": "Background Video",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "controls": false
+      }
+    },
     "yossi_one_col_tjkMir": {
       "type": "yossi-one-col",
       "blocks": {
@@ -122,21 +134,11 @@
       "block_order": [
         "video_xMVbUK"
       ],
+      "disabled": true,
       "name": "Y-1 Col",
       "settings": {
         "orientation": "horizontal",
         "padding": false
-      }
-    },
-    "full_width_video_p9bhmD": {
-      "type": "full-width-video",
-      "name": "Full Width Video",
-      "settings": {
-        "video": "shopify://files/videos/YOSSI CORP 1.mp4",
-        "autoplay": true,
-        "loop": true,
-        "muted": true,
-        "controls": false
       }
     }
   },
@@ -147,7 +149,7 @@
     "1664589974a36f3788",
     "image_banner_8ETapG",
     "image_banner_9mTC4E",
-    "yossi_one_col_tjkMir",
-    "full_width_video_p9bhmD"
+    "full_width_video_p9bhmD",
+    "yossi_one_col_tjkMir"
   ]
 }
