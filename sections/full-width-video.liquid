@@ -1,13 +1,19 @@
 {% schema %}
 {
-  "name": "Full Width Video",
+  "name": "Full Video Embed",
   "tag": "section",
   "class": "section",
   "settings": [
     {
-      "type": "video",
-      "id": "video",
-      "label": "Upload Video"
+      "type": "url",
+      "id": "video_url",
+      "label": "Video URL (from Files)"
+    },
+    {
+      "type": "text",
+      "id": "video_alt",
+      "label": "Video Alt Text",
+      "default": "Background Video"
     },
     {
       "type": "checkbox",
@@ -36,33 +42,35 @@
   ],
   "presets": [
     {
-      "name": "Full Width Video"
+      "name": "Full Video Embed"
     }
   ]
 }
 {% endschema %}
 
-<section class="full-width-video">
-  {% if section.settings.video %}
+{% if section.settings.video_url != blank %}
+  <section class="full-width-video">
     <video
       class="w-full h-auto"
-      {% if section.settings.autoplay %} autoplay{% endif %}
-      {% if section.settings.loop %} loop{% endif %}
-      {% if section.settings.muted %} muted{% endif %}
-      {% if section.settings.controls %} controls{% endif %}
+      src="{{ section.settings.video_url }}"
+      {% if section.settings.autoplay %}autoplay{% endif %}
+      {% if section.settings.loop %}loop{% endif %}
+      {% if section.settings.muted %}muted{% endif %}
+      {% if section.settings.controls %}controls{% endif %}
       playsinline
     >
-      <source src="{{ section.settings.video | video_url }}" type="video/mp4">
-      Your browser does not support the video tag.
+      {{ section.settings.video_alt }}
     </video>
-  {% else %}
-    <p style="text-align:center;">Please upload a video in the section settings.</p>
-  {% endif %}
-</section>
+  </section>
+{% else %}
+  <p style="text-align:center;">Please add a video URL in the section settings.</p>
+{% endif %}
 
 <style>
   .full-width-video video {
     display: block;
+    width: 100%;
     max-width: 100%;
+    height: auto;
   }
 </style>
