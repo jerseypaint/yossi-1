@@ -220,6 +220,16 @@
           "1c2d58f5-4909-4357-bbfd-e702eed4ad02"
         ],
         "settings": {}
+      },
+      "floating-music-player": {
+        "type": "floating-music-player",
+        "settings": {
+          "cd_image": "shopify://shop_images/cd.png",
+          "cd_size": 48,
+          "track_1_url": "https://cdn.shopify.com/s/files/1/0020/9521/8787/files/cd.png?v=1755720767",
+          "track_2_url": "https://cdn.shopify.com/s/files/1/0020/9521/8787/files/cd.png?v=1755720767",
+          "track_3_url": ""
+        }
       }
     },
     "content_for_index": [],

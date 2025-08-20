@@ -91,7 +91,7 @@
       "name": "Floating Music Player",
       "settings": {
         "cd_image": "shopify://shop_images/cd.png",
-        "cd_size": 60,
+        "cd_size": 40,
         "track_1_url": "https://cdn.shopify.com/s/files/1/0020/9521/8787/files/cd.png?v=1755720767",
         "track_2_url": "https://cdn.shopify.com/s/files/1/0020/9521/8787/files/cd.png?v=1755720767",
         "track_3_url": ""
