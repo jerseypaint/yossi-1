@@ -21,8 +21,7 @@
         "logo": "shopify://shop_images/yossi_corp_logo_-04_e4920310-5b5d-477e-a85b-e818c2a03fa2.png",
         "desktop_bg": "shopify://shop_images/Screen_Shot_2024-01-08_at_11.06.25_PM.png",
         "desktop_bg_video": "https://cdn.shopify.com/s/files/1/0020/9521/8787/files/yossi_corp_logo_-04_e4920310-5b5d-477e-a85b-e818c2a03fa2.png?v=1755718988",
-        "mobile_bg_video": "https://cdn.shopify.com/videos/c/o/v/1904547c7ac14e4d82d4ef0d16f94043.mp4",
-        "background_music": ""
+        "mobile_bg_video": "https://cdn.shopify.com/videos/c/o/v/1904547c7ac14e4d82d4ef0d16f94043.mp4"
       }
     },
     "password_template_EpfdJU": {
@@ -38,8 +37,7 @@
         "show_header_cart": false,
         "desktop_bg_video": "",
         "mobile_bg": "shopify://shop_images/YOSSI_CORP_VANS.jpg",
-        "mobile_bg_video": "shopify://collections/frontpage",
-        "background_music": ""
+        "mobile_bg_video": "shopify://collections/frontpage"
       }
     },
     "image_banner_8iN3Dc": {
@@ -81,7 +79,6 @@
       ],
       "settings": {
         "image": "shopify://shop_images/bannerwebsite_1.jpg",
-        "image_2": "shopify://shop_images/220427_Yossi27322.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "adapt_height_first_image": false,
