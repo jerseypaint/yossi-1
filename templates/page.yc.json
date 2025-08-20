@@ -124,7 +124,7 @@
       ],
       "name": "Y-1 Col",
       "settings": {
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "padding": true
       }
     }
