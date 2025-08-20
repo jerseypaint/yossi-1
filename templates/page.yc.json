@@ -115,10 +115,8 @@
       "settings": {
         "video_url": "https://cdn.shopify.com/videos/c/o/v/1904547c7ac14e4d82d4ef0d16f94043.mp4",
         "video_alt": "Background Video",
-        "autoplay": true,
         "loop": true,
-        "muted": true,
-        "controls": false
+        "controls": true
       }
     },
     "yossi_one_col_tjkMir": {
