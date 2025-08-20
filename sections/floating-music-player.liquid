@@ -1,6 +1,7 @@
 {% if template.name != 'index' %}
 <div id="floating-music-player">
   <div id="track-title">Loading...</div>
+
   <div class="cd-wrapper">
     <img id="cd-icon" src="{{ section.settings.cd_image | image_url: width: 200 }}" alt="Music Disc" />
     <button id="music-toggle-button" aria-label="Toggle music">
@@ -12,6 +13,7 @@
       </svg>
     </button>
   </div>
+
   <audio id="audio-player"></audio>
 </div>
 
@@ -27,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
-    pointer-events: auto;
+    pointer-events: none;
   }
 
   #track-title {
@@ -39,6 +41,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    pointer-events: auto;
   }
 
   .cd-wrapper {
@@ -46,6 +49,7 @@
     width: 100%;
     height: 100%;
     cursor: pointer;
+    pointer-events: auto;
   }
 
   #cd-icon {
@@ -135,7 +139,6 @@
     }
 
     function playMusic() {
-      loadTrack(currentTrack);
       audio.play().then(() => {
         isPlaying = true;
         updateIcons();
@@ -153,6 +156,7 @@
     function toggleMusic() {
       if (audio.paused) {
         currentTrack = (currentTrack + 1) % tracks.length;
+        loadTrack(currentTrack);
         playMusic();
       } else {
         pauseMusic();
@@ -161,6 +165,14 @@
 
     toggleButton.addEventListener("pointerdown", toggleMusic);
     cdIcon.addEventListener("pointerdown", toggleMusic);
+
+    audio.addEventListener("ended", () => {
+      currentTrack = (currentTrack + 1) % tracks.length;
+      loadTrack(currentTrack);
+      if (isPlaying) {
+        playMusic();
+      }
+    });
 
     loadTrack(currentTrack);
 
@@ -185,35 +197,11 @@
   "name": "Floating Music Player",
   "tag": "section",
   "settings": [
-    {
-      "type": "image_picker",
-      "id": "cd_image",
-      "label": "CD Icon Image"
-    },
-    {
-      "type": "range",
-      "id": "cd_size",
-      "label": "CD Size (px)",
-      "min": 40,
-      "max": 120,
-      "step": 4,
-      "default": 60
-    },
-    {
-      "type": "url",
-      "id": "track_1_url",
-      "label": "Track 1 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_2_url",
-      "label": "Track 2 URL"
-    },
-    {
-      "type": "url",
-      "id": "track_3_url",
-      "label": "Track 3 URL"
-    }
+    { "type": "image_picker", "id": "cd_image", "label": "CD Icon Image" },
+    { "type": "range", "id": "cd_size", "label": "CD Size (px)", "min": 40, "max": 120, "step": 4, "default": 60 },
+    { "type": "url", "id": "track_1_url", "label": "Track 1 URL" },
+    { "type": "url", "id": "track_2_url", "label": "Track 2 URL" },
+    { "type": "url", "id": "track_3_url", "label": "Track 3 URL" }
   ],
   "presets": [
     { "name": "Floating Music Player" }
