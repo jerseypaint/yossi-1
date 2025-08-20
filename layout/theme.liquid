@@ -117,5 +117,109 @@
       }
     </script>
   {%- sections 'smi-group' -%}
+
+  <!-- Floating Music Player -->
+<div id="floating-music-player">
+  <div id="track-title">Loading...</div>
+  <img id="cd-icon" src="YOUR_CD_IMAGE_URL" alt="Music Disc" />
+  <audio id="audio-player"></audio>
+</div>
+
+<style>
+  #floating-music-player {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 60px;
+    height: 60px;
+    z-index: 9999;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+  }
+
+  #track-title {
+    font-size: 11px;
+    color: black;
+    margin-bottom: 6px;
+    max-width: 120px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #cd-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: transform 0.4s ease;
+  }
+
+  #cd-icon.spin {
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<script>
+  const tracks = [
+    {
+      title: "Track 1 - Your Song Title",
+      url: "YOUR_AUDIO_FILE_URL_1"
+    },
+    {
+      title: "Track 2 - Another Song",
+      url: "YOUR_AUDIO_FILE_URL_2"
+    },
+    {
+      title: "Track 3 - Final Song",
+      url: "YOUR_AUDIO_FILE_URL_3"
+    }
+  ];
+
+  const cdIcon = document.getElementById("cd-icon");
+  const audio = document.getElementById("audio-player");
+  const title = document.getElementById("track-title");
+
+  let currentTrack = 0;
+  let isPlaying = false;
+
+  function loadTrack(index) {
+    audio.src = tracks[index].url;
+    title.textContent = tracks[index].title;
+  }
+
+  cdIcon.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      cdIcon.classList.add("spin");
+      isPlaying = true;
+    } else {
+      audio.pause();
+      cdIcon.classList.remove("spin");
+      isPlaying = false;
+    }
+  });
+
+  audio.addEventListener("ended", () => {
+    currentTrack = (currentTrack + 1) % tracks.length;
+    loadTrack(currentTrack);
+    if (isPlaying) {
+      audio.play();
+    }
+  });
+
+  // Load first track
+  loadTrack(currentTrack);
+</script>
+
 </body>
 </html>
