@@ -1,7 +1,19 @@
 {% unless template.name == 'index' %}
 <div id="floating-music-player">
   <div id="track-title">Loading...</div>
-  <img id="cd-icon" src="{{ section.settings.cd_image | image_url: width: 200 }}" alt="Music Disc" />
+
+  <div class="cd-wrapper">
+    <img id="cd-icon" src="{{ section.settings.cd_image | image_url: width: 200 }}" alt="Music Disc" />
+    <button id="music-toggle-button" aria-label="Toggle music">
+      <svg id="icon-play" xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="black">
+        <path d="M8 5v14l11-7z" />
+      </svg>
+      <svg id="icon-pause" xmlns="http://www.w3.org/2000/svg" class="icon hidden" viewBox="0 0 24 24" fill="black">
+        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+      </svg>
+    </button>
+  </div>
+
   <audio id="audio-player"></audio>
 </div>
 
@@ -31,21 +43,57 @@
     text-overflow: ellipsis;
   }
 
+  .cd-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
   #cd-icon {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    transition: transform 0.4s ease;
+    object-fit: cover;
   }
 
   #cd-icon.spin {
-    animation: spin 2s linear infinite;
+    animation: spin 4s linear infinite;
   }
 
   @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
     100% {
       transform: rotate(360deg);
     }
+  }
+
+  #music-toggle-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  #music-toggle-button .icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .hidden {
+    display: none;
   }
 </style>
 
@@ -69,6 +117,9 @@
     const cdIcon = document.getElementById("cd-icon");
     const audio = document.getElementById("audio-player");
     const title = document.getElementById("track-title");
+    const toggleButton = document.getElementById("music-toggle-button");
+    const playIcon = document.getElementById("icon-play");
+    const pauseIcon = document.getElementById("icon-pause");
 
     if (!tracks.length) {
       console.warn("No audio tracks configured.");
@@ -81,6 +132,18 @@
     let hasScrolled = false;
     const wasPaused = localStorage.getItem('yossi_music_paused') === 'true';
 
+    function updateIcons() {
+      if (isPlaying) {
+        playIcon.classList.add('hidden');
+        pauseIcon.classList.remove('hidden');
+        cdIcon.classList.add('spin');
+      } else {
+        playIcon.classList.remove('hidden');
+        pauseIcon.classList.add('hidden');
+        cdIcon.classList.remove('spin');
+      }
+    }
+
     function loadTrack(index) {
       if (!tracks[index]) return;
       audio.src = tracks[index].url;
@@ -89,22 +152,22 @@
 
     function playMusic() {
       audio.play().then(() => {
-        cdIcon.classList.add("spin");
         isPlaying = true;
-        localStorage.setItem('yossi_music_paused', 'false'); // clear pause flag
-      }).catch(err => {
+        updateIcons();
+        localStorage.setItem('yossi_music_paused', 'false');
+      }).catch((err) => {
         console.warn("Autoplay blocked:", err);
       });
     }
 
     function pauseMusic() {
       audio.pause();
-      cdIcon.classList.remove("spin");
       isPlaying = false;
-      localStorage.setItem('yossi_music_paused', 'true'); // mark as manually paused
+      updateIcons();
+      localStorage.setItem('yossi_music_paused', 'true');
     }
 
-    cdIcon.addEventListener("click", () => {
+    toggleButton.addEventListener("click", () => {
       if (audio.paused) {
         playMusic();
       } else {
@@ -120,10 +183,9 @@
       }
     });
 
-    // Load first track
+    // Load track and handle autoplay
     loadTrack(currentTrack);
 
-    // Scroll trigger for autoplay
     if (!wasPaused) {
       const onScroll = () => {
         if (!hasScrolled) {
@@ -182,4 +244,5 @@
   ]
 }
 {% endschema %}
+
 
