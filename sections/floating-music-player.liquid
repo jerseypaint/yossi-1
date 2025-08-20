@@ -167,13 +167,16 @@
       localStorage.setItem('yossi_music_paused', 'true');
     }
 
-    toggleButton.addEventListener("click", () => {
+    function toggleMusic() {
       if (audio.paused) {
         playMusic();
       } else {
         pauseMusic();
       }
-    });
+    }
+
+    toggleButton.addEventListener("click", toggleMusic);
+    cdIcon.addEventListener("click", toggleMusic);
 
     audio.addEventListener("ended", () => {
       currentTrack = (currentTrack + 1) % tracks.length;
@@ -183,7 +186,6 @@
       }
     });
 
-    // Load track and handle autoplay
     loadTrack(currentTrack);
 
     if (!wasPaused) {
@@ -244,5 +246,6 @@
   ]
 }
 {% endschema %}
+
 
 
