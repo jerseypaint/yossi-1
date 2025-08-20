@@ -1,4 +1,4 @@
-{% unless template.name == 'index' %}
+{% if template.name != 'index' %}
 <div id="floating-music-player">
   <div id="track-title">Loading...</div>
 
@@ -175,7 +175,6 @@
       }
     }
 
-    // Use pointerdown for better click reliability
     toggleButton.addEventListener("pointerdown", toggleMusic);
     cdIcon.addEventListener("pointerdown", toggleMusic);
 
@@ -203,7 +202,7 @@
     }
   });
 </script>
-{% endunless %}
+{% endif %}
 
 {% schema %}
 {
