@@ -63,7 +63,6 @@
     },
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570": {
       "type": "password-template",
-      "disabled": true,
       "settings": {
         "show_logo": false,
         "show_header": false,
@@ -1278,8 +1277,8 @@
     }
   },
   "order": [
-    "image_banner_8iN3Dc",
     "a18f30fe-26fa-48b6-8d71-223b4d5f3570",
+    "image_banner_8iN3Dc",
     "image_banner_e7dnbT",
     "image_banner_dHEzC7",
     "image_banner_6JTJ34",
