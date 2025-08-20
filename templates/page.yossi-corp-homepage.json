@@ -56,12 +56,30 @@
       "settings": {
         "image": "shopify://shop_images/Screen_Shot_2024-08-15_at_11.53.18_PM.png",
         "image_2": "shopify://shop_images/web_slider_4.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 10,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_Jtx8rQ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screen_Shot_2024-12-04_at_10.45.29_PM.png",
+        "image_2": "shopify://shop_images/lookbook_16_2_1.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -73,6 +91,7 @@
     "main",
     "ed26a267-39a5-4a18-8f48-5a97c11e0852",
     "1664589974a36f3788",
-    "image_banner_qLnKyp"
+    "image_banner_qLnKyp",
+    "image_banner_Jtx8rQ"
   ]
 }
