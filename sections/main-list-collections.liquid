@@ -1,8 +1,67 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .custom-heading {
+    color: #0000FF;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .next-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+
+  .next-button {
+    background-color: #ddd;
+    border: 2px outset #aaa;
+    padding: 0.5em 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+  }
+
+  .hero-slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    border: 2px solid #999;
+  }
+
+  .slides {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .slide {
+    display: none;
+    width: 100%;
+  }
+
+  .slide.active {
+    display: block;
+  }
+</style>
+
 <div class="page-width">
-  <h1 class="title title--primary">{{ section.settings.title | escape }}</h1>
+
+  <!-- 🔁 Slideshow -->
+  <div class="hero-slideshow">
+    <div class="slides">
+      <img src="{{ 'slide1.jpg' | asset_url }}" alt="Slide 1" class="slide active">
+      <img src="{{ 'slide2.jpg' | asset_url }}" alt="Slide 2" class="slide">
+      <!-- Add more <img> tags as needed -->
+    </div>
+  </div>
+
+  <!-- 🔠 Custom styled heading -->
+  <h1 class="custom-heading">{{ section.settings.title | escape }}</h1>
+
   {%- liquid
     case section.settings.sort
       when 'products_high' or 'products_low'
@@ -15,6 +74,8 @@
       assign collections = collections | reverse
     endif
   -%}
+
+  <!-- 🖼️ Collection Grid -->
   <ul class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
     {%- for collection in collections -%}
       <li class="collection-list__item grid__item">
@@ -22,7 +83,28 @@
       </li>
     {%- endfor -%}
   </ul>
+
+  <!-- ⏭️ Right-aligned Next Button -->
+  <div class="next-button-container">
+    <button class="next-button">Next ></button>
+  </div>
+
 </div>
+
+<!-- 🔃 Slideshow script -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const slides = document.querySelectorAll('.slide');
+    let current = 0;
+
+    setInterval(() => {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }, 3000);
+  });
+</script>
+
 {% schema %}
 {
   "name": "t:sections.main-list-collections.name",
